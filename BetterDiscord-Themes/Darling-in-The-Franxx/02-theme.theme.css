@@ -1,3 +1,6 @@
-//META{"name":"02 Theme by Ruben","description":"Theme with fix v2.1","author":"Ruben7173","version":"2.1"{*//{}
+//META{"name":"02 Theme by Ruben","description":"Stable Release","author":"Ruben7173","version":"2.5"}*//{}
 
 @import url(https://rawgit.com/Ruben7173/Ruben7173.github.io/master/BetterDiscord-Themes/Darling-in-The-Franxx/themecode-02.theme.css);
+
+body{background:url('https://images.alphacoders.com/898/898775.jpg') rgba(0,0,0,0);}
+/* default wallpaper URL: https://images.alphacoders.com/898/898775.jpg */
