@@ -3,16 +3,23 @@
 
 
 ### Darling in the Franxx Theme (ダーリン・イン・ザ・フランキス) by Ruben7173
+
 <img src="https://i.imgur.com/gpODc3b.jpg"/>
+
 ```markdown
 ### Darling in the Franxx latest UPDATE 12/08/2018
 ```
 
+### Download: https://betterdiscord.net/ghdl?id=2238
+
 
 
 ### Minimalistic Dark Theme by Ruben7173
+
 <img src="https://i.imgur.com/eHzACMg.png"/>
-```markdown
+
+```markdown 
 ### Minimalistic dark theme latest UPDATE 12/08/2018
 ```
-**Bold** and _Italic_ and `Code` text
+
+### Download here: https://betterdiscord.net/ghdl?id=2239
