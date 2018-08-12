@@ -2,7 +2,4 @@
 ---
 
 @import "{{ site.theme }}";
-
-body, html, .body {
-  background: #f3f3f3 !important;
-}
+@import url=('https://raw.githubusercontent.com/Ruben7173/Ruben7173.github.io/master/layout/css/stuff.css');
