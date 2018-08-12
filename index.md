@@ -1,5 +1,6 @@
 ## Welcome to Ruben7173 Better Discord's Theme Repository 
-## »Latest Update 12/08/2018«
+***
+»Latest Update 12/08/2018«
 ***
 
 ### Darling in the Franxx Theme (ダーリン・イン・ザ・フランキス) by Ruben7173
@@ -10,8 +11,8 @@
 ### Darling in the Franxx latest UPDATE 12/08/2018
 ```
 ***
-### More Previews here: [link](./page-02.html)
-### [Download here](https://betterdiscord.net/ghdl?id=2238)
+#### More Previews here: [link](./page-02.html)
+#### [Download here](https://betterdiscord.net/ghdl?id=2238)
 ***
 
 ### Minimalistic Dark Theme by Ruben7173
@@ -21,7 +22,6 @@
 ### Minimalistic dark theme latest UPDATE 12/08/2018
 ```
 ***
-### More Previews here: [link](./page-minimalistic-dark.html)
-***
-### [Download here](https://betterdiscord.net/ghdl?id=2239)
+#### More Previews here: [link](./page-minimalistic-dark.html)
+#### [Download here](https://betterdiscord.net/ghdl?id=2239)
 ***
