@@ -9,7 +9,7 @@
 ```markdown
 ### Darling in the Franxx latest UPDATE 12/08/2018
 ```
-### More Previews here: [Previews](./pages/02/page.html).
+### More Previews here: [Previews](./page-02.html).
 ### Download: https://betterdiscord.net/ghdl?id=2238
 
 
