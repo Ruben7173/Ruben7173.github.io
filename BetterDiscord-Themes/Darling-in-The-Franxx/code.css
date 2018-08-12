@@ -1183,7 +1183,7 @@ css-editor #bd-customcss-attach-controls button {
 
 /* Quick Switcher panel box */
 .channelNotices-41mJbj .channelNotice-1-XFjC.quickswitcher-35bYg4 {
-    background: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.4);
     padding: 100px 20px 20px;
     border: 1px solid #123;
     border-radius: 15px;
