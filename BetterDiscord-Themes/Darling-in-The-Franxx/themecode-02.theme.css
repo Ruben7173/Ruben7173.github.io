@@ -926,6 +926,7 @@ css-editor #bd-customcss-attach-controls button {
 .theme-dark .ui-standard-sidebar-view #bd-customcss-attach-controls button, .bd-detached-css-editor #bd-customcss-attach-controls button {
     background: #123;
 }
+
 /* added extra on css */
 .theme-dark .ace-monokai {
     background-color: rgba(0,0,0,0.0);
@@ -999,6 +1000,7 @@ css-editor #bd-customcss-attach-controls button {
     background: transparent;
     color: #8a8e94;
 }
+
 /* Theme Message Group Blocked Transparency and border When selected */
 .theme-dark .messageGroupBlocked-3wrQQX.revealed-1_RKsf {
     background: rgba(0, 0, 0, 0.4);
@@ -1022,6 +1024,7 @@ css-editor #bd-customcss-attach-controls button {
 .theme-dark .jumpToPresentBar-9P20AM:hover {
     background-color: rgba(0,0,0,0.2);
 }
+
 /* New Messages bar color and border and transparency normal and hover */
 .newMessagesBar-mujexs {
     background-color: rgba(0,0,0,0.3);
@@ -1030,10 +1033,12 @@ css-editor #bd-customcss-attach-controls button {
 .newMessagesBar-mujexs:hover {
     background-color: rgba(0,0,0,0.2);
 }
+
 /* new message box */
 .wrapper-232cHJ {
     background-color: #123;
 }
+
 /* Mentioned Box on chat */
 .theme-dark .isMentioned-N-h9aa {
     background: rgba(26, 62, 250, 0.1);
@@ -1049,29 +1054,35 @@ css-editor #bd-customcss-attach-controls button {
     border-left: 1px solid #242424;
     box-shadow: #123 1px 0 0 0;
 }
+
 /* Emoji buttons hover */
 .bda-dark #bda-qem button:hover {
     background-color: hsla(0,5%,0%,.3);
 }
+
 /* Emoji area background transparency */
 .bda-dark #bda-qem {
     border-bottom: 1px solid #123 !important;
     background: hsla(0,5%,0%,.3);
 }
+
 /* Emoji button selected */
 .bda-dark #bda-qem button.active {
     background-color: hsla(0,5%,0%,.7);
 }
+
 /* Borders and etc of emoji buttons at top */
 .bda-dark #bda-qem button {
     background: hsla(0,5%,0%,.3);
     border-left: 1px solid #123;
     box-shadow: #123 1px 0 0 0;
 }
+
 /* Transparency of emoji page menu twitch and etc */
 .bda-dark #bda-qem-favourite-container, .bda-dark #bda-qem-twitch-container {
     background-color: hsla(0,5%,0%,.1);
 }
+
 /* Scroller part of emoji area (favorite and twitch by order)*/
 .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track-piece {
     background-color: hsla(0,5%,0%,.1) !important;
@@ -1081,6 +1092,7 @@ css-editor #bd-customcss-attach-controls button {
     background-color: hsla(0,5%,0%,.1) !important;
     border-color: #123 !important;
 }
+
 /* box at emoji main area for searching */
 .search-bar.search-bar-light .search-bar-inner {
     background-color: rgba(0,0,0,0.3);
@@ -1138,6 +1150,7 @@ css-editor #bd-customcss-attach-controls button {
     border-radius: 10px;
     background-color: rgba(0,0,0,0.6);
 }
+
 /* startup page button normal and hover */
 .bd-modal-wrapper .footer button {
     background-color: #123;
@@ -1166,4 +1179,19 @@ css-editor #bd-customcss-attach-controls button {
     background: rgba(0,0,0,0.0);
     border-color: #123;
     box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+}
+
+/* Quick Switcher panel box */
+.channelNotices-41mJbj .channelNotice-1-XFjC.quickswitcher-35bYg4 {
+    background: rgba(0,0,0,0.4);
+    padding: 100px 20px 20px;
+    border: 1px solid #123;
+    border-radius: 15px;
+}
+
+/* Quick Switcher panel button transparency and border */
+.channelNotices-41mJbj .channelNotice-1-XFjC .message-3SOT5P .btn-11C5_u {
+    background-color: rgba(0,0,0,0.4);
+    border: 1px solid #123;
+    border-radius: 5px;
 }
