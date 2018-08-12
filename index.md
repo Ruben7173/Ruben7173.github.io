@@ -1,4 +1,4 @@
-##Welcome to Ruben7173 Better Discord's Theme Repository 
+## Welcome to Ruben7173 Better Discord's Theme Repository 
 ## »Latest Update 12/08/2018«
 
 
