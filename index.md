@@ -1,4 +1,5 @@
-## Welcome to Ruben7173 Better Discord's Theme Repository »Latest Update 12/08/2018«
+## Welcome to Ruben7173 Better Discord's Theme Repository 
+##              »Latest Update 12/08/2018«
 
 
 ### Darling in the Franxx Theme (ダーリン・イン・ザ・フランキス) by Ruben7173
