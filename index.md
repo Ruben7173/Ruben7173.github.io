@@ -12,7 +12,7 @@
 ### More Previews here: [link](./page-02.html)
 ### [Download here](https://betterdiscord.net/ghdl?id=2238)
 
-
+***
 
 ### Minimalistic Dark Theme by Ruben7173
 
