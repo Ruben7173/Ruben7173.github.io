@@ -1,3 +1,4 @@
+:root {
 /**BACKGROUND**/
 body{background:url('https://images.alphacoders.com/898/898775.jpg') rgba(0,0,0,0);}
 
@@ -1003,4 +1004,5 @@ css-editor #bd-customcss-attach-controls button {
 .theme-dark .messageGroupBlocked-3wrQQX.revealed-1_RKsf {
     background: rgba(0, 0, 0, 0.4);
     border-color: #123;
+}
 }
