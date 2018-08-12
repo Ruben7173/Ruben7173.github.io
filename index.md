@@ -9,7 +9,7 @@
 ```markdown
 ### Darling in the Franxx latest UPDATE 12/08/2018
 ```
-### More Previews here: [Previews](./page-02.html).
+### More Previews here: [link](./page-02.html).
 ### Download: https://betterdiscord.net/ghdl?id=2238
 
 
@@ -21,5 +21,5 @@
 ```markdown 
 ### Minimalistic dark theme latest UPDATE 12/08/2018
 ```
-
-### Download here: https://betterdiscord.net/ghdl?id=2239
+### More Previews here: [link](./page-minimalistic-dark.html).
+### Download here: [download-link](https://betterdiscord.net/ghdl?id=2239).

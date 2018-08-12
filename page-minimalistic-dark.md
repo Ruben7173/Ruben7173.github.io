@@ -3,10 +3,8 @@
 
 Previews
 
-<img src="https://i.imgur.com/S4YJVLP.jpg"/>
-<img src="https://i.imgur.com/WpuOIVe.jpg"/>
-
-
+<img src="https://i.imgur.com/AmIiOUf.png"/>
+<img src="https://i.imgur.com/7PFnWRQ.png"/>
 
 
 [back](./index.md).
