@@ -23,3 +23,4 @@
 ```
 
 ### Download here: https://betterdiscord.net/ghdl?id=2239
+[Link to another page](./pages/02/page.html).
