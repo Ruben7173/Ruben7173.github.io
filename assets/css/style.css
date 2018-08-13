@@ -1,3 +1,6 @@
 body {
     background: rgba(0,0,0,0.9);
 }
+img {
+width: 50%;
+}
