@@ -242,3 +242,8 @@ a {
 
 .site-footer-credits {
   color: #819198; }
+.site-footer {
+    padding-top: 2rem;
+    margin-top: 2rem;
+    border-top: solid 1px #37383a;
+}
