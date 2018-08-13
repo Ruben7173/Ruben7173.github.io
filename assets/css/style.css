@@ -1,6 +1,4 @@
-body {
-    background: rgba(0,0,0,0.9);
-}
-img {
-width: 50%;
+body, img {
+    background: url(https://wallpaper-house.com/data/out/10/wallpaper2you_418334.jpg) no-repeat center/cover;
+    width: 50%;
 }
