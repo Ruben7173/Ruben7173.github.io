@@ -2,7 +2,7 @@
   box-sizing: border-box; }
 
 body {
-  background: rgba(2, 2, 4, 0.89);
+  background: url(https://wallpaper-gallery.net/images/flat-black-wallpaper/flat-black-wallpaper-5.jpg);
   padding: 0;
   margin: 0;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -147,7 +147,9 @@ a {
       padding: 2rem 1rem;
       font-size: 1rem; } }
   .main-content img {
-    max-width: 100%; }
+    max-width: 100%;
+	border: 1px solid #123;
+    border-radius: 12px; }
   .main-content h1,
   .main-content h2,
   .main-content h3,
@@ -221,10 +223,13 @@ a {
   .main-content ol {
     margin-top: 0; }
   .main-content blockquote {
+    background: rgba(26, 62, 250, 0.1);
+    border: 1px solid #112233;
+    border-radius: 5px;
     padding: 0 1rem;
     margin-left: 0;
     color: #fff;
-    border-left: 0.3rem solid #dce6f0; }
+    border-left: 0.3rem solid #091929; }
     .main-content blockquote > :first-child {
       margin-top: 0; }
     .main-content blockquote > :last-child {
