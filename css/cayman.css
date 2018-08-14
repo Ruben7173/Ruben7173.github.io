@@ -289,3 +289,23 @@ a {
     margin-top: 2rem;
     border-top: solid 1px #37383a;
 }
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+	border: 1px solid #0d3438;
+    background-color: #1d2124;
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 0px rgba(0,0,0,0.3); 
+	background-color: rgba(54, 255, 58, 0);
+    border-radius: 0px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 0px rgba(0,0,0,0.5); 
+	border: 2px solid #1c2730;
+    background-color: #222d37;
+    border-radius: 0px;
+}
