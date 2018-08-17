@@ -1,28 +1,34 @@
 /**BACKGROUND**/
-body{
-	background:url('https://images.alphacoders.com/898/898775.jpg');
-	background-repeat: no-repeat;
-	background-size: 100%;
-}
+.appMount-3VJmYg{background:url('https://images.alphacoders.com/898/898775.jpg') center/cover no-repeat}
 
+
+/* Transparency level */
+.theme-dark .layers-3iHuyZ {
+    background: rgba(0,0,0,0.7)!important;
+}
+/* Transparency Level at settings */
+.theme-dark .ui-standard-sidebar-view .content-region, .theme-dark .ui-standard-sidebar-view .sidebar-region {
+	background: rgba(0,0,0,0.3)!important;
+}
 /*https://hdqwalls.com/download/4k-zero-two-darling-in-the-franxx-w4-1920x1080.jpg*/
 /** remove grey backgrounds **/
-.theme-dark .friends-table, .theme-dark .theme-dark .messages-wrapper, .theme-dark .chat, .channels-Ie2l6A, .guilds-wrapper, .container-2lgZY8, .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ, .theme-dark .typing-2GQL18,
-.theme-dark .members-1998pB, .theme-dark .chat>.content, .theme-dark .title-3qD0b-, .container-PNkimc, .channels-Ie2l6A, #app-mount, .theme-dark .chat form, .container-2Thooq, .theme-dark .headerBar-UHpsPw,
+.theme-dark .friends-table, .theme-dark .theme-dark .messages-wrapper, .theme-dark .chat, .channels-Ie2l6A, .guilds-wrapper, .container-2lgZY8, .theme-dark .layer-3QrUeG, .theme-dark .typing-2GQL18,
+.theme-dark .members-1998pB, .theme-dark .chat>.content, .theme-dark .title-3qD0b-, .container-PNkimc, .channels-Ie2l6A, .theme-dark .chat form, .container-2Thooq, .theme-dark .headerBar-UHpsPw,
 .theme-dark .friends-table .theme-dark .messages .theme-dark .divider:before, .theme-dark .friends-table .theme-dark .messages .theme-dark .divider span, .theme-dark .messages-wrapper .theme-dark .messages .theme-dark .divider:before, .theme-dark .messages-wrapper .theme-dark .messages .theme-dark .divider span, .theme-dark #friends,
-.theme-dark .activityFeed-28jde9, .theme-dark .header-1RC2Wb
+.theme-dark .activityFeed-28jde9, .theme-dark .header-1RC2Wb, .theme-dark .ui-standard-sidebar-view, .theme-dark .noChannel-Z1DQK7
 {
     background:rgba(0,0,0,0)!important;
 }
 
 #friends, .theme-dark .search-l1Wz-Q, .theme-dark .chat, .theme-dark .channels-Ie2l6A, .theme-dark .container-2Thooq {
-    background: rgba(0, 0, 0, 0)!important;
+    background: rgba(0, 0, 0, 0.0)!important;
 }
 
-//.typeWindows-1za-n7 {display:none;}
-
-/* Theme Fixer of DevilBro */
-#friends, .noChannel-Z1DQK7, .activityFeed-HeiGwL, .lfg-3xoFkI, .app, .layers-3iHuyZ, .layer-3QrUeG, .container-2lgZY8, .content-region, .guilds-wrapper, .search-l1Wz-Q .search-bar, .chat .inner-zqa7da, .search-results-wrap, .search-results-wrap .search-header, .search-results-wrap .search-result-message.hit, .sidebar-region, .ui-standard-sidebar-view, .channels-Ie2l6A, .container-2Thooq {background: rgba(0,0,0,0.3) !important;}  .search-results-wrap .search-result-message.hit {box-shadow:none !important;} .titleBar-AC4pGV::after {content:""; position:absolute; z-index:-1; top:0; left:0; right:0; width:100%; height:22px; background: rgba(0,0,0,0.8) !important;} #friends .friends-table, .members-1998pB, .loading-316uYQ, .chat .content, .chat form, .chat, .content .flex-spacer, .messages-wrapper, .typing-2GQL18, .container-PNkimc, .headerBar-UHpsPw, .titleBar-AC4pGV, .titleWrapper-1l0xT9 .title-3qD0b-, .search-results-wrap .search-result::before, .search-results-wrap .search-result::after, .search-results-wrap .channel-name {background: transparent !important;}  ::-webkit-scrollbar-thumb {border-color: transparent !important; background: rgba(0,0,0,0.8) !important;} ::-webkit-scrollbar, ::-webkit-scrollbar-track-piece {border-color: transparent !important; background: transparent !important;} ::-webkit-scrollbar-corner {display: none !important;}
+.typeWindows-1za-n7 {
+    background-color: rgba(0,0,0,0.8)!important;
+    height: 18px;
+    margin-top: 1px;
+}
 
 /**custom styling**/
 /*** without the gray backgrounds, some of the styling just doesn't work, replacing it with transparent blacks and or transparent versions of their original color makes much more sense ***/
@@ -60,13 +66,6 @@ body{
     border: 3px solid rgba(0,0,0,0);
     border-radius: 7px;
 }
-
-/**adding transparent gradients**/
-/*** while technically also optional, I find no background is ever dark enough without looking bad ***/
-.app-19_DXt{
-    background:linear-gradient(to right,rgba(0,0,0,0.5),rgba(0,0,0,0.75) 310px,rgba(0,0,0,0.45) 70%,rgba(0,0,0,0) 95%) !important;
-}
-
 /** optional fun **/
 img.emoji.jumboable{margin:0px !important;}/**fix emoji spacing for 2x2 emotes**/
 img.emoji:not(.jumboable){height:32px !important;width:auto !important;}/**never resize emoji**/
@@ -88,9 +87,6 @@ img.emoji:not(.jumboable){height:32px !important;width:auto !important;}/**never
 .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3, .theme-dark .messagesWrapper-3lZDfY, .theme-dark .guildsWrapper-5TJh6 {
     background: rgba(0,0,0,0);
 }
-.theme-dark .layers-3iHuyZ,
-.theme-dark .activityFeed-28jde9 {
-    background: rgba(0,0,0,0.0) !important; }
     .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3, .theme-dark .messagesWrapper-3lZDfY {
     background: rgba(0,0,0,0.0);
 }
@@ -238,9 +234,8 @@ background: rgb(47, 49, 54);
 
 /*Simple Edit to remove border from main background*/
 .theme-dark .container-2Thooq, .theme-dark .container-2lgZY8 {
-    border-radius: 0px;
-    border: 1px solid #fff;
-    border-color: #123;
+	Border-radius: 0px;
+	border: 0px solid;
     background: rgba(0, 0, 0,0.3) !important;
 }
 
@@ -274,8 +269,15 @@ background: rgb(47, 49, 54);
     border-color: #123;
 }
 .Select--single>.Select-control .Select-value, .Select-placeholder {
+	background-color: rgba(0,0,0,0.3);
     border: 1px solid #fff;
     border-color: #123;
+}
+.Select .Select-menu {
+	background-color: rgba(0,0,0,0.3);
+}
+.theme-dark .select-2TCrqx .Select-option.is-focused, .theme-dark .select-2TCrqx .Select-option:hover {
+	background: rgba(17, 34, 51, 0.37);
 }
 .wrapper-3jrx9n {
     -webkit-box-sizing: border-box;
@@ -345,15 +347,13 @@ background: rgb(47, 49, 54);
     border: 1px solid #fff;
     border-color: #123;
 }
-
 /*Divider on top of chat and channels, bottom borders*/
-.theme-dark .titleWrapper-1l0xT9 {
-    border-bottom: 1px solid #123;
+.theme-dark .titleWrapper-1l0xT9 {border-bottom: 1px solid #123;}
+.theme-dark .container-2Rl01u, .theme-dark .header-2o-2hj {border-bottom: none;}
+.header-2o-2hj {
+    -webkit-box-shadow: 0 1px 0 #123, 0 2px 0 rgba(0,0,0,.06);
+    box-shadow: 0 1px 0 #123, 0 2px 0 rgba(0,0,0,.06);
 }
-.theme-dark .container-2Rl01u, .theme-dark .header-2o-2hj {
-    border-bottom: 1px solid #123;
-}
-
 /*Removing background of some stuff such as notifications settings and such*/
 .theme-dark .header-1R_AjF {
     -webkit-transition: -webkit-box-shadow .1s ease-out;
@@ -375,9 +375,7 @@ background: rgb(47, 49, 54);
 }
 
 /* Disables divider of chat */
-.theme-dark .dividerEnabled-2TTlcf {
-    border-bottom-color: rgba(0,0,0,0);
-}
+.theme-dark .dividerEnabled-2TTlcf {border-bottom-color: rgba(0,0,0,0);}
 
 /*Some of the setting buttons and background*/
 .theme-dark .side-8zPYf6 .itemSelected-1qLhcL, .theme-dark .userSettingsAccount-2eMFVR .userInfoViewingButton-2-jbH9, .theme-dark .lookFilled-1Gx00P.colorBrand-3pXr91 {
@@ -388,24 +386,16 @@ background: rgb(47, 49, 54);
     background-color: #123;
     color: #fff;
 }
-.theme-dark .membersGroup-v9BXpm {
-    box-shadow: 0 4px 0 rgba(0,0,0,.3);
-}
+.theme-dark .membersGroup-v9BXpm {box-shadow: 0 4px 0 rgba(0,0,0,.3);}
 .theme-dark .titleBar-AC4pGV {
     background: rgba(0, 0, 0, 0);
     background-color: rgba(0, 0, 0, 0);
 }
 
 /* Very hard buttons */
-.theme-dark .cardPrimaryEditable-3KtE4g[style="border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218); padding: 10px;"] {
-    background: rgba(17, 34, 51,0.8) !important
-}
-.theme-dark .cardPrimaryEditable-3KtE4g[style="border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218); padding: 10px;"] {
-    border-color: rgba(12, 25, 38, 255)!important;
-}
-.theme-dark .cardPrimaryEditable-3KtE4g {
-    background: rgba(12, 25, 38, 0.3);
-}
+.theme-dark .cardPrimaryEditable-3KtE4g[style="border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218); padding: 10px;"] {background: rgba(17, 34, 51,0.8) !important}
+.theme-dark .cardPrimaryEditable-3KtE4g[style="border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218); padding: 10px;"] {border-color: rgba(12, 25, 38, 255)!important;}
+.theme-dark .cardPrimaryEditable-3KtE4g {background: rgba(12, 25, 38, 0.3);}
 
 /* CUSTOMIZATION for the page when you click pfp(profile picture) */
 .theme-dark .root-SR8cQa {
@@ -1198,4 +1188,25 @@ css-editor #bd-customcss-attach-controls button {
     background-color: rgba(0,0,0,0.4);
     border: 1px solid #123;
     border-radius: 5px;
+}
+/* BOT TAG */
+.botTagRegular-2HEhHi {
+    background: #123;
+}
+/* background at the big box on games tab */
+.article-3kb3qm, .news-2GDtLJ {
+	background-color: #123;
+}
+/* hover */
+.newsLink-38Naqi:hover {
+    background-color: #0e1a25;
+}
+/* Mention color and background */
+.theme-dark .wrapperHover-1GktnT:hover {
+    background-color: rgba(114, 218, 130, 0.7);
+    color: #fff;
+}
+.theme-dark .wrapper-3WhCwL {
+    background-color: rgba(114, 218, 126, 0.1);
+    color: #01f716;
 }

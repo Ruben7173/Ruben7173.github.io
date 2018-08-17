@@ -1,10 +1,7 @@
-//META{"name":"02 Theme by Ruben","description":"Stable Release","author":"Ruben7173","version":"2.5"}*//{}
+//META{"name":"02 Theme by Ruben","description":"Darling In the Franxx theme","author":"Ruben7173","version":"3.0"}*//{}
 
 @import url(https://rawgit.com/Ruben7173/Ruben7173.github.io/master/BetterDiscord-Themes/Darling-in-The-Franxx/code.css);
 
-body{
-	background:url('https://images.alphacoders.com/898/898775.jpg');
-	background-repeat: no-repeat;
-	background-size: 100%;
-}
+/**BACKGROUND**/
+.appMount-3VJmYg{background:url('https://images.alphacoders.com/898/898775.jpg') center/cover no-repeat}
 /* default wallpaper URL: https://images.alphacoders.com/898/898775.jpg */
