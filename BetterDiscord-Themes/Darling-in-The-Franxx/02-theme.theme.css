@@ -2,5 +2,9 @@
 
 @import url(https://rawgit.com/Ruben7173/Ruben7173.github.io/master/BetterDiscord-Themes/Darling-in-The-Franxx/code.css);
 
-body{background:url('https://images.alphacoders.com/898/898775.jpg') center/cover no-repeat rgba(0,0,0,0)}
+body{
+	background:url('https://images.alphacoders.com/898/898775.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
 /* default wallpaper URL: https://images.alphacoders.com/898/898775.jpg */
