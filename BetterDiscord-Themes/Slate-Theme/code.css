@@ -268,6 +268,8 @@
 .theme-dark .form.deprecated .btn-primary {
 	background-color: #1c2490;
 }
+/* Add friend button text color when selected */
+.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary.selected {color: #fff;}
 /*Selecting region border*/
 .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 {border: 2px solid #343538;}
 .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:hover {border-color: #67686b;}
