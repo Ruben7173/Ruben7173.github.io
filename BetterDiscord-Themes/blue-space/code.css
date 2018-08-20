@@ -108,7 +108,14 @@
     background-color: rgba(2, 18, 19, 0.63);
     color: #fff;
 }
-
+/* mention someone in chat result background and border and hover state */
+.theme-dark .autocomplete-1vrmpx {
+    background-color: rgba(1, 28, 29, 0.9);
+    border: 1px solid #0a3630;
+}
+.theme-dark .selectorSelected-1_M1WV {
+    background-color: rgba(2, 18, 19, 0.63);
+}
 /* Search Options background and option hover */
 .theme-dark .searchPopout-1vUlP3 {
     background-color: rgba(1, 28, 29, 0.9);
