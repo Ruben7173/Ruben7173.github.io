@@ -1,7 +1,7 @@
 	/* removing backgrounds */
 .app .layer-3QrUeG, .app .layers-3iHuyZ, .app .chat-3bRxxu form, .app .messagesWrapper-3lZDfY, .app .members-1998pB, .channels-Ie2l6A, .container-PNkimc, .container-2lgZY8, .app .chat-3bRxxu, 
 .app .chat-3bRxxu form, .app .content-yTz4x3, .app .title-3qD0b-, .app .typing-2GQL18, .theme-dark .ui-standard-sidebar-view, .theme-dark .ui-standard-sidebar-view .content-region, .theme-dark .ui-standard-sidebar-view .sidebar-region, .app .noChannel-Z1DQK7,
-.theme-dark .activityFeed-28jde9, .container-1UB9sr {
+.theme-dark .activityFeed-28jde9, .theme-dark .wrapper-29NfPK {
     background: transparent;
 }
 /* more background removal */
@@ -67,6 +67,21 @@
 }
 .tooltip.tooltip-black.tooltip-bottom:after {
 	border-bottom-color: rgba(0, 79, 46, 0.85);
+}
+/* while in call menus */
+.video-1FfuMD {
+    background-color: rgba(1, 28, 29, 0.7);
+}
+.theme-dark .wrapper-29NfPK.minimum-2d6zH6 .actions-2vadYq .center-1Vp33r {
+    background-color: rgba(1, 28, 29, 0.7);
+    border-color: rgba(5, 51, 44, 0.59);
+}
+/* leave call normal and hover */
+.lookFilled-1Gx00P.colorRed-1TFJan {
+    background-color: rgba(255, 0, 0, 0.37);
+}
+.lookFilled-1Gx00P.colorRed-1TFJan:hover {
+    background-color: rgb(179, 6, 6);
 }
 
 /* Scroll Bar */
@@ -710,6 +725,16 @@ https://i.imgur.com/mZuRmBg.gifv
 }
 .root-SR8cQa, .tabBarContainer-1s1u-z {
     border: 1px solid rgb(37, 88, 87);
+}
+.container-2x5lvQ {
+    border: 1px solid rgb(37, 88, 87);
+}
+/* RTC connection backgrounds top and bottom */
+.theme-dark .container-2x5lvQ header {
+    background-color: rgba(1, 28, 29, 0.9);
+}
+.theme-dark .container-2x5lvQ section {
+    background-color: rgba(1, 28, 29, 0.7);
 }
 /* Compact settings of asteria */
 .ui-standard-sidebar-view .sidebar-region .sidebar .side-8zPYf6 .item-PXvHYJ,.theme-dark #bd-settings-sidebar .ui-tab-bar-item{line-height:20px}
