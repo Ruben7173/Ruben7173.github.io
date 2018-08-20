@@ -16,6 +16,11 @@
     background-color: rgba(0, 79, 46, 0.25);
 	border: 2px solid rgba(98, 214, 210, 0.1);
 }
+/* search bar on members at settings of servers */
+.theme-dark .searchBar-1MOL6S {
+    border: 1px solid rgba(98, 214, 210, 0.1);
+    background-color: rgba(0, 79, 46, 0.35);
+}
 /*friends list hover */
 .theme-dark #friends .friends-table .friends-row:hover {
     background: -webkit-linear-gradient(left, rgba(98, 214, 210, 0.2) 0%,rgba(61, 255, 35, 0.1) 100%);
@@ -439,7 +444,7 @@
 .theme-dark .cardPrimaryOutline-29Ujqw {
     border-color: rgb(10, 65, 58);
 }
-/* connections buttons at settings normal and hover */
+/* connections page buttons at settings normal and hover */
 .theme-dark .accountBtnInner-sj5jLs {
     background-color: rgba(1, 105, 66, 0.9);
     border-color: #096c5a;
@@ -448,6 +453,22 @@
     background-color: rgb(7, 86, 57);
     border-color: #096c5a;
 }
+/* league of legends background transparency */
+.theme-dark .elevationLow-2lY09M[style*="border-color: rgb(2, 31, 37); background-color: rgb(2, 31, 37);"] {
+	border-color: rgba(2, 31, 37, 0.7)!important; 
+	background-color: rgba(2, 31, 37, 0.7)!important;
+}
+/* Steam background transparency */
+.theme-dark .elevationLow-2lY09M[style*="border-color: rgb(24, 35, 50); background-color: rgb(24, 35, 50);"] {
+	border-color: rgba(24, 35, 50, 0.7)!important; 
+	background-color: rgba(24, 35, 50, 0.7)!important;
+}
+/* spotify background transparency */
+.theme-dark .elevationLow-2lY09M[style*="border-color: rgb(29, 185, 84); background-color: rgb(29, 185, 84);"] {
+	border-color: rgba(29, 185, 84, 0.7)!important; 
+	background-color: rgba(29, 185, 84, 0.7)!important;
+}
+
 /* bar kinda scroll enabled and disabled status */
 .barFill-23-gu- {
     background: rgba(61, 255, 35, 0.5);
@@ -469,12 +490,17 @@
 	background-color: rgba(61, 255, 35, 0.3)!important;
     border: 1px solid #096c5a!important;
 }
+
 /* checker box */
-.theme-dark .checked-3_4uQ9 {
+.theme-dark .checked-3_4uQ9, .checkbox .checkbox-inner input[type=checkbox]:checked+span {
     background-color: #014942;
     border-color: #096c5a!important;
 }
-.theme-dark .checked-3_4uQ9 svg[name="Checkmark"] polyline {stroke: #096c5a; stroke-width: 2;}
+.checkbox .checkbox-inner input[type=checkbox]:checked+span:after {
+    border-color: #0d9e84;
+}
+.theme-dark .checked-3_4uQ9 svg[name="Checkmark"] polyline {stroke: #0d9e84; stroke-width: 2;}
+
 /* toggle on color ON OFF */
 .themeDefault-24hCdX.valueChecked-m-4IJZ, #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked {
     background-color: rgba(61, 255, 35, 0.3);
