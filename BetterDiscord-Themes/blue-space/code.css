@@ -568,6 +568,11 @@
     background: rgb(15, 189, 57);
 	color: #fff;
 }
+/* member limit background at voice channels */
+.wrapper-2NJDcI {
+    background-color: rgb(16, 78, 60);
+    color: #bbb6b6;
+}
 
 
 /* right click people normal card top and below and button */
