@@ -562,18 +562,39 @@
     background-color: rgb(9, 99, 31);
     color: #fff;
 }
-
+/* Find or start a conversation menu background, button and hover result */
+.theme-dark .quickswitcher-3JagVE {
+    background-color: rgba(1, 28, 29, 0.9);
+    border: 1px solid rgba(98, 214, 210, 0.1);
+    color: #dcddde;
+}
+.theme-dark .input-2VB9rf {
+    background-color: rgba(0, 79, 46, 0.25);
+    border: 1px solid rgba(98, 214, 210, 0.1);
+}
+.theme-dark .resultFocused-3aIoYe {
+    background-color: rgba(13, 86, 51, 0.3);
+}
+/* message butotn on activity menu normal and hover */
+.headerButtonColor-G7_f-V {
+    background: rgb(15, 189, 57);
+}
+.headerButtonColor-G7_f-V:hover {
+	background: rgb(14, 117, 39);
+}
 /* bot tag */
 .botTagRegular-2HEhHi, .botTagInvert-18-95s, .aka-1mqp34 {
     background: rgb(15, 189, 57);
-	color: #fff;
 }
 /* member limit background at voice channels */
 .wrapper-2NJDcI {
     background-color: rgb(16, 78, 60);
     color: #bbb6b6;
 }
-
+/* color change at text in language */
+.theme-dark .description-3_Ncsb, .theme-dark .labelDescriptor-1PqHgD {
+    color: #cbcfd6;
+}
 
 /* right click people normal card top and below and button */
 .userPopout-3XzG_A {
