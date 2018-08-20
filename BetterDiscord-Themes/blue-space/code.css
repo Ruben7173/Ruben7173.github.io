@@ -184,6 +184,20 @@
     background-color: rgba(1, 28, 29, 0.9);
 }
 
+/* privacy and safety green, orange and red boxes inline transparency */
+.theme-dark .cardPrimaryEditable-3KtE4g[style*="padding: 10px; border-color: rgb(240, 71, 71); background-color: rgb(240, 71, 71);"] {
+	border-color: rgba(240, 71, 71, 0.3)!important;
+    background-color: rgba(240, 71, 71, 0.3)!important;
+}
+.theme-dark .cardPrimaryEditable-3KtE4g[style*="padding: 10px; border-color: rgb(250, 166, 26); background-color: rgb(250, 166, 26);"] {
+	border-color: rgba(250, 166, 26, 0.3)!important;
+    background-color: rgba(250, 166, 26, 0.3)!important;
+}
+.theme-dark .cardPrimaryEditable-3KtE4g[style*="padding: 10px; border-color: rgb(67, 181, 129); background-color: rgb(67, 181, 129);"] {
+	border-color: rgba(67, 181, 129, 0.3)!important;
+    background-color: rgba(67, 181, 129, 0.3)!important;
+}
+
 /* emoji area */
 .emojiPicker-3m1S-j {
     background-color: rgba(1, 28, 29, 0.7);
