@@ -507,6 +507,9 @@
 .theme-dark .closeButton-1tv5uR {
     border-color: #52a292;
 }
+.theme-dark .keybind-KpFkfr {
+    color: #5dceb7;
+}
 .theme-dark .closeButton-1tv5uR svg[name="Close"] path {fill: #52a292; d: path('M 9.5 3.205 L 8.795 2.5 L 6 5.295 L 3.205 2.5 l -0.705 0.705 L 5.295 6 L 2.5 8.795 l 0.705 0.705 L 6 6.705 L 8.795 9.5 l 0.705 -0.705 L 6.705 6');}
 
 /* button rectangle inline */
