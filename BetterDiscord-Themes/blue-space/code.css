@@ -1,11 +1,15 @@
 	/* removing backgrounds */
 .app .layer-3QrUeG, .app .layers-3iHuyZ, .app .chat-3bRxxu form, .app .messagesWrapper-3lZDfY, .app .members-1998pB, .channels-Ie2l6A, .container-PNkimc, .container-2lgZY8, .app .chat-3bRxxu, 
-.app .chat-3bRxxu form, .app .content-yTz4x3, .app .title-3qD0b-, .app .typing-2GQL18, .theme-dark .ui-standard-sidebar-view, .theme-dark .ui-standard-sidebar-view .content-region, .theme-dark .ui-standard-sidebar-view .sidebar-region, .app .noChannel-Z1DQK7, .theme-dark .activityFeed-28jde9 {
+.app .chat-3bRxxu form, .app .content-yTz4x3, .app .title-3qD0b-, .app .typing-2GQL18, .theme-dark .ui-standard-sidebar-view, .theme-dark .ui-standard-sidebar-view .content-region, .theme-dark .ui-standard-sidebar-view .sidebar-region, .app .noChannel-Z1DQK7,
+.theme-dark .activityFeed-28jde9, .container-1UB9sr {
     background: transparent;
 }
 /* more background removal */
 .theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action, .theme-dark #friends {
     background-color: rgba(47, 49, 54, 0);
+}
+.container-1UB9sr {
+    border: 1px solid #09352f;
 }
 /* Chat box background color and border */
 .theme-dark .inner-zqa7da {
@@ -34,6 +38,10 @@
 .theme-dark .member-3W1lQa:hover .content-OzHfo4 {
 	background: -webkit-linear-gradient(left, rgba(98, 214, 210, 0.2) 0%,rgba(61, 255, 35, 0.2) 100%);
 	border: 3px solid rgba(98, 214, 210, 0.2);
+}
+/* connected to voice channel border */
+.container-1UB9sr {
+    border: 1px solid #09352f;
 }
 /* Search bar background and border */
 .theme-dark .search .search-bar {
@@ -110,11 +118,11 @@
 }
 /* mention someone in chat result background and border and hover state */
 .theme-dark .autocomplete-1vrmpx {
-    background-color: rgba(1, 28, 29, 0.9);
-    border: 1px solid #0a3630;
+    background-color: rgba(0, 59, 45, 0.9);
+    border: 1px solid #255857;
 }
 .theme-dark .selectorSelected-1_M1WV {
-    background-color: rgba(2, 18, 19, 0.63);
+    background-color: rgba(15, 115, 68, 0.29);
 }
 /* Search Options background and option hover */
 .theme-dark .searchPopout-1vUlP3 {
