@@ -11,6 +11,15 @@
 .container-1UB9sr {
     border: 1px solid #09352f;
 }
+/* border and text alignment on roles */
+.theme-dark .membersGroup-v9BXpm {
+    color: hsl(175, 86%, 47%);
+    border: 2px solid rgba(98, 214, 210, 0.4);
+    border-radius: 5px;
+    text-align: center;
+    padding: 8px;
+    height: 4%;
+}
 /* Chat box background color and border */
 .theme-dark .inner-zqa7da {
     background-color: rgba(0, 79, 46, 0.25);
