@@ -504,8 +504,8 @@
     background: rgba(0, 79, 46, 0.35);
     border: 1px solid rgba(98, 214, 210, 0.1);
 }
-/* links colors *//*
-.bda-slist .bda-footer a, .anchor-3Z-8Bb, .theme-dark .markup-2BOw-j a, .theme-dark .embedTitleLink-1Zla9e {
+/* links colors */
+.bda-slist .bda-footer a, .anchor-3Z-8Bb, .theme-dark .markup-2BOw-j a, .theme-dark .embedTitleLink-1Zla9e, .theme-dark .topic-2QX7LI a {
     color: #edff00!important;
 }
 /* request data button */
@@ -630,3 +630,8 @@ https://i.imgur.com/mZuRmBg.gifv
 .root-SR8cQa, .tabBarContainer-1s1u-z {
     border: 1px solid rgb(37, 88, 87);
 }
+/* Compact settings of asteria */
+.ui-standard-sidebar-view .sidebar-region .sidebar .side-8zPYf6 .item-PXvHYJ,.theme-dark #bd-settings-sidebar .ui-tab-bar-item{line-height:20px}
+.ui-standard-sidebar-view .sidebar-region .sidebar {padding: 20px 18px 20px 23px !important;width: 210px !important;}
+.ui-standard-sidebar-view .sidebar-region { flex: 0;}
+.ui-standard-sidebar-view .content-column.default {max-width: 90%;padding: 40px 30px 80px;}
