@@ -1,4 +1,4 @@
-//META{"name":"Blue Space","description":"Stars background with a beautiful blue-green coloring","author":"Ruben7173","version":"1.2"}*//{}
+//META{"name":"Blue Space","description":"Stars background with a beautiful blue-green coloring","author":"Ruben7173","version":"1.1"}*//{}
 
 @import url(https://rawgit.com/Ruben7173/Ruben7173.github.io/master/BetterDiscord-Themes/blue-space/code.css);
 
@@ -15,7 +15,7 @@
 
 	/* controls whole transparency NOTE: some transparency is seperated and is in the code below */
 .app .chat-3bRxxu, .app .guildsWrapper-5TJh6A, .private-channels, .scroller-2wx7Hm, .feed-1o0xmF, .header-2o-2hj, .app .noChannel-Z1DQK7, .popout-open .header-2o-2hj,
- .theme-dark .ui-standard-sidebar-view .content-region, .theme-dark .ui-standard-sidebar-view .sidebar-region, #friends .friends-table, .theme-dark .headerBar-UHpsPw, .container-1UB9sr, .themeDark-3Ap_7i {
+ .theme-dark .ui-standard-sidebar-view .content-region, .theme-dark .ui-standard-sidebar-view .sidebar-region, #friends .friends-table, .theme-dark .headerBar-UHpsPw {
 	background-color: rgba(0,0,0,0.4);
 }
 	/* channel bottom part transparency since some people like it seperated */
@@ -30,3 +30,17 @@
 }
 
 /*Any other customization put code below*/
+/* temporary code to from from 1 pc to another 
+/* removes radius */ /*
+.small-5Os1Bb {
+    border-radius: 5px;
+    border: 1px solid #287973;
+}
+/* removes mask */ /*
+.mask-3OgeRz {
+     -webkit-mask: none; 
+}
+/* controls border of online status */ /*
+.app .status-2s6iDp {
+    border-radius: 35px;
+} */
