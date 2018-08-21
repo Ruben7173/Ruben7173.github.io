@@ -11,6 +11,10 @@
 .container-1UB9sr {
     border: 1px solid #09352f;
 }
+/* fixes margin at top */
+.typeWindows-1za-n7 {
+    margin-top: 0px;
+}
 /* border and text alignment on roles */
 .theme-dark .membersGroup-v9BXpm {
     color: hsl(175, 86%, 47%);
