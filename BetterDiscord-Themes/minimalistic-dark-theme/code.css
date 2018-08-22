@@ -425,7 +425,7 @@
 /* Settings Notifications option PUSH NOTIFICATIONS border and color */
 .theme-dark .select-2TCrqx .Select-menu-outer {
     background:transparent;
-    background-color:hsla(0,5%,0%,.3);
+    background-color:hsla(0,5%,0%,.7);
     border-color: rgba(32,34,37,.6);
     border: 1px solid rgb(0,0,0);
     border-radius: 15px;
