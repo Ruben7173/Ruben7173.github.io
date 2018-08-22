@@ -1053,43 +1053,63 @@
 }
 
 /* Emoji Area */
-.theme-dark .bda-dark #bda-qem button {
-    background: hsla(0,5%,0%,.5);
-    border-left: 1px solid #242424;
-    box-shadow: #000 1px 0 0 0;
+.emojiPicker-3m1S-j, .category-2U57w6, .emojiPicker-3m1S-j .stickyHeader-1SS0JU {
+    background: rgba(0,0,0,0.0);
+    color: #ffffff;
 }
-/* Emoji buttons hover */
-.theme-dark .bda-dark #bda-qem button:hover {
-    background-color: hsla(0,5%,0%,.3);
+.emojiPicker-3m1S-j {
+    background: rgba(0,0,0,0.7);
 }
-/* Emoji area background transparency */
-.bda-dark #bda-qem {
-    border-bottom: 1px solid #000 !important;
-    background: hsla(0,5%,0%,.3);
+#bda-qem button:hover {
+    background: hsla(0,5%,0%,.6);
 }
-/* Emoji button selected */
-.bda-dark #bda-qem button.active {
-    background-color: hsla(0,5%,0%,.7);
+.search-bar.search-bar-light {
+    background: rgba(0,0,0,0.0);
 }
-/* Borders and etc of emoji buttons at top */
-.bda-dark #bda-qem button {
-    background: hsla(0,5%,0%,.3);
-    border-left: 1px solid #000000;
-    box-shadow: #000 1px 0 0 0;
+.search-bar.search-bar-light .search-bar-inner {
+    background: rgba(0,0,0,0.5);
 }
-/* Transparency of emoji page menu twitch and etc */
-.bda-dark #bda-qem-favourite-container, .bda-dark #bda-qem-twitch-container {
-    background-color: hsla(0,5%,0%,.3);
+#bda-qem button {
+    background: rgba(0,0,0,0.7);
+    border-left: 1px solid #101113;
+    box-shadow: #101113 1px 0 0 0;
+    color: #fff;
 }
-/* Scroller part of emoji area (favorite and twitch by order)*/
-.bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track-piece {
+#bda-qem {
+    background: transparent;
+    color: #fff;
+}
+#bda-qem button.active {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+}
+#bda-qem-twitch-container, #bda-qem-favourite-container {
+        background: rgba(0,0,0,0.5);
+}
+.emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {
+    border: 2px solid #000;
+    background-color: rgba(47, 47, 47, 0.56);
+}
+.popoutTop-3uu9vG.noArrow-3BYQ0Z, .popoutTopRight-3BzFIE.noArrow-3BYQ0Z {
+    border: 2px solid #2a2c31;
+    margin-bottom: 10px;
+}
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.selected-39BZ4S {
+    border-bottom-color: #3a3a3a;
+}
+/* scroll bars */
+.scroller-wrap .scroller::-webkit-scrollbar-thumb, .scroller-wrap .scroller::-webkit-scrollbar-track-piece, .scrollerThemed-2oenus.themeLight-1_DWyY .scroller-2FKFPG::-webkit-scrollbar-thumb, .scrollerThemed-2oenus.themeLight-1_DWyY.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-dark .scrollerThemed-2oenus.themeLight-1_DWyY.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-light .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track {
+    background-clip: padding-box;
+    background-color: rgba(23, 23, 25, 0.7);
+}
+#bda-qem-twitch-container .scroller::-webkit-scrollbar,  #bda-qem-twitch-container .scroller::-webkit-scrollbar-track,  #bda-qem-twitch-container .scroller::-webkit-scrollbar-track-piece,  #pubs-container .scroller::-webkit-scrollbar,  #pubs-container .scroller::-webkit-scrollbar-track,  #pubs-container .scroller::-webkit-scrollbar-track-piece {
     background-color: hsla(0,5%,0%,.1) !important;
     border-color: #303030 !important;
 }
-.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar, .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track, .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track-piece, .bda-dark #pubs-container .scroller::-webkit-scrollbar, .bda-dark #pubs-container .scroller::-webkit-scrollbar-track, .bda-dark #pubs-container .scroller::-webkit-scrollbar-track-piece {
-    background-color: hsla(0,5%,0%,.1) !important;
-    border-color: #303030 !important;
+.scrollerThemed-2oenus.themeLight-1_DWyY .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerThemed-2oenus.themeLight-1_DWyY .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-light .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb {
+    background-color: #545556;
 }
+
 /* BOT Tag color and transparency */
 .theme-dark .botTagRegular-2HEhHi {
     background: hsla(360, 0%, 57%, 0.3);
