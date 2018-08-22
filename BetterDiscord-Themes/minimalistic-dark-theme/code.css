@@ -717,7 +717,7 @@
 
 /* Menu when mention someone, background Normal and Hover */
 .theme-dark .autocomplete-1vrmpx {
-    background-color: hsla(0,5%,0%,.3);
+    background-color: hsla(0,5%,0%,.7);
 	border: 1px solid #000;
 	border-radius: 15px;
 }
@@ -731,7 +731,7 @@
 
 /* Menu when mention someone, background Normal and Hover */
 .theme-dark .autocomplete-1vrmpx {
-    background-color: hsla(0,5%,0%,.3);
+    background-color: hsla(0,5%,0%,.7);
 	border: 1px solid #000;
 }
 .theme-dark .selectorSelected-1_M1WV {
