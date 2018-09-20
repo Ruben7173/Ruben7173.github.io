@@ -1,0 +1,22 @@
+//META{"name":"Hidden Settings Option Hovering","description":"hides settings options till hovered","author":"Ruben7173","version":"1.0"}*// {}
+
+/* compact settings from satoru with a few modifications */
+.ui-standard-sidebar-view .sidebar-region .sidebar .side-8zPYf6 .item-PXvHYJ,.theme-dark #bd-settings-sidebar .ui-tab-bar-item{line-height:20px}
+.ui-standard-sidebar-view .sidebar-region .sidebar {padding: 20px 18px 20px 23px !important;width: 210px !important;}
+.ui-standard-sidebar-view .sidebar-region { flex: 0;}
+.ui-standard-sidebar-view .content-column.default {max-width: 90%;padding: 40px 30px 80px;} 
+
+/* Settings adding hover animations */
+.ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller:hover {
+	width:200px;
+	transition: width .6s;
+	opacity: 1;
+}
+/* settings animations */
+.ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller {
+	min-width:10px!important;
+	max-width:240px!important;
+	width:10px;
+	transition: all .5s;
+	opacity: 0;
+}
