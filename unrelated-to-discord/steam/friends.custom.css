@@ -358,7 +358,7 @@ background-color: #131313!important;}
     width: 100% !important;
     margin: -0px -15px !important;
     z-index: 0 !important;
-    transform: scale(0.4)!important;
+    transform: scale(0.3)!important;
     border: 1px solid rgba( 56, 60, 67, 1 )!important;
     border-radius: 35px!important;
 }
@@ -372,7 +372,7 @@ background-color: #131313!important;}
     width: 100% !important;
     margin: -0px -15px !important;
     z-index: 0 !important;
-    transform: scale(0.4)!important;
+    transform: scale(0.3)!important;
     border: 1px solid rgba( 56, 60, 67, 1 )!important;
     border-radius: 35px!important;
 }
@@ -386,7 +386,7 @@ background-color: #131313!important;}
     width: 100% !important;
     margin: -0px -15px !important;
     z-index: 0 !important;
-    transform: scale(0.4)!important;
+    transform: scale(0.3)!important;
     border: 1px solid rgba( 56, 60, 67, 1 )!important;
     border-radius: 35px!important;
 }
@@ -400,7 +400,7 @@ background-color: #131313!important;}
     width: 100% !important;
     margin: -0px -15px !important;
     z-index: 0 !important;
-	transform: scale(0.4)!important;
+	transform: scale(0.3)!important;
     border: 1px solid rgba( 56, 60, 67, 1 )!important;
     border-radius: 35px!important;
 }
@@ -523,4 +523,7 @@ background-color: #131313!important;}
 }
 button.DialogButton:disabled, button.DialogButton:disabled:hover {
 	color: #fff!important;
+}
+.currentUserAvatar {
+	border-radius: 25px!important;
 }
