@@ -1,0 +1,526 @@
+.friendlistListContainer {
+    background: #1a1a1a!important;
+}
+.friendListHeaderContainer, .friendsListSectionTitle {
+    background-color: #131313!important;
+}
+.activeTab, .friendListFooter {
+    background-color: #141414!important;
+}
+.friendRequestButton .SVGIcon_FriendRequest .friendBodyFull, .friendRequestButton .SVGIcon_FriendRequest .friendHead, .friendRequestButton .SVGIcon_FriendRequest .friendArm, .friendRequestButton .SVGIcon_FriendRequest .friendBody, .addFriendButton .SVGIcon_AddFriend .friendHead, .addFriendButton .SVGIcon_AddFriend .friendBody, .addFriendButton .SVGIcon_AddFriend .plusCircle, .friendsListSectionTitle .SVGIcon_NewChatGroup {
+    fill: #889288!important;
+    transition: fill .21s ease-in-out!important;
+}
+.friendsListSectionTitle, .activeTab {
+    color: #889288!important;
+}
+.TabSearchButton .ColorSelector {
+    fill: #889288!important;
+}
+
+/* button */ 
+::-webkit-scrollbar-button {
+	height: 25px!important; 
+	border-radius: 0px!important; 
+	background-color: #1a1a1a!important; 
+	border: 2px solid #131313!important;
+} 
+::-webkit-scrollbar-button:hover { 
+	background-color: #272727!important; 
+}
+/* button arrows scroll bar */
+/* Down */
+::-webkit-scrollbar-button:vertical:increment {
+    background-image: url(https://i.imgur.com/rsJC3Hz.png)!important;
+	background-repeat: no-repeat!important;
+	background-position: -1px 2px!important;
+}
+/* Up */
+::-webkit-scrollbar-button:vertical:decrement { 
+    background-image: url(https://i.imgur.com/MTISXcR.png)!important;
+	background-repeat: no-repeat!important;
+	background-position: -1px 2px!important;
+}
+/* background behind scrollbar */
+::-webkit-scrollbar-track {
+	background-color: #131313!important;
+}
+/* thumb normal and hover state */
+::-webkit-scrollbar-thumb {
+	background-color: #1a1a1a!important;
+    border: 2px solid #131313!important;
+    border-radius: 0px!important;
+}
+::-webkit-scrollbar-thumb:hover {
+	background-color: #272727!important;
+	border-radius: 0px!important;
+}
+/* makes scrollbar wider */
+::-webkit-scrollbar {
+    width: 18px!important;
+}
+/* disables scroll bar at settings */
+.DialogBody::-webkit-scrollbar {
+	display:none!important;
+}
+/* settings new chat */
+.PagedSettingsDialog_PageListColumn, .Page_GroupSettings_General .friend.groupOwnerFriend, ._DialogRow._DialogRowBackground, .inviteLinkContainer .DialogInput_Wrapper._DialogLayout, .DialogSpanningTable.InviteLinksTable tbody tr {
+    background: #141414!important;
+}
+.DialogContent, .DialogContentTransition {
+    background: #1a1a1a!important;
+}
+/* a button in settings permissions of group servers */
+button.DialogButton.roleButton.owner:disabled {
+    background-color: #161716!important;
+}
+/* another button in same place but its off state */
+.Disabled .DialogOnOffToggle_Option.Active {
+    background-color: #4f4f4f!important;
+}
+/* few more boxes at settings */
+.FriendsSettingsNotificationRow, .FriendsSettingsFlashSection_ButtonRow, .FriendsSettingsVoiceTransmissionType_ButtonRow {
+    background: #262626!important;
+}
+/* groups section */
+.chatRoomListContainer {
+	background: #1a1a1a!important;
+}
+.ChatRoomGroupAvatar {
+	border: 2px solid #262626!important;background: none!important;
+}
+/* minimize, maximize, close icons only has the close button yet */
+.title-area-icon .SVGIcon_X_Line line {
+	stroke: #889288!important;
+}
+/* changing cursor at groups */
+.voiceRoomDragBar {
+	cursor: initial!important;
+}
+
+/* FRIENDS Message are */
+.chatDialogs {
+    background: radial-gradient( ellipse farthest-corner at 50% 30%, rgb(25, 26, 29) 0%, #1a1a1a 50%, #141414 100% )!important;
+}
+/* removes shadow at chat page frinds list */
+.friendListInsetShadowBottom, .friendListInsetShadowTop {
+	background:none!important;
+}
+/* gradient area at the top */
+.singleWindowFocusBar, .title-area-highlight {
+    background: none!important;
+    -webkit-mask: none!important;
+}
+
+/* settings chat buttons */
+.DialogOnOffToggle_Option.Active, button.DialogButton.Primary {
+    color: #dfe3e6;
+    background: rgb(102 36 226);
+}
+/* text color settings friends */
+.PagedSettingsDialog_Title {
+    color: rgb(102 36 226);
+}
+/* top area settings friends */
+.ModalPosition_TopBar {
+    background:rgb(102 36 226)!important;
+}
+/* more buttons at settings friends */
+.DialogCheckbox path {stroke:rgb(102 36 226)!important;}
+.DialogDropDown_Arrow .SVGIcon_DownArrowContextMenu {fill: rgb(102 36 226)!important; }
+/* dialog sliders big and small circle */
+.DialogSlider_Value {background: rgb(102 36 226)!important;}
+.DialogSlider_Grabber {background: rgb(98, 53, 181)!important;}
+
+/* removes a background in settings friends */
+._DialogTextInputBase {
+	background:transparent!important;
+}
+
+/* more backgrounds at settings friends */
+.FriendsSettingsNotificationRow, .FriendsSettingsFlashSection_ButtonRow {background-color: #252525;}
+
+/* dialog buttons background */
+button.DialogButton, .DialogOnOffToggle_Option:hover:not( .Active ) {background: #4c4c4c;}
+.DialogOnOffToggle_Control {background: #343434!important}
+/* right click areas at friends chat */
+.contextMenu {
+	border: 1px solid #141414;
+    background: radial-gradient(ellipse farthest-corner at 50% 0%, #1a1a1a 0%, #1a1a1a 50%, #1a1a1a 100%)!important;
+    box-shadow: none!important;
+}
+.contextMenu .contextMenuItem:hover, .contextMenu .contextMenuItem.active {
+    background: #272727!important;
+}
+/* hover selected buttons */
+button.DialogButton.Primary:hover {
+    background: rgb(81, 23, 189)!important;
+}
+button.DialogButton:hover {
+    background: #252424!important;
+}
+
+/* boxes settings */
+._DialogTextInputBase, ._DialogInputContainer {
+    background: #262626!important;
+}
+.DialogDropDownMenu._DialogInputContainer {
+    border: 1px solid #383535!important;
+    background: #262626!important;
+}
+/* box hover inside */
+.DialogDropDownMenu_Item:hover {
+    background: #383838!important;
+}
+
+/* more stuff */
+button.DialogButton:active, button.DialogButton:active:hover {
+    background: #272727!important;
+}
+
+/* chat message box area */
+.chatWindow {
+    background: #141414!important;
+}
+.chatWindow.SingleUserChat .chatHeader {
+    background: #1a1a1a!important;
+}
+.chatTabList .chatTab, .ChatTabsBackButton, .chatWindow .chatEntry {
+    background: #1a1a1a!important;
+}
+.chatSubmitButton.disabled, .chatSubmitButton.EmbedButton, .chatSubmitButton.EmoticonPickerButton {
+    background-color: #141414!important;
+}
+.VoiceToggle, .chatTextarea {
+    background: #141414!important;
+}
+.ChatMessageBlock.SingletonMsg .FriendChatTimeStamp {
+    background: none!important;
+}
+.chatSubmitButton {
+    background-color: rgb(27, 28, 29)!important;
+}
+/* area at the top of chat */
+.titleBarContainer.ChatTabs {
+    background: #131313!important;
+}
+/* groups chat selected category on servers */
+.chatWindow .chatHeader, .chatRoomTextChannel.ActiveTextChannel {
+    background: #1a1a1a!important;
+}
+/* groups chat search button on servers */
+.friendSearchInput[type="text"]:focus, .friendSearchInput[type="text"] {
+	background-color: #1a1a1a!important;
+}
+/* random stuff from groups area on friends list */
+.ChatRoomListGroupItem:hover {
+    background-color: #101010!important;
+}
+.chatRoomVoiceChannel.ActiveVoiceChannel {
+    background-color: #191b1b!important;
+}
+.ChatRoomListGroupItem .openGroupButton:hover {
+    background-color: #2f2e2e!important;
+}
+/* voice control */
+.activeVoiceControls {
+	background:transparent!important;
+}
+/* removes a box shadow line at friends and replaces it with a divider */
+.activeTab {
+    box-shadow: none!important;
+	border-top: 1px solid rgba( 67, 73, 83, .5 )!important;
+}
+/* removes border away */
+.friendlistListContainer .friend.awayOrSnooze .avatarHolder .avatarStatus {
+	-webkit-mask: none!important;
+	background: transparent!important;
+	border:none!important;
+}
+/* playing with X amount of people removing phrase */
+.SteamPlayerGroupFooterLabel {
+	display:none!important;
+}
+/* the little line close to + X */
+.friend.firstInGroup .SteamPlayerGroupLines, .friend.inGroup .SteamPlayerGroupLines, .friend.lastInGroup .SteamPlayerGroupLines, .SteamPlayerGroupFooter .SteamPlayerGroupLines {
+    display: none!important;
+}
+/* + X position */
+.SteamPlayerGroupFooterCount .count {
+    position: absolute!important;
+    top: -35px!important;
+    right: 45px!important;
+    color: rgba( 145, 194, 87, 1 );
+}
+/* removing the large space */
+.friendGroup .SteamPlayerGroupFooter {
+    height: 0!important;
+}
+/* snooze ZZZ */
+.SnoozeContainer{position: absolute !important;right: 6px !important; top: 7px;}
+.SnoozeContainer .SnoozeZ{font-size: 16px !important;}
+
+/* porting compact list */
+.CompactFriendsList .friend.online .avatarHolder .avatarStatus {
+	position: absolute!important;
+	width: 23px!important;
+}
+
+.CompactFriendsList .friend.ingame .avatarHolder .avatarStatus {
+	position: absolute!important;
+	width: 23px!important;
+}
+
+.CompactFriendsList .SteamPlayerGroupFooterCount .count {
+    right: 35px!important;
+    margin-top: 10px;
+}
+/* GLOW STATUS DISABLE */
+.statusHeaderGlow {
+	display:none!important;
+}
+/* compact position for ZZZ */
+.CompactFriendsList .SnoozeContainer{position: absolute !important;right: 6px !important; top: 4px;}
+.CompactFriendsList .SnoozeContainer .SnoozeZ{font-size: 12px !important;}
+.quickAccessFriends .friend .SnoozeContainer .SnoozeZ{font-size: 9px !important;}
+
+/* fixes height compact */
+.CompactFriendsList .friend.ingame, .CompactFriendsList .friendGroup .friend.ingame {
+    height: 25px;
+}
+
+/*  */
+.CompactFriendsList .chatRoomListContainer[style*="height: 0px; max-height: 0px; min-height: 0px;"] {height: 0px!important;max-height: 0px!important;}
+/*  */
+.compactQuickAccess .friendsListSectionTitle {
+    position: absolute!important;
+    top: 100px!important;
+    left: 0px!important;
+}
+
+/* online status fixes of redsigma normal and compact */
+.FriendsListContent .friendlistListContainer .friend.online .avatarHolder .avatarStatus{
+    background: rgb(109, 207, 246) !important;
+    width:100% !important;
+    margin: -1px 1px !important;
+    z-index: -1 !important;
+}
+.FriendsListContent .friendlistListContainer .friend.ingame .avatarHolder .avatarStatus{
+    background: rgb(140, 214, 29) !important;
+    width:100% !important;
+    margin: -1px 1px !important;
+    z-index: -1 !important;
+
+}
+.FriendsListContent .friendlistListContainer .friend.watchingbroadcast .avatarHolder .avatarStatus{
+    background: rgb(200,189,247) !important;
+    width:100% !important;
+    margin: -1px 1px !important;
+    z-index: -1 !important;
+}
+/* friends request button normal and hover */
+.confirmInviteRequestContainer .confirmInviteButton {
+	background-color: #343434!important;
+}
+.confirmInviteRequestContainer .confirmInviteButton:hover {
+	background-color: #242323!important;
+}
+/* hover players create new chat background */
+.FriendPicker_SuggestedFriend.Focus {background: #1a1a1a!important;}
+
+/** Group BUTTON CSS **/
+/* changes color of background of groups button */
+.friendsListSectionTitle {
+background-color: #131313!important;}
+/* friends removing height */
+.friendlistListContainer {min-height: 0px!important;}
+/* remaking heights */
+.chatRoomListContainer[style*="height: 150px; max-height: 222px; min-height: 0px;"] {height: 900px!important;max-height: 900px!important;}
+.chatRoomListContainer[style*="height: 150px; max-height: 222px; min-height: 0px;"] {height: 900px; max-height: 900px; min-height: 900px;}
+.chatRoomListContainer {z-index: 20;height: 900px!important;max-height: 900px!important;width: 100%!important;}
+/* little arrow for groups making selectable area bigger */
+.ToggleGroupChatList {display: inline-block!important;position: relative!important;z-index: 11!important;right: 3px;padding-right: 27em!important;margin-right: -27em!important;}
+/* hidding little arrow */
+.ToggleGroupChatList .SVGIcon_DoubleArrow polyline {visibility: hidden!important;}
+/* makes groups be able to uncollapse to height 0 */
+.chatRoomListContainer[style="height: 0px; max-height: 0px; min-height: 0px;"] {height: 0px!important;max-height: 0px!important;min-height: 0px!important;}
+/* add hover effect when hovering group invites */
+.clanInviteContainer:hover {background-color: #131313!important;}
+
+/*                   Beggining of chat status normal modes and compact                                                                         */
+/* makes a circle online status */ /* ingame status */
+.FriendsListContent .friendlistListContainer .friend.ingame .avatarHolder .avatarStatus {
+    background: rgb(140, 214, 29)!important;
+    position: absolute!important;
+    bottom: -12px!important;
+    top: 12px!important;
+    left: 25px!important;
+    width: 100% !important;
+    margin: -0px -15px !important;
+    z-index: 0 !important;
+    transform: scale(0.4)!important;
+    border: 1px solid rgba( 56, 60, 67, 1 )!important;
+    border-radius: 35px!important;
+}
+/* makes a circle online status */ /* online status */
+.FriendsListContent .friendlistListContainer .friend.online .avatarHolder .avatarStatus {
+    background: rgb(109, 207, 246) !important;
+    position: absolute!important;
+    bottom: -12px!important;
+    top: 12px!important;
+    left: 25px!important;
+    width: 100% !important;
+    margin: -0px -15px !important;
+    z-index: 0 !important;
+    transform: scale(0.4)!important;
+    border: 1px solid rgba( 56, 60, 67, 1 )!important;
+    border-radius: 35px!important;
+}
+/* compact status */ /* status ingame */
+.CompactFriendsList .friendlistListContainer .friend.ingame .avatarHolder .avatarStatus {
+    background: rgb(140, 214, 29)!important;
+    position: absolute!important;
+    bottom: -12px!important;
+    top: 7px!important;
+    left: 20px!important;
+    width: 100% !important;
+    margin: -0px -15px !important;
+    z-index: 0 !important;
+    transform: scale(0.4)!important;
+    border: 1px solid rgba( 56, 60, 67, 1 )!important;
+    border-radius: 35px!important;
+}
+/* compact status */ /* status online */
+.CompactFriendsList .friendlistListContainer .friend.online .avatarHolder .avatarStatus {
+    background: rgb(109, 207, 246) !important;
+    position: absolute!important;
+    bottom: -12px!important;
+    top: 7px!important;
+    left: 20px!important;
+    width: 100% !important;
+    margin: -0px -15px !important;
+    z-index: 0 !important;
+	transform: scale(0.4)!important;
+    border: 1px solid rgba( 56, 60, 67, 1 )!important;
+    border-radius: 35px!important;
+}
+
+/* avatar makes it circle on status */
+.friend .avatarHolder img.avatar {
+    border: 1px solid rgba( 56, 60, 67, 1 );
+	border-radius: 35px;
+}
+
+/* chat message window avatar status adding a circle status */
+.ChatTabContent .avatarHolder .avatarStatus {
+    padding: 6px!important;
+    width: 1px!important;
+    border-radius: 47px!important;
+    margin-left: 58%!important;
+    margin-top: -16px!important;
+    z-index: 4!important;
+}
+/* adds border to online status */
+.ChatTabContent .friend.online .avatarHolder .avatarStatus {
+	border: 1px solid rgba( 56, 60, 67, 1 )!important;
+}
+/* adds border to playing status */
+.ChatTabContent .friend.ingame .avatarHolder .avatarStatus {
+	border: 1px solid rgba( 56, 60, 67, 1 )!important;
+}
+
+/* favorite friends circle status around avatar */
+.friend.quickAccessFriend .avatarHolder .avatarStatus {
+    padding: 26px!important;
+    width: 0px!important;
+    border-radius: 40px!important;
+    margin-left: -3%!important;
+    margin-top: -51px!important;
+    z-index: -1!important;
+}
+/* COMPACT favorite friends circle status around avatar */
+.compactQuickAccess .friend.quickAccessFriend .avatarHolder .avatarStatus {
+	padding: 15px!important;
+    width: 0px!important;
+    border-radius: 40px!important;
+    margin-left: -6%!important;
+    margin-top: -29px!important;
+    z-index: -1!important;
+}
+
+/*                   Ending of chat status normal modes and compact                                                                          */
+/* bug fix of ZZZ at chat messages works both normal and compact */
+.chatTab .friend .SnoozeContainer{position: inherit !important;}
+.chatTab .friend .SnoozeContainer .SnoozeZ{font-size: 6px !important;}
+/* removes a box shadow from background chat tabs */
+.chatTabList .chatTab:not( .active ) {
+	box-shadow: none!important;
+}
+/* removes border top on chat */
+.friendGroup.taggedGroup, .friendGroup.gameGroup {
+	border-top: none!important;
+}
+/* disables dotted border at chat away or snooze */
+.ChatTabContent .friend.awayOrSnooze .avatarHolder .avatarStatus, .friend.quickAccessFriend.friend.awayOrSnooze .avatarHolder .avatarStatus {
+    display: none!important;
+}
+
+/* extra tweaks for friends list *//*
+.FriendsListContent .friendlistListContainer .friendGroup.onlineFriends {
+	border-top: none!important;
+}
+*/
+/* tweaks for friends list game categories */
+/* adds border bottom from custom categories */
+.friendGroup.gameGroup, .friendGroup.taggedGroup .groupName {
+	border-bottom: 1px solid #131313!important;
+}
+/* border for online friends */
+.friendGroup.onlineFriends .groupName {
+	border-bottom: 1px solid #4b8faa!important;
+}
+/* border for offline friends */
+.friendGroup.offlineFriends .groupName {
+	border-bottom: 1px solid #292929!important;
+}
+/* removes margins and border tops from offline and online */
+.FriendsListContent .friendlistListContainer .friendGroup.offlineFriends {
+	margin-top: 0px!important;
+	border-top: none!important;
+}
+.FriendsListContent .friendlistListContainer .friendGroup.onlineFriends {
+	border-top: none!important;
+	margin-top: none!important;
+}
+/* removes margin from custom categories aka targetbox */
+.friendGroup.taggedGroup .dropTargetBox {
+	display:none!important;
+}
+/* end of those tweaks */
+
+/* random code below */
+/* chat related code extra customization and tweaks */
+.OneOnOneVoiceRoomControls {
+	background-color: #121212!important;
+}
+.chatFileUploadPreviewContainer, .inviteAnotherFriendButton, .chatFileUploadProgressContainer {
+    background: #1a1a1a!important;
+}
+.inviteAnotherFriendButton .SVGIcon_Button {
+    fill: #5b6474!important;
+}
+.chatFileUploadCancel {
+	border-radius: 0px!important;
+    background-color: #131313!important;
+}
+.chatFileUploadCancel:hover {
+	border-radius: 0px!important;
+    background-color: #252525!important;
+}
+.ChatMessageInvite {
+    background: #1a1a1a!important;
+    border-radius: 0px!important;
+}
+button.DialogButton:disabled, button.DialogButton:disabled:hover {
+	color: #fff!important;
+}
