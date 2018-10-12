@@ -604,10 +604,13 @@
     background-color: rgba(0, 79, 46, 0.25);
     border-color: #064b3e;
 }
-/* markdown */
-.theme-dark .markup-2BOw-j pre {
+/* markdown and blocked messages */
+.theme-dark .markup-2BOw-j pre, .app .messageGroupBlocked-3wrQQX, .app .messageGroupBlocked-3wrQQX.revealed-1_RKsf, .app .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh- {
     background: rgba(0, 79, 46, 0.25);
     border-color: rgb(33, 99, 83);
+}
+.app .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-:hover {
+    background: #155047;
 }
 .theme-dark .markup-2BOw-j code, .theme-dark .markup-2BOw-j code.inline {
     background: transparent;
