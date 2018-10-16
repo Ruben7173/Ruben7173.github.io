@@ -300,3 +300,7 @@
     background-image: linear-gradient(180deg,rgba(47,49,54,0),#131415);
 }
 .theme-dark .search-results-wrap .action-buttons .jump-button {background-color: #19191b;}
+/* store background removal */
+.app .applicationStore-1pNvnv {
+    background:none;
+}

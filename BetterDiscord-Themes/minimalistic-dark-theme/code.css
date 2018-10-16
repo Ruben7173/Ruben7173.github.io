@@ -1171,3 +1171,7 @@
 .wrapper-232cHJ {
     background-color: #12bf71;
 }
+/* store background removal */
+.app .applicationStore-1pNvnv {
+    background:none;
+}

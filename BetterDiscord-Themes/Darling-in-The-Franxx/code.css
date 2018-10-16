@@ -1210,3 +1210,25 @@ css-editor #bd-customcss-attach-controls button {
     background-color: rgba(114, 218, 126, 0.1);
     color: #01f716;
 }
+/* store stuff */
+.app .applicationStore-1pNvnv, .app .gameLibrary-TTDw4Y {
+    background-color: rgba(0,0,0,0.0);
+}
+.app .headerBar-UHpsPw {
+    background:transparent;
+}
+.theme-dark .distributionApplicationsActions-3D2_kD, .theme-dark .premiumApplicationsHeader-Zmkm5e {
+	border-color: #123;
+}
+.theme-dark .itemBackground-1jfD8p:before {
+    background: radial-gradient(ellipse at top,transparent,#123),linear-gradient(90deg,#123 0,transparent 40%,transparent 60%,#123),linear-gradient(0deg,#123 10%,transparent 70%);
+}
+.theme-dark .mediaDescription-31GsyQ {
+    background: linear-gradient(180deg,transparent,rgba(17, 34, 51, 0.75) 45%,#123);
+}
+.theme-dark .tileWrapper-2khh-w:hover, .theme-dark .popout-2xBvMR {
+    background-color: #123;
+}
+.theme-dark .searchBox-3Y2Vi7 {
+    background-color: rgba(21, 37, 64, 0.46);
+}
