@@ -527,3 +527,6 @@ button.DialogButton:disabled, button.DialogButton:disabled:hover {
 .currentUserAvatar {
 	border-radius: 25px!important;
 }
+.friendsListSectionTitle.chatSectionTitle .groupChatSectionTitle {
+    padding-left: 3px!important;
+}
