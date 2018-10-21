@@ -7,6 +7,7 @@
     background-size: cover;
 }
 /* fix on new update transparency of settings */
+.theme-dark .standardSidebarView-3F1I7i {
     background-color: rgba(0,0,0,0.3);
 }
 /* Changes background color of whole discord main area which includes the windows bar */
