@@ -7,15 +7,15 @@
     background: rgba(0,0,0,0.7)!important;
 }
 /* Transparency Level at settings */
-.theme-dark .ui-standard-sidebar-view .content-region, .theme-dark .ui-standard-sidebar-view .sidebar-region {
-	background: rgba(0,0,0,0.3)!important;
+.app .standardSidebarView-3F1I7i {
+    background-color: rgba(0,0,0,0.3);
 }
 /*https://hdqwalls.com/download/4k-zero-two-darling-in-the-franxx-w4-1920x1080.jpg*/
 /** remove grey backgrounds **/
 .theme-dark .friends-table, .theme-dark .theme-dark .messages-wrapper, .theme-dark .chat, .channels-Ie2l6A, .guilds-wrapper, .container-2lgZY8, .theme-dark .layer-3QrUeG, .theme-dark .typing-2GQL18,
 .theme-dark .members-1998pB, .theme-dark .chat>.content, .theme-dark .title-3qD0b-, .container-PNkimc, .channels-Ie2l6A, .theme-dark .chat form, .container-2Thooq, .theme-dark .headerBar-UHpsPw,
 .theme-dark .friends-table .theme-dark .messages .theme-dark .divider:before, .theme-dark .friends-table .theme-dark .messages .theme-dark .divider span, .theme-dark .messages-wrapper .theme-dark .messages .theme-dark .divider:before, .theme-dark .messages-wrapper .theme-dark .messages .theme-dark .divider span, .theme-dark #friends,
-.theme-dark .activityFeed-28jde9, .theme-dark .header-1RC2Wb, .theme-dark .ui-standard-sidebar-view, .theme-dark .noChannel-Z1DQK7
+.theme-dark .activityFeed-28jde9, .theme-dark .header-1RC2Wb, .theme-dark .ui-standard-sidebar-view, .theme-dark .noChannel-Z1DQK7, .theme-dark .sidebarRegion-VFTUkN, .theme-dark .contentRegion-3nDuYy
 {
     background:rgba(0,0,0,0)!important;
 }
