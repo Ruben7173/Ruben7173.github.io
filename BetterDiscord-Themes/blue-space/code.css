@@ -1,7 +1,7 @@
 	/* removing backgrounds */
 .app .layer-3QrUeG, .app .layers-3iHuyZ, .app .messagesWrapper-3lZDfY, .app .members-1998pB, .channels-Ie2l6A, .container-PNkimc, .container-2lgZY8, .app .chat-3bRxxu, 
 .app .chat-3bRxxu form, .app .title-3qD0b-, .app .typing-2GQL18, .theme-dark .ui-standard-sidebar-view, .theme-dark .ui-standard-sidebar-view .content-region, .theme-dark .ui-standard-sidebar-view .sidebar-region, .app .noChannel-Z1DQK7,
-.theme-dark .activityFeed-28jde9, .theme-dark .wrapper-29NfPK, .app .contentRegion-3nDuYy, .app .sidebarRegion-VFTUkN, .app .gameLibrary-TTDw4Y, .app .applicationStore-1pNvnv, .app .headerBar-UHpsPw {
+.theme-dark .activityFeed-28jde9, .theme-dark .wrapper-29NfPK, .app .contentRegion-3nDuYy, .app .sidebarRegion-VFTUkN, .app .gameLibrary-TTDw4Y, .app .applicationStore-1pNvnv, .app .headerBar-UHpsPw, .search-bar {
     background: transparent;
 }
 /* more background removal */
@@ -24,8 +24,8 @@
     padding: 8px;
     height: 4%;
 }
-/* Chat box background color and border */
-.theme-dark .inner-zqa7da {
+/* Chat box background color and border and find or start a conversation */
+.theme-dark .inner-zqa7da, .search-bar .search-bar-inner {
     background-color: rgba(0, 79, 46, 0.25);
 	border: 2px solid rgba(98, 214, 210, 0.1);
 }
@@ -413,11 +413,11 @@
 }
 
 /* settings buttons at the side selected and hover */
-.side-8zPYf6 .itemSelected-1qLhcL, #bd-settings-sidebar .ui-tab-bar-item.selected {
+.side-8zPYf6 .itemSelected-1qLhcL, .app #bd-settings-sidebar .ui-tab-bar-item.selected, .channel-2QD9_O.selected-1HYmZZ a {
     background: -webkit-linear-gradient(left, rgba(98, 214, 210, 0.2) 0%,rgba(61, 255, 35, 0.2) 100%);
 	border: 1px solid rgba(98, 214, 210, 0.2);
 }
-.theme-dark .side-8zPYf6 .itemDefault-3Jdr52:hover, .theme-dark .side-8zPYf6 .itemHover-EnbcjT:hover, #bd-settings-sidebar .ui-tab-bar-item:hover {
+.theme-dark .side-8zPYf6 .itemDefault-3Jdr52:hover, .theme-dark .side-8zPYf6 .itemHover-EnbcjT:hover, #bd-settings-sidebar .ui-tab-bar-item:hover, .channel-2QD9_O:hover a {
     background: -webkit-linear-gradient(left, rgba(98, 214, 210, 0.2) 0%,rgba(61, 255, 35, 0.1) 100%);
 	border: 1px solid rgba(98, 214, 210, 0.1);
 }
@@ -496,7 +496,11 @@
 	border-color: rgba(29, 185, 84, 0.7)!important; 
 	background-color: rgba(29, 185, 84, 0.7)!important;
 }
-
+/* settings of BD boxes */
+.theme-dark .bda-slist li {
+	background: rgba(0, 79, 46, 0.25);
+    border-color: rgba(98, 214, 210, 0.1);
+}
 /* bar kinda scroll enabled and disabled status */
 .barFill-23-gu- {
     background: rgba(61, 255, 35, 0.5);
