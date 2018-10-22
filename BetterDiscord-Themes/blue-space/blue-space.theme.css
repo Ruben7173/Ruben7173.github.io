@@ -1,34 +1,19 @@
-//META{"name":"Blue Space","description":"Stars background with a beautiful blue-green coloring","author":"Ruben7173","version":"1.6"}*//{}
+//META{"name":"Blue Space","description":"Stars background with a beautiful blue-green coloring","author":"Ruben7173","version":"2.0"}*//{}
 
-@import url(https://raw.githack.com/Ruben7173/Ruben7173.github.io/master/BetterDiscord-Themes/blue-space/code.css);
+@import url(https://raw.githack.com/Ruben7173/Ruben7173.github.io/master/BetterDiscord-Themes/blue-space/code2.css);
 
-/* To change background */
-.appMount-3VJmYg {
-	background: url(https://images4.alphacoders.com/325/32596.jpg) center/cover no-repeat}
-	/* default wall https://images4.alphacoders.com/325/32596.jpg */
-
-/* Discord Guild Icon */
-.theme-dark .homeIcon-1FoKUJ {
-	background: url(https://i.imgur.com/mabl6hm.png) center/cover no-repeat;
-	color: transparent;
+:root {
+	/* background image URL */
+	--background-image: url('https://images4.alphacoders.com/325/32596.jpg') center/cover no-repeat;
+	/* Transparency */
+    --transparency-level: rgba(0,0,0,0.10); 
+	/* transparency of top windows bar works different from the top one for some reason you have to try different values to match transparecy (aprox value is top value x 3 = result) */
+	--transparency-level-top: rgba(0,0,0,0.34);
+	/* ESC Button color at settings */
+	--ESC-Button-color: rgba(43, 99, 57, 0.9);
+	/* transparency of settings page */
+	--transparency-settings: rgba(0,0,0,0.2);
+	/* Discord Guild Icon */
+	--background-guild-icon-image: url('https://i.imgur.com/mabl6hm.png') center/cover no-repeat;
 }
-
-	/* controls whole transparency NOTE: some transparency is seperated and is in the code below */
-.app .guildsWrapper-5TJh6A, .private-channels, .feed-1o0xmF, .header-2o-2hj, .app .noChannel-Z1DQK7, .popout-open .header-2o-2hj,
- .theme-dark .ui-standard-sidebar-view .content-region, .theme-dark .ui-standard-sidebar-view .sidebar-region, .privateChannels-1nO12o, .app .standardSidebarView-3F1I7i, .stickyScroller-24zUyY, .scroller-2wx7Hm, .home-2gmu2h, .app .content-yTz4x3, #friends .friends-table {
-	background-color: rgba(0,0,0,0.4)!important;
-}
-	/* channel bottom part transparency since some people like it seperated */
-.app .container-2Thooq {
-    background: rgba(0,0,0,0.4);
-}
-	/* Windows Bar Transparency levels */
-.typeWindows-1za-n7 {
-    background-color: rgba(0,0,0,0.4);
-    margin-top: 1px;
-	padding: 1px;
-}
-
-.theme-dark .headerBar-UHpsPw {
-	background: rgba(0,0,0,0.4);
-}
+/* Any other code below */
