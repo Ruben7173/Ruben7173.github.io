@@ -54,7 +54,6 @@
     background-color: #272729;
     border-color: rgba(31, 31, 31, 1);
 }
-#272729
 /* Scrollbar track piece color */
 .theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-track-piece {border-color: #272729;}
 /* Mardown simple border*/
@@ -113,10 +112,13 @@
 /* Discord nitro button */
 .theme-dark .side-8zPYf6 .itemDefault-3Jdr52:hover, .theme-dark .side-8zPYf6 .itemHover-EnbcjT:hover[style="color: rgb(114, 137, 218); background-color: rgba(114, 137, 218, 0.0980392);"] {
 	color: #fff !important;
-	background-color: #36393f !important;
+	background-color: rgb(29, 29, 31) !important;
 }
-.side-8zPYf6 .itemSelected-1qLhcL, .theme-dark .selectedLink-3dsNZ6[style="color: rgb(255, 255, 255); background-color: rgb(114, 137, 218);"] {background-color: #36393f!important;}
+.side-8zPYf6 .itemSelected-1qLhcL, .theme-dark .selectedLink-3dsNZ6[style="color: rgb(255, 255, 255); background-color: rgb(114, 137, 218);"] {background-color: #19191B!important;}
 .side-8zPYf6 .item-PXvHYJ[style="color: rgb(114, 137, 218);"] {color:rgb(176, 178, 180)!important;}
+.theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected {background-color: #19191B!important;}
+.channel-2QD9_O.selected-1HYmZZ a {background-color: #19191B;}
+.channel-2QD9_O.selected-1HYmZZ a, .channel-2QD9_O:hover a, .app .option-96V44q.selected-rZcOL- {background-color: rgb(29, 29, 31) !important;}
 /* random buttons on settings */
 .bda-slist .bda-footer button {background: #36393f;}
 /* a box at settings test video */
@@ -307,4 +309,17 @@
 /* store background removal */
 .app .applicationStore-1pNvnv {
     background:none;
+}
+/* Fixes for Settings */
+.app .sidebarRegion-VFTUkN {
+    background: #131415;
+}
+.app .contentRegion-3nDuYy {
+    background: #19191B;
+}
+.app .container-3ayLPN {
+    background-color: #131415;
+}
+.theme-dark .option-96V44q:after {
+    background: linear-gradient(90deg,rgba(54,57,63,0),rgb(29, 29, 31) 80%);
 }
