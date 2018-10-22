@@ -1,7 +1,7 @@
 	/* removing backgrounds */
 .app .layer-3QrUeG, .app .layers-3iHuyZ, .app .messagesWrapper-3lZDfY, .app .members-1998pB, .channels-Ie2l6A, .container-PNkimc, .container-2lgZY8, .app .chat-3bRxxu, 
 .app .chat-3bRxxu form, .app .title-3qD0b-, .app .typing-2GQL18, .theme-dark .ui-standard-sidebar-view, .theme-dark .ui-standard-sidebar-view .content-region, .theme-dark .ui-standard-sidebar-view .sidebar-region, .app .noChannel-Z1DQK7,
-.theme-dark .activityFeed-28jde9, .theme-dark .wrapper-29NfPK, .app .contentRegion-3nDuYy, .app .sidebarRegion-VFTUkN, .app .gameLibrary-TTDw4Y, .app .applicationStore-1pNvnv, .app .headerBar-UHpsPw, .search-bar {
+.theme-dark .activityFeed-28jde9, .theme-dark .wrapper-29NfPK, .app .contentRegion-3nDuYy, .app .sidebarRegion-VFTUkN, .app .gameLibrary-TTDw4Y, .app .applicationStore-1pNvnv, .app .headerBar-UHpsPw, .search-bar, .app .standardSidebarView-3F1I7i {
     background: transparent;
 }
 /* more background removal */
@@ -461,11 +461,11 @@
     color: #fff;
 }
 /* buttons to green */
-.lookFilled-1Gx00P.colorBrand-3pXr91, .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary, .lookFilled-1Gx00P.colorBrand-3pXr91, .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary, .theme-dark #friends .tab-bar .tab-bar-item.selected, .jumpButton-3DTcS_ .loading-2bJK5L, .theme-dark .jumpButton-3DTcS_ {
+.lookFilled-1Gx00P.colorBrand-3pXr91, .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary, .lookFilled-1Gx00P.colorBrand-3pXr91, .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary, .theme-dark #friends .tab-bar .tab-bar-item.selected, .jumpButton-3DTcS_ .loading-2bJK5L, .theme-dark .jumpButton-3DTcS_, .app .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
     background-color: rgba(61, 255, 35, 0.5);
     color: #fff;
 }
-.lookFilled-1Gx00P.colorBrand-3pXr91:hover, .theme-dark #friends .tab-bar .tab-bar-item:hover:not(.selected) {
+.lookFilled-1Gx00P.colorBrand-3pXr91:hover, .theme-dark #friends .tab-bar .tab-bar-item:hover:not(.selected), .app .lookFilled-1Gx00P.hoverBrand-1_Fxlk.hasHover-3X1-zV:hover {
     background-color: rgba(61, 191, 43, 0.5);
 }
 /* border for authorized apps at settings */
@@ -764,3 +764,31 @@ https://i.imgur.com/mZuRmBg.gifv
 .ui-standard-sidebar-view .sidebar-region .sidebar {padding: 20px 18px 20px 23px !important;width: 210px !important;}
 .ui-standard-sidebar-view .sidebar-region { flex: 0;}
 .ui-standard-sidebar-view .content-column.default {max-width: 90%;padding: 40px 30px 80px;}
+/* theming store */
+.paginationItem-2lUq0s {
+    background: #002725;
+}
+.paginationItem-2lUq0s:after {
+    background: linear-gradient(270deg,transparent 0,#011313)!important;
+}
+.carousel-2WxMes, .news-2GDtLJ {
+    background-color: #001c1d;
+}
+.newsLink-38Naqi:hover {
+    background-color: #011e21;
+}
+.app .header-1RC2Wb:hover {
+    background-color: rgb(4, 34, 35);
+}
+.app .guild-1EfMGQ .guildInner-3DSoA4 {
+    background: #011e21;
+}
+.app .itemBackground-1jfD8p {
+    background-color: #011e21;
+}
+.app .itemBackground-1jfD8p:before {
+    background: radial-gradient(ellipse at top,rgba(54,57,63,0),#011313),linear-gradient(90deg,#011313 0,rgba(54,57,63,0) 40%,rgba(54,57,63,0) 60%,#011313),linear-gradient(0deg,#011313 0,rgba(54,57,63,0) 25%);
+}
+.app .itemBackground-1jfD8p:before {
+	background: none;
+}
