@@ -19,7 +19,7 @@
 
 /* removing backgrounds */
 .app .chat-3bRxxu form, .app .container-2Thooq, .container-PNkimc, .app .title-3qD0b-, .app .headerBar-UHpsPw, .app .content-yTz4x3, .app .messagesWrapper-3lZDfY, .app .members-1998pB, .app .inner-zqa7da, .app .typing-2GQL18, .app .wrapper-29NfPK, .search-bar, .app .markup-2BOw-j pre, .app .hljs, .app .markup-2BOw-j code, .app .markup-2BOw-j code.inline, .app .applicationStore-1pNvnv, .app .contentRegion-3nDuYy, .app .sidebarRegion-VFTUkN {
-	background: none;
+	background: none!important;
 }
 /* Discord Guild Icon */
 .theme-dark .homeIcon-1FoKUJ {
