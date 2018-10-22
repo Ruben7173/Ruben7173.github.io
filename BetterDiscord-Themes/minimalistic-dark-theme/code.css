@@ -4,11 +4,11 @@
 }
 
 /* Adds transparency color to settings */
-.theme-dark .ui-standard-sidebar-view .content-region, .theme-dark .ui-standard-sidebar-view .sidebar-region {
+.theme-dark .standardSidebarView-3F1I7i {
         background-color: hsla(43, 0%, 6%, 0.65);
 }
 /* Transparency of settings 100% */
-.theme-dark .ui-standard-sidebar-view {
+.theme-dark .ui-standard-sidebar-view, .theme-dark .contentRegion-3nDuYy, .theme-dark .sidebarRegion-VFTUkN {
     background:transparent;
 
 }
