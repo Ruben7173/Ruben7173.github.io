@@ -1,3 +1,34 @@
+/* background */
+.appMount-3VJmYg {
+	background: var(--background-image);
+}
+
+/* Discord Guild Icon */
+.theme-dark .homeIcon-1FoKUJ {
+	background: var(--background-guild-icon-image);
+	color: transparent;
+}
+
+/* setting transparency */
+.container-2lgZY8, .app .guildsWrapper-5TJh6A, .channels-Ie2l6A, .container-PNkimc, .app .container-2Thooq, .app .chat-3bRxxu, .app .chat-3bRxxu form, .app .content-yTz4x3, .app .layer-3QrUeG, .app .layers-3iHuyZ, .app .title-3qD0b-, .app .headerBar-UHpsPw, .app .members-1998pB, .app .messagesWrapper-3lZDfY, .app #friends, .app .activityFeed-28jde9, .app .ui-standard-sidebar-view, .app .ui-standard-sidebar-view .content-region, .app .ui-standard-sidebar-view .sidebar-region, .app .noChannel-Z1DQK7 {
+	background-color: var(--transparency-level);
+}
+.titleBar-AC4pGV {
+	background: var(--transparency-level-top);
+	margin-top: 0px;
+	padding-top: 4px;
+}
+/* fix on new update transparency of settings */
+.theme-dark .standardSidebarView-3F1I7i {
+    background-color: var(--transparency-settings);
+}
+
+/* removing backgrounds */
+.app .chat-3bRxxu form, .app .container-2Thooq, .container-PNkimc, .app .title-3qD0b-, .app .headerBar-UHpsPw, .app .content-yTz4x3, .app .messagesWrapper-3lZDfY, .app .members-1998pB, .app .inner-zqa7da, .app .typing-2GQL18, .app .wrapper-29NfPK, .search-bar, .app .markup-2BOw-j pre, .app .hljs, .app .markup-2BOw-j code, .app .markup-2BOw-j code.inline, .app .applicationStore-1pNvnv, .app .contentRegion-3nDuYy, .app .sidebarRegion-VFTUkN {
+	background: none;
+}
+
+
 /**/
 .container-1UB9sr {
     border: 1px solid #09352f;
@@ -779,34 +810,4 @@ https://i.imgur.com/mZuRmBg.gifv
 }
 .app .itemBackground-1jfD8p:before {
     background: radial-gradient(ellipse at top,rgba(54,57,63,0),#011313),linear-gradient(90deg,#011313 0,rgba(54,57,63,0) 40%,rgba(54,57,63,0) 60%,#011313),linear-gradient(0deg,#011313 0,rgba(54,57,63,0) 25%);
-}
-
-/* background */
-.appMount-3VJmYg {
-	background: var(--background-image);
-}
-
-/* Discord Guild Icon */
-.theme-dark .homeIcon-1FoKUJ {
-	background: var(--background-guild-icon-image);
-	color: transparent;
-}
-
-/* setting transparency */
-.container-2lgZY8, .app .guildsWrapper-5TJh6A, .channels-Ie2l6A, .container-PNkimc, .app .container-2Thooq, .app .chat-3bRxxu, .app .chat-3bRxxu form, .app .content-yTz4x3, .app .layer-3QrUeG, .app .layers-3iHuyZ, .app .title-3qD0b-, .app .headerBar-UHpsPw, .app .members-1998pB, .app .messagesWrapper-3lZDfY, .app #friends, .app .activityFeed-28jde9, .app .ui-standard-sidebar-view, .app .ui-standard-sidebar-view .content-region, .app .ui-standard-sidebar-view .sidebar-region, .app .noChannel-Z1DQK7 {
-	background-color: var(--transparency-level);
-}
-.titleBar-AC4pGV {
-	background: var(--transparency-level-top);
-	margin-top: 0px;
-	padding-top: 4px;
-}
-/* fix on new update transparency of settings */
-.theme-dark .standardSidebarView-3F1I7i {
-    background-color: var(--transparency-settings);
-}
-
-/* removing backgrounds */
-.app .chat-3bRxxu form, .app .container-2Thooq, .container-PNkimc, .app .title-3qD0b-, .app .headerBar-UHpsPw, .app .content-yTz4x3, .app .messagesWrapper-3lZDfY, .app .members-1998pB, .app .inner-zqa7da, .app .typing-2GQL18, .app .wrapper-29NfPK, .search-bar, .app .markup-2BOw-j pre, .app .hljs, .app .markup-2BOw-j code, .app .markup-2BOw-j code.inline, .app .applicationStore-1pNvnv, .app .contentRegion-3nDuYy, .app .sidebarRegion-VFTUkN {
-	background: none;
 }
