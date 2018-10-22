@@ -323,3 +323,16 @@
 .theme-dark .option-96V44q:after {
     background: linear-gradient(90deg,rgba(54,57,63,0),rgb(29, 29, 31) 80%);
 }
+
+/* code from an addon not mine but a good addition for privacy */
+/* Blur account email */
+.userInfoViewing-16kqK3 .flexChild-faoVW3 > div:nth-child(2) .viewBody-2Qz-jg.selectable-x8iAUj {
+    filter: blur(5px);
+    transition: 200ms cubic-bezier(.2, .11, 0, 1);
+}
+
+.userInfoViewing-16kqK3 .flexChild-faoVW3 > div:nth-child(2) .viewBody-2Qz-jg.selectable-x8iAUj:hover {
+    filter: none;
+    transition: 600ms cubic-bezier(.2, .11, 0, 1);
+}
+/**/
