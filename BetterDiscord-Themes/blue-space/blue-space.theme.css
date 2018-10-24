@@ -1,6 +1,8 @@
-//META{"name":"Blue Space","description":"Stars background with a beautiful blue-green coloring","author":"Ruben7173","version":"2.0"}*//{}
+//META{"name":"Blue Space","description":"Stars background with a beautiful blue-green coloring","author":"Ruben7173","version":"2.1"}*//{}
 
+/* imports code and Global transparency module */
 @import url(https://raw.githack.com/Ruben7173/Ruben7173.github.io/master/BetterDiscord-Themes/blue-space/code.css);
+@import url(https://raw.githack.com/Ruben7173/Ruben7173.github.io/master/BetterDiscord-Themes/Modules/transparency.css);
 
 :root {
 	/* background image URL */
