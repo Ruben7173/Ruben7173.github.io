@@ -1,0 +1,23 @@
+/* background */
+.appMount-3VJmYg {
+	background: var(--background-image);
+}
+
+/* setting transparency */
+.container-2lgZY8, .app .guildsWrapper-5TJh6A, .channels-Ie2l6A, .container-PNkimc, .app .container-2Thooq, .app .chat-3bRxxu, .app .chat-3bRxxu form, .app .content-yTz4x3, .app .layer-3QrUeG, .app .layers-3iHuyZ, .app .title-3qD0b-, .app .headerBar-UHpsPw, .app .members-1998pB, .app .messagesWrapper-3lZDfY, .app #friends, .app .activityFeed-28jde9, .app .ui-standard-sidebar-view, .app .ui-standard-sidebar-view .content-region, .app .ui-standard-sidebar-view .sidebar-region, .app .noChannel-Z1DQK7, .app .gameLibrary-TTDw4Y, .app .applicationStore-1pNvnv {
+	background-color: var(--transparency-level);
+}
+.titleBar-AC4pGV {
+	background: var(--transparency-level-top);
+	margin-top: 0px;
+	padding-top: 4px;
+}
+/* fix on new update transparency of settings */
+.theme-dark .standardSidebarView-3F1I7i {
+    background-color: var(--transparency-settings);
+}
+
+/* removing backgrounds */
+.app .chat-3bRxxu form, .app .container-2Thooq, .container-PNkimc, .app .title-3qD0b-, .app .headerBar-UHpsPw, .app .content-yTz4x3, .app .messagesWrapper-3lZDfY, .app .members-1998pB, .app .inner-zqa7da, .app .typing-2GQL18, .app .wrapper-29NfPK, .search-bar, .app .markup-2BOw-j pre, .app .hljs, .app .markup-2BOw-j code, .app .markup-2BOw-j code.inline, .app .contentRegion-3nDuYy, .app .sidebarRegion-VFTUkN {
+	background: none;
+}
