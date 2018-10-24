@@ -1,0 +1,507 @@
+/* transparency of a few boxes */
+.app .inner-zqa7da, .app .search .search-bar, .theme-dark .hasMore-3e72_v button, .theme-dark .markup-2BOw-j code, .theme-dark .markup-2BOw-j code.inline, .theme-dark .content-35aVm0 {
+	background-image: linear-gradient(to right, rgba(19, 42, 23, 0.6), rgba(0,0,0,0.5));
+	background-image: rgba(0,0,0,0);
+	border: 1px solid #171d24;
+}
+/* removes a background of a box */
+.theme-dark .content-35aVm0 {
+	background-color: transparent;
+}
+
+/* selected channel / voice */
+.contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM {
+	background-image: linear-gradient(to right, #132a17, rgba(0,0,0,0.0));
+	background-color: rgba(0,0,0,0.2);
+	border: 1px solid #171d24;
+}
+/* Find or start a conversation box */
+.search-bar .search-bar-inner {
+	background-color: rgba(19, 45, 26, 0.48);
+	border: 1px solid;
+}
+/* scroll bars */
+
+/* background of trackpiece and border*/
+.app .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-track-piece, .app .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-track {
+	background: rgba(0,0,0,0.2);
+	border: 2px solid #131f1b;
+	border-radius: 35px;
+}
+
+/* Handle */ /* normal and hover */
+.app .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-thumb {
+    background: #112616; 
+	border:1px solid #0d1e11;
+}
+.app .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-thumb:hover {
+    background: #1a3922; 
+	border:1px solid #0d1e11;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+/* server channels grey text color */
+.nameDefaultText-24KCy5, .nameDefaultVoice-3WUH7s, .nameLockedText-3pqQcL, .nameLockedVoice-26MhB1 {
+    color: #8c8f92;
+}
+
+/* settings */
+
+/* color text of some descriptions at settings due to bright background */
+.app .description-3_Ncsb, .app #bd-settingspane-container .ui-switch-item .style-description, .app .text-GwUZgS, .app .title-2BxgL2 {
+	color: #dcddde;
+}
+
+/* settings selected button of categories */
+.side-8zPYf6 .itemSelected-1qLhcL, .app #bd-settings-sidebar .ui-tab-bar-item.selected, .channel-2QD9_O.selected-1HYmZZ a {
+	background-image: linear-gradient(to right, #132a17, rgba(0,0,0,0.0));
+	background-color: rgba(0,0,0,0.2)!important;
+	border: 1px solid #171d24;
+}
+.app .side-8zPYf6 .itemDefault-3Jdr52:hover, .theme-dark .side-8zPYf6 .itemHover-EnbcjT:hover, .app #bd-settings-sidebar .ui-tab-bar-item:hover, .contentHoveredText-2D9B-x, .app .member-3W1lQa:hover .content-OzHfo4, .channel-2QD9_O:hover a {
+    background-image: linear-gradient(to right, rgba(19,42,23,0.4), rgba(0,0,0,0));
+	background-color: rgba(0,0,0,0.2)!important;
+	border: 1px solid #171d24;
+    color: #f6f6f7;
+}
+/* changes color of category text including discord nitro */
+.side-8zPYf6 .item-PXvHYJ {
+	color: #b9bbbe!important;
+}
+
+/* */
+.video-1FfuMD, .app .wrapper-29NfPK.minimum-2d6zH6 .actions-2vadYq .center-1Vp33r {
+    background-color: rgba(0,0,0,0.4);
+	border: 1px solid #171d24;
+}
+
+/*  */
+.theme-dark .guildsAdd-21_IdK {
+	background-image: radial-gradient(rgba(0,0,0,0.0), rgba(19, 42, 23, 0.22), rgb(19, 42, 23))!important;
+	background-color: rgba(0,0,0,0.2)!important;
+	border-color: #514d2f;
+}
+/* No channels area background around image */
+.image-1GzsFd {
+    background-color: rgba(32, 80, 48, 0.39);
+    border: 1px solid rgba(17, 34, 51, 0.24);
+    border-radius: 10px;
+}
+/* settings area */
+
+/* My account TAB */ /* Remove 2F2 and Remove Authentication background color */
+.lookOutlined-3sRXeN.colorRed-1TFJan {
+    border-color: rgba(240,71,71,.3);
+    color: #f04747;
+    background-color: rgba(0,0,0,0.2);
+}
+/* Profile box of my account and inside */
+.app .cardPrimary-1Hv-to, .theme-dark .cardPrimaryEditable-3KtE4g, .app .bda-slist li, .app .cardPrimaryOutline-29Ujqw {
+    background: rgba(32,34,37,.6);
+    border-color: #2c6137;
+    background-color: rgba(20, 42, 23, 0.4);
+}
+
+/* buttons of my account and inside profile box and some bd buttons */ /* view backup codes and edit button normal state */
+.lookFilled-1Gx00P.colorBrand-3pXr91, .lookFilled-1Gx00P.colorGreen-29iAKY, .app .questionMark-CWEQZn, .bd-pfbtn, .bda-slist .bda-footer button, .wrapper-2NJDcI {
+    background-color: rgba(43, 99, 56, 0.9);
+}
+/* hover state */
+.lookFilled-1Gx00P.colorBrand-3pXr91:hover, .lookFilled-1Gx00P.colorGreen-29iAKY:hover, .app .questionMark-CWEQZn:hover {
+    background-color: rgba(33, 78, 43, 0.9);
+    color: #fff;
+}
+/* Connect your account button */
+ .theme-dark .accountBtnInner-sj5jLs {
+    background-color: rgba(34, 75, 41, 0.60);
+	border-color: rgba(38, 88, 49, 0.9);
+}
+.theme-dark .accountBtnInner-sj5jLs:hover {
+    background-color: rgba(24, 64, 30, 0.9);
+	border-color: rgba(38, 88, 49, 0.9);
+}
+/* border color of when selected are changing name, email and password */
+.app .input-cIJ7To.focused-1mmYsC, .app .input-cIJ7To:focus {
+	border-color: rgba(43, 99, 56, 0.9);
+}
+/* end of my account TAB customization */
+
+/* ESC Button at settings */ /* border */
+.app .closeButton-1tv5uR {
+    border-color: var(--ESC-Button-color);
+}/* X button */
+.closeButton-1tv5uR svg[name="Close"] path {fill: var(--ESC-Button-color); d: path('M 9.5 3.205 L 8.795 2.5 L 6 5.295 L 3.205 2.5 l -0.705 0.705 L 5.295 6 L 2.5 8.795 l 0.705 0.705 L 6 6.705 L 8.795 9.5 l 0.705 -0.705 L 6.705 6');}
+/* ESC text color */
+.app .keybind-KpFkfr {
+	color: var(--ESC-Button-color);
+}
+/* end of esc button settings */
+/**/
+
+/* Jiiks and Zerebos text color and some other areas */
+a, .bda-slist .bda-footer a, .lookLink-9FtZy-.colorLink-35jkBc, .lookLink-9FtZy-.colorLink-35jkBc:hover .contents-18-Yxp, .theme-dark .topic-2QX7LI a, .anchor-3Z-8Bb, .hasMore-3e72_v button {
+    color: #50b164!important;
+}
+.lookLink-9FtZy-.colorLink-35jkBc:hover .contents-18-Yxp {
+    background-image: linear-gradient(0deg,transparent,transparent 1px,#2d753c 0,#2d753c 2px,transparent 0);
+}
+/**/
+
+/* some description text color at settings */
+.app .subText-2Zhkkh, .app .subText-2Zhkkh {
+    color: #c1c1c1;
+}
+input[type="text" i].input-cIJ7To::-webkit-input-placeholder {
+	color: #c1c1c1;
+}
+
+/* settings button the huge ones */
+.app .cardPrimaryEditable-3KtE4g[style*="background-color: rgb(114, 137, 218);"] {
+	background-color: rgba(43, 99, 56, 0.9)!important;
+	border: 1px solid rgba(80, 117, 88, 0.9)!important;
+}
+
+/* part of right click options and hover state and submenu background*/
+.theme-dark.contextMenu-HLZMGh, .theme-dark .select-2TCrqx .Select-menu-outer, .app .autocomplete-1vrmpx, .app .card-FDVird:before, .app .button-mM-y8i, .theme-dark .container-3ayLPN, .theme-dark .attachPopout-1n-ZKM {
+	background-color: rgba(46, 98, 55, 0.9);
+}
+.theme-dark .item-1Yvehc:hover, .app .selectorSelected-1_M1WV, .theme-dark .option-96V44q.selected-rZcOL-, .theme-dark .item-1GzJrl:hover, .theme-dark .attachPopoutRow-KrE-f6:hover {
+	background-color: rgba(35, 64, 40, 0.99);
+}
+.theme-dark .option-96V44q:after {
+    background: linear-gradient(90deg,rgba(54,57,63,0),rgba(35, 64, 40, 0.99) 80%);
+}
+.theme-dark .option-96V44q.selected-rZcOL-:after {
+    background: linear-gradient(90deg,rgba(35,38,42,0),rgba(35, 64, 40, 0.99) 50%);
+}
+/* submenu hover */
+.app .select-2TCrqx .Select-option.is-focused {
+    background: rgba(0,0,0,.3);
+}
+/*  */
+.app .select-2TCrqx .Select-control {
+	background-color: rgba(43, 99, 56, 0.6);
+}
+/* Bar fill filled area and background fill */
+.barFill-23-gu- {
+    background: rgba(34, 150, 61, 0.8);
+}
+.app .bar-2Qqk5Z {
+    background: rgba(48, 72, 42, 0.61);
+}
+/* checker box ON / OFF*/
+.themeDefault-24hCdX.valueChecked-m-4IJZ, #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked {
+	background-color: rgba(29, 99, 41, 0.99);
+}
+.themeDefault-24hCdX, #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch {
+    background-color: rgba(86, 123, 81, 0.6);
+}
+/* overlay notifications at settings overlay option background border selected hover area and disabled areas */
+.wrapper-3jrx9n {
+    background-color: rgba(20, 42, 23, 0.4);
+    border: 2px solid rgba(38, 88, 49, 0.9);
+}
+.selected-mKYnfr.option-n0icdO {
+	background-color: rgb(39, 113, 49);
+	box-shadow: 0 2px 0 rgba(34, 64, 37, 0.3);
+}
+.option-n0icdO:hover {
+    background-color: rgba(39, 113, 49, 0.7);
+}
+.option-n0icdO {
+    background-color: rgba(28, 255, 22, 0.13);
+}
+/**/
+
+/* mention channel normal state and hover */
+.app .wrapper-3WhCwL {
+    background-color: rgba(114, 218, 121, 0.2);
+    color: #7dd47c;
+}
+.app .wrapperHover-1GktnT:hover {
+    background-color: rgba(35, 103, 37, 0.7);
+	color: #7dd47c;
+}
+
+/* mark values and dash, chat options at settings */
+.app .markValue-2DwdXI {
+    color: #8fb1a0;
+}
+.app .markDash-3hAolZ {
+    background: #8fb1a0;
+}
+.app .fontScaleLarge-3xtq7i, .app .fontScaleSmall-368quy {
+	color: #8fb1a0;
+}
+
+/* checkbox background, check color and border */
+.app .checked-3_4uQ9 {
+	background-color: #459c5f;
+}
+.app .checked-3_4uQ9 svg[name="Checkmark"] polyline {
+	stroke: rgba(38, 88, 49, 0.9); stroke-width: 2;
+}
+.app .checked-3_4uQ9[style*="border-color: rgb(114, 137, 218);"] {
+	border-color: rgba(38, 88, 49, 0.9)!important;
+}
+/**/
+
+/* Privacy And Safety buttons */ /* RED */
+.app .cardPrimaryEditable-3KtE4g[style*="background-color: rgb(240, 71, 71);"] {
+	background-color: rgba(240, 71, 71, 0.4)!important;
+}/* ORANGE */
+.app .cardPrimaryEditable-3KtE4g[style*="background-color: rgb(250, 166, 26);"] {
+	background-color: rgba(250, 166, 26, 0.4)!important;
+}/* GREEN */
+.app .cardPrimaryEditable-3KtE4g[style*="background-color: rgb(67, 181, 129);"] {
+	background-color: rgba(67, 181, 129, 0.4)!important;
+}
+/* League OF Legends BUTTON */
+.app .elevationLow-2lY09M[style*="background-color: rgb(2, 31, 37);"] {
+	background-color: rgba(2, 31, 37, 0.7)!important;
+}
+/* Steam Button */
+.app .elevationLow-2lY09M[style*="background-color: rgb(24, 35, 50);"] {
+	background-color: rgba(24, 35, 50, 0.7)!important;
+}
+/* spotify */
+.app .elevationLow-2lY09M[style*="background-color: rgb(29, 185, 84);"] {
+	background-color: rgba(29, 185, 84, 0.7)!important;
+}
+
+/* new messages border and background */
+/**/
+
+/* voice channel numbers at channels color font */
+.wrapper-2NJDcI {
+    color: #bbbbbb;
+}
+/**/
+
+/* new messages blue area background and border */
+.newMessagesBar-mujexs {
+    background-color: rgba(114,137,218,0.6);
+    border: 1px solid rgb(114, 137, 218);
+}
+/* old messages area background and border */
+.app .jumpToPresentBar-9P20AM {
+    background-color: rgba(116,127,141,0.6);
+    border: 1px solid rgba(160, 160, 160, 0.6);
+}
+
+/* random code for text colors */
+.app .description-11DmNu, .app .descriptionUsername-J_75O8, .app .contentTitle-2tG_sM, .app .user-settings-games .last-played {
+    color: #cfd1d4;
+}
+.app .descriptionDiscriminator-3vUOCc, .user-settings-games .game:hover .overlay-status-text, .app .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI {
+    color: rgba(187, 187, 187, 0.6);
+}
+
+/* auto complete when mention in chat */
+.app .autocomplete-1vrmpx, .theme-dark .container-3ayLPN, .theme-dark .attachPopout-1n-ZKM {
+	border: 1px solid green;
+}
+
+/* no game detected */
+.app .user-settings-games .not-detected {
+    background-color: rgba(0,0,0,0.2);
+}
+
+/* hover games overlay background and X box background and box shadow */
+.app .button-mM-y8i {
+    box-shadow: 0 0 0 1px rgba(37, 214, 117, 0.6);
+}
+.card-FDVird:before {
+	border: 1px solid rgba(37, 214, 117, 0.6)!important;
+}
+
+/* markup border */
+.app .markup-2BOw-j code, .app .markup-2BOw-j code, .app .markup-2BOw-j code.inline {
+	border: 1px solid rgba(47, 111, 34, 0.6);
+}
+
+/* embed */
+.app .embedInner-1-fpTo {
+    background-color: rgba(57, 84, 55, 0.3);
+    border-color: rgba(107, 162, 114, 0.6);
+}
+/* Pill */
+.app .embedPill-1Zntps {
+    background-color: #347732;
+}
+/**/
+
+/* cards normal state just online */
+/* top area */
+.theme-dark .headerNormal-T_seeN {
+    background-color: rgba(35, 97, 45, 0.90);
+}
+/* below parts */
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6, .theme-dark .footer-1fjuF6 {
+	background-color: rgba(21, 47, 23, 0.9);
+}
+/* quick message button */
+.theme-dark .quickMessage-1yeL4E {
+    background-color: rgba(35, 97, 45, 0.90);
+    border-color: rgba(19, 134, 38, 0.9);
+}
+/* cards playing a game state */
+.headerPlaying-j0WQBV {
+    background: rgba(51, 108, 117, 0.6);
+}
+/* cards spotify */
+.headerSpotify-zpWxgT {
+    background: rgba(35, 97, 45, 0.90);
+}
+.userPopout-3XzG_A {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+/* custom css normal mode */
+.app .editor {
+    background: transparent;
+}
+.app .ace-monokai, .ace-monokai {
+    background: linear-gradient(to right, rgba(19, 42, 23, 0.6), rgba(0,0,0,0.5));
+}
+.app .ace-monokai .ace_gutter, .ace-monokai .ace_gutter {
+    background: transparent;
+    background-image: linear-gradient(to right, rgba(19, 42, 23, 0.5), rgba(0,0,0,0.1));
+	border: 1px solid #171d24;
+}
+.contentRegion-3nDuYy #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls {
+    background: linear-gradient(to right, rgba(19, 42, 23, 0.6), rgba(0,0,0,0.5));
+}
+.app .ace-monokai .ace_marker-layer .ace_active-line, .ace-monokai .ace_marker-layer .ace_active-line {
+    background: rgba(19, 42, 23, 0.6);
+}
+.ace-monokai .ace_gutter-active-line {
+    background: rgba(19, 70, 0, 1);
+}
+#bd-customcss-detach-container {
+    background-color: transparent;
+}
+/* blocked messages */
+.app .messageGroupBlocked-3wrQQX.revealed-1_RKsf, .app .messageGroupBlocked-3wrQQX {
+	background-color: rgba(43, 94, 55, 0.8);
+	border-color: rgba(43, 99, 56, 0.9);
+}
+.theme-dark .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh- {
+	background-color: rgb(35, 70, 34);
+}
+.theme-dark .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-:hover {
+	background-color: rgb(37, 80, 36);
+}
+/* selected category when searching */
+.app .searchAnswer-3Dz2-q, .app .searchFilter-2ESiM3 {
+    background-color: #1e672d;
+}
+/* delete accout page at settings */
+/* brighter area of green */
+.app .modal-3HD5ck, .app .search-results-wrap, .theme-dark .messagesPopoutWrap-1MQ1bW, .theme-dark .menu-Sp6bN1, .theme-dark .modal-3HD5ck, .theme-dark .tileWrapper-2khh-w, .theme-dark .root-1bFE0x, .app .bodySection-jqkkIP, .app .row-1bU71H, .app .card-7JP0BX, .app .dockItem-2kQDqg:hover {
+    background-color: rgba(43, 94, 55, 0.8);
+}
+/* darker area of green */
+.app .footer-2yfCgX, .app .search-results-wrap .search-header, .theme-dark .focused-2bY0OD, .theme-dark .header-ykumBX, .theme-dark .footer-2yfCgX, .theme-dark .tileWrapper-2khh-w:hover, .theme-dark .iconCircle-1dlYo0, .app .header-1RC2Wb {
+    background-color: rgb(31, 53, 36);
+}
+/* a border in store */
+.theme-dark .section-7tu4tu {
+	border-bottom-color: rgb(31, 53, 36);
+}
+.app .input-cIJ7To:focus {
+    border-color: rgba(43, 99, 56, 0.9);
+}
+/* searching box when found result */
+.app .search-results-wrap .search-result .hit, .theme-dark .messageGroupWrapper-o-Zw7G {
+    background-color: rgba(31, 82, 28, 0.58);
+}
+.app .search-results-wrap .channel-separator .channel-name, .theme-dark .dim-1l4L4y span, .app .jumpButton-3DTcS_, .app .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+    background-color: #1e672d;
+}
+.app .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover, .app .lookFilled-1Gx00P.hoverGreen-1gjdJc.hasHover-3X1-zV:hover, .app .lookFilled-1Gx00P.hoverBrand-1_Fxlk.hasHover-3X1-zV:hover {
+	background-color: #1c5628;
+}
+.app .search-results-wrap .search-result:before, .app .search-results-wrap .search-result:after {
+    background-image: linear-gradient(0deg,rgba(47,49,54,0),#1e672d);
+}
+.theme-dark .search-results-wrap .search-result .hit {
+	-webkit-box-shadow: 0 0 10px 6px #1e672d;
+}
+.theme-dark .search-results-wrap .action-buttons .jump-button {
+    background-color: #1e672d;
+}
+.app .search-results-wrap .search-result .search-result-message.hit, .theme-dark .messageGroupWrapper-o-Zw7G {
+    border: 2px solid rgba(48, 134, 47, 0.6);
+}
+.app .messageGroupWrapper-o-Zw7G:hover {
+    border-color: rgba(36, 156, 64, 0.8);
+}
+.theme-dark .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug {
+	background: none;
+	box-shadow: none;
+}
+/* makes public button and discord icon green with !important */
+.app .guild-1EfMGQ .guildInner-3DSoA4, .app .guild-1EfMGQ .guildInner-3DSoA4[style*="background-color: rgb(47, 49, 54);"] {
+    background: var(--background-discord-public-color)!important;
+}
+/* small color changes */
+.app .guild-1EfMGQ .guildInner-3DSoA4 a {
+	color: #fff!important;
+}
+.theme-dark .cardPrimaryEditable-3KtE4g[style*="border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218);"] {
+	background-color: rgba(43, 99, 56, 0.9)!important;
+	border: 1px solid rgba(80, 117, 88, 0.9)!important;
+}
+.theme-dark .checked-3_4uQ9[style*="border-color: rgb(114, 137, 218);"] {
+	border-color: #459c5f!important;
+}
+.theme-dark .checked-3_4uQ9 svg[name="Checkmark"] polyline {
+	stroke: rgba(38, 88, 49, 0.9); stroke-width: 2;
+}
+.theme-dark .checked-3_4uQ9[style*="border-color: rgb(114, 137, 218);"] {
+	border-color: rgba(38, 88, 49, 0.9)!important;
+}
+.theme-dark .checked-3_4uQ9 {
+	background-color: rgb(46, 160, 65);
+}
+/* store */
+.theme-dark .itemBackground-1jfD8p, .headerButtonColor-G7_f-V {
+    background-color: #1e672d;
+}
+.theme-dark .itemBackground-1jfD8p:before {
+    background: radial-gradient(ellipse at top,rgba(54,57,63,0),#1e672d),linear-gradient(90deg,#1e672d 0,rgba(54,57,63,0) 40%,rgba(54,57,63,0) 60%,#1e672d),linear-gradient(0deg,#1e672d 0,rgba(54,57,63,0) 25%);
+}
+.app .mediaDescription-31GsyQ {
+    background: linear-gradient(180deg,transparent,rgba(30, 103, 45, 0.75) 45%,#1e672d);
+}
+.theme-dark .footerSub-1Jedbi {
+    color: #61ca7d;
+}
+/* activity page */
+.article-3kb3qm {
+    background-color: rgb(25, 84, 41);
+}
+.paginationItem-2lUq0s:after {
+    background: linear-gradient(270deg,transparent 0,rgb(31, 53, 36));
+}
+
+.paginationItem-2lUq0s {
+	background: rgba(43, 94, 55, 0.8);
+}
+.paginationItem-2lUq0s:hover {
+    background: #206d35;
+}
+.app .body-SKIE6r {
+	background-color: transparent;
+}
+.app .playTime-1laRtO {
+    color: #a8b1b9;
+}
+.news-2GDtLJ {
+    background-color: rgb(25, 84, 41);
+}
