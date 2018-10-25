@@ -19,7 +19,8 @@
     border-radius: 5px;
     text-align: center;
     padding: 8px;
-    height: 4%;
+	padding-left: 16px;
+    height: 40px;
 }
 /* Chat box background color and border and find or start a conversation */
 .theme-dark .inner-zqa7da, .search-bar .search-bar-inner {
