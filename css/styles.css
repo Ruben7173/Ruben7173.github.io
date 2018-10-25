@@ -1,0 +1,281 @@
+/* body background, font etc */
+body {
+  background: url(https://www.designyourway.net/diverse/darkpat/wallpaper_800x600_1336.jpg);
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #606c71; 
+ }
+ .home-bg {/*
+  background: url(https://www.uxfree.com/wp-content/uploads/2016/08/raindrops-4k-living-background.jpg) no-repeat center center fixed;*/
+}
+/* background with opacity */
+
+.home-bg::after {
+  background: url(https://i.pinimg.com/originals/e1/d8/89/e1d889e56ca913332380968315015e47.jpg) center/cover no-repeat;
+  content: "";
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;   
+}
+/**/
+
+/* top nav area positioning */
+.topnav {
+	position: relative;
+	display: inline-block;
+	padding-right: 15px;
+	width: 100%;
+}
+/* page header background and position */
+.page-header {
+	background-color: #37383a;
+    background-image: linear-gradient(120deg, rgba(18,102,111,1), rgba(21,39,119,1));
+	padding-bottom: 20px;
+	border-bottom: 2px solid #4097f9;
+}
+
+/* Top Navigation Button normal and hover */
+.navbtn {
+    background-color: rgba(58, 168, 202, 0.3);
+    border: 1px solid #5289c7;
+	color: rgba(255, 255, 255, 0.7);
+}
+.navbtn {
+	border-radius: 5px;
+    padding: 10px;
+	text-decoration: none;
+}
+.navbtn:hover {
+	background-color: rgba(66, 210, 255, 0.3);
+    border: 1px solid #5289c7;
+}
+
+/* title Logo */
+.title {
+	position: relative;
+	margin-bottom: -74px;
+	padding-left: 15px;
+	display: inline-block;
+	overflow: hidden;
+}
+@media screen and (max-width: 990px) {
+.title {
+    width: 10px;
+    margin-top: 0;
+}}
+
+/**/
+
+/* makes a box around whole website */
+* {
+  box-sizing: border-box; }
+
+/* navbar active button personalization */
+.navbaractivebtn {
+	background-color: rgba(1, 195, 255, 0.4);
+	color: rgba(255, 255, 255, 0.7);
+    border: 1px solid #4097f9;
+}
+/* navbar active button base code */
+.navbaractivebtn {
+	padding: 10px;
+	display: inline-block;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+/* text title */
+.texttitle {
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 90px;
+	text-align: center;
+	color: #fff;
+	text-shadow: 3px 4px #4c4b4b;
+}
+.textmain {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 35px;
+	text-align: center;
+	color: #fff;
+    text-shadow: 3px 3px #171515;
+}
+
+/* position for the whole text of home page and animations*/
+.textbox {
+	background:rgba(0,0,0,0.4);
+	border: 1px solid #000;
+    box-shadow: 0px 42px 142px 10px #000000;
+    animation: slide-fwd-center 1.5s ease-in both;
+}
+@keyframes slide-fwd-center {
+  0% {
+    opacity: 0;
+  }
+  100% {
+	opacity: 1;
+  }
+}
+
+/**/
+
+.main-content {
+	margin-left: 25px;
+	margin-right: 15px;
+}
+
+.theme-box {
+	border: 2px solid #4097f9;
+}
+
+/* other button */
+/* Top Navigation Button normal and hover */
+.btn {
+    background-color: rgba(136, 136, 136, 0.3);
+    border: 1px solid #797979;
+    color: rgba(255, 255, 255, 0.7);
+	position: relative;
+    top: 38px;
+    left: 25px;
+	margin-right: 25px;
+}
+.btn {
+	border-radius: 5px;
+    padding: 10px;
+	text-decoration: none;
+}
+.btn:hover {
+	background-color: rgba(206, 197, 197, 0.3);
+    border: 1px solid #797979;
+}
+/* button for previews */
+.btnprev {
+    background-color: rgba(136, 136, 136, 0.3);
+    border: 1px solid #797979;
+    color: rgba(255, 255, 255, 0.7);
+}
+.btnprev {
+	border-radius: 5px;
+    padding: 4px;
+	text-decoration: none;
+}
+.btnprev:hover {
+	background-color: rgba(206, 197, 197, 0.3);
+    border: 1px solid #797979;
+}
+
+/* donate button */
+.btndonate {
+	background-color: rgb(17, 57, 132);
+    border: 1px solid #009de1;
+    color: rgba(255, 255, 255, 0.7);
+}
+.btndonate {
+    border-radius: 10px;
+    padding: 8px;
+	text-decoration: none;
+	cursor: pointer;
+}
+.btndonate:hover {
+	background-color: rgb(15, 47, 107);
+    border: 1px solid #009de1;
+}
+
+/* divider */
+hr {
+	position: relative;
+    top: 88px;
+    border-color: #424242;
+}
+
+/* for side by side images */ /* begin */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+    .column {
+        width: 100%;
+    }
+}
+/* End */
+
+/* Donation box */
+.donationbox {
+	position: relative;
+	top: 200px;
+    left: 90px;
+}
+
+/* text position of box 1*/
+.text {
+	color: #fff;
+	position: absolute;
+    margin-left: 580px;
+    top: 115px;
+}
+/* box 2 */
+.text2 {
+	color: #fff;
+	position: absolute;
+    margin-left: 580px;
+    top: 670px;
+}
+/* box3 */
+.text3 {
+	color: #fff;
+	position: absolute;
+    margin-left: 580px;
+    top: 1220px;
+}
+/* box4 */
+.text4 {
+	color: #fff;
+	position: absolute;
+    margin-left: 580px;
+    top: 1759px;
+}
+/* box5 */
+.text5 {
+	color: #fff;
+	position: absolute;
+    margin-left: 580px;
+    top: 2309px;
+}
+
+/* text position of donation*/
+.textdonation {
+	color: #fff;
+	position: absolute;
+	left: 490px;
+    top: 125px;
+}
+
+/* placeholder text color */
+::placeholder {
+	color: #c1c1c1;
+}
+
+/* text position of contact*/
+.textcontact {
+	color: #fff;
+	position: absolute;
+	left: 25px;
+    top: 125px;
+}
