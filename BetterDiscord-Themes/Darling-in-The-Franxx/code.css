@@ -1232,3 +1232,7 @@ css-editor #bd-customcss-attach-controls button {
 .theme-dark .searchBox-3Y2Vi7 {
     background-color: rgba(21, 37, 64, 0.46);
 }
+/* extra fixes */
+.theme-dark .tileWrapper-2khh-w {
+    background-color: rgba(17, 34, 51, 0.6);
+}
