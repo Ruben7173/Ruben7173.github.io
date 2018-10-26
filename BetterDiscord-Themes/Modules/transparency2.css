@@ -14,7 +14,7 @@
 }
 
 /* transparency for channels and members list and private channels and left side of settings*/
-.container-PNkimc, .membersWrap-2h-GB4, .privateChannels-1nO12o, .app .sidebarRegion-VFTUkN, .app .inner-zqa7da {
+.container-PNkimc, .membersWrap-2h-GB4, .privateChannels-1nO12o, .app .sidebarRegion-VFTUkN {
 	background-color: var(--transparency-2);
 }
 /* Transparency for the container at the bottom of channels */
@@ -38,4 +38,11 @@
 /* removes a border under better discord at channels */
 .unread-1xRYoj {
 	display:none;
+}
+/* removes a margin bottom */
+.container-2Thooq {
+	margin-bottom: 0px;
+}
+.base-3dtUhz {
+    border-radius:0px;
 }
