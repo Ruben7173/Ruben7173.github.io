@@ -35,3 +35,7 @@
 .flexCenter-3_1bcw {
     margin-top: 3px;
 }
+/* removes a border under better discord at channels */
+.unread-1xRYoj {
+	display:none;
+}
