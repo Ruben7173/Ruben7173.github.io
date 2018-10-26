@@ -1,0 +1,37 @@
+/* Background Image */
+.appMount-3VJmYg {
+	background: var(--background-image);
+}
+
+/* removing backgrounds */
+.container-2lgZY8, .channels-Ie2l6A, .app .layer-3QrUeG, .app .layers-3iHuyZ, .app .chat-3bRxxu, .app .channelTextArea-rNsIhG, .app .content-yTz4x3, .app .messagesWrapper-3lZDfY, .app .chat-3bRxxu form, .app .members-1998pB, .app .headerBar-UHpsPw, .app .standardSidebarView-3F1I7i, .app .typing-2GQL18 {
+	background: transparent;
+}
+
+/* Guild and Top bar transparency */
+.app .guildsWrapper-5TJh6A, .typeWindows-1za-n7 {
+	background-color: var(--transparency-1);
+}
+
+/* transparency for channels and members list and private channels and left side of settings*/
+.container-PNkimc, .membersWrap-2h-GB4, .privateChannels-1nO12o, .app .sidebarRegion-VFTUkN, .app .inner-zqa7da {
+	background-color: var(--transparency-2);
+}
+/* Transparency for the container at the bottom of channels */
+.app .container-2Thooq {
+	background-color: var(--transparency-3);
+}
+
+/* chat and top area and other secondary pages */
+.app .title-3qD0b-, .flex-spacer, .app .activityFeed-28jde9, .app .gameLibrary-TTDw4Y, .app .applicationStore-1pNvnv, .theme-dark #friends, .app .contentRegion-3nDuYy {
+	background-color: var(--transparency-4);
+}
+
+/* removes margin from top area and adds it to the nav buttons + discord logo */
+.typeWindows-1za-n7 {
+	height: 21px;
+    margin-top: 0px;
+}
+.flexCenter-3_1bcw {
+    margin-top: 3px;
+}
