@@ -27,6 +27,12 @@
 	background-image: var(--transparency-3);
 }
 
+/* extra for transparency 3 special case */
+.themeDark-3Ap_7i {
+	background-color: transparent;
+	background-image: var(--transparency-3);
+}
+
 /* members transparency */
 .membersWrap-2h-GB4 {
 	background-image: var(--transparency-4);
