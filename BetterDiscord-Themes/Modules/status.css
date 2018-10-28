@@ -15,7 +15,7 @@
     border: 2px solid #f04747!important;
 }
 /* offline */
-.channel-2QD9_O .status {
+.invisible-1kp8Z0, .offline-3qoTek, .unknown-Ms2zdV {
     background-color: transparent;
     border: 2px solid #2f3136;
 }
@@ -38,6 +38,6 @@
 .maskProfile-1ObLFT, .mask-3OgeRz {
     -webkit-mask: none;
 }
-.statusProfile-3ynqtt.online-2S838R {
+.statusProfile-3ynqtt.online-2S838R, .statusProfile-3ynqtt.invisible-1kp8Z0, .statusProfile-3ynqtt.offline-3qoTek, .statusProfile-3ynqtt.unknown-Ms2zdV {
     -webkit-box-shadow: none;
 }
