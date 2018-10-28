@@ -1,0 +1,43 @@
+/* changes status from a circle to a border around pfp */
+/* online */
+.online-2S838R {
+    border: 2px solid #43b581!important;
+    background-color: transparent;
+}
+/* idle */
+.idle-3DEnRT {
+    background-color: transparent;
+    border: 2px solid #faa61a!important;
+}
+/* do not disturb */
+.dnd-1_xrcq {
+    background-color: transparent;
+    border: 2px solid #f04747!important;
+}
+/* offline */
+.channel-2QD9_O .status {
+    background-color: transparent;
+    border: 2px solid #2f3136;
+}
+/* position of those statuses in whos online list */
+.status-2s6iDp, .avatar-small .status {
+    bottom: -19px;
+    height: 28px;
+    width: 28px;
+    top: -3%;
+    left: -1px;
+    border-radius: 999px;
+}
+/* position of those statuses in profile */
+.statusProfile-3ynqtt {
+    height: 88px;
+    width: 88px;
+    top: 0px;
+    left: -1px;
+}
+.maskProfile-1ObLFT, .mask-3OgeRz {
+    -webkit-mask: none;
+}
+.statusProfile-3ynqtt.online-2S838R {
+    -webkit-box-shadow: none;
+}
