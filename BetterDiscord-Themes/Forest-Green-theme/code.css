@@ -157,7 +157,19 @@ a, .bda-slist .bda-footer a, .lookLink-9FtZy-.colorLink-35jkBc, .lookLink-9FtZy-
 input[type="text" i].input-cIJ7To::-webkit-input-placeholder {
 	color: #c1c1c1;
 }
-
+/* mardown in mentioned messages border and removal of background */
+.theme-dark .hljs {
+    background: transparent;
+    border: none;
+}
+.theme-dark .markup-2BOw-j code {
+    background-image: linear-gradient(to right, #132a17, rgba(0,0,0,0.0));
+	background-color: rgba(0,0,0,0.2)!important;
+	border: none;
+}
+.theme-dark .markup-2BOw-j pre {
+    border-color: rgb(46, 117, 46);
+}
 /* settings button the huge ones */
 .app .cardPrimaryEditable-3KtE4g[style*="background-color: rgb(114, 137, 218);"] {
 	background-color: rgba(43, 99, 56, 0.9)!important;

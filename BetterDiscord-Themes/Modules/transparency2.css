@@ -22,20 +22,15 @@
 }
 
 /* chat and top area and other secondary pages */
-.app .title-3qD0b-, .flex-spacer, .app .activityFeed-28jde9, .app .gameLibrary-TTDw4Y, .app .applicationStore-1pNvnv, .theme-dark #friends, .app .contentRegion-3nDuYy, .app .noChannel-Z1DQK7 {
+.app .activityFeed-28jde9, .app .gameLibrary-TTDw4Y, .app .applicationStore-1pNvnv, .theme-dark #friends, .app .contentRegion-3nDuYy, .app .noChannel-Z1DQK7 {
 	background: transparent;
 	background-image: var(--transparency-3);
 }
 
 /* extra for transparency 3 special case */
-.themeDark-3Ap_7i {
+.themeDark-3Ap_7i, .app .chat-3bRxxu {
 	background-color: transparent;
 	background-image: var(--transparency-3);
-}
-
-/* members transparency */
-.membersWrap-2h-GB4 {
-	background-image: var(--transparency-4);
 }
 
 .typeWindows-1za-n7 {
