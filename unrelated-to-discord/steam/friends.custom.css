@@ -132,7 +132,7 @@ button.DialogButton.roleButton.owner:disabled {
 }
 
 /* settings chat buttons */
-.DialogOnOffToggle_Option.Active, button.DialogButton.Primary {
+.DialogOnOffToggle_Option.Active, button.DialogButton.Primary, button.DialogButton.Primary {
     color: #dfe3e6;
     background: rgb(102 36 226);
 }
@@ -1121,4 +1121,14 @@ button.DialogButton:disabled, button.DialogButton:disabled:hover {
 .DialogSlider_Slider {
     border-color: #141414!important;
     background: #1b1a1a!important;
+}
+
+/* fixes for selected areas on a few areas */
+.VoiceToggle, .chatTextarea, button.DialogButton {
+    background: #1A1A1A!important;
+    border: 1px solid #0e0d0d!important;
+}
+/* hover fix on some areas at the settings */
+.DialogOnOffToggle_Option:hover:not(.Active) {
+    background: #545353!important;
 }
