@@ -99,7 +99,7 @@ button.DialogButton.roleButton.owner:disabled {
 }
 /* few more boxes at settings */
 .FriendsSettingsNotificationRow, .FriendsSettingsFlashSection_ButtonRow, .FriendsSettingsVoiceTransmissionType_ButtonRow {
-    background: #262626!important;
+    background: #141414!important;
 }
 /* groups section */
 .chatRoomListContainer {
