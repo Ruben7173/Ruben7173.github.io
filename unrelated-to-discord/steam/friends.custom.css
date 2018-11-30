@@ -1117,7 +1117,6 @@ background-color: #131313!important;}
     border-color: #141414!important;
     background: #1b1a1a!important;
 }
-
 /* fixes for selected areas on a few areas */
 .VoiceToggle, .chatTextarea, button.DialogButton {
     background: #1A1A1A!important;
