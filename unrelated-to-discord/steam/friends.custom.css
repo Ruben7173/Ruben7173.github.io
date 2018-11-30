@@ -652,7 +652,7 @@ button.DialogButton.roleButton.owner:disabled {
 }
 /* few more boxes at settings */
 .FriendsSettingsNotificationRow, .FriendsSettingsFlashSection_ButtonRow, .FriendsSettingsVoiceTransmissionType_ButtonRow {
-    background: #262626!important;
+    background: #141414!important;
 }
 /* groups section */
 .chatRoomListContainer {
@@ -686,8 +686,7 @@ button.DialogButton.roleButton.owner:disabled {
 
 /* settings chat buttons */
 .DialogOnOffToggle_Option.Active, button.DialogButton.Primary {
-    color: #dfe3e6;
-    background: rgb(102 36 226);
+    background: rgb(102 36 226)!important;
 }
 /* text color settings friends */
 .PagedSettingsDialog_Title {
