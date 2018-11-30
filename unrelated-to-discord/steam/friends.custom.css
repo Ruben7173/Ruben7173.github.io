@@ -97,10 +97,6 @@ button.DialogButton.roleButton.owner:disabled {
 .Disabled .DialogOnOffToggle_Option.Active {
     background-color: #4f4f4f!important;
 }
-/* few more boxes at settings */
-.FriendsSettingsNotificationRow, .FriendsSettingsFlashSection_ButtonRow, .FriendsSettingsVoiceTransmissionType_ButtonRow {
-    background: #141414!important;
-}
 /* groups section */
 .chatRoomListContainer {
     background: #1a1a1a!important;
