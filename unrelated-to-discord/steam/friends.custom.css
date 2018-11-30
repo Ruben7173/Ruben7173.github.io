@@ -1104,7 +1104,7 @@ background-color: #131313!important;}
     background: #1a1a1a!important;
     border-radius: 0px!important;
 }
-button.DialogButton:disabled, button.DialogButton:disabled:hover {
+.button.DialogButton:disabled, button.DialogButton:disabled:hover {
     color: #fff!important;
 }
 .currentUserAvatar {
