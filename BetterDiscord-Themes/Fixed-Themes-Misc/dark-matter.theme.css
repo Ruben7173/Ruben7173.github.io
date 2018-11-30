@@ -1,0 +1,21 @@
+//META{"name":"Dark_Matter","description":"A cold, dark & frosty theme","author":"Hammock (CosmicSalad), fixes by ngld","version":"2.1.0"}*//{}
+@import url(https://fonts.googleapis.com/css?family=Karla);
+/* adding ruben's activity buttons */
+@import url(https://raw.githack.com/Ruben7173/Ruben7173.github.io/master/BetterDiscord-Themes/Modules/Windows-Activity-buttons.css);
+/* import fixes */
+@import url()
+/* 	
+	MAIN VARS
+	Change these to modify dark matter's colors.
+ */
+
+:root {
+	--main-color: rgba(37,172,232,1);
+	--main-color-faded: rgba(37,172,232,0.2);
+	--accent-color: rgba(29,101,134,1);
+	--dark-color: #161921;
+
+	/* Modal Background Color / Opacity */
+	--short-gradient: linear-gradient(45deg, rgba(29,101,134,0.5), rgba(37,172,232,0.5));
+	--short-gradient-faded: linear-gradient(45deg, rgba(29,101,134,0.1), rgba(37,172,232,0.1));
+}

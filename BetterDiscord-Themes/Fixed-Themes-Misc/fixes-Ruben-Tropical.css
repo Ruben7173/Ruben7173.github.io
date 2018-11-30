@@ -1,0 +1,110 @@
+/* theme file gotten from https://github.com/ngld/DarkMatter */
+/* extra fixes made by ruben */
+
+/* bottom left corner where voice, mute buttons are */
+.app .container-2Thooq .da-container {
+	background: rgba(0, 0, 0, 0.30)!important;
+}
+/* selected category friends */
+.da-selected a {
+    background-color: rgba(0,0,0,0.7) !important;
+}
+.da-channel:hover a {
+	background-color: rgba(255,255,255,0.03) !important;
+}
+/* search bar */
+.search-bar {
+    background-color: rgba(0, 0, 0, 0.55) !important;
+}
+
+/* store themeing */
+.app .da-tile {
+    background-color: rgba(0,0,0,0.7)!important;
+}
+.app .da-exclusiveRegular {
+    background-image: linear-gradient(90deg,var(--main-color),#a6dcf4)!important;
+}
+.app .da-exclusiveRegular::before {
+	display:none!important;
+}
+
+.app .overlappingBorder-1ysb12, .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.selected-39BZ4S {
+    border-color: var(--accent-color)!important;
+}
+
+
+/* emoji area */
+#bda-qem button {
+    color: #a3a3a3;
+}
+#bda-qem button.active {
+    background: rgba(0, 0, 0, 0.95) !important;
+    border: 1px solid #262626;
+}
+.emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {
+    background-color: rgba(255, 255, 255, .1)!important;
+}
+.da-popout {
+    background: rgba(0, 0, 0, 0.95)!important;
+    border: 1px solid #262626!important;
+}
+.emojiPicker-3m1S-j {
+    background-color: rgba(0,0,0,0.95) !important;
+}
+.emojiPicker-3m1S-j .stickyHeader-1SS0JU {
+    background: hsla(0, 0%, 5%, 0.95);
+}
+.app .search-bar-inner {
+    background-color: rgba(255,255,255,0.1) !important;
+}
+#bda-qem button {
+    border-left: 1px solid #262829!important;
+}
+
+.scrollerThemed-2oenus.themeLight-1_DWyY.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-dark .scrollerThemed-2oenus.themeLight-1_DWyY.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-light .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track {
+    background-color: rgba(23, 22, 22, 0.4)!important;
+}
+
+/* end of ruben fixes */
+
+/* as a team, tropical fixes */
+/*Titlebar*/
+#app-mount {
+    background:url(https://i.imgur.com/7SbtKvw.png) !important;
+}
+#app-mount:before {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 0;
+    background-color: rgba(0,0,0,0.9);
+}
+/*Fix Blurple Background in BBD Settings*/
+.theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected {
+    background:var(--main-color) !important;
+    color:#fff !important;
+}
+/*Member List User Hover*/
+.channel-2QD9_O:hover a {background:rgba(0,0,0,0.4) !important;}
+
+/*activity tab*/
+.carousel-2WxMes,
+.article-3BkSTW,
+.theme-dark .header-1RC2Wb {
+    background:rgba(0,0,0,0.8) !important;
+}
+.theme-dark .paginationItem-2lUq0s:after {
+    background:linear-gradient(270deg,transparent 0,rgba(0,0,0,0.8)) !important;
+}
+.theme-dark .card-7JP0BX,
+.newsLink-38Naqi {
+    background:transparent !important;
+}
+.paginationItem-2lUq0s:before {
+    background:var(--main-color) !important;
+}
+/* end */
