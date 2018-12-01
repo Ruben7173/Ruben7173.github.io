@@ -610,7 +610,7 @@ background:linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,rgba(0,0,0,
 	color:var(--main-color) !important;
 }
 .regionSelect-3lf4eE:hover .regionSelectInner-24f4Ce,
-.regionSelect-3lf4eE:hover button, .da-wrapper {
+.regionSelect-3lf4eE:hover button {
 	border-color:var(--main-color) !important;
 }
 .regionSelectModal-12e-57 {
@@ -652,4 +652,10 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 /* 10.c. border around whole content */
 .bd-modal-wrapper .bd-modal-inner {
     border: 1px solid rgb(22, 25, 33);
+}
+
+
+/* new message number background */
+.da-wrapper {
+	background-color: var(--main-color);
 }
