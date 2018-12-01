@@ -49,6 +49,11 @@ TABLE OF CONTENTS
 7. Members List
 	7.a. User Popouts
 	7.b. Selected and Hovered Content
+
+8. Popups, Modals and Dropdowns
+	8.a. Status Picker & Server Dropdown
+	8.b. Pinned Messages & Recent Mentions
+	8.c. Search Popout
 */
 
 /*1. Guilds Area*/
@@ -304,3 +309,61 @@ background:linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,rgba(0,0,0,
 /*7.b. Selected and Hovered Content*/
 .theme-dark .member-3W1lQa:hover .content-OzHfo4 {background:rgba(255,255,255,0.01) !important;}
 .theme-dark .member-3W1lQa.popout-open .content-OzHfo4 {background:rgba(255,255,255,0.07);}
+/*============== END OF SECTION ============== */
+
+/*8. Popups, Modals and Dropdowns*/
+/*8.a. Status Picker & Server Dropdown*/
+.alt-3btY0e .helper-2c73HK {display:none !important;}
+.separator-2zcjq8 {display:none !important;}
+.theme-dark .item-1GzJrl.invite-271nFU {color:var(--main-color) !important;}
+.theme-dark .item-1GzJrl:hover {background:rgba(0,0,0,0.9);}
+.menu-Sp6bN1 {
+    background:url(https://i.imgur.com/7SbtKvw.png) !important;
+    background-position:center !important;
+}
+.theme-dark .item-1GzJrl {
+    background:rgba(0,0,0,0.86);
+    transition:25ms linear;
+}
+.popoutBottom-1YbShG.noArrow-3BYQ0Z,
+.popoutBottomLeft-JehOp2.noArrow-3BYQ0Z,
+.popoutBottomRight-2JrySt.noArrow-3BYQ0Z,
+.menu-Sp6bN1 {
+    border-radius:2px !important;
+}
+
+/*8.b. Pinned Messages & Recent Mentions*/
+.theme-dark .header-ykumBX,
+.theme-dark .messageGroupWrapper-o-Zw7G {
+    background:rgba(0,0,0,0.86);
+}
+.themedPopout-25DgLi {
+    background:url(https://i.imgur.com/7SbtKvw.png) !important;
+    background-position:center !important;
+}
+.themedPopout-25DgLi .scroller-wrap .scroller {background:rgba(0,0,0,0.9);}
+.theme-dark .messageGroupWrapper-o-Zw7G {border-color:transparent !important;}
+.theme-dark .messageGroupWrapper-o-Zw7G:hover {border-color:var(--main-color) !important;}
+.jumpButton-3DTcS_ {background:rgba(240, 240, 240, 0.07) !important;}
+.jumpButton-3DTcS_:hover {color:white !important;}
+.theme-dark .actionButtons-1sUUug {
+    box-shadow:none !important;
+    background:transparent !important;
+}
+
+/*8.c. Search Popout*/
+.container-3ayLPN {background:rgba(0,0,0,0.8) !important;}
+.theme-dark .option-96V44q:after {display:none !important;}
+.popoutBottom-1YbShG {
+	background:url(https://i.imgur.com/7SbtKvw.png);
+	background-potition:center;
+}
+.theme-dark .option-96V44q.selected-rZcOL-,
+.theme-dark .focused-2bY0OD {
+	background:rgba(0,0,0,0.5) !important;
+	border:none !important;
+}
+.theme-dark .dim-1l4L4y span,
+.theme-dark .keybindShortcut-1BD6Z1 span {
+	background:rgba(0,0,0,0.9)
+}
