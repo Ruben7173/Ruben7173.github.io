@@ -96,8 +96,8 @@ TABLE OF CONTENTS
 .app .search-bar-inner,
 .search-bar {
 	background:transparent !important;
-	border:none !important;}
-
+	border:none !important;
+}
 /*4.b. Store*/
 .app .da-tile {background-color: rgba(0,0,0,0.7)!important;}
 .app .da-exclusiveRegular {background-image: linear-gradient(90deg,var(--main-color),#a6dcf4)!important;}
