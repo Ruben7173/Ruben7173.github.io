@@ -42,6 +42,7 @@ TABLE OF CONTENTS
 	6.b. New Messages Bar
 	6.c. Send Messages Area
 	6.d. Emoji Picker
+	6.e. Loading Animations
 
 7. Members List
 	7.a. User Popouts
@@ -235,6 +236,12 @@ background:linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,rgba(0,0,0,
 #bda-qem button.active {
     background: rgba(0, 0, 0, 0.95) !important;
     border: 1px solid #262626;}
+/*6.e. Loading Animations*/
+.spinner-pulsing-ellipsis .spinner-item,
+.spinner-wandering-cubes .spinner-item,
+.chat-3bRxxu .newMessagesBar-mujexs {
+  background-color: var(--main-color) !important;
+}
 /*============== END OF SECTION ============== */
 
 /*7. Members List*/
@@ -263,6 +270,6 @@ background:linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,rgba(0,0,0,
 	background:rgba(255,255,255,0.05);
 	border:none !important;
 }
-/*4.b. Selected and Hovered Content*/
+/*7.b. Selected and Hovered Content*/
 .theme-dark .member-3W1lQa:hover .content-OzHfo4 {background:rgba(255,255,255,0.01) !important;}
 .theme-dark .member-3W1lQa.popout-open .content-OzHfo4 {background:rgba(255,255,255,0.07);}
