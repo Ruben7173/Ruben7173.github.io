@@ -653,9 +653,3 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 .bd-modal-wrapper .bd-modal-inner {
     border: 1px solid rgb(22, 25, 33);
 }
-
-
-/* new message number background */
-.da-wrapper {
-	background-color: var(--main-color);
-}
