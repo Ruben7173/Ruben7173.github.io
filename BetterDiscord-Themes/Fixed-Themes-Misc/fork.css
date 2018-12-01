@@ -25,6 +25,16 @@ TABLE OF CONTENTS
 3. Settings
 	3.a. Sidebar Area
         3.b. Close Button
+	3.c. Checkboxes, Sliders, etc..
+	3.d. Server Settings
+	3.e. My Account Tab
+	3.f. Privacy Tab
+	3.g. Billing Tab
+	3.h. Discord Nitro Tab
+	3.i. Voice and Video Tab
+	3.j. Overlay Tab
+	3.k. Game Activity Tab
+	3.l. Library Tab
 
 4. Private Channels
 	4.a. Search Bar
@@ -55,6 +65,8 @@ TABLE OF CONTENTS
 	8.a. Status Picker & Server Dropdown
 	8.b. Pinned Messages & Recent Mentions
 	8.c. Search Popout
+	8.d. Find/Start a Conversation
+	8.e. Add/Create Guilds Modal
 */
 
 /*1. Guilds Area*/
@@ -156,6 +168,86 @@ TABLE OF CONTENTS
     transform:scale(1.19);
     background:var(--main-color-faded) !important;
 	border-color:var(--main-color) !important;}
+/*3.c. Checkboxes, Sliders, etc...*/
+.theme-dark .bar-2Qqk5Z {background:rgba(255,255,255,0.05) !important;}
+.cardPrimaryEditable-3KtE4g[style*="rgb(114, 137, 218)"],
+.themeDefault-24hCdX.valueChecked-m-4IJZ,
+.barFill-23-gu- {
+	background:var(--main-color) !important;
+	border-color:var(--main-color) !important;
+}
+
+/*3.d. Server Settings*/
+.theme-dark .searchBar-1MOL6S,
+.theme-dark .card-FDVird:before {
+	background:rgba(255,255,255,0.05) !important;
+}
+.theme-dark .colorPickerCustom-2CWBn2,
+.theme-dark .elevationHigh-1PneE4 {
+	background:var(--dark-color) !important;
+}
+
+/*3.e. My Account Tab*/
+.theme-dark .emojiAliasInput-1y-NBz .emojiInput-1aLNse,
+.theme-dark .input-cIJ7To:focus,
+.theme-dark .input-cIJ7To:hover,
+.theme-dark .input-cIJ7To.focused-1mmYsC {
+	background:rgba(0,0,0,0.5) !important;
+	border-color:var(--main-color) !important;
+}
+
+/*3.f. Privacy Tab*/
+.lookOutlined-3sRXeN.colorBrand-3pXr91 {
+	border-color:var(--main-color) !important;
+	color:var(--main-color) !important;
+}
+
+/*3.g. Billing Tab*/
+.theme-dark .paymentRow-2e7VM6,
+.theme-dark .paginator-166-09 {
+	background:transparent !important;
+	border:none !important;
+}
+.theme-dark .paymentPane-3bwJ6A {
+	background:var(--dark-color) !important;
+}
+
+/*3.h. Discord Nitro Tab*/
+.theme-dark .tier1Banner-1B_WXY {
+	background:var(--dark-color) !important;
+}
+
+/*3.i. Voice and Video Tab*/
+.userSettingsVoice-iwdUCU .media-engine-video {
+	background:transparent !important;
+}
+.theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
+	background:rgba(255,255,255,0.05) !important;
+	border:none !important;
+}
+
+/*3.j. Overlay Tab*/
+.selected-mKYnfr.option-n0icdO {
+	background:var(--main-color) !important;
+	border:none !important;
+}
+.wrapper-3jrx9n {
+	border-color:var(--main-color) !important;
+}
+.option-n0icdO:hover {
+	background:var(--main-color-faded) !important;
+}
+
+/*3.k. Game Activity Tab*/
+.theme-dark .add-game-popout {
+	background:var(--dark-color) !important;
+}
+
+/*3.l. Library Tab*/
+.foreground-2aE44H {
+	stroke:var(--main-color) !important;
+}
+
 /*============== END OF SECTION ============== */
 
 /*4. Private Channels*/
@@ -426,4 +518,53 @@ background:linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,rgba(0,0,0,
 .theme-dark .dim-1l4L4y span,
 .theme-dark .keybindShortcut-1BD6Z1 span {
 	background:rgba(0,0,0,0.9)
+}
+
+/*8.d. Find/Start a Conversation*/
+.theme-dark .quickswitcher-3JagVE {
+	background:var(--dark-color) !important;
+}
+.theme-dark .input-2VB9rf, .theme-dark .input-2VB9rf:focus {
+	background:rgba(0,0,0,0.5) !important;
+}
+.theme-dark .resultFocused-3aIoYe {
+	background:rgba(0,0,0,0.25) !important;
+}
+/*8.e. Add/Create Guilds Modal*/
+.form-deprecated .control-group input[type=email]:focus,
+.form-deprecated .control-group input[type=number]:focus,
+.form-deprecated .control-group input[type=password]:focus,
+.form-deprecated .control-group input[type=text]:focus,
+.form-deprecated .control-group textarea:focus,
+.form.deprecated .control-group input[type=email]:focus,
+.form.deprecated .control-group input[type=number]:focus,
+.form.deprecated .control-group input[type=password]:focus,
+.form.deprecated .control-group input[type=text]:focus,
+.form.deprecated .control-group textarea:focus {
+	border-color:var(--main-color) !important;
+}
+.form-deprecated header,
+.form.deprecated header,
+.create-guild-container h5,
+.create-guild-container .action.create .action-header,
+.regionSelect-3lf4eE button,
+.create-guild-container.deprecated .join-server .sample-link,
+.regionSelectModal-12e-57 .regionSelectModalHeader-21khC1 {
+	color:var(--main-color) !important;
+}
+.regionSelect-3lf4eE:hover .regionSelectInner-24f4Ce,
+.regionSelect-3lf4eE:hover button {
+	border-color:var(--main-color) !important;
+}
+.regionSelectModal-12e-57 {
+	background:var(--dark-color) !important;
+}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:hover {
+	background:rgba(0,0,0,0.5) !important;
+	border-color:var(--main-color) !important;
+}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 {
+	background:rgba(0,0,0,0.3) !important;
+	transition:100ms linear all;
+	border-color:transparent;
 }
