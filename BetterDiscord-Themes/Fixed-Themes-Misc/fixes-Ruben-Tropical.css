@@ -36,6 +36,7 @@ TABLE OF CONTENTS
 
 5. Channels List
 	5.a. Selected and Hovered Content
+	5.b. Server Header
 
 6. Chat Area
 	6.a. Has More Button
@@ -211,14 +212,27 @@ background:linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,rgba(0,0,0,
 	border:none !important;
 	box-shadow:none !important;
 }
+/*5.c. Account Details Container*/
+.button-2b6hmh {margin:0;}
+.container-2Thooq {
+	width: 286px;
+	height:78px !important;
+	margin-left: -71px;
+	bottom: -1px;
+	position: fixed;
+	background:rgba(0,0,0,0.9) !important;
+}
+.theme-dark .guildsWrapper-5TJh6A, .channels-Ie2l6A.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr {
+    height: calc(100vh - 100px);
+}
 /*============== END OF SECTION ============== */
 
 /*6. Chat Area*/
 /*6.a. Has More Button*/
 .theme-dark .hasMore-3e72_v button{
-    background:rgba(255,255,255,0.06) !important;
-    color:var(--main-color) !important;
-		border:none !important;
+	background:rgba(255,255,255,0.06) !important;
+	color:var(--main-color) !important;
+	border:none !important;
 }
 
 /*6.b. New Messages Bar*/
