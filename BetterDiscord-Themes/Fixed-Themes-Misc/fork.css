@@ -67,6 +67,7 @@ TABLE OF CONTENTS
 	8.c. Search Popout
 	8.d. Find/Start a Conversation
 	8.e. Add/Create Guilds Modal
+	8.f. Greeting Message
 */
 
 /*1. Guilds Area*/
@@ -566,4 +567,17 @@ background:linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,rgba(0,0,0,
 	background:rgba(0,0,0,0.3) !important;
 	transition:100ms linear all;
 	border-color:transparent;
+}
+
+/*8.f. Greeting Message*/
+body:before{content:"Dark Matter Fork has been loaded.";z-index:1000000000000000000000000;color:#fff;background:var(--main-color);top:0px;left:50%;position:absolute;border-radius:5px;padding:5px 15px;-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);-webkit-animation:version 3s ease;animation:version 3s ease;-webkit-animation-delay:4s;animation-delay:4s;}
+body,span:not(.spinner-item){-webkit-font-smoothing:antialiased;-webkit-backface-visibility:hidden;}
+@-webkit-keyframes version{from{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
+20%{-webkit-transform:translate(-50%, 20%);transform:translate(-50%, 20%)}
+80%{-webkit-transform:translate(-50%, 20%);transform:translate(-50%, 20%)}
+to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}}
+@keyframes version{from{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
+20%{-webkit-transform:translate(-50%, 20%);transform:translate(-50%, 20%)}
+80%{-webkit-transform:translate(-50%, 20%);transform:translate(-50%, 20%)}
+to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 }
