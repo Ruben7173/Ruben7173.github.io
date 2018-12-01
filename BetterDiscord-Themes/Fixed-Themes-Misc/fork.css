@@ -71,6 +71,7 @@ TABLE OF CONTENTS
 	8.e. Add/Create Guilds Modal
 	8.f. Greeting Message
 	8.g. BetterDiscord Error Modal
+	8.h. Upload Modal
 */
 
 /*1. Guilds Area*/
@@ -730,3 +731,25 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 .bd-modal-wrapper .header, .bd-modal-wrapper .bd-modal-body {background-color: #161921;}
 .bd-modal-wrapper .footer button {background-color: var(--main-color);}
 .bd-modal-wrapper .bd-modal-inner {border: 1px solid rgb(22, 25, 33);}
+
+/*8.h. Upload Modal*/
+.uploadModal-2ifh8j {background-color: var(--dark-color);}
+.uploadModal-2ifh8j .footer-3mqk7D {color: white;}
+.theme-brand .content-Qb0rXO {color: white;}
+.uploadModal-2ifh8j .footer-3mqk7D {background:rgba(0,0,0,0.3) !important;}
+.uploadModal-2ifh8j .inner-3nWsbo {border-color:var(--main-color) !important;}
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
+  border-color: var(--accent-color) !important;
+  margin-top: 0;
+  transform: translateY(-50%);
+  transition: all .3s ease-in-out;
+}
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j:hover {
+  height: 208px;
+  width: calc(100% - 28px);
+  transform: translateY(calc(-50% - 10px));
+}
+.uploadModal-2ifh8j .footer-3mqk7D .button {
+	background:var(--main-color) !important;
+	color:white !important;
+}
