@@ -7,12 +7,12 @@
 | $$  | $$ /$$__  $$| $$      | $$_  $$       | $$\  $ | $$ /$$__  $$  | $$ /$$| $$ /$$| $$_____/| $$
 | $$$$$$$/|  $$$$$$$| $$      | $$ \  $$      | $$ \/  | $$|  $$$$$$$  |  $$$$/|  $$$$/|  $$$$$$$| $$
 |_______/  \_______/|__/      |__/  \__/      |__/     |__/ \_______/   \___/   \___/   \_______/|__/
-                                        Base File by ngld
-				 									  			 Fork by Ruben7173 & Tropical
-*/
-/*TABLE OF CONTENTS*/
+                                       Base File by ngld
+	       			 Fork by Ruben7173 & Tropical
 
-/*
+TABLE OF CONTENTS
+
+
 1. Guilds Area
 	1.a. Add/Create Guilds Button
 	1.b. Outages
@@ -48,8 +48,6 @@
 
 /*1.b. Outages*/
 .theme-dark .guildsError-3cFMtY {
-	border:none !important;
-	background:transparent !important;
 	width:40px;
 	height:40px;
 }
@@ -146,19 +144,6 @@
 .channels-Ie2l6A .content-20Aix8 {border-radius:5px !important;}
 .channels-Ie2l6A .content-20Aix8:hover {background:rgba(0,0,0,0.4) !important;}
 .contentSelectedText-3wUhMi {background:rgba(0,0,0,0.8) !important;}
-
-/*6.b. Account Details Container*/
-.button-2b6hmh {margin:0;}
-.container-2Thooq {
-    width: 286px;
-		height:78px !important;
-    margin-left: -71px;
-    bottom: -1px;
-    position: fixed;
-		background:rgba(0,0,0,0.7) !important;
-}
-.theme-dark .guildsWrapper-5TJh6A, .channels-Ie2l6A.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr {
-    height: calc(100vh - 100px);}
 /*============== END OF SECTION ============== */
 
 /*6. Chat Area*/
