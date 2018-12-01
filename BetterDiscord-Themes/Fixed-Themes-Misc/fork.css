@@ -64,7 +64,7 @@ TABLE OF CONTENTS
 	7.c. Member Status
 
 8. Popups, Modals and Dropdowns
-	8.a. Status Picker & Server Dropdown
+	8.a. Status Picker
 	8.b. Pinned Messages & Recent Mentions
 	8.c. Search Popout
 	8.d. Find/Start a Conversation
@@ -521,26 +521,98 @@ background:linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,rgba(0,0,0,
 /*============== END OF SECTION ============== */
 
 /*8. Popups, Modals and Dropdowns*/
-/*8.a. Status Picker & Server Dropdown*/
-.alt-3btY0e .helper-2c73HK {display:none !important;}
-.separator-2zcjq8 {display:none !important;}
-.theme-dark .item-1GzJrl.invite-271nFU {color:var(--main-color) !important;}
-.theme-dark .item-1GzJrl:hover {background:rgba(0,0,0,0.9);}
-.menu-Sp6bN1 {
-    background:url(https://i.imgur.com/7SbtKvw.png) !important;
-    background-position:center !important;
+/*8.a. Status Picker*/
+.alt-3btY0e .item-1GzJrl:nth-of-type(1){animation-delay: 0ms;}
+.alt-3btY0e .item-1GzJrl:nth-of-type(3){animation-delay: 100ms;}
+.alt-3btY0e .item-1GzJrl:nth-of-type(4){animation-delay: 200ms;}
+.alt-3btY0e .item-1GzJrl:nth-of-type(5){animation-delay: 300ms;}
+.alt-3btY0e .statusIconText-3b4TkH > div {color:transparent;}
+.popoutTopLeft-b5Eb3O  {left: 75px !important; bottom: 75px !important;}
+.alt-3btY0e .item-1GzJrl:first-of-type {padding-left: 0px !important;}
+.popoutTopLeft-b5Eb3O {margin-top:-22.5px;}
+.theme-dark .alt-3btY0e .helper-2c73HK {display:none;}
+.alt-3btY0e.menu-Sp6bN1:hover::before {pointer-events: initial;}
+body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ease;}
+.alt-3btY0e .separator-2zcjq8  {border-bottom: 0px}
+.alt-3btY0e .item-1GzJrl .helper-3X2gjI {display: none;}
+@keyframes anim-status {from {transform: scale(0); opacity: 0 }}
+.alt-3btY0e.menu-Sp6bN1{
+    border-radius: 0!important;
+    width: 240px!important;
+    bottom: 60px!important;
+    top: initial!important;
+    height: 70px!important;
+    cursor: initial;
+		background:transparent !important;
+    overflow:visible;
 }
-.theme-dark .item-1GzJrl {
-    background:rgba(0,0,0,0.86);
-    transition:25ms linear;
+.alt-3btY0e .item-1GzJrl {
+    transition: all 200ms ease;
+    color: transparent;
+    pointer-events: auto;
+    float: left;
+    width: 55px;
+    height: 70px;
+    padding: 0!important;
+    left: 5px;
+    bottom: 0;
+    transform: none;
+    position: relative;
+    -webkit-backface-visibility:hidden;
+    background: transparent!important;
+    animation: anim-status 400ms cubic-bezier(.4,0,0,1) backwards;
 }
-.popoutBottom-1YbShG.noArrow-3BYQ0Z,
-.popoutBottomLeft-JehOp2.noArrow-3BYQ0Z,
-.popoutBottomRight-2JrySt.noArrow-3BYQ0Z,
-.menu-Sp6bN1 {
-    border-radius:2px !important;
+.alt-3btY0e .item-1GzJrl:first-of-type {padding-left:10px!important; box-sizing: content-box !important;}
+.alt-3btY0e .item-1GzJrl .online-2S838R,.alt-3btY0e .item-1GzJrl .idle-3DEnRT,.alt-3btY0e .item-1GzJrl .dnd-1_xrcq,.alt-3btY0e .item-1GzJrl .invisible-1kp8Z0{
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  width: 40px !important;
+  height: 40px !important;
+  left:0px !important;
+  margin-left: 7.50px !important;
+  bottom: 0;
+  margin-top: 15px;
+  transition: all 200ms ease;
+  margin-right: 0!important;
 }
-
+.alt-3btY0e .item-1GzJrl:hover .online-2S838R,.alt-3btY0e .item-1GzJrl:hover .idle-3DEnRT,.alt-3btY0e .item-1GzJrl:hover .dnd-1_xrcq,.alt-3btY0e .item-1GzJrl:hover .invisible-1kp8Z0{
+    color: transparent;
+    opacity: 1;
+    transform:scale(1.2);
+    transition: all 200ms cubic-bezier(0,0,0,1);
+    z-index: 2;
+}
+.alt-3btY0e .item-1GzJrl:active online-2S838R,.alt-3btY0e .item-1GzJrl:active .idle-3DEnRT,.alt-3btY0e .item-1GzJrl:active .dnd-1_xrcq,.alt-3btY0e .item-1GzJrl:active .invisible-1kp8Z0{
+    -ms-transform: scale(0.7);
+    transform: scale(0.7);
+    transition: all 100ms cubic-bezier(0,0,0,1),box-shadow 0ms;
+    opacity: 1;
+    box-shadow: 0 -10px 20px rgba(0,0,0,.15) inset,0 1px 1px rgba(255,255,255,.05) inset;
+}
+.alt-3btY0e:active {opacity: 0; transition: all 100ms ease 100ms}
+.alt-3btY0e .item-1GzJrl:nth-of-type(1) .online-2S838R{
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNOSAxNi4yTDQuOCAxMmwtMS40IDEuNEw5IDE5IDIxIDdsLTEuNC0xLjRMOSAxNi4yeiIvPjwvc3ZnPg==);
+    background-size: 55%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    left: auto;
+}
+.alt-3btY0e .item-1GzJrl:nth-of-type(3) .idle-3DEnRT{
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkNhbHF1ZV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iLTk0NyA1MjkgMjQgMjQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgLTk0NyA1MjkgMjQgMjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj48c3R5bGUgdHlwZT0idGV4dC9jc3MiPi5zdDB7ZmlsbDojRkZGRkZGO308L3N0eWxlPjxwb2x5Z29uIGNsYXNzPSJzdDAiIHBvaW50cz0iLTkyOSw1NDQuNSAtOTMwLDU0NiAtOTM2LjIsNTQyLjIgLTkzNi4yLDUzNSAtOTM0LjQsNTM1IC05MzQuNCw1NDEuMiAiLz48L3N2Zz4=);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.alt-3btY0e .item-1GzJrl:nth-of-type(4) .dnd-1_xrcq{
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkNhbHF1ZV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iLTk0NyA1MjkgMjQgMjQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgLTk0NyA1MjkgMjQgMjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj48c3R5bGUgdHlwZT0idGV4dC9jc3MiPi5zdDB7ZmlsbDojRkZGRkZGO308L3N0eWxlPjxyZWN0IHg9Ii05NDAuNCIgeT0iNTQwLjEiIGNsYXNzPSJzdDAiIHdpZHRoPSIxMC45IiBoZWlnaHQ9IjEuOCIvPjwvc3ZnPg==);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
 /*8.b. Pinned Messages & Recent Mentions*/
 .theme-dark .header-ykumBX,
 .theme-dark .messageGroupWrapper-o-Zw7G {
