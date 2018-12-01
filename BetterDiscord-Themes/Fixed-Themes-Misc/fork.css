@@ -88,17 +88,57 @@ TABLE OF CONTENTS
 
 /*2. Titlebar*/
 /*2.a. Main Titlebar*/
-#app-mount {background:url(https://i.imgur.com/7SbtKvw.png) !important;}
-#app-mount:before {
-    content: '';
-    display: block;
-    position: absolute;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    top: 0;
-    z-index: 0;
-    background-color: rgba(0,0,0,0.8);}
+.titleBar-AC4pGV {
+  transform: translateY(-6px);
+  height: 0px;
+  margin-top: 0px;
+}
+.winButton-iRh8-Z {
+  top: 9px;
+  height: 36px;
+  width: 30px;
+  right: 8px;
+  background-position: center;
+  opacity: .6;
+}
+.winButton-iRh8-Z:hover {
+  transition: all .2s ease-in-out;
+  background-color: var(--main-color) !important;
+  border-radius: 5px;
+  opacity: 1 !important;
+}
+.titleBar-AC4pGV .winButtonClose-1HsbF- {
+	background-image: url(https://ruben7173.github.io/BetterDiscord-Themes/Fixed-Themes-Misc/assets/close.svg) !important;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 24px;
+}
+.titleBar-AC4pGV .winButton-iRh8-Z:nth-child(3) {
+	background-image: url(https://ruben7173.github.io/BetterDiscord-Themes/Fixed-Themes-Misc/assets/maximize.svg) !important;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 24px;
+}
+.titleBar-AC4pGV .winButton-iRh8-Z:nth-child(4) {
+	background-image: url(https://ruben7173.github.io/BetterDiscord-Themes/Fixed-Themes-Misc/assets/minimize.svg) !important;
+	background-repeat: no-repeat;
+	background-position: center 7px;
+	background-size: 24px;
+}
+.titleBar-AC4pGV rect, .wordmark-2iDDfm, .winButton-iRh8-Z svg {
+	display: none;
+}
+.noTopic-2b04lB.da-noTopic,
+ .app .title-3qD0b- {
+    -webkit-app-region: drag;
+}
+.titleWrapper-1l0xT9 .flex-1xMQg5 .flex-1xMQg5, #friends .flex-1xMQg5 .flex-1xMQg5,
+.activityFeed-28jde9>.flex-1xMQg5>.horizontal-1ae9ci>.flex-1xMQg5:last-child, .gameLibrary-TTDw4Y>.flex-1xMQg5 .flex-1xMQg5:last-child,
+.applicationStore-1pNvnv>.homeWrapper-3-Wh5T>.flex-1xMQg5 .flex-1xMQg5:last-child, .applicationStore-1pNvnv>.listingWrapper-329f74>.flex-1xMQg5 .flex-1xMQg5:last-child,
+.applicationStore-1pNvnv>.browseWrapper-2Qy6vG>.flex-1xMQg5 .flex-1xMQg5:last-child, .applicationStore-1pNvnv>.flex-1xMQg5 .flex-1xMQg5:last-child,
+.root-26DmKJ>.headerBar-UHpsPw>.flex-1xMQg5:last-child {
+  margin-right: 95px;
+}
 /*============== END OF SECTION ============== */
 
 /*3. Settings*/
@@ -230,7 +270,7 @@ background:linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,rgba(0,0,0,
 	background:rgba(0,0,0,0.9) !important;
 }
 .theme-dark .guildsWrapper-5TJh6A, .channels-Ie2l6A.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr {
-    height: calc(100vh - 100px) !important;
+    height: calc(100vh - 78px) !important;
 }
 /*============== END OF SECTION ============== */
 
