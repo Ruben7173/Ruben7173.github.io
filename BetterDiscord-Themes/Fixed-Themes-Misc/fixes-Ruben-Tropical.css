@@ -1,77 +1,78 @@
-/* theme file gotten from https://github.com/ngld/DarkMatter */
-/* extra fixes made by ruben */
+/*
+/$$$$$$$                      /$$             /$$      /$$             /$$     /$$
+| $$__  $$                    | $$            | $$$    /$$$            | $$    | $$
+| $$  \ $$  /$$$$$$   /$$$$$$ | $$   /$$      | $$$$  /$$$$  /$$$$$$  /$$$$$$ /$$$$$$    /$$$$$$   /$$$$$$
+| $$  | $$ |____  $$ /$$__  $$| $$  /$$/      | $$ $$/$$ $$ |____  $$|_  $$_/|_  $$_/   /$$__  $$ /$$__  $$
+| $$  | $$  /$$$$$$$| $$  \__/| $$$$$$/       | $$  $$$| $$  /$$$$$$$  | $$    | $$    | $$$$$$$$| $$  \__/
+| $$  | $$ /$$__  $$| $$      | $$_  $$       | $$\  $ | $$ /$$__  $$  | $$ /$$| $$ /$$| $$_____/| $$
+| $$$$$$$/|  $$$$$$$| $$      | $$ \  $$      | $$ \/  | $$|  $$$$$$$  |  $$$$/|  $$$$/|  $$$$$$$| $$
+|_______/  \_______/|__/      |__/  \__/      |__/     |__/ \_______/   \___/   \___/   \_______/|__/
+                                        Base File by ngld
+				 									  			 Fork by Ruben7173 & Tropical
+*/
+/*TABLE OF CONTENTS*/
 
-/* bottom left corner where voice, mute buttons are */
-.app .container-2Thooq .da-container {
-	background: rgba(0, 0, 0, 0.30)!important;
-}
-/* selected category friends */
-.da-selected a {
-    background-color: rgba(0,0,0,0.7) !important;
-}
-.da-channel:hover a {
-	background-color: rgba(255,255,255,0.03) !important;
-}
-/* search bar */
-.search-bar {
-    background-color: rgba(0, 0, 0, 0.55) !important;
-}
+/*
+1. Guilds Area
+	1.a. Add/Create Guilds Button
+	1.b. Outages
+	1.c. Tooltips
+2. Titlebar
+  2.a. Main Titlebar
+4. Private Channels
+	4.a. Search Bar
+	4.b. Store
+	4.c. Activity Tab
+	4.d. Library
+	4.e. Friends List
+	4.f. Selected and Hovered Content
+5. Channels List
+	5.a. Selected and Hovered Content
+6. Chat Area
+	6.a. Has More Button
+	6.b. New Messages Bar
+	6.c. Send Messages Area
+	6.d. Emoji Picker
+7. Members List
+	7.a. User Popouts
+	7.b. Selected and Hovered Content
+*/
 
-/* store themeing */
-.app .da-tile {
-    background-color: rgba(0,0,0,0.7)!important;
-}
-.app .da-exclusiveRegular {
-    background-image: linear-gradient(90deg,var(--main-color),#a6dcf4)!important;
-}
-.app .da-exclusiveRegular::before {
-	display:none!important;
-}
-
-.app .overlappingBorder-1ysb12, .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.selected-39BZ4S {
-    border-color: var(--accent-color)!important;
-}
-
-
-/* emoji area */
-#bda-qem button {
-    color: #a3a3a3;
-}
-#bda-qem button.active {
-    background: rgba(0, 0, 0, 0.95) !important;
-    border: 1px solid #262626;
-}
-.emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {
-    background-color: rgba(255, 255, 255, .1)!important;
-}
-.da-popout {
-    background: rgba(0, 0, 0, 0.95)!important;
-    border: 1px solid #262626!important;
-}
-.emojiPicker-3m1S-j {
-    background-color: rgba(0,0,0,0.95) !important;
-}
-.emojiPicker-3m1S-j .stickyHeader-1SS0JU {
-    background: hsla(0, 0%, 5%, 0.95);
-}
-.app .search-bar-inner {
-    background-color: rgba(255,255,255,0.1) !important;
-}
-#bda-qem button {
-    border-left: 1px solid #262829!important;
+/*1. Guilds Area*/
+/*1.a. Add/Create Guilds Button*/
+.theme-dark .guildsAdd-21_IdK {
+	border:none !important;
+	background:rgba(255,255,255,0.2) !important;
+	color:white !important;
 }
 
-.scrollerThemed-2oenus.themeLight-1_DWyY.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-dark .scrollerThemed-2oenus.themeLight-1_DWyY.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-light .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track {
-    background-color: rgba(23, 22, 22, 0.4)!important;
+/*1.b. Outages*/
+.theme-dark .guildsError-3cFMtY {
+	border:none !important;
+	background:transparent !important;
+	width:40px;
+	height:40px;
 }
 
-/* end of ruben fixes */
+/*1.c. Tooltips*/
+.tooltip {background: rgba(0,0,0,0.7) !important;}
+.tooltip.tooltip-right:after {border-right-color: rgba(0,0,0,0.7) !important;}
+.tooltip.tooltip-top:after {border-top-color: rgba(0,0,0,0.7) !important;}
+.tooltip.tooltip-left:after {border-left-color: rgba(0,0,0,0.7)) !important;}
+.tooltip.tooltip-bottom:after {border-bottom-color: rgba(0,0,0,0.7) !important;}
+.tooltips .tooltip.tooltip-right {animation: faderight 150ms;}
+.tooltips .tooltip.tooltip-bottom {animation: fadebottom 150ms;}
+.tooltips .tooltip.tooltip-left {animation: fadeleft 150ms;}
+.tooltip.tooltip-top {animation: fadetop 150ms;}
+@keyframes fadetop {0% {opacity: 0;transform: translateY(-50%);}100% {opacity: 0.9;transform: none;}}
+@keyframes faderight {0% {opacity: 0;transform: translateX(50%);}100% {opacity: 0.9;transform: none;}}
+@keyframes fadebottom {0% {opacity: 0;transform: translateY(50%);}100% {opacity: 0.9;transform: none;}}
+@keyframes fadeleft {0% {opacity: 0;transform: translateX(-50%);}100% {opacity: 0.9; transform: none;}}
+/*============== END OF SECTION ============== */
 
-/* as a team, tropical fixes */
-/*Titlebar*/
-#app-mount {
-    background:url(https://i.imgur.com/7SbtKvw.png) !important;
-}
+/*2. Titlebar*/
+/*2.a. Main Titlebar*/
+#app-mount {background:url(https://i.imgur.com/7SbtKvw.png) !important;}
 #app-mount:before {
     content: '';
     display: block;
@@ -81,30 +82,144 @@
     bottom: 0;
     top: 0;
     z-index: 0;
-    background-color: rgba(0,0,0,0.9);
-}
-/*Fix Blurple Background in BBD Settings*/
-.theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected {
-    background:var(--main-color) !important;
-    color:#fff !important;
-}
-/*Member List User Hover*/
-.channel-2QD9_O:hover a {background:rgba(0,0,0,0.4) !important;}
+    background-color: rgba(0,0,0,0.8);}
+/*============== END OF SECTION ============== */
 
-/*activity tab*/
+/*3. Settings*/
+/*3.a. Sidebar Area*/
+.theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected { /*Fixes Blurple Area in BBD settings*/
+    background:var(--main-color) !important;
+    color:#fff !important;}
+/*============== END OF SECTION ============== */
+
+/*4. Private Channels*/
+/*4.a. Search Bar*/
+.searchBar-6Kv8R2 {box-shadow:none !important;}
+.app .search-bar-inner,
+.search-bar {
+	background:transparent !important;
+	border:none !important;}
+
+/*4.b. Store*/
+.app .da-tile {background-color: rgba(0,0,0,0.7)!important;}
+.app .da-exclusiveRegular {background-image: linear-gradient(90deg,var(--main-color),#a6dcf4)!important;}
+.app .da-exclusiveRegular::before {display:none!important;}
+.app .overlappingBorder-1ysb12, .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.selected-39BZ4S {border-color: var(--accent-color)!important;}
+
+/*4.c. Activity*/
+.theme-dark .paginationItem-2lUq0s:after {background:linear-gradient(270deg,transparent 0,rgba(0,0,0,0.8)) !important;}
+.theme-dark .card-7JP0BX, .newsLink-38Naqi {background:transparent !important;}
+.paginationItem-2lUq0s:before {background:var(--main-color) !important;}
 .carousel-2WxMes,
 .article-3BkSTW,
 .theme-dark .header-1RC2Wb {
     background:rgba(0,0,0,0.8) !important;
 }
-.theme-dark .paginationItem-2lUq0s:after {
-    background:linear-gradient(270deg,transparent 0,rgba(0,0,0,0.8)) !important;
+
+/*4.d. Library*/
+.stickyScroller-24zUyY {background:rgba(0,0,0,0.7) !important;}
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6 {background:rgba(255,255,255,0.1)}
+.theme-dark .gameLibrary-TTDw4Y,
+.theme-dark .header-39GIC8 {
+	background:transparent !important;
 }
-.theme-dark .card-7JP0BX,
-.newsLink-38Naqi {
-    background:transparent !important;
+
+/*4.e. Friends List*/
+.theme-dark #friends {background:transparent !important;}
+.theme-dark .headerBar-UHpsPw {background:rgba(0,0,0,0.7);}
+.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary {background:var(--main-color);}
+.theme-dark #friends .tab-bar .tab-bar-item:hover:not(.selected) {background:rgba(255,255,255,.1);}
+.theme-dark #friends .tab-bar .tab-bar-item.selected,
+.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary:hover:not(.selected) {
+    background:var(--main-color-faded);
+    color:#fff;
+    transition:100ms all linear;
 }
-.paginationItem-2lUq0s:before {
-    background:var(--main-color) !important;
+
+/*4.f. Selected and Hovered Content*/
+.da-selected a {background-color: rgba(0,0,0,0.7) !important;}
+.da-channel:hover a {background-color: rgba(255,255,255,0.03);}
+/*============== END OF SECTION ============== */
+
+/*5. Channels List*/
+/*5.a. Selected and Hovered Content*/
+.channels-Ie2l6A .content-20Aix8 {border-radius:5px !important;}
+.channels-Ie2l6A .content-20Aix8:hover {background:rgba(0,0,0,0.4) !important;}
+.contentSelectedText-3wUhMi {background:rgba(0,0,0,0.8) !important;}
+
+/*6.b. Account Details Container*/
+.button-2b6hmh {margin:0;}
+.container-2Thooq {
+    width: 286px;
+		height:78px !important;
+    margin-left: -71px;
+    bottom: -1px;
+    position: fixed;
+		background:rgba(0,0,0,0.7) !important;
 }
-/* end */
+.theme-dark .guildsWrapper-5TJh6A, .channels-Ie2l6A.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr {
+    height: calc(100vh - 100px);}
+/*============== END OF SECTION ============== */
+
+/*6. Chat Area*/
+/*6.a. Has More Button*/
+.theme-dark .hasMore-3e72_v button{
+    background:rgba(255,255,255,0.06) !important;
+    color:var(--main-color) !important;
+		border:none !important;
+}
+
+/*6.b. New Messages Bar*/
+.newMessagesBar-mujexs {background:var(--main-color);}
+.newMessagesBar-mujexs button:last-child {color:#fff !important;}
+.newMessagesBar-mujexs:hover {background:var(--main-color-faded);}
+
+/*6.c. Send Messages Area*/
+.theme-dark .attachButtonDivider-3Glu60 {display:none;}.button-2b6hmh {margin:0;}
+
+/*6.d. Emoji Picker*/
+#bda-qem button {color: #a3a3a3;}
+.emojiPicker-3m1S-j {background-color: rgba(0,0,0,0.95) !important;}
+.emojiPicker-3m1S-j .stickyHeader-1SS0JU {background: hsla(0, 0%, 5%, 0.95);}
+.app .search-bar-inner {background-color: rgba(255,255,255,0.1) !important;}
+#bda-qem button {border-left: 1px solid #262829!important;}
+.scrollerThemed-2oenus.themeLight-1_DWyY.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-dark .scrollerThemed-2oenus.themeLight-1_DWyY.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-light .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track {
+    background-color: rgba(23, 22, 22, 0.4)!important;
+}
+.emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {
+	background-color: rgba(255, 255, 255, .1)!important;
+}
+#bda-qem button.active {
+    background: rgba(0, 0, 0, 0.95) !important;
+    border: 1px solid #262626;}
+/*============== END OF SECTION ============== */
+
+/*7. Members List*/
+/*7.a. User Popouts*/
+.userPopout-3XzG_A .header-2BwW8b:after {display:none;}
+.headerPlaying-j0WQBV {background:var(--main-color) !important;}
+.body-3iLsc4,
+.footer-1fjuF6 {
+	background:rgba(0,0,0,0.7) !important;
+	border:none !important;
+}
+.userPopout-3XzG_A .nameTag-m8r81H .game,
+.userPopout-3XzG_A .nameTag-m8r81H:not(.headerTagNoNickname-ENx6no) .discriminator,
+.userPopout-3XzG_A .nameTag-m8r81H:not(.headerTagNoNickname-ENx6no) .username {
+	color:white !important;
+}
+.headerNormal-T_seeN {
+	background:rgba(255,255,255,0.001) !important;
+	border:none !important;
+}
+.userPopout-3XzG_A {
+	background:url(https://i.imgur.com/7SbtKvw.png);
+	background-position:right;
+}
+.theme-dark .quickMessage-1yeL4E {
+	background:rgba(255,255,255,0.05);
+	border:none !important;
+}
+/*4.b. Selected and Hovered Content*/
+.theme-dark .member-3W1lQa:hover .content-OzHfo4 {background:rgba(255,255,255,0.01) !important;}
+.theme-dark .member-3W1lQa.popout-open .content-OzHfo4 {background:rgba(255,255,255,0.07);}
