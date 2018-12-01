@@ -282,6 +282,7 @@ span.bda-header-title {
 	background:transparent !important;
 	border:none !important;
 }
+
 /*4.b. Store*/
 .app .da-tile {background-color: rgba(0,0,0,0.7)!important;}
 .app .da-exclusiveRegular {background-image: linear-gradient(90deg,var(--main-color),#a6dcf4)!important;}
@@ -430,7 +431,7 @@ background:linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,rgba(0,0,0,
 #bda-qem button {color: #a3a3a3;}
 .emojiPicker-3m1S-j {background-color: rgba(0,0,0,0.95) !important;}
 .emojiPicker-3m1S-j .stickyHeader-1SS0JU {background: hsla(0, 0%, 5%, 0.95);}
-.app .search-bar-inner {background-color: rgba(255,255,255,0.1) !important;}
+.emojiPicker-3m1S-j .search-bar-inner {background-color: rgba(255,255,255,0.1) !important;}
 #bda-qem button {border-left: 1px solid #262829!important;}
 .scrollerThemed-2oenus.themeLight-1_DWyY.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-dark .scrollerThemed-2oenus.themeLight-1_DWyY.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-light .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track {
     background-color: rgba(23, 22, 22, 0.4)!important;
