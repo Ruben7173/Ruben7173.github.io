@@ -646,7 +646,8 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
     background:transparent !important;
 }
 
-/*8.c. Search Popout*/
+/*8.c. Search*/
+.theme-dark .searchAnswer-3Dz2-q, .theme-dark .searchFilter-2ESiM3 {background:rgba(255,255,255,0.05);}
 .container-3ayLPN {background:rgba(0,0,0,0.8) !important;}
 .theme-dark .option-96V44q:after {display:none !important;}
 .popoutBottom-1YbShG {
@@ -662,6 +663,11 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
 .theme-dark .keybindShortcut-1BD6Z1 span {
 	background:rgba(0,0,0,0.9)
 }
+/*search bar*/
+.search .search-bar {width:30px;}
+.search .search-bar:hover {width:175px;}
+.search.focused .search-bar {width: 244px !important;}
+.search .search-bar {background:rgba(255,255,255,0.05) !important;}
 
 /*8.d. Find/Start a Conversation*/
 .theme-dark .quickswitcher-3JagVE {
@@ -725,17 +731,7 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}}
 to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 }
 
-/* 10. Theme/Plugin Error page */
-/* 10.a. Background Colors */
-.bd-modal-wrapper .header, .bd-modal-wrapper .bd-modal-body {
-	background-color: #161921;
-}
-/*  10.b. Option color */
-.bd-modal-wrapper .footer button {
-	background-color: var(--main-color);
-}
-
-/* 10.c. border around whole content */
-.bd-modal-wrapper .bd-modal-inner {
-    border: 1px solid rgb(22, 25, 33);
-}
+/*8.g. BetterDiscord Error Modal*/
+.bd-modal-wrapper .header, .bd-modal-wrapper .bd-modal-body {background-color: #161921;}
+.bd-modal-wrapper .footer button {background-color: var(--main-color);}
+.bd-modal-wrapper .bd-modal-inner {border: 1px solid rgb(22, 25, 33);}
