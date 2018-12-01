@@ -1,3 +1,4 @@
+::selection {background:var(--main-color) !important;}
 /*
 /$$$$$$$                      /$$             /$$      /$$             /$$     /$$
 | $$__  $$                    | $$            | $$$    /$$$            | $$    | $$
@@ -89,6 +90,7 @@ TABLE OF CONTENTS
 
 /*3. Settings*/
 /*3.a. Sidebar Area*/
+.lookFilled-1Gx00P {background:var(--main-color) !important;}
 .theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected { /*Fixes Blurple Area in BBD settings*/
     background:var(--main-color) !important;
     color:#fff !important;}
@@ -160,7 +162,11 @@ background:linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,rgba(0,0,0,
 .theme-dark .header-39GIC8 {
 	background:transparent !important;
 }
-
+.body-1SVoBw {background:rgba(0,0,0,0.6) !important;}
+.gamePreview-9weYR2 {
+    box-shadow:none;
+    background:url("https://i.imgur.com/7SbtKvw.png");
+}
 /*4.e. Friends List*/
 .theme-dark #friends {background:transparent !important;}
 .theme-dark .headerBar-UHpsPw {background:rgba(0,0,0,0.7);}
