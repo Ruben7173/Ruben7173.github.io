@@ -267,12 +267,13 @@ background:linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,rgba(0,0,0,
 	height:78px !important;
 	margin-left: -71px !important;
 	bottom: -1px !important;
-	position: fixed;
+	position: absolute;
 	background:rgba(0,0,0,0.9) !important;
 }
 .theme-dark .guildsWrapper-5TJh6A, .channels-Ie2l6A.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr {
     height: calc(100vh - 78px) !important;
 }
+.guildsWrapper-5TJh6A + .flex-1xMQg5 > .flex-1xMQg5 {position: static !important;}
 
 /*5.d. Member Status*/
 .theme-dark .container-2Thooq .status-oxiHuE:not(.status-3fQvEa) {pointer-events: none;}
