@@ -70,7 +70,7 @@ TABLE OF CONTENTS
 	8.d. Find/Start a Conversation
 	8.e. Add/Create Guilds Modal
 	8.f. Greeting Message
-	
+
 10. Theme/Plugin Error page
 	10.a. Background Colors
 	10.b. Option color
@@ -265,7 +265,7 @@ TABLE OF CONTENTS
 }
 
 /*3.m. BetterDiscord Themes & Plugins Area*/
-.bda-controls {top: 15px;}
+.bda-controls {top: 15px!important;}
 span.bda-header-title {
     position: relative;
     right: -40px;
