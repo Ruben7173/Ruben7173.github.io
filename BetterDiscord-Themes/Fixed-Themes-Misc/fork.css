@@ -35,6 +35,7 @@ TABLE OF CONTENTS
 	3.j. Overlay Tab
 	3.k. Game Activity Tab
 	3.l. Library Tab
+	Better Discord Themes & Plugins Area
 
 4. Private Channels
 	4.a. Search Bar
@@ -69,12 +70,6 @@ TABLE OF CONTENTS
 	8.d. Find/Start a Conversation
 	8.e. Add/Create Guilds Modal
 	8.f. Greeting Message
-
-9. Better Discord Themes, Plugin Area
-	9.a. Switch Position
-	9.b. Title Text Position
-	9.c. Subtext Position
-
 */
 
 /*1. Guilds Area*/
@@ -263,6 +258,17 @@ TABLE OF CONTENTS
 	stroke:var(--main-color) !important;
 }
 
+/*3.m. BetterDiscord Themes & Plugins Area*/
+.bda-controls {top: 15px;}
+span.bda-header-title {
+    position: relative;
+    right: -40px;
+    top: 5px;
+}
+#bd-settingspane-container .scroller-wrap .scroller {
+    position: relative;
+    right: -55px;
+}
 /*============== END OF SECTION ============== */
 
 /*4. Private Channels*/
@@ -625,20 +631,4 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}}
 20%{-webkit-transform:translate(-50%, 20%);transform:translate(-50%, 20%)}
 80%{-webkit-transform:translate(-50%, 20%);transform:translate(-50%, 20%)}
 to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
-}
-
-/* 9.a. Switch Position */
-.bda-controls {
-	top: 15px;
-}
-/* 9.b. Title Text Position */
-span.bda-header-title {
-    position: relative;
-    right: -40px;
-    top: 5px;
-}
-/* 9.c. Subtext Position */
-#bd-settingspane-container .scroller-wrap .scroller {
-    position: relative;
-    right: -55px;
 }
