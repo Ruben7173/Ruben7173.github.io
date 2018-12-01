@@ -13,7 +13,7 @@
 /* Main background and settings background */
 .app,
 .callout-backdrop {
-	background: url(https://i.imgur.com/7SbtKvw.png) !important;
+	background: var(--background-image) !important;
 	background-size: cover !important;
 }
 
@@ -684,10 +684,6 @@ textarea {
 .inner-zqa7da {
 	background: transparent !important;
 	padding: 0 10px;
-}
-
-.search .search-bar {
-	background-color: rgba(0, 0, 0, 0.55) !important;
 }
 
 .search-answer,
