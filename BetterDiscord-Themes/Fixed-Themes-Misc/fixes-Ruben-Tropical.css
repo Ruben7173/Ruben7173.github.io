@@ -43,6 +43,7 @@ TABLE OF CONTENTS
 	6.c. Send Messages Area
 	6.d. Emoji Picker
 	6.e. Loading Animations
+	6.f. No Channel
 
 7. Members List
 	7.a. User Popouts
@@ -241,6 +242,11 @@ background:linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,rgba(0,0,0,
 .spinner-wandering-cubes .spinner-item,
 .chat-3bRxxu .newMessagesBar-mujexs {
   background-color: var(--main-color) !important;
+}
+
+/*6.f. No Channel*/
+.theme-dark .noChannel-Z1DQK7 {
+    background:transparent;
 }
 /*============== END OF SECTION ============== */
 
