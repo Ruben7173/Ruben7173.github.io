@@ -266,7 +266,8 @@ background:linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,rgba(0,0,0,
 	height:78px !important;
 	margin-left: -71px !important;
 	bottom: -1px !important;
-	position: fixed !important;
+	position: fixed;
+	position:absolute;
 	background:rgba(0,0,0,0.9) !important;
 }
 .theme-dark .guildsWrapper-5TJh6A, .channels-Ie2l6A.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr {
