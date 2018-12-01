@@ -544,7 +544,8 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
     top: initial!important;
     height: 70px!important;
     cursor: initial;
-		background:transparent !important;
+    background:rgba(0,0,0,0.9) !important;
+    border:2px solid var(--accent-color);
     overflow:visible;
 }
 .alt-3btY0e .item-1GzJrl {
