@@ -142,8 +142,16 @@ TABLE OF CONTENTS
 .titleBar-AC4pGV rect, .wordmark-2iDDfm, .winButton-iRh8-Z svg {
 	display: none;
 }
-.noTopic-2b04lB.da-noTopic {
-    -webkit-app-region: drag;
+.titleBar-AC4pGV:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 6px;
+  height: 14px;
+  z-index: 3002;
+  -webkit-app-region: drag !important;
+  pointer-events: none;
 }
 .titleWrapper-1l0xT9 .flex-1xMQg5 .flex-1xMQg5, #friends .flex-1xMQg5 .flex-1xMQg5,
 .activityFeed-28jde9>.flex-1xMQg5>.horizontal-1ae9ci>.flex-1xMQg5:last-child, .gameLibrary-TTDw4Y>.flex-1xMQg5 .flex-1xMQg5:last-child,
