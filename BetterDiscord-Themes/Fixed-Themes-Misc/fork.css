@@ -455,7 +455,7 @@ background:linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,rgba(0,0,0,
 	color:white !important;
 }
 .headerNormal-T_seeN {
-	background:rgba(255,255,255,0.001) !important;
+	background:var(--dark-color) !important;
 	border:none !important;
 }
 .userPopout-3XzG_A {
