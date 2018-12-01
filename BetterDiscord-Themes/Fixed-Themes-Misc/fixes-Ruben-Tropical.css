@@ -18,12 +18,14 @@ TABLE OF CONTENTS
 	1.a. Add/Create Guilds Button
 	1.b. Outages
 	1.c. Tooltips
+
 2. Titlebar
   2.a. Main Titlebar
 
 3. Settings
 	3.a. Sidebar Area
-        3.b. Remove Blurple Areas
+        3.b. Close Button
+
 4. Private Channels
 	4.a. Search Bar
 	4.b. Store
@@ -31,13 +33,16 @@ TABLE OF CONTENTS
 	4.d. Library
 	4.e. Friends List
 	4.f. Selected and Hovered Content
+
 5. Channels List
 	5.a. Selected and Hovered Content
+
 6. Chat Area
 	6.a. Has More Button
 	6.b. New Messages Bar
 	6.c. Send Messages Area
 	6.d. Emoji Picker
+
 7. Members List
 	7.a. User Popouts
 	7.b. Selected and Hovered Content
@@ -93,7 +98,15 @@ TABLE OF CONTENTS
 .lookFilled-1Gx00P {background:var(--main-color) !important;}
 .theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected { /*Fixes Blurple Area in BBD settings*/
     background:var(--main-color) !important;
-    color:#fff !important;}
+    color:#fff !important;
+}
+/*3.b. Close Button*/
+.keybind-KpFkfr {display:none;}
+.closeButton-1tv5uR {transition:linear 200ms all;}
+.closeButton-1tv5uR:hover {
+    transform:scale(1.19);
+    background:var(--main-color-faded) !important;
+	border-color:var(--main-color) !important;}
 /*============== END OF SECTION ============== */
 
 /*4. Private Channels*/
