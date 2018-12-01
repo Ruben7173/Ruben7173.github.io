@@ -57,6 +57,7 @@ TABLE OF CONTENTS
 	6.e. Loading Animations
 	6.f. No Channel
 	6.g. Embeds
+	6.h. Tags
 
 7. Members List
 	7.a. User Popouts
@@ -482,6 +483,25 @@ background:linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,rgba(0,0,0,
 .theme-dark .embedInner-1-fpTo {
     background:transparent !important;
     border:none !important;
+}
+
+/*6.h. Tags*/
+.large-3ChYtB:not(.wrapper-2F3Zv8):hover::before {transform:scale(1.5);}
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="254362351170617345"]::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="300024006462144512"]::before {
+  background-image: url(https://i.imgur.com/233d55Y.gif);
+	content: '';
+  height: 25px;
+  width: 25px;
+	bottom: -8px;
+	right: -8px;
+	border-radius:50px;
+  background-size: 100%;
+	transition:250ms transform linear;
+  background-repeat: no-repeat;
+	box-sizing: border-box;
+  white-space: nowrap;
+  position: absolute;
 }
 /*============== END OF SECTION ============== */
 
