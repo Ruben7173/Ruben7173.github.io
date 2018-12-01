@@ -69,6 +69,12 @@ TABLE OF CONTENTS
 	8.d. Find/Start a Conversation
 	8.e. Add/Create Guilds Modal
 	8.f. Greeting Message
+
+9. Better Discord Themes, Plugin Area
+	9.a. Switch Position
+	9.b. Title Text Position
+	9.c. Subtext Position
+
 */
 
 /*1. Guilds Area*/
@@ -592,7 +598,7 @@ background:linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,rgba(0,0,0,
 	color:var(--main-color) !important;
 }
 .regionSelect-3lf4eE:hover .regionSelectInner-24f4Ce,
-.regionSelect-3lf4eE:hover button {
+.regionSelect-3lf4eE:hover button, .da-wrapper {
 	border-color:var(--main-color) !important;
 }
 .regionSelectModal-12e-57 {
@@ -619,4 +625,20 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}}
 20%{-webkit-transform:translate(-50%, 20%);transform:translate(-50%, 20%)}
 80%{-webkit-transform:translate(-50%, 20%);transform:translate(-50%, 20%)}
 to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
+}
+
+/* 9.a. Switch Position */
+.bda-controls {
+	top: 15px;
+}
+/* 9.b. Title Text Position */
+span.bda-header-title {
+    position: relative;
+    right: -40px;
+    top: 5px;
+}
+/* 9.c. Subtext Position */
+#bd-settingspane-container .scroller-wrap .scroller {
+    position: relative;
+    right: -55px;
 }
