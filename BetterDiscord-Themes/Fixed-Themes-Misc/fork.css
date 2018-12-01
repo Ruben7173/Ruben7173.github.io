@@ -322,7 +322,7 @@ span.bda-header-title {
 background:linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,rgba(0,0,0,0.7)) !important;
 }
 .popout-2xBvMR {
-    background:url(https://i.imgur.com/7SbtKvw.png);
+    background:var(--background-image);
     background-position:right;
 }
 /*4.c. Activity*/
@@ -346,7 +346,7 @@ background:linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,rgba(0,0,0,
 .body-1SVoBw {background:rgba(0,0,0,0.6) !important;}
 .gamePreview-9weYR2 {
     box-shadow:none;
-    background:url("https://i.imgur.com/7SbtKvw.png");
+    background:var(--background-image);
 }
 /*4.e. Friends List*/
 .theme-dark #friends {background:transparent !important;}
@@ -525,7 +525,7 @@ background:linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,rgba(0,0,0,
 	border:none !important;
 }
 .userPopout-3XzG_A {
-	background:url(https://i.imgur.com/7SbtKvw.png);
+	background:var(--background-image);
 	background-position:center;
 }
 .theme-dark .quickMessage-1yeL4E {
@@ -561,7 +561,7 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
     height: 70px !important;
     overflow:visible;
     cursor: initial;
-    background:url(https://i.imgur.com/7SbtKvw.png) !important;
+    background:var(--background-image) !important;
     background-position:center !important;
     background-size:cover !important;
 }
@@ -650,7 +650,7 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
     background:rgba(0,0,0,0.86);
 }
 .themedPopout-25DgLi {
-    background:url(https://i.imgur.com/7SbtKvw.png) !important;
+    background:var(--background-image) !important;
     background-position:center !important;
 }
 .themedPopout-25DgLi .scroller-wrap .scroller {background:rgba(0,0,0,0.9);}
@@ -668,7 +668,7 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
 .container-3ayLPN {background:rgba(0,0,0,0.8) !important;}
 .theme-dark .option-96V44q:after {display:none !important;}
 .popoutBottom-1YbShG {
-	background:url(https://i.imgur.com/7SbtKvw.png);
+	background:var(--background-image);
 	background-potition:center;
 }
 .theme-dark .option-96V44q.selected-rZcOL-,
