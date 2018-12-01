@@ -210,28 +210,28 @@ background:linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,rgba(0,0,0,
 
 /*5.b. Server Header*/
 .header-2o-2hj {
-	background:transparent;
+	background:transparent !important;
 	border:none !important;
 	box-shadow:none !important;
 }
 /*5.c. Account Details Container*/
-.button-2b6hmh {margin:0;}
+.button-2b6hmh {margin:0 !important;}
 .container-2Thooq {
 	width: 286px;
 	height:78px !important;
-	margin-left: -71px;
-	bottom: -1px;
-	position: fixed;
+	margin-left: -71px !important;
+	bottom: -1px !important;
+	position: fixed !important;
 	background:rgba(0,0,0,0.9) !important;
 }
 .theme-dark .guildsWrapper-5TJh6A, .channels-Ie2l6A.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr {
-    height: calc(100vh - 100px);
+    height: calc(100vh - 100px) !important;
 }
 /*============== END OF SECTION ============== */
 
 /*6. Chat Area*/
 /*6.a. Has More Button*/
-.theme-dark .hasMore-3e72_v button{
+.theme-dark .hasMore-3e72_v button { 
 	background:rgba(255,255,255,0.06) !important;
 	color:var(--main-color) !important;
 	border:none !important;
@@ -259,7 +259,9 @@ background:linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,rgba(0,0,0,
 }
 #bda-qem button.active {
     background: rgba(0, 0, 0, 0.95) !important;
-    border: 1px solid #262626;}
+    border: 1px solid #262626;
+}
+
 /*6.e. Loading Animations*/
 .spinner-pulsing-ellipsis .spinner-item,
 .spinner-wandering-cubes .spinner-item,
