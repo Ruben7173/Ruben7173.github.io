@@ -564,7 +564,7 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
     background: transparent!important;
     animation: anim-status 400ms cubic-bezier(.4,0,0,1) backwards;
 }
-.alt-3btY0e .item-1GzJrl:first-of-type {padding-left:10px!important; box-sizing: content-box !important;}
+.alt-3btY0e .item-1GzJrl:first-of-type {padding-left:0px!important; box-sizing: content-box !important;}
 .alt-3btY0e .item-1GzJrl .online-2S838R,.alt-3btY0e .item-1GzJrl .idle-3DEnRT,.alt-3btY0e .item-1GzJrl .dnd-1_xrcq,.alt-3btY0e .item-1GzJrl .invisible-1kp8Z0{
   position:absolute;
   width: 100%;
