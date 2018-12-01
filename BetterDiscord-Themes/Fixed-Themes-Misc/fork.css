@@ -684,7 +684,7 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
 .search .search-bar {width:30px;}
 .search .search-bar:hover {width:175px;}
 .search.focused .search-bar {width: 244px !important;}
-.search .search-bar {background:rgba(255,255,255,0.05) !important;}
+.search-l1Wz-Q .search .search-bar {background:rgba(255,255,255,0.05) !important;}
 
 /*8.d. Find/Start a Conversation*/
 .theme-dark .quickswitcher-3JagVE {
