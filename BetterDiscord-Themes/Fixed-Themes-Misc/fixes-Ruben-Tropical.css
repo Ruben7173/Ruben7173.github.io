@@ -126,6 +126,8 @@ TABLE OF CONTENTS
 .app .da-exclusiveRegular::before {display:none!important;}
 .app .overlappingBorder-1ysb12, .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.selected-39BZ4S {border-color: var(--accent-color)!important;}
 .theme-dark .itemBackground-1jfD8p:before{background:transparent !important;}
+.carouselContainer-1KvOK0 {margin-top:20px !important;}
+.theme-dark .announcingNitro-3Ptg6m {color:var(--main-color);}
 .content-35aVm0,
 .root-1bFE0x,
 .bodySection-jqkkIP,
