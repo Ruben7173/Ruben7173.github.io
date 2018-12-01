@@ -204,6 +204,13 @@ background:linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,rgba(0,0,0,
 .channels-Ie2l6A .content-20Aix8 {border-radius:5px !important;}
 .channels-Ie2l6A .content-20Aix8:hover {background:rgba(0,0,0,0.4) !important;}
 .contentSelectedText-3wUhMi {background:rgba(0,0,0,0.8) !important;}
+
+/*5.b. Server Header*/
+.header-2o-2hj {
+	background:transparent;
+	border:none !important;
+	box-shadow:none !important;
+}
 /*============== END OF SECTION ============== */
 
 /*6. Chat Area*/
