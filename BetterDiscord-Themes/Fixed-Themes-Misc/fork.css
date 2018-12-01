@@ -70,6 +70,12 @@ TABLE OF CONTENTS
 	8.d. Find/Start a Conversation
 	8.e. Add/Create Guilds Modal
 	8.f. Greeting Message
+	
+10. Theme/Plugin Error page
+	10.a. Background Colors
+	10.b. Option color
+	10.c. border around whole content
+
 */
 
 /*1. Guilds Area*/
@@ -631,4 +637,19 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}}
 20%{-webkit-transform:translate(-50%, 20%);transform:translate(-50%, 20%)}
 80%{-webkit-transform:translate(-50%, 20%);transform:translate(-50%, 20%)}
 to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
+}
+
+/* 10. Theme/Plugin Error page */
+/* 10.a. Background Colors */
+.bd-modal-wrapper .header, .bd-modal-wrapper .bd-modal-body {
+	background-color: #2f3136;
+}
+/*  10.b. Option color */
+.bd-modal-wrapper .footer button {
+	background-color: var(--main-color);
+}
+
+/* 10.c. border around whole content */
+.bd-modal-wrapper .bd-modal-inner {
+    border: 1px solid rgb(22, 25, 33);
 }
