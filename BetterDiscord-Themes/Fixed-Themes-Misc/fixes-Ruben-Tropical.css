@@ -107,9 +107,44 @@ TABLE OF CONTENTS
 .app .da-exclusiveRegular {background-image: linear-gradient(90deg,var(--main-color),#a6dcf4)!important;}
 .app .da-exclusiveRegular::before {display:none!important;}
 .app .overlappingBorder-1ysb12, .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.selected-39BZ4S {border-color: var(--accent-color)!important;}
-
+.theme-dark .itemBackground-1jfD8p:before{background:transparent !important;}
+.content-35aVm0,
+.root-1bFE0x,
+.bodySection-jqkkIP,
+.theme-dark .row-1bU71H,
+.theme-dark .card-NB61oR{
+    background:rgba(0,0,0,0.7) !important;
+}
+.mediaBarGrabber-1FqnbN, 
+.mediaBarProgress-1xaPtl, 
+.mediaBarProgress-1xaPtl:after,
+.mediaBarProgress-1xaPtl:before {
+    background:var(--main-color) !important;
+}
+.theme-dark .itemBackground-1jfD8p {border-radius:20px;}
+.purchaseUnitOperatingSystem-cnbJPz {color:var(--main-color) !important;}
+.overlappingBorder-1-XPGl {border-color:var(--main-color) !important;}
+.theme-dark .checked-3_4uQ9 {background:var(--main-color) !important;}
+.footer-3oZnEF {
+    opacity:.6 !important;
+    background:url(/assets/72e1fd085e240aecf005e642e655c0f4.svg) no-repeat bottom,none !important;
+}
+.optionActive-KkAdqq {background:rgba(0,0,0,0.7);}
+.optionFocused-8MflSE {background:rgba(0,0,0,0.5);}
+.theme-dark .popout-2sKjHu {background:rgba(0,0,0,0.6);}
+.theme-dark .mediaFade-1SdEfL {
+    background:linear-gradient(180deg,transparent 90%,rgba(0,0,0,0.7)) !important;
+}
+.theme-dark .description-3rB3Rp {
+background:linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,rgba(0,0,0,0.7)) !important;
+}
+.popout-2xBvMR {
+    background:url(https://i.imgur.com/7SbtKvw.png);
+    background-position:right;
+}
 /*4.c. Activity*/
 .theme-dark .paginationItem-2lUq0s:after {background:linear-gradient(270deg,transparent 0,rgba(0,0,0,0.8)) !important;}
+.theme-dark .dockItem-2kQDqg:hover {background:rgba(255,255,255,0.03) !important;}
 .theme-dark .card-7JP0BX, .newsLink-38Naqi {background:transparent !important;}
 .paginationItem-2lUq0s:before {background:var(--main-color) !important;}
 .carousel-2WxMes,
