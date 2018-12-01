@@ -23,7 +23,7 @@
 
 */
 
-div>*:not(code) {
+#app-mount {
 	font-family: 'Karla',Whitney,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif !important;
 }
 
