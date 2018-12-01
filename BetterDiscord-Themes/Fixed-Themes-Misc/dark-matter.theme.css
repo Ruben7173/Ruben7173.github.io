@@ -11,6 +11,7 @@
 	--main-color-faded: rgba(37,172,232,0.2);
 	--accent-color: rgba(29,101,134,1);
 	--dark-color: #161921;
+	--background-image: url(https://i.imgur.com/7SbtKvw.png);
 
 	/* Modal Background Color / Opacity */
 	--short-gradient: linear-gradient(45deg, rgba(29,101,134,0.5), rgba(37,172,232,0.5));
