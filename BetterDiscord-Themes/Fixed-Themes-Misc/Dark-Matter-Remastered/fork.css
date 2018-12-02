@@ -296,7 +296,7 @@ TABLE OF CONTENTS
 }
 
 /*3.m. BetterDiscord Themes & Plugins Area*/
-.bda-slist .bda-footer a {background:var(--main-color) !important;}
+.bda-slist .bda-footer a {color:var(--main-color) !important;}
 .bda-controls {top: 15px!important;}
 span.bda-header-title {
     position: relative;
