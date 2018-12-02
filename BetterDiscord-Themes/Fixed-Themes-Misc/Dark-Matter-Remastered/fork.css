@@ -962,7 +962,8 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 
 /*10. Themed Plugins*/
 /*10.a. Theme Repo and Plugin Repo*/
-.themerepo-modal .themeEntry.downloadable .btn-download {
+.themerepo-modal .themeEntry.downloadable .btn-download,
+.pluginrepo-modal .pluginEntry.downloadable .btn-download {
     background:var(--main-color) !important;
 }
 
