@@ -294,6 +294,7 @@ TABLE OF CONTENTS
 }
 
 /*3.m. BetterDiscord Themes & Plugins Area*/
+.bda-slist .bda-footer a {background:var(--main-color) !important;}
 .bda-controls {top: 15px!important;}
 span.bda-header-title {
     position: relative;
@@ -304,6 +305,7 @@ span.bda-header-title {
     position: relative;
     right: -70px;
 }
+
 /*============== END OF SECTION ============== */
 
 /*4. Private Channels*/
@@ -846,12 +848,13 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 	color:white !important;
 }
 .headerNormal-T_seeN {
-	background:var(--dark-color) !important;
+	background:rgba(0,0,0,0.7) !important;
 	border:none !important;
 }
 .userPopout-3XzG_A {
-	background:var(--background-image);
-	background-position:center;
+	background:var(--background-image) !important;
+	background-position:center !important;
+	background-size:cover !important;
 }
 .theme-dark .quickMessage-1yeL4E {
 	background:rgba(255,255,255,0.05);
