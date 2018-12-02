@@ -461,7 +461,8 @@ background:linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,rgba(0,0,0,
 /*6.e. Loading Animations*/
 .spinner-pulsing-ellipsis .spinner-item,
 .spinner-wandering-cubes .spinner-item,
-.chat-3bRxxu .newMessagesBar-mujexs {
+.chat-3bRxxu .newMessagesBar-mujexs,
+.wanderingCubesItem-WPXqao {
   background-color: var(--main-color) !important;
 }
 
