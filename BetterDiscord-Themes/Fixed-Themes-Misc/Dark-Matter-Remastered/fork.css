@@ -18,6 +18,7 @@ TABLE OF CONTENTS
 	1.a. Add/Create Guilds Button
 	1.b. Outages
 	1.c. Tooltips
+	1.d. General Icons
 
 2. Titlebar
   2.a. Main Titlebar
@@ -128,6 +129,9 @@ TABLE OF CONTENTS
 @keyframes faderight {0% {opacity: 0;transform: translateX(50%);}100% {opacity: 0.9;transform: none;}}
 @keyframes fadebottom {0% {opacity: 0;transform: translateY(50%);}100% {opacity: 0.9;transform: none;}}
 @keyframes fadeleft {0% {opacity: 0;transform: translateX(-50%);}100% {opacity: 0.9; transform: none;}}
+
+/*1.d. General Icons*/
+.theme-dark .guildIcon-lQ0uiM {background-color:var(--main-color);}
 /*============== END OF SECTION ============== */
 
 /*2. Titlebar*/
@@ -372,6 +376,9 @@ background:linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,rgba(0,0,0,
     background:var(--background-image);
     background-position:right;
 }
+.theme-dark .applicationTile-1Goy1W {background:rgba(0,0,0,0.5);}
+.theme-dark .applicationTile-1Goy1W:hover {background:rgba(0,0,0,0.8);}
+
 /*4.c. Activity*/
 .theme-dark .paginationItem-2lUq0s:after {background:linear-gradient(270deg,transparent 0,rgba(0,0,0,0.8)) !important;}
 .theme-dark .dockItem-2kQDqg:hover {background:rgba(255,255,255,0.03) !important;}
