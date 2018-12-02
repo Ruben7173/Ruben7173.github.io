@@ -877,3 +877,12 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 .modal-1UGdnR .header-QKLPzZ, .modal-1UGdnR .header-QKLPzZ {
 	background: transparent;
 }
+
+/* submenu right click */
+.theme-dark.contextMenu-HLZMGh {
+    background: var(--dark-color);
+}
+
+.theme-dark .item-1Yvehc:hover, .theme-dark .itemSubMenu-1vN_Yn:hover {
+    background: rgba(255,255,255,0.05);
+}
