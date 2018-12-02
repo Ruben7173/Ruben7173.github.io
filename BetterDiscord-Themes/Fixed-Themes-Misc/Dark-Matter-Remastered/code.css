@@ -2545,6 +2545,59 @@ textarea {
 	border-radius: 100%;
 }
 
+.bda-slist li {
+	border: none !important;
+}
+
+.bda-slist li:first-of-type {
+	border-top:none !important;
+}
+
+.bda-slist .bda-right .bda-plugin-reload {
+	margin-top:25px;
+}
+
+.bda-slist .bda-right .btn {
+	margin-left:-5px;
+}
+
+.bda-slist .bda-right .btn:disabled {
+	opacity:0.3;
+}
+
+.bda-slist .checkbox {
+	margin-left:10px;
+	position:relative;
+	top:8px;
+}
+
+/* Add checkbox cause jiiks hasnt added the new class yet */
+.bda-slist .bda-right .ui-switch-wrapper {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	position: relative;
+	width: 44px;
+	height: 24px;
+	display: block;
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 auto;
+	flex: 0 0 auto;
+	border-radius: 50px;
+	background: var(--accent-color);
+}
+
+.bda-slist .bda-right .ui-switch-wrapper .ui-switch-checkbox {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transition: background .15s ease-in-out,box-shadow .15s ease-in-out,border .15s ease-in-out;
+}
+
 .ui-switch-checkbox {
 	background: blue !important;
 }
@@ -2556,6 +2609,29 @@ textarea {
 .ui-switch-checkbox:checked+.ui-switch {
 	background: var(--main-color) !important;
 	/*transform: translateX(20px);*/
+}
+
+.bda-slist .bda-right .ui-switch-wrapper .ui-switch {
+    content: "";
+    display: block;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    bottom: 3px;
+    background: #f6f6f7;
+    border-radius: 10px;
+    transition: all .15s ease;
+    box-shadow: 0 3px 1px 0 rgba(0,0,0,.05),0 2px 2px 0 rgba(0,0,0,.1),0 3px 3px 0 rgba(0,0,0,.05);
+}
+
+.bda-slist {
+	margin-bottom:25px;
+}
+
+.bda-slist-top {
+	height: 35px;
 }
 
 #bd-themes-pane .bda-plugin-reload {
