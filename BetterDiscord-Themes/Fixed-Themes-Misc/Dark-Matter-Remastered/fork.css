@@ -107,6 +107,8 @@ TABLE OF CONTENTS
 	width:40px;
 	height:40px;
 }
+.guildsError-3cFMtY {line-height: 38px;}
+.anchor-3Z-8Bb {font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif !important;}
 
 /*1.c. Tooltips*/
 .tooltip {background: rgba(0,0,0,0.7) !important;}
@@ -1015,7 +1017,3 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 .authBox-hW6HRx {background:rgba(0,0,0,0.8) !important;}
 .lookLink-9FtZy-.colorBrand-3pXr91 {color:var(--main-color) !important;}
 .rightSplit-2US0xy {background:rgba(0,0,0,0.5) !important;}
-
-/* fixes unavailable server font */
-.guildsError-3cFMtY {line-height: 38px}
-.anchor-3Z-8Bb {font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif!important}
