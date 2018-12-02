@@ -1045,3 +1045,8 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 .theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action {
     background-color: var(--dark-color);
 }
+
+/* need help background color */
+.need-help-modal.form.deprecated .header {
+	background-color: var(--main-color);
+}
