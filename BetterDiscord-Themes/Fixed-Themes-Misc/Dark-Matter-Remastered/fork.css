@@ -317,7 +317,7 @@ span.bda-header-title {
 
 /*4.b. Store*/
 .app .da-tile {background-color: rgba(0,0,0,0.7)!important;}
-.app .da-exclusiveRegular {background-image: linear-gradient(90deg,var(--main-color),#a6dcf4)!important;}
+.app .da-exclusiveRegular, .theme-dark .premium-39U29H:before, .theme-light .premium-39U29H:before {background-image: linear-gradient(90deg,var(--main-color),#a6dcf4)!important;}
 .app .da-exclusiveRegular::before {display:none!important;}
 .app .overlappingBorder-1ysb12, .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.selected-39BZ4S {border-color: var(--accent-color)!important;}
 .theme-dark .itemBackground-1jfD8p:before{background:transparent !important;}
