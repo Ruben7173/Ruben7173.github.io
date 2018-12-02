@@ -1040,3 +1040,8 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 .theme-dark .headerBar-UHpsPw {
     background: rgba(0,0,0,0.95) !important;
 }
+
+/* friends section accept or delete invite backgroun */
+.theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action {
+    background-color: var(--dark-color);
+}
