@@ -679,6 +679,7 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
     background-position: 50%;
 }
 /*8.b. Pinned Messages & Recent Mentions*/
+.theme-dark .iconBadge-2dji3k {border-color:rgba(0,0,0,0.75);}
 .theme-dark .header-ykumBX,
 .theme-dark .messageGroupWrapper-o-Zw7G {
     background:rgba(0,0,0,0.86);
