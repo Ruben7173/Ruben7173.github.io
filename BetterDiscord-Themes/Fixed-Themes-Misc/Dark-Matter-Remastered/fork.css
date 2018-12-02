@@ -914,3 +914,26 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
   top: 50%;
   transform: translateY(-50%);
 }
+
+/* fix for plugin theme repo this took a LONG TIME TO FIX */
+.pluginrepo-modal .pluginEntry {
+    padding-bottom: 100px;
+}
+.pluginrepo-modal .pluginEntry.downloadable .btn-download {
+    position: absolute;
+    top: 108px;
+    left: 650px;
+    z-index: 999;
+}
+
+.pluginrepo-modal .pluginEntry.updated .btn-download {
+	position: absolute;
+    top: 108px;
+    left: 650px;
+    z-index: 999;
+}
+.pluginrepo-modal .pluginEntry .trashIcon {
+    position: absolute;
+    left: 625px;
+    top: 108px;
+}
