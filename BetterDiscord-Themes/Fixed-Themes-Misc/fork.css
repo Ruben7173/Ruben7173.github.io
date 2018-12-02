@@ -678,8 +678,9 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
 .container-3ayLPN {background:rgba(0,0,0,0.8) !important;}
 .theme-dark .option-96V44q:after {display:none !important;}
 .popoutBottom-1YbShG {
-	background:var(--background-image);
-	background-potition:center;
+	background:var(--background-image) !important;
+	background-potition:center !important;
+	background-size:cover !important;
 }
 .theme-dark .option-96V44q.selected-rZcOL-,
 .theme-dark .focused-2bY0OD {
