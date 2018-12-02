@@ -775,8 +775,8 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 
 /*8.i. Server Dropdown*/
 .menu-Sp6bN1 {background:rgba(0,0,0,0.8) !important;}
-.item-1GzJrl {transition:50ms all linear;}
-.item-1GzJrl:hover {background:rgba(0,0,0,0.5) !important;}
+.item-1GzJrl {transition:75ms all linear;}
+.item-1GzJrl:hover {background:rgba(0,0,0,0.5) !important; border-radius:5px !important;}
 .separator-2zcjq8 {display:none !important;}
 
 /*8.j. Screenshare Modal*/
