@@ -902,3 +902,22 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 .theme-dark .selectorSelected-1_M1WV {
     background-color: rgba(255,255,255,0.1);
 }
+
+/* extra fix for pinned messages image positions of Qwerasd#5202 */
+.da-popouts .da-message img {
+        max-width: 300px;
+        height: auto !important;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+}
+.da-popouts .da-message .da-imageWrapper {
+  position: relative;
+}
+.da-popouts .da-message .da-imageWrapper img {
+  max-width: 300px;
+  height: auto !important;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
