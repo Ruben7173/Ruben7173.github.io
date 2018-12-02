@@ -58,6 +58,7 @@ TABLE OF CONTENTS
 	6.f. No Channel
 	6.g. Embeds
 	6.h. Tags
+	6.i. Jump To Present
 
 7. Members List
 	7.a. User Popouts
@@ -504,6 +505,15 @@ background:linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,rgba(0,0,0,
   white-space: nowrap;
   position: absolute;
 }
+
+/*6.i. Jump To Present*/
+.chat-3bRxxu .jumpToPresentBar-9P20AM button:first-child {display:none}
+.jumpToPresentBar-9P20AM{left:auto!important;}
+.chat-3bRxxu .jumpToPresentBar-9P20AM button:last-child{color:#fff;}
+.theme-dark .chat-3bRxxu .jumpToPresentBar-9P20AM{background-color:var(--accent-color);}
+.theme-dark .chat-3bRxxu .jumpToPresentBar-9P20AM:hover{background-color:var(--main-color);}
+.chat-3bRxxu .jumpToPresentBar-9P20AM .spinner{padding-right:7px;padding:8px;padding-left:50px;}
+
 /*============== END OF SECTION ============== */
 
 /*7. Members List*/
