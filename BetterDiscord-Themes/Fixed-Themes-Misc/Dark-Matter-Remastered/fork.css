@@ -904,13 +904,6 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 }
 
 /* extra fix for pinned messages image positions of Qwerasd#5202 */
-.da-popouts .da-message img {
-        max-width: 300px;
-        height: auto !important;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-}
 .da-popouts .da-message .da-imageWrapper {
   position: relative;
 }
