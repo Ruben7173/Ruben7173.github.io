@@ -844,3 +844,11 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 .path-92Hmty {
 	stroke:var(--main-color) !important;
 }
+
+
+
+/* settings my account background and border, organize this wherever you want */
+.theme-dark .cardPrimary-1Hv-to {
+    background: rgba(0,0,0,.6);
+    border-color: rgba(3, 5, 5, .6);
+}
