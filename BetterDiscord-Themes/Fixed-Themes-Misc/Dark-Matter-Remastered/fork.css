@@ -81,6 +81,7 @@ TABLE OF CONTENTS
 	8.l. User Popouts
 	8.m. Context Menus
 	8.n. Toasts
+	8.o. Join Server Modal
 
 9. Calls
 	9.a. General Voice Call Area
@@ -928,6 +929,14 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 
 /*8.n. Toasts*/
 .toast, .bd-toast {background:var(--main-color);}
+
+/*8.o. Join Server Modal*/
+.theme-dark .contentWrapper-3WC1ID {background:rgba(0,0,0,0.7);}
+.container-2Yth53 {
+	background:var(--background-image);
+	background-size:cover !important;
+	border-radius:5px;
+}
 /*============== END OF SECTION ============== */
 
 /*9. Calls*/
