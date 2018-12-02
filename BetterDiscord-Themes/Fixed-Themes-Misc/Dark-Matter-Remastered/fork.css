@@ -296,18 +296,25 @@ TABLE OF CONTENTS
 }
 
 /*3.m. BetterDiscord Themes & Plugins Area*/
+.bda-slist .bda-right .ui-switch-wrapper .ui-switch-checkbox {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transition: background .15s ease-in-out,box-shadow .15s ease-in-out,border .15s ease-in-out;
+}
+.ui-switch-checkbox+.ui-switch {background: rgba(255,255,255,0.2) !important;}
+.ui-switch-checkbox:checked+.ui-switch {background: var(--main-color) !important;}
+.bd-pfbtn {background:var(--main-color);}
 .bda-slist .bda-footer a {color:var(--main-color) !important;}
-.bda-controls {top: 15px!important;}
-span.bda-header-title {
-    position: relative;
-    right: -55px;
-    top: 5px;
+.theme-dark .bda-slist .bda-footer,
+.theme-dark .bda-slist .bda-header {border:none;}
+#bd-settingspane-container .ui-switch-item {
+    background:var(--dark-color);
+    border:none;
 }
-#bd-settingspane-container .scroller-wrap .scroller {
-    position: relative;
-    right: -70px;
-}
-
 /*============== END OF SECTION ============== */
 
 /*4. Private Channels*/
@@ -946,26 +953,8 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 
 /*10. Themed Plugins*/
 /*10.a. Theme Repo and Plugin Repo*/
-.bda-slist .bda-footer button {background: var(--main-color);}
-.pluginrepo-modal .pluginEntry {
-    padding-bottom: 100px;
-}
-.pluginrepo-modal .pluginEntry.downloadable .btn-download {
-    position: absolute;
-    top: 108px;
-    left: 650px;
-    z-index: 999;
-}
-.pluginrepo-modal .pluginEntry.updated .btn-download {
-    position: absolute;
-    top: 108px;
-    left: 650px;
-    z-index: 999;
-}
-.pluginrepo-modal .pluginEntry .trashIcon {
-    position: absolute;
-    left: 625px;
-    top: 108px;
+.themerepo-modal .themeEntry.downloadable .btn-download {
+    background:var(--main-color) !important;
 }
 
 /*10.b. BetterFormattingRedux*/
