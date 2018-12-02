@@ -816,6 +816,12 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 .item-1GzJrl {transition:75ms all linear;}
 .item-1GzJrl:hover {background:rgba(0,0,0,0.5) !important; border-radius:5px !important;}
 .separator-2zcjq8 {display:none !important;}
+.theme-dark .item-1GzJrl.invite-271nFU {color:var(--main-color) !important;}
+.item-1GzJrl.invite-271nFU .icon-2doZ3q {
+  -webkit-mask: url("/assets/d4ff0d2af68cd1119f0d16ef79d1369c.svg");
+  background-color: var(--main-color);
+   background-image: none !important;
+}
 
 /*8.j. Screenshare Modal*/
 .selectorButtonSelected-1j4DmC {background:var(--main-color) !important;}
