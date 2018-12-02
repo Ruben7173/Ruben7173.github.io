@@ -60,6 +60,7 @@ TABLE OF CONTENTS
 	6.h. Tags
 	6.i. Jump To Present
 	6.j. Linked Channels
+	6.k. New Messages Divider
 
 7. Members List
 	7.a. Selected and Hovered Content
@@ -79,6 +80,7 @@ TABLE OF CONTENTS
 	8.k. RTC Connection Popout
 	8.l. User Popouts
 	8.m. Context Menus
+	8.n. Toasts
 
 9. Calls
 	9.a. General Voice Call Area
@@ -86,6 +88,10 @@ TABLE OF CONTENTS
 10. Themed Plugins
 	10.a. Plugin Repo & Theme Repo
 	10.b. BetterFormattingRedux
+
+11. Out-Of-App Areas
+	11.a. Loading/Lost Connection Container
+	11.b. Login Page
 */
 
 /*1. Guilds Area*/
@@ -528,6 +534,11 @@ background:linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,rgba(0,0,0,
     padding: 3px 5px !important;
     border-radius: 5px !important;
 }
+
+/*6.k. New Messges Divider*/
+.theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI {
+    background:rgba(240,71,71,.4) !important;
+}
 /*============== END OF SECTION ============== */
 
 /*7. Members List*/
@@ -894,6 +905,9 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
   top: 50%;
   transform: translateY(-50%);
 }
+
+/*8.n. Toasts*/
+.toast, .bd-toast {background:var(--main-color);}
 /*============== END OF SECTION ============== */
 
 /*9. Calls*/
@@ -962,3 +976,38 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
     z-index: -1;
     background-color:rgba(0,0,0,0.6);
 }
+
+/*11. Out-Of-App Areas*/
+/*11.a. Loading/Lost Connection Container*/
+.platform-win .container-16j22k::before {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    z-index: -1;
+    background-color:rgba(0,0,0,0.8);
+}
+.platform-win .container-16j22k {
+  background-image:var(--background-image) !important;
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+}
+.status-1JTY3j,
+.problemsText-1Yx-Kl {
+  color:white !important;
+  opacity:0.5;
+}
+.anchor-3Z-8Bb {
+  color:var(--main-color)!important;
+}
+
+/*11.b. Login Page*/
+.canvas-3XuBXe, .image-2jyRAK {display:none !important;}
+.wrapper-3Q5DdO {background:var(--background-image) !important;}
+.authBox-hW6HRx {background:rgba(0,0,0,0.8) !important;}
+.lookLink-9FtZy-.colorBrand-3pXr91 {color:var(--main-color) !important;}
+.rightSplit-2US0xy {background:rgba(0,0,0,0.5) !important;}
