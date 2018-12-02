@@ -1976,10 +1976,6 @@ textarea {
 	stroke: #fff !important;
 }
 
-.ui-switch-checkbox:checked+.ui-switch {
-	background: var(--short-gradient) !important;
-}
-
 .avatar-xxlarge {
 	box-shadow: 0 10px 20px 2px rgba(0,0,0,0.5);
 }
