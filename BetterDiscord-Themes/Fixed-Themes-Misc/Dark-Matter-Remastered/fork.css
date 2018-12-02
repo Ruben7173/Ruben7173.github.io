@@ -969,7 +969,7 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
     background:rgba(0,0,0,0.5) !important;
     border-radius:5px !important;
 }
-.bf-toolbar.bf-hover:after {
+.bf-toolbar.bf-hover:hover:after {
     content: '';
     display: block;
     position: absolute;
