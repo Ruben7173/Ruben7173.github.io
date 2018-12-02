@@ -852,3 +852,28 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
     background: rgba(0,0,0,.6);
     border-color: rgba(3, 5, 5, .6);
 }
+/* custom panels */
+/* streaming panel */
+.headerStreaming-2FjmGz {
+    background: rgba(89, 54, 149, .9);
+    border: 1px solid rgb(140, 82, 238);
+}
+/* profile streaming */
+.topSectionStreaming-1Tpf5X {
+    background: rgba(89, 54, 149, .9);
+    border: 1px solid rgb(140, 82, 238);
+}
+
+/* spotify panel */
+.headerSpotify-zpWxgT {
+    background: rgba(22, 128, 59, 0.9);
+    border: 1px solid rgb(12, 205, 80);
+}
+.topSectionSpotify-1lI0-P {
+    background: rgba(22, 128, 59, 0.9);
+    border: 1px solid rgb(12, 205, 80);
+}
+/* fix for both spotify and streaming */
+.modal-1UGdnR .header-QKLPzZ, .modal-1UGdnR .header-QKLPzZ {
+	background: transparent;
+}
