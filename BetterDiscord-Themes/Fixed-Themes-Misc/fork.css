@@ -61,9 +61,8 @@ TABLE OF CONTENTS
 	6.i. Jump To Present
 
 7. Members List
-	7.a. User Popouts
-	7.b. Selected and Hovered Content
-	7.c. Member Status
+	7.a. Selected and Hovered Content
+	7.b. User Status
 
 8. Popups, Modals and Dropdowns
 	8.a. Status Picker
@@ -74,6 +73,13 @@ TABLE OF CONTENTS
 	8.f. Greeting Message
 	8.g. BetterDiscord Error Modal
 	8.h. Upload Modal
+	8.i. Server Dropdown
+	8.j. Screenshare Modal
+	8.k. RTC Connection Popout
+	8.l. User Popouts
+
+9. Calls
+	9.a. General Voice Call Area
 */
 
 /*1. Guilds Area*/
@@ -184,6 +190,7 @@ TABLE OF CONTENTS
 	border-color:var(--main-color) !important;}
 /*3.c. Checkboxes, Sliders, etc...*/
 .theme-dark .bar-2Qqk5Z {background:rgba(255,255,255,0.05) !important;}
+.theme-dark .select-2TCrqx .Select-menu-outer {background:rgba(0,0,0,0.6) !important;}
 .cardPrimaryEditable-3KtE4g[style*="rgb(114, 137, 218)"],
 .themeDefault-24hCdX.valueChecked-m-4IJZ,
 .barFill-23-gu- {
@@ -255,6 +262,10 @@ TABLE OF CONTENTS
 /*3.k. Game Activity Tab*/
 .theme-dark .add-game-popout {
 	background:var(--dark-color) !important;
+}
+.theme-dark .user-settings-games .game-name-input:focus, .theme-dark .user-settings-games .game-name-input:hover {
+	background:rgba(0,0,0,0.6) !important;
+	border:none !important;
 }
 
 /*3.l. Library Tab*/
@@ -392,24 +403,6 @@ background:linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,rgba(0,0,0,
     height: calc(100vh - 78px) !important;
 }
 .guildsWrapper-5TJh6A + .flex-1xMQg5 > .flex-1xMQg5 {position: static !important;}
-
-/*5.d. Member Status*/
-.theme-dark .container-2Thooq .status-oxiHuE:not(.status-3fQvEa) {pointer-events: none;}
-.status-oxiHuE:not(.status-3fQvEa).online-2S838R {border-color: #43b581 !important;}
-.status-oxiHuE:not(.status-3fQvEa).idle-3DEnRT {border-color: #faa61a !important;}
-.status-oxiHuE:not(.status-3fQvEa).dnd-1_xrcq {border-color: #f04747 !important;}
-.status-oxiHuE:not(.status-3fQvEa).streaming-2_dnHe {border-color: #643da7 !important;}
-.status-oxiHuE:not(.status-3fQvEa).offline-3qoTek {border-color: #636b75 !important;}
-.status-oxiHuE:not(.status-3fQvEa).invisible-1kp8Z0 {border-color: #636b75 !important;}
-.status-oxiHuE:not(.status-3fQvEa) {
-  height: calc(100% - 1px) !important;
-  width: calc(100% - 1px) !important;
-  top: -1px !important;
-	left: -1px !important;
-	border-radius:50px !important;
-  background: transparent !important;
-  border:2px solid !important;
-} 
 /*============== END OF SECTION ============== */
 
 /*6. Chat Area*/
@@ -517,34 +510,27 @@ background:linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,rgba(0,0,0,
 /*============== END OF SECTION ============== */
 
 /*7. Members List*/
-/*7.a. User Popouts*/
-.userPopout-3XzG_A .header-2BwW8b:after {display:none;}
-.headerPlaying-j0WQBV {background:var(--main-color) !important;}
-.body-3iLsc4,
-.footer-1fjuF6 {
-	background:rgba(0,0,0,0.7) !important;
-	border:none !important;
-}
-.userPopout-3XzG_A .nameTag-m8r81H .game,
-.userPopout-3XzG_A .nameTag-m8r81H:not(.headerTagNoNickname-ENx6no) .discriminator,
-.userPopout-3XzG_A .nameTag-m8r81H:not(.headerTagNoNickname-ENx6no) .username {
-	color:white !important;
-}
-.headerNormal-T_seeN {
-	background:var(--dark-color) !important;
-	border:none !important;
-}
-.userPopout-3XzG_A {
-	background:var(--background-image);
-	background-position:center;
-}
-.theme-dark .quickMessage-1yeL4E {
-	background:rgba(255,255,255,0.05);
-	border:none !important;
-}
-/*7.b. Selected and Hovered Content*/
+/*7.a. Selected and Hovered Content*/
 .theme-dark .member-3W1lQa:hover .content-OzHfo4 {background:rgba(255,255,255,0.01) !important;}
 .theme-dark .member-3W1lQa.popout-open .content-OzHfo4 {background:rgba(255,255,255,0.07);}
+
+/*7.b. User Status*/
+.theme-dark .container-2Thooq .status-oxiHuE:not(.status-3fQvEa) {pointer-events: none;}
+.status-oxiHuE:not(.status-3fQvEa).online-2S838R {border-color: #43b581 !important;}
+.status-oxiHuE:not(.status-3fQvEa).idle-3DEnRT {border-color: #faa61a !important;}
+.status-oxiHuE:not(.status-3fQvEa).dnd-1_xrcq {border-color: #f04747 !important;}
+.status-oxiHuE:not(.status-3fQvEa).streaming-2_dnHe {border-color: #643da7 !important;}
+.status-oxiHuE:not(.status-3fQvEa).offline-3qoTek {border-color: #636b75 !important;}
+.status-oxiHuE:not(.status-3fQvEa).invisible-1kp8Z0 {border-color: #636b75 !important;}
+.status-oxiHuE:not(.status-3fQvEa) {
+  height: calc(100% - 1px) !important;
+  width: calc(100% - 1px) !important;
+  top: -1px !important;
+	left: -1px !important;
+	border-radius:50px !important;
+  background: transparent !important;
+  border:2px solid !important;
+}
 /*============== END OF SECTION ============== */
 
 /*8. Popups, Modals and Dropdowns*/
@@ -784,4 +770,76 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 .uploadModal-2ifh8j .footer-3mqk7D .button {
 	background:var(--main-color) !important;
 	color:white !important;
+}
+
+/*8.i. Server Dropdown*/
+.menu-Sp6bN1 {background:rgba(0,0,0,0.8) !important;}
+.item-1GzJrl {transition:50ms all linear;}
+.item-1GzJrl:hover {background:rgba(0,0,0,0.5) !important;}
+.separator-2zcjq8 {display:none !important;}
+
+/*8.j. Screenshare Modal*/
+.selectorButtonSelected-1j4DmC {background:var(--main-color) !important;}
+.imageSelected-4Kl81J {border-color:var(--main-color) !important;}
+.theme-dark .tiles-2aXG_k,
+.group-2dAfBy {
+	background:rgba(0,0,0,0.3) !important;
+}
+
+/*8.k. RTC Connection Popout*/
+.theme-dark .container-2x5lvQ {
+	background:var(--background-image) !important;
+	background-size:cover !important;
+}
+.theme-dark .container-2x5lvQ header,
+.theme-dark .container-2x5lvQ section {
+	background:rgba(0,0,0,0.7) !important;
+}
+
+/*8.l. User Popouts*/
+.userPopout-3XzG_A .header-2BwW8b:after {display:none;}
+.headerPlaying-j0WQBV {background:var(--main-color) !important;}
+.lookInverted-2D7oAl.colorBrand-3pXr91 {color:var(--main-color) !important;}
+.body-3iLsc4,
+.footer-1fjuF6 {
+	background:rgba(0,0,0,0.7) !important;
+	border:none !important;
+}
+.userPopout-3XzG_A .nameTag-m8r81H .game,
+.userPopout-3XzG_A .nameTag-m8r81H:not(.headerTagNoNickname-ENx6no) .discriminator,
+.userPopout-3XzG_A .nameTag-m8r81H:not(.headerTagNoNickname-ENx6no) .username {
+	color:white !important;
+}
+.headerNormal-T_seeN {
+	background:var(--dark-color) !important;
+	border:none !important;
+}
+.userPopout-3XzG_A {
+	background:var(--background-image);
+	background-position:center;
+}
+.theme-dark .quickMessage-1yeL4E {
+	background:rgba(255,255,255,0.05);
+	border:none !important;
+}
+/*============== END OF SECTION ============== */
+
+/*9. Calls*/
+/*9.a. General Voice Call Area*/
+.video-1FfuMD {
+	background:transparent;
+}
+.theme-dark .wrapper-29NfPK {
+	background:rgba(0,0,0,0.5) !important;
+}
+.theme-dark .wrapper-29NfPK.minimum-2d6zH6 .actions-2vadYq .center-1Vp33r {
+	background:rgba(0,0,0,0.5) !important;
+	border:none !important;
+}
+.callAvatarBorder-1D_KaE.video-3GgX2M.selected-2esnyn:not(.speaking-oCqYMI):not(.soundsharing-102bS9) {
+	box-shadow:inset 0 0 0 2px var(--main-color) !important;
+}
+.path2-1q7bG_,
+.path-92Hmty {
+	stroke:var(--main-color) !important;
 }
