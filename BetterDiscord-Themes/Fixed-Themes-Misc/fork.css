@@ -889,3 +889,7 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 .theme-dark .itemSubMenu-1vN_Yn:hover {
 	background: rgba(255,255,255,0.05) url(/assets/1988164a7c55346d32117b151f4e319d.svg) no-repeat 150px 50%;
 }
+/* removed border */
+.itemGroup-1tL0uz {
+	border: none!important;
+}
