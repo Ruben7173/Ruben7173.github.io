@@ -893,3 +893,12 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 .itemGroup-1tL0uz {
 	border: none!important;
 }
+
+
+/* submenu mention background color and hover */
+.theme-dark .autocomplete-1vrmpx {
+    background-color: var(--dark-color);
+}
+.theme-dark .selectorSelected-1_M1WV {
+    background-color: rgba(255,255,255,0.1);
+}
