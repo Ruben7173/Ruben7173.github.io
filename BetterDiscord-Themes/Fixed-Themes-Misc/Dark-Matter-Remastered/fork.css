@@ -1103,3 +1103,8 @@ span.bda-header-title {
 .pluginEntry .bda-header .bda-header-title, .pluginEntry .bda-description-wrap .bda-description {
 	margin-left: 0px;
 }
+
+/* plugin normal page fixing link website \ source */
+.theme-dark .bda-slist .bda-footer .bda-links {
+	margin-left: 50px;
+}
