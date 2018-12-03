@@ -1095,3 +1095,11 @@ span.bda-header-title {
 	position:relative;
 	bottom: 23px;
 }
+
+/* plugin repository fave and github icon position */
+.pluginEntry .bda-header .favIcon {
+	margin-left: 675px;
+}
+.pluginEntry .bda-header .bda-header-title, .pluginEntry .bda-description-wrap .bda-description {
+	margin-left: 0px;
+}
