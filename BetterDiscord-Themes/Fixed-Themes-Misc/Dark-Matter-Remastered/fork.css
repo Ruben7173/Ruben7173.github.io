@@ -1114,3 +1114,8 @@ span.bda-header-title {
     background-color: rgba(0, 0, 0, 0.75);
     border: 1px solid #161921;
 }
+
+/* no text channels background transparency */
+.theme-dark .noChannel-Z1DQK7 {
+	background: rgba(0,0,0,.9);
+}
