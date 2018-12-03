@@ -62,6 +62,7 @@ TABLE OF CONTENTS
 	6.i. Jump To Present
 	6.j. Linked Channels
 	6.k. New Messages Divider
+	5.l. Edit/Delete Messages
 
 7. Members List
 	7.a. Selected and Hovered Content
@@ -323,6 +324,26 @@ TABLE OF CONTENTS
     background:var(--dark-color);
     border:none;
 }
+.bda-slist .bda-footer button {background: var(--main-color);}
+.theme-dark .bda-slist .bda-footer .bda-links {margin-left: 50px;}
+.bda-slist .bda-header {
+	flex-direction: row-reverse;
+	display: block;
+}
+.bda-header .bda-header-title {
+    text-align: left;
+    display: block;
+}
+span.bda-header-title {
+    position: relative;
+    top: 18px;
+    margin-left: 50px;
+    font-size: 13px;
+}
+.bda-slist .bda-description {
+	margin-left: 50px;
+	font-size: 13px;
+}
 /*============== END OF SECTION ============== */
 
 /*4. Private Channels*/
@@ -403,8 +424,9 @@ background:linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,rgba(0,0,0,
     background:var(--background-image);
 }
 /*4.e. Friends List*/
+.theme-dark .headerBar-UHpsPw {background: rgba(0,0,0,0.95) !important;}
+.theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action {background-color: var(--dark-color);}
 .theme-dark #friends {background:transparent !important;}
-.theme-dark .headerBar-UHpsPw {background:rgba(0,0,0,0.7);}
 .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary {background:var(--main-color);}
 .theme-dark #friends .tab-bar .tab-bar-item:hover:not(.selected) {background:rgba(255,255,255,.1);}
 .theme-dark #friends .tab-bar .tab-bar-item.selected,
@@ -490,7 +512,7 @@ background:linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,rgba(0,0,0,
 
 /*6.f. No Channel*/
 .theme-dark .noChannel-Z1DQK7 {
-    background:transparent;
+    background:rgba(0,0,0,0.9);
 }
 
 /*6.g. Embeds*/
@@ -561,6 +583,12 @@ background:linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,rgba(0,0,0,
 /*6.k. New Messges Divider*/
 .theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI {
     background:rgba(240,71,71,.4) !important;
+}
+
+/*6.l. Edit/Delete Messages*/
+.theme-dark .message-2qRu38 {
+    background-color: rgba(0, 0, 0, 0.75);
+    border: 1px solid #161921;
 }
 /*============== END OF SECTION ============== */
 
@@ -976,7 +1004,14 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 .pluginrepo-modal .pluginEntry.downloadable .btn-download {
     background:var(--main-color) !important;
 }
-
+.pluginEntry .bda-header .favIcon {margin-left: 675px;}
+.pluginEntry .bda-header .bda-header-title, .pluginEntry .bda-description-wrap .bda-description {margin-left: 0px;}
+.themeEntry .bda-header .bda-header-title {margin-left: 50px;}
+.themeEntry .bda-header .favIcon {margin-left: 675px;}
+.themeEntry .bda-header .themeDefault-24hCdX.sizeDefault-2YlOZr  {
+	position:relative;
+	bottom: 23px;
+}
 /*10.b. BetterFormattingRedux*/
 .bf-toolbar.bf-visible:before, .bf-toolbar.bf-hover:hover:before{
     background:var(--background-image);
@@ -1041,81 +1076,3 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 .channels-Ie2l6A {box-shadow:inset -10px 0px 20px -10px rgba(0,0,0,0.5);}
 .content-yTz4x3 .flex-spacer {box-shadow:inset -10px 0px 20px -10px rgba(0,0,0,0.7);}
 .container-2Thooq {box-shadow: 0 -10px 10px -5px rgba(0,0,0,0.5);}
-
-
-/* fix for friends section top area */
-.theme-dark .headerBar-UHpsPw {
-    background: rgba(0,0,0,0.95) !important;
-}
-
-/* friends section accept or delete invite backgroun */
-.theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action {
-    background-color: var(--dark-color);
-}
-
-/* need help background color */
-.need-help-modal.form.deprecated .header {
-	background-color: var(--main-color);
-}
-
-/*  */
-.bda-slist .bda-header {
-	flex-direction: row-reverse;
-	display: block;
-}
-.bda-header .bda-header-title {
-    text-align: left;
-    display: block;
-}
-span.bda-header-title {
-    position: relative;
-    top: 18px;
-    margin-left: 50px;
-    font-size: 13px;
-}
-.bda-slist .bda-description {
-	margin-left: 50px;
-	font-size: 13px;
-}
-
-/* button color */
-.bda-slist .bda-footer button {
-    background: var(--main-color);
-}
-
-/* theme repository position of buttons */
-.themeEntry .bda-header .bda-header-title {
-	margin-left: 50px;
-}
-.themeEntry .bda-header .favIcon {
-	margin-left: 675px;
-}
-
-.themeEntry .bda-header .themeDefault-24hCdX.sizeDefault-2YlOZr  {
-	position:relative;
-	bottom: 23px;
-}
-
-/* plugin repository fave and github icon position */
-.pluginEntry .bda-header .favIcon {
-	margin-left: 675px;
-}
-.pluginEntry .bda-header .bda-header-title, .pluginEntry .bda-description-wrap .bda-description {
-	margin-left: 0px;
-}
-
-/* plugin normal page fixing link website \ source */
-.theme-dark .bda-slist .bda-footer .bda-links {
-	margin-left: 50px;
-}
-
-/* delete message content background and border */
-.theme-dark .message-2qRu38 {
-    background-color: rgba(0, 0, 0, 0.75);
-    border: 1px solid #161921;
-}
-
-/* no text channels background transparency */
-.theme-dark .noChannel-Z1DQK7 {
-	background: rgba(0,0,0,.9);
-}
