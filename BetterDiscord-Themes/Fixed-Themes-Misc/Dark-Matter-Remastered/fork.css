@@ -449,7 +449,7 @@ background:linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,rgba(0,0,0,
 
 /*5.b. Server Header*/
 .header-2o-2hj {
-	background:transparent;
+	background:transparent !important;
 	border:none !important;
 	box-shadow:none !important;
 }
