@@ -548,7 +548,8 @@ background:linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,rgba(0,0,0,
 /*6.h. Tags*/
 .large-3ChYtB:not(.wrapper-2F3Zv8):hover::before {transform:scale(1.5);}
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="254362351170617345"]::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="300024006462144512"]::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="300024006462144512"]::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="138850472541814784"]::before {
   background-image: url(https://i.imgur.com/233d55Y.gif);
 	content: '';
   height: 25px;
