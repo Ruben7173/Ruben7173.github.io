@@ -66,7 +66,6 @@ TABLE OF CONTENTS
 
 7. Members List
 	7.a. Selected and Hovered Content
-	7.b. User Status
 
 8. Popups, Modals and Dropdowns
 	8.a. Status Picker
@@ -597,24 +596,6 @@ background:linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,rgba(0,0,0,
 /*7.a. Selected and Hovered Content*/
 .theme-dark .member-3W1lQa:hover .content-OzHfo4 {background:rgba(255,255,255,0.01) !important;}
 .theme-dark .member-3W1lQa.popout-open .content-OzHfo4 {background:rgba(255,255,255,0.07);}
-
-/*7.b. User Status*/
-.theme-dark .container-2Thooq .status-oxiHuE:not(.status-3fQvEa) {pointer-events: none;}
-.status-oxiHuE:not(.status-3fQvEa).online-2S838R {border-color: #43b581 !important;}
-.status-oxiHuE:not(.status-3fQvEa).idle-3DEnRT {border-color: #faa61a !important;}
-.status-oxiHuE:not(.status-3fQvEa).dnd-1_xrcq {border-color: #f04747 !important;}
-.status-oxiHuE:not(.status-3fQvEa).streaming-2_dnHe {border-color: #643da7 !important;}
-.status-oxiHuE:not(.status-3fQvEa).offline-3qoTek {border-color: #636b75 !important;}
-.status-oxiHuE:not(.status-3fQvEa).invisible-1kp8Z0 {border-color: #636b75 !important;}
-.status-oxiHuE:not(.status-3fQvEa) {
-  height: calc(100% - 1px) !important;
-  width: calc(100% - 1px) !important;
-  top: -1px !important;
-	left: -1px !important;
-	border-radius:50px !important;
-  background: transparent !important;
-  border:2px solid !important;
-}
 /*============== END OF SECTION ============== */
 
 /*8. Popups, Modals and Dropdowns*/
