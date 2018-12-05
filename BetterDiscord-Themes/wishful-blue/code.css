@@ -246,7 +246,10 @@
   .theme-dark .resultFocused-3aIoYe, .app .selectorSelected-1_M1WV, .theme-dark .attachPopoutRow-KrE-f6:hover,.theme-dark .select-2TCrqx .Select-option.is-focused {
 	background-color: var(--submenu-hover);
 }
-
+.theme-dark .item-1Yvehc:hover {
+	border-left: 4px solid #226980;
+    border-radius: 3px;
+}
 /* custom emoji button and border and box shadow */
 #bda-qem button {
 	background-color: rgba(18, 63, 80, 0.35);
