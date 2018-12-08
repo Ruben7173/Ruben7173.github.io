@@ -56,3 +56,17 @@
     transform: scale(1.5);
     background: rgba(0, 0, 0, 0.3);
 }
+
+/* status fixing some stuff */
+.da-item .da-statusIconText .da-online, .da-titleText .da-online {
+	background-color: #43b581;
+}
+.da-item .da-statusIconText .da-idle, .da-titleText .da-idle {
+	background-color: #faa61a;
+}
+.da-item .da-statusIconText .da-dnd, .da-titleText .da-dnd {
+	background-color: #f04747;
+}
+.da-item .da-statusIconText .da-invisible, .da-titleText .da-offline {
+	background-color: #2f3136;
+}
