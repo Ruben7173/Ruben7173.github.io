@@ -45,3 +45,14 @@
 .statusProfile-3ynqtt.online-2S838R, .statusProfile-3ynqtt.invisible-1kp8Z0, .statusProfile-3ynqtt.offline-3qoTek, .statusProfile-3ynqtt.unknown-Ms2zdV {
     -webkit-box-shadow: none;
 }
+
+/* typing */
+.typing-1KJk_j {
+    position: relative!important;
+    top: -30px!important;
+    height: 26px!important;
+}
+.spinner-2enMB9 {
+    transform: scale(1.5);
+    background: rgba(0, 0, 0, 0.3);
+}
