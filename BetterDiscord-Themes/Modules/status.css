@@ -70,3 +70,8 @@
 .da-item .da-statusIconText .da-invisible, .da-titleText .da-offline {
 	background-color: #2f3136;
 }
+
+/* extra fix */
+.wrapper-2F3Zv8 .status-oxiHuE {
+    left: -1px;
+}
