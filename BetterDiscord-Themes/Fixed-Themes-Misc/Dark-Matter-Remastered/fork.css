@@ -1189,7 +1189,6 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 /*8.s. Custom Credits Modal*/
 .need-help-modal.form.deprecated .header {
 	background:linear-gradient(90deg,var(--main-color),#a6dcf4)!important;
-	border-bottom:4px solid var(--dark-color);
 	height:75px;
 }
 .need-help-modal.form.deprecated .form-inner.loading {
