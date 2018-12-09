@@ -446,7 +446,7 @@ span.bda-header-title {
 }
 
 /*8.p. Custom CSS Editor*/
-.ace-monokai .ace_gutter-active-line {background:rgba(255,255,255,0.1);}
+.ace-monokai .ace_gutter-active-line {background:rgba(255,255,255,0.1) !important;}
 .ace_gutter-cell {color:var(--main-color) !important;}
 .ace-monokai .ace_gutter {background:rgba(0,0,0,0.35) !important;}
 .ace_content {background:rgba(0,0,0,0.1) !important;}
@@ -455,11 +455,11 @@ span.bda-header-title {
 .contentRegion-3nDuYy #bd-customcss-attach-controls,
 #bd-customcss-detach-container #bd-customcss-attach-controls {
     background:var(--dark-color) !important;
-    border-bottom-right-radius:7px;
-    border-bottom-left-radius:7px;
+    border-bottom-right-radius:5px;
+    border-bottom-left-radius:5px;
 }
 .ace_scrollbar-h::-webkit-scrollbar {
-    background:rgba(0,0,0,0.95) !important;
+    background:rgba(0,0,0,0.75) !important;
     height:6px !important;
     border-radius:50px !important;
 }
