@@ -32,3 +32,7 @@
 .browseSearch-e9jF-f, .libraryFilter-31ZUa2 {
 	margin-right: 130px;
 }
+/* a small fix for channel info */
+.da-topic {
+	max-width: 80%!important;
+}
