@@ -1236,3 +1236,9 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 .channels-Ie2l6A {box-shadow:inset -10px 0px 20px -10px rgba(0,0,0,0.5);}
 .content-yTz4x3 .flex-spacer {box-shadow:inset -10px 0px 20px -10px rgba(0,0,0,0.7);}
 .container-2Thooq {box-shadow: 0 -10px 10px -5px rgba(0,0,0,0.5);}
+
+
+/* while in call background */
+.videoBackground-3AY_fu, .videoBackgroundTransition-3wpOSl {
+    background: rgba(0,0,0,0.6) !important;
+}
