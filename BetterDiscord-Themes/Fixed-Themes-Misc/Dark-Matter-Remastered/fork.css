@@ -67,6 +67,7 @@ TABLE OF CONTENTS
 	6.k. New Messages Divider
 	5.l. Edit/Delete Messages
 	6.m. Server Welcome Message
+	6.n. Download Apps Screen
 
 7. Members List
 	7.a. Selected and Hovered Content
@@ -91,6 +92,7 @@ TABLE OF CONTENTS
 	8.q. Search Users Popout
 	8.r. Role Select Popout
 	8.s. Custom Credits Modal
+	8.t. Keyboard Shortcuts Modal (And raging demon easter egg :3
 
 9. Calls
 	9.a. General Voice Call Area
@@ -98,6 +100,7 @@ TABLE OF CONTENTS
 10. Themed Plugins
 	10.a. Plugin Repo & Theme Repo
 	10.b. BetterFormattingRedux
+	10.c. DateViewer
 
 11. Out-Of-App Areas
 	11.a. Loading/Lost Connection Container
@@ -303,6 +306,11 @@ TABLE OF CONTENTS
 .theme-dark .tier1Banner-1B_WXY {background:var(--dark-color) !important;}
 .side-8zPYf6 .item-PXvHYJ[style*="rgb(114, 137, 218)"] {color:var(--main-color) !important;}
 .side-8zPYf6 .itemSelected-1qLhcL[style*="rgb(114, 137, 218)"] {color:white !important; background:var(--main-color) !important;}
+.feature-1n9XFi .badgeIcon-1sJyLH {-webkit-mask: url(https://discordapp.com/assets/df0e29b16d71bdad333880b2488075be.svg);}
+.feature-1n9XFi .badgeIcon-1sJyLH {
+    -webkit-mask-size: cover;
+    background: var(--main-color) !important;
+}
 
 /*3.i. Voice and Video Tab*/
 .userSettingsVoice-iwdUCU .media-engine-video {
@@ -329,6 +337,7 @@ TABLE OF CONTENTS
 }
 
 /*3.k. Game Activity Tab*/
+.defaultIndicator-2X8Auf {background:var(--main-color) !important;}
 .theme-dark .add-game-popout {
 	background:var(--dark-color) !important;
 }
@@ -776,6 +785,31 @@ background:linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,rgba(0,0,0,
 .twitter-1TN3uJ {
   -webkit-mask-image: url(https://discordapp.com/assets/326d79eb53886c88437e99a3754b1cd0.svg);
   -webkit-mask-size: 77%;
+}
+
+/*6.n. Download Apps Screen*/
+.downloadButton-1bWXpg {color:#fff !important;}
+.backdrop-1wrmKB {background:rgba(0,0,0,0.9) !important;}
+.downloadApps-wbBFdZ .platforms-28Rb-3 .platform-iik236.active-iLSdWQ p, .downloadApps-wbBFdZ .header-nJMe-Q {color:var(--main-color);}
+.downloadApps-wbBFdZ .platforms-28Rb-3 .platform-iik236.active-iLSdWQ {border-color:var(--main-color);}
+.active-iLSdWQ .downloadButton-1bWXpg {background:var(--main-color) !important;}
+.downloadApps-wbBFdZ .platforms-28Rb-3 .platform-iik236.active-iLSdWQ .icon-2Pk7pb {
+	background:var(--main-color) !important;
+}
+.downloadApps-wbBFdZ .platforms-28Rb-3 .platform-iik236 .icon-2Pk7pb.apple-1fKN59 {
+  -webkit-mask-image: url(https://discordapp.com/assets/57568e1cfc37c81cf56db9498b4f128a.svg);
+}
+.downloadApps-wbBFdZ .platforms-28Rb-3 .platform-iik236 .icon-2Pk7pb.windows-29yOum {
+  -webkit-mask-image: url(https://discordapp.com/assets/d6221c5e88f5cb89f125868c077e9859.svg)
+}
+.downloadApps-wbBFdZ .platforms-28Rb-3 .platform-iik236 .icon-2Pk7pb.linux-15cW1y {
+  -webkit-mask-image: url(https://discordapp.com/assets/a3bee2061afed80c5bd76ff38cd18f0e.svg);
+}
+.downloadApps-wbBFdZ .platforms-28Rb-3 .platform-iik236 .icon-2Pk7pb.ios-Z7K-rr {
+  -webkit-mask-image: url(https://discordapp.com/assets/0c460e9b848f5c4cc964ae9c62c0f9b9.svg);
+}
+.downloadApps-wbBFdZ .platforms-28Rb-3 .platform-iik236 .icon-2Pk7pb.android-gGrHJu {
+  -webkit-mask-image: url(https://discordapp.com/assets/676bfec9f4343f6fcdf0a12ae313a3de.svg);
 }
 /*============== END OF SECTION ============== */
 
@@ -1227,6 +1261,66 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 	text-decoration:underline;
 	font-weight:bold;
 }
+
+/*8.t. Keyboard Shortcuts Modal*/
+.theme-dark .keyboardShortcutsModal-3piNz7 {background:var(--background-image);}
+.theme-dark .modalTitle-37O4n6, .theme-dark .modalSubtitle-1Pj5nv {
+	background:rgba(0,0,0,0.85);
+	margin:0;
+}
+.ragingDemon-bDcoXE img[src="/assets/bb7f752540c7f4c7039c6dd6b5dd052e.svg"] {
+	box-sizing: border-box !important;
+	padding-right: 80vw !important;
+}
+.ragingDemon-bDcoXE img[src="/assets/bb7f752540c7f4c7039c6dd6b5dd052e.svg"],
+.ragingDemon-bDcoXE .symbol-3ffeCr:before,
+.ragingDemon-bDcoXE .symbol-3ffeCr:after {
+	width: 80vw !important;
+	height: 60vh !important;
+}
+.ragingDemon-bDcoXE .symbol-3ffeCr:before,
+.ragingDemon-bDcoXE .symbol-3ffeCr:after {
+	content: "";
+	position: absolute;
+}
+.ragingDemon-bDcoXE .symbol-3ffeCr:before {
+	background: var(--main-color) !important;
+	-webkit-mask-size: cover;
+	-webkit-mask: url('https://svgshare.com/i/9q6.svg') center/contain no-repeat !important;
+}
+.ragingDemon-bDcoXE .symbol-3ffeCr:after {
+	background: url('https://svgshare.com/i/9pB.svg') center/contain no-repeat !important;
+}
+.ddrArrows-lSnH7P .arrow-2enltQ.down-2Ju7Q_ {transform: rotate(270deg);}
+.ddrArrows-lSnH7P .arrow-2enltQ.up-fkTose {transform: rotate(90deg);}
+.ddrArrows-lSnH7P .arrow-2enltQ.right-1AEPK3 {transform: rotate(180deg);}
+.ddrArrows-lSnH7P .arrow-2enltQ.active-2X6Ewx {filter: brightness(130%);}
+.ddrArrows-lSnH7P .arrow-2enltQ,
+.ddrArrows-lSnH7P .arrow-2enltQ:before,
+.ddrArrows-lSnH7P .arrow-2enltQ:after {
+	height: 50px !important;
+	width: 50px !important;
+}
+.ddrArrows-lSnH7P .arrow-2enltQ:before,
+.ddrArrows-lSnH7P .arrow-2enltQ:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.ddrArrows-lSnH7P .arrow-2enltQ {
+	position: relative !important;
+	animation: none !important;
+	background: url('https://svgshare.com/i/9pZ.svg') center/contain no-repeat !important;
+}
+.ddrArrows-lSnH7P .arrow-2enltQ:before {
+	-webkit-mask-size: cover;
+	-webkit-mask: url('https://svgshare.com/i/9p_.svg') center/contain no-repeat !important;
+	background: var(--main-color) !important;
+}
+.ddrArrows-lSnH7P .arrow-2enltQ:after {
+	background: url('https://svgshare.com/i/9pa.svg') center/contain no-repeat !important;
+}
 /*============== END OF SECTION ============== */
 
 /*9. Calls*/
@@ -1284,6 +1378,11 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
     top: 0;
     z-index: -1;
     background-color:rgba(0,0,0,0.6);
+}
+
+/*10.c. Date Viewer*/
+#dv-mount {
+	background:rgba(0,0,0,0.8);
 }
 /*============== END OF SECTION ============== */
 
