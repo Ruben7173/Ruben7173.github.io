@@ -1000,9 +1000,12 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 .separator-2zcjq8 {display:none !important;}
 .theme-dark .item-1GzJrl.invite-271nFU {color:var(--main-color) !important;}
 .item-1GzJrl.invite-271nFU .icon-2doZ3q {
-  -webkit-mask: url("https://discordapp.com/assets/d4ff0d2af68cd1119f0d16ef79d1369c.svg") !important;
+  background-image: none !important;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: right;
+  -webkit-mask: url("https://discordapp.com/assets/d4ff0d2af68cd1119f0d16ef79d1369c.svg");
   background-color: var(--main-color) !important;
-   background-image: none;
+  color: var(--main-color) !important;
 }
 
 /*8.j. Screenshare Modal*/
