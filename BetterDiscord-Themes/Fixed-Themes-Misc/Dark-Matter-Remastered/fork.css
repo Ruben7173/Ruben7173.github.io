@@ -37,6 +37,8 @@ TABLE OF CONTENTS
 	3.k. Game Activity Tab
 	3.l. Library Tab
 	3.m. Better Discord Themes & Plugins Area
+	3.n. Widget Tab
+	3.o. Streamer Mode Tab
 
 4. Private Channels
 	4.a. Search Bar
@@ -374,6 +376,69 @@ span.bda-header-title {
 	margin-left: 50px;
 	font-size: 13px;
 }
+
+/*3.n. Widget Tab*/
+/*The following SVG's belong to devilbro, I am using these with his permissiont*/
+.guild-settings-widget .flex-1xMQg5:last-of-type {position: relative !important;}
+.guild-settings-widget .flex-1xMQg5:last-of-type .flexChild-faoVW3:after {background: url('https://svgshare.com/i/9qZ.svg') left/contain no-repeat !important;}
+.guild-settings-widget .flex-1xMQg5:last-of-type .flexChild-faoVW3:after,
+.guild-settings-widget .flex-1xMQg5:last-of-type .flexChild-faoVW3:before,
+.guild-settings-widget img[src="/assets/5fb477ca84edd15d9a2888ac28365acd.svg"] {
+	width: 320px !important;
+	height: 310px !important;
+	opacity: 0.6 !important;
+	pointer-events: none !important;
+}
+.guild-settings-widget img[src="/assets/5fb477ca84edd15d9a2888ac28365acd.svg"] {
+	box-sizing: border-box !important;
+	padding-right: 340px !important;
+	background: url('https://svgshare.com/i/9od.svg') center/contain no-repeat !important;
+}
+.guild-settings-widget .flex-1xMQg5:last-of-type .flexChild-faoVW3:after,
+.guild-settings-widget .flex-1xMQg5:last-of-type .flexChild-faoVW3:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: -15px;
+	-webkit-mask-size: cover;
+}
+.guild-settings-widget .flex-1xMQg5:last-of-type .flexChild-faoVW3:before {
+	-webkit-mask: url('https://svgshare.com/i/9pL.svg') no-repeat !important;
+	background: var(--main-color) !important;
+}
+
+/*8.o. Streamer Mode Tab*/
+.icon-4lJsMQ[src="/assets/616e078b351d0df460971441949c53a3.svg"] + *:before {
+	content: '';
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	width: 184px;
+	height: 100px;
+	-webkit-mask-size: cover;
+	-webkit-mask: url('https://svgshare.com/i/9q2.svg') !important;
+	background:	var(--main-color) !important;
+}
+.icon-4lJsMQ[src="/assets/616e078b351d0df460971441949c53a3.svg"] + * > *:first-child:before {
+	content: '';
+	position: absolute;
+	z-index: 1;
+	top: 20px;
+	right: 20px;
+	width: 184px;
+	height: 100px;
+	-webkit-mask-size: cover;
+	-webkit-mask: url('https://svgshare.com/i/9oc.svg') !important;
+	background: var(--main-color) !important;
+}
+.icon-4lJsMQ[src="/assets/616e078b351d0df460971441949c53a3.svg"] + *:after {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	width: 184px;
+	height: 100px;
+	content: url('https://svgshare.com/i/9pK.svg') !important;
+}
 /*============== END OF SECTION ============== */
 
 /*4. Private Channels*/
@@ -607,7 +672,8 @@ background:linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,rgba(0,0,0,
 .large-3ChYtB:not(.wrapper-2F3Zv8):hover::before {transform:scale(1.5);}
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="254362351170617345"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="300024006462144512"]::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="138850472541814784"]::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="138850472541814784"]::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="278543574059057154"]::before {
   background-image: url(https://i.imgur.com/233d55Y.gif);
 	content: '';
   height: 25px;
