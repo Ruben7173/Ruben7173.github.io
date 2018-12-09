@@ -997,8 +997,21 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
     background: rgba(22, 128, 59, 0.9);
     border: 1px solid rgb(12, 205, 80);
 }
-.modal-1UGdnR .header-QKLPzZ, .modal-1UGdnR .header-QKLPzZ {
-	background: transparent;
+.modal-1UGdnR .header-QKLPzZ, .modal-1UGdnR .header-QKLPzZ {background: transparent;}
+.userPopout-3XzG_A::before {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 1;
+    background-image:url("https://discordapp.com/assets/00be7f6ca68f1915a80ae01f061718e5.svg") !important;
+}
+.role-2irmRk {
+	border-radius:5px;
+	border-width:2px;
 }
 /*8.m. Context Menus*/
 .item-1Yvehc.brand-3igrJY,
