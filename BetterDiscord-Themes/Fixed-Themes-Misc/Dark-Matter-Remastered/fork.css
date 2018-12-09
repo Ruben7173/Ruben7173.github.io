@@ -39,6 +39,7 @@ TABLE OF CONTENTS
 	3.m. Better Discord Themes & Plugins Area
 	3.n. Widget Tab
 	3.o. Streamer Mode Tab
+	8.p. Custom CSS Editor
 
 4. Private Channels
 	4.a. Search Bar
@@ -89,6 +90,7 @@ TABLE OF CONTENTS
 	8.p. Gif Popout
 	8.q. Search Users Popout
 	8.r. Role Select Popout
+	8.s. Custom Credits Modal
 
 9. Calls
 	9.a. General Voice Call Area
@@ -420,7 +422,7 @@ span.bda-header-title {
 	height: 100px;
 	-webkit-mask-size: cover;
 	-webkit-mask: url('https://svgshare.com/i/9q2.svg') !important;
-	background:	var(--main-color) !important;
+	background:var(--main-color) !important;
 }
 .icon-4lJsMQ[src="/assets/616e078b351d0df460971441949c53a3.svg"] + * > *:first-child:before {
 	content: '';
@@ -442,6 +444,33 @@ span.bda-header-title {
 	height: 100px;
 	content: url('https://svgshare.com/i/9pK.svg') !important;
 }
+
+/*8.p. Custom CSS Editor*/
+.ace-monokai .ace_gutter-active-line {background:rgba(255,255,255,0.1);}
+.ace_gutter-cell {color:var(--main-color) !important;}
+.ace-monokai .ace_gutter {background:rgba(0,0,0,0.35) !important;}
+.ace_content {background:rgba(0,0,0,0.1) !important;}
+.ace-monokai .ace_marker-layer .ace_active-line {background:rgba(0,0,0,0.5) !important;}
+.ace-monokai .ace_marker-layer .ace_selection {background:var(--accent-color) !important;}
+.contentRegion-3nDuYy #bd-customcss-attach-controls,
+#bd-customcss-detach-container #bd-customcss-attach-controls {
+    background:var(--dark-color) !important;
+    border-bottom-right-radius:7px;
+    border-bottom-left-radius:7px;
+}
+.ace_scrollbar-h::-webkit-scrollbar {
+    background:rgba(0,0,0,0.95) !important;
+    height:6px !important;
+    border-radius:50px !important;
+}
+.ace_scrollbar-h::-webkit-scrollbar-thumb, .ace_text-input {
+    background:var(--main-color) !important;
+    border-radius:50px !important;
+}
+.ace_editor {
+    border-top-left-radius:7px;
+    border-top-right-radius:7px;
+}
 /*============== END OF SECTION ============== */
 
 /*4. Private Channels*/
@@ -454,6 +483,8 @@ span.bda-header-title {
 }
 
 /*4.b. Store*/
+.tag-HanR-9 {background: linear-gradient(90deg,var(--main-color),#a6dcf4) !important;}
+.tag-HanR-9:before {display:none;}
 .app .da-tile {background-color: rgba(0,0,0,0.7)!important;}
 .app .da-exclusiveRegular, .theme-dark .premium-39U29H:before, .theme-light .premium-39U29H:before {background-image: linear-gradient(90deg,var(--main-color),#a6dcf4)!important;}
 .app .da-exclusiveRegular::before {display:none!important;}
@@ -522,6 +553,16 @@ background:linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,rgba(0,0,0,
     box-shadow:none;
     background:var(--background-image);
 }
+.theme-dark .root-26DmKJ {background:rgba(0,0,0,0.75);}
+.theme-dark .focused-1Yu0L3 {background:rgba(255,255,255,0.1);}
+.theme-dark .topPill-30KHOu .item-PXvHYJ:hover:not(.itemSelected-1qLhcL) {
+	background:rgba(255,255,255,0.06)
+}
+.theme-dark .topPill-30KHOu .itemSelected-1qLhcL {
+	background:var(--main-color);
+	color:#fff;
+}
+
 /*4.e. Friends List*/
 .theme-dark .headerBar-UHpsPw {background: rgba(0,0,0,0.95) !important;}
 .theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action {background-color: var(--dark-color);}
@@ -534,6 +575,7 @@ background:linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,rgba(0,0,0,
     color:#fff;
     transition:100ms all linear;
 }
+
 
 /*4.f. Selected and Hovered Content*/
 .da-selected a {background-color: rgba(0,0,0,0.7) !important;}
@@ -947,6 +989,14 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
 	border:none;
 	background:rgba(0,0,0,0.5) !important;
 }
+.topLayer-1eMqbv.hover-3nZwuJ,
+.bottomLayer-XCk80b.hover-3nZwuJ,
+.secondaryAccent-24W-RJ.hover-3nZwuJ.green-1kY_LT {
+	fill:var(--main-color) !important;
+}
+.theme-dark .action-1lSjCi:hover .actionHeader-2CT5c7 {
+	color:var(--main-color) !important;
+}
 
 /*8.f. Greeting Message*/
 body:before{content:"Dark Matter Remastered has been loaded.";z-index:1000000000000000000000000;color:#fff;background:var(--main-color);top:0px;left:50%;position:absolute;border-radius:5px;padding:5px 15px;-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);-webkit-animation:version 3s ease;animation:version 3s ease;-webkit-animation-delay:4s;animation-delay:4s;}
@@ -1135,6 +1185,49 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 #autocomplete-popout {background:var(--dark-color) !important;}
 .theme-dark #autocomplete-popout section {background:transparent;}
 .theme-dark #autocomplete-popout .row.selected {background:rgba(0,0,0,0.5) !important;}
+
+/*8.s. Custom Credits Modal*/
+.need-help-modal.form.deprecated .header {
+	background:linear-gradient(90deg,var(--main-color),#a6dcf4)!important;
+	border-bottom:4px solid var(--dark-color);
+	height:75px;
+}
+.need-help-modal.form.deprecated .form-inner.loading {
+	background:var(--background-image) !important;
+	background-size:cover !important;
+	box-shadow: inset 0px 0px 0px 600px rgba(0,0,0,0.8);
+}
+.need-help-modal.form.deprecated .form-inner.loading {height:170px !important;}
+.need-help-modal.form.deprecated .header input[type=text],
+.need-help-modal.form.deprecated .footer,
+.need-help-modal.form.deprecated .anchor-3Z-8Bb {
+	display:none;
+}
+.need-help-modal.form.deprecated .header h1 {
+	color:transparent;
+	margin-bottom:-50px !important;
+}
+.need-help-modal.form.deprecated .header:before {
+	content:'Dark Matter Remastered';
+	font-size:30px;
+	font-weight:bold;
+	color:#fff;
+}
+.need-help-modal.form.deprecated .form-inner.loading:after {
+	content:'Tropical \ARuben7173 \AHammock \ANGLD\A EllexideCodes \A DevilBro \A These people have helped with the development\A of the theme in some way or another.';
+	white-space:pre;
+	font-size:17px;
+	color:var(--main-color);
+	text-align:center;
+	line-height:20px;
+	margin-bottom:20px;
+}
+.need-help-modal.form.deprecated .form-inner.loading:before {
+	content:'Thanks For Using This Theme!';
+	font-size:20px;
+	text-decoration:underline;
+	font-weight:bold;
+}
 /*============== END OF SECTION ============== */
 
 /*9. Calls*/
