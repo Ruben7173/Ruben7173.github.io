@@ -641,8 +641,8 @@ background:linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,rgba(0,0,0,
 .emojiPicker-3m1S-j .search-bar-inner {background-color: rgba(255,255,255,0.1) !important;}
 .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {background-color: rgba(255, 255, 255, .1)!important;}
 .dimmer-3iH-5D.visible-3k45bQ{background:rgba(0,0,0,0.75) !important;}
-.bda-dark .emoji-picker .header .search-bar, .bda-dark .emojiPicker-3m1S-j .header-1nkwgG .search-bar {border:none !important;}
-.bda-dark #bda-qem button {
+.emoji-picker .header .search-bar, .emojiPicker-3m1S-j .header-1nkwgG .search-bar {border:none !important;}
+#bda-qem button {
 	border-radius:0px;
 	border:none !important;
 	box-shadow:none !important;
@@ -653,14 +653,14 @@ background:linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,rgba(0,0,0,
 	border:none !important;
 	margin-bottom:20px;
 }
-.bda-dark #bda-qem button.active {background:rgba(0,0,0,0.5);}
-.bda-dark #bda-qem button {background:transparent !important;}
-.bda-dark #bda-qem {
+#bda-qem button.active {background:rgba(0,0,0,0.5);}
+#bda-qem button {background:transparent !important;}
+#bda-qem {
 	background:rgba(0,0,0,0.5) !important;
 	border:none !important;
 }
 .emojiPicker-3m1S-j .stickyHeader-1SS0JU {background:rgba(0,0,0,0.5) !important;}
-.bda-dark .emojiPicker-3m1S-j .category-2U57w6 {
+.emojiPicker-3m1S-j .category-2U57w6 {
 	background:rgba(0,0,0,0.5) !important;
 	border-bottom:2px solid var(--main-color);
 	color:var(--main-color);
