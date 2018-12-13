@@ -20,6 +20,11 @@
     background-color: transparent;
     border: 2px solid #2f3136;
 }
+/* streaming removing background and adding border for status */
+.streaming-2_dnHe {
+    background-color: transparent;
+    border: 2px solid #593695;
+}
 /* position of those statuses in whos online list */
 .status-2s6iDp, .avatar-small .status {
     bottom: -19px;
@@ -59,16 +64,16 @@
 }
 
 /* status fixing some stuff */
-.da-item .da-statusIconText .da-online, .da-titleText .da-online {
+.da-item .da-statusIconText .da-online, .da-titleText .da-online, .da-selector .da-content .da-wrapper .da-online {
     background-color: #43b581;
 }
-.da-item .da-statusIconText .da-idle, .da-titleText .da-idle {
+.da-item .da-statusIconText .da-idle, .da-titleText .da-idle, .da-selector .da-content .da-wrapper .da-idle {
     background-color: #faa61a;
 }
-.da-item .da-statusIconText .da-dnd, .da-titleText .da-dnd {
+.da-item .da-statusIconText .da-dnd, .da-titleText .da-dnd, .da-selector .da-content .da-wrapper .da-dnd {
     background-color: #f04747;
 }
-.da-item .da-statusIconText .da-invisible, .da-titleText .da-offline {
+.da-item .da-statusIconText .da-invisible, .da-titleText .da-offline, .da-selector .da-content .da-wrapper .da-offline {
     background-color: #2f3136;
 }
 
