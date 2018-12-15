@@ -983,54 +983,7 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
 	background:rgba(0,0,0,0.25) !important;
 }
 /*8.e. Add/Create Guilds Modal*/
-.form-deprecated .control-group input[type=email]:focus,
-.form-deprecated .control-group input[type=number]:focus,
-.form-deprecated .control-group input[type=password]:focus,
-.form-deprecated .control-group input[type=text]:focus,
-.form-deprecated .control-group textarea:focus,
-.form.deprecated .control-group input[type=email]:focus,
-.form.deprecated .control-group input[type=number]:focus,
-.form.deprecated .control-group input[type=password]:focus,
-.form.deprecated .control-group input[type=text]:focus,
-.form.deprecated .control-group textarea:focus {
-	border-color:var(--main-color) !important;
-}
-.form-deprecated header,
-.form.deprecated header,
-.create-guild-container h5,
-.create-guild-container .action.create .action-header,
-.regionSelect-3lf4eE button,
-.create-guild-container.deprecated .join-server .sample-link,
-.regionSelectModal-12e-57 .regionSelectModalHeader-21khC1 {
-	color:var(--main-color) !important;
-}
-.regionSelect-3lf4eE:hover .regionSelectInner-24f4Ce,
-.regionSelect-3lf4eE:hover button {border-color:var(--main-color) !important;}
-.regionSelectModal-12e-57 {background:var(--dark-color) !important;}
-.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:hover {
-	background:rgba(0,0,0,0.5) !important;
-	border-color:var(--main-color) !important;
-}
-.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 {
-	background:rgba(0,0,0,0.3) !important;
-	transition:100ms linear all;
-	border-color:transparent;
-}
-.form-deprecated .form-actions, .form.deprecated .form-actions {border:none;}
-.regionSelect-3lf4eE .regionSelectInner-24f4Ce,
-.regionSelect-3lf4eE button,
-.create-guild-container.deprecated .form-actions .btn-default {
-	border:none;
-	background:rgba(0,0,0,0.5) !important;
-}
-.topLayer-1eMqbv.hover-3nZwuJ,
-.bottomLayer-XCk80b.hover-3nZwuJ,
-.secondaryAccent-24W-RJ.hover-3nZwuJ.green-1kY_LT {
-	fill:var(--main-color) !important;
-}
-.theme-dark .action-1lSjCi:hover .actionHeader-2CT5c7 {
-	color:var(--main-color) !important;
-}
+
 
 /*8.f. Greeting Message*/
 body:before{content:"Dark Matter Remastered has been loaded.";z-index:1000000000000000000000000;color:#fff;background:var(--main-color);top:0px;left:50%;position:absolute;border-radius:5px;padding:5px 15px;-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);-webkit-animation:version 3s ease;animation:version 3s ease;-webkit-animation-delay:4s;animation-delay:4s;}
