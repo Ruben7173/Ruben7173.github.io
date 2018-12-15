@@ -547,12 +547,11 @@ span.bda-header-title {
 .theme-dark .applicationTile-1Goy1W:hover {background:rgba(0,0,0,0.8);}
 
 /*4.c. Activity*/
-.paginationItem-2lUq0s, .carousel-2WxMes {background:transparent !important;}
+.paginationItem-2lUq0s, .carousel-2WxMes, .article-3BkSTW {background:transparent !important;}
 .theme-dark .dockItem-2kQDqg:hover {background:rgba(255,255,255,0.03) !important;}
 .theme-dark .card-7JP0BX, .newsLink-38Naqi {background:transparent !important;}
 .paginationItem-2lUq0s:before {background:var(--main-color) !important;}
-.article-3BkSTW,
-.theme-dark .header-1RC2Wb {
+.header-1RC2Wb {
     background:rgba(0,0,0,0.8) !important;
 }
 
