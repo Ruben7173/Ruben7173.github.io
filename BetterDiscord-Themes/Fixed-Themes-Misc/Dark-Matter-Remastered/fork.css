@@ -538,12 +538,7 @@ span.bda-header-title {
 .optionActive-KkAdqq {background:rgba(0,0,0,0.7);}
 .optionFocused-8MflSE {background:rgba(0,0,0,0.5);}
 .theme-dark .popout-2sKjHu {background:rgba(0,0,0,0.6);}
-.theme-dark .mediaFade-1SdEfL {
-    background:linear-gradient(180deg,transparent 90%,rgba(0,0,0,0.7)) !important;
-}
-.theme-dark .description-3rB3Rp {
-background:linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,rgba(0,0,0,0.7)) !important;
-}
+
 .popout-2xBvMR {
     background:var(--background-image);
     background-position:right;
