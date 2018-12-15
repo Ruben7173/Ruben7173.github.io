@@ -548,6 +548,7 @@ span.bda-header-title {
 
 /*4.c. Activity*/
 .paginationItem-2lUq0s, .carousel-2WxMes, .article-3BkSTW {background:transparent !important;}
+.paginationItem-2lUq0s:after {background:linear-gradient(270deg,transparent 0,rgba(0,0,0,0.25);}
 .theme-dark .dockItem-2kQDqg:hover {background:rgba(255,255,255,0.03) !important;}
 .theme-dark .card-7JP0BX, .newsLink-38Naqi {background:transparent !important;}
 .paginationItem-2lUq0s:before {background:var(--main-color) !important;}
