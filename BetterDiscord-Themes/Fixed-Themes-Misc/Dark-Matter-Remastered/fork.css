@@ -95,7 +95,8 @@ TABLE OF CONTENTS
 	8.q. Search Users Popout
 	8.r. Role Select Popout
 	8.s. Custom Credits Modal
-	8.t. Keyboard Shortcuts Modal (And raging demon easter egg :3
+	8.t. Keyboard Shortcuts Modal (And raging demon easter egg :3).
+	8.u. Banner Notifications
 
 9. Calls
 	9.a. General Voice Call Area
@@ -112,17 +113,16 @@ TABLE OF CONTENTS
 
 12. Depth Shadows
 	12.a. Main Box Shadow Areas
+
+13. Animations
 */
 
 /*1. Guilds Area*/
 /*1.a. Add/Create Guilds Button*/
-.guildsAdd-21_IdK:hover {background-color:var(--main-color) !important;}
-.guildsAdd-21_IdK {
-	background-color:var(--accent-color) !important;
-	position:absolute;
-	bottom:5px;
-	color:#fff !important;
+.theme-dark .guildsAdd-21_IdK {
 	border:none !important;
+	background:rgba(255,255,255,0.2) !important;
+	color:white !important;
 }
 
 /*1.b. Outages*/
@@ -143,10 +143,6 @@ TABLE OF CONTENTS
 .tooltips .tooltip.tooltip-bottom {animation: fadebottom 150ms;}
 .tooltips .tooltip.tooltip-left {animation: fadeleft 150ms;}
 .tooltip.tooltip-top {animation: fadetop 150ms;}
-@keyframes fadetop {0% {opacity: 0;transform: translateY(-50%);}100% {opacity: 0.9;transform: none;}}
-@keyframes faderight {0% {opacity: 0;transform: translateX(50%);}100% {opacity: 0.9;transform: none;}}
-@keyframes fadebottom {0% {opacity: 0;transform: translateY(50%);}100% {opacity: 0.9;transform: none;}}
-@keyframes fadeleft {0% {opacity: 0;transform: translateX(-50%);}100% {opacity: 0.9; transform: none;}}
 
 /*1.d. General Icons*/
 .theme-dark .guildIcon-lQ0uiM {background-color:var(--main-color);}
@@ -275,8 +271,8 @@ TABLE OF CONTENTS
 }
 
 /*3.e. My Account Tab*/
-.userSettingsAccount-2eMFVR .viewBody-2Qz-jg:hover {filter:blur(0px);}
-.userSettingsAccount-2eMFVR .viewBody-2Qz-jg {
+.userSettingsAccount-2eMFVR div:nth-child(2) > div:nth-child(2) > .viewBody-2Qz-jg:hover {filter:blur(0px);}
+.userSettingsAccount-2eMFVR div:nth-child(2) > div:nth-child(2) > .viewBody-2Qz-jg {
     filter:blur(7px);
     transition:250ms filter ease-in-out;
 }
@@ -571,10 +567,17 @@ background:linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,rgba(0,0,0,
 .theme-dark .header-39GIC8 {
 	background:transparent !important;
 }
-.body-1SVoBw {background:rgba(0,0,0,0.6) !important;}
-.gamePreview-9weYR2 {
-    box-shadow:none;
+.gamePreview-9weYR2,
+.body-1SVoBw,
+.newsLink-38Naqi {
+    box-shadow:inset 0px 1000px rgba(0,0,0,0.8) !important;
     background:var(--background-image);
+    background-size:cover !important;
+}
+.dotSelected-3RYKgX, .dot-2Q_mMZ {background:var(--main-color) !important;}
+.info-P9dFwH,
+.news-2KwXHF {
+    background:transparent !important;
 }
 .theme-dark .root-26DmKJ {background:rgba(0,0,0,0.75);}
 .theme-dark .focused-1Yu0L3 {background:rgba(255,255,255,0.1);}
@@ -927,6 +930,12 @@ background:linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,rgba(0,0,0,
 
 /*8. Popups, Modals and Dropdowns*/
 /*8.a. Status Picker*/
+.item-1GzJrl .online-2S838R,
+.item-1GzJrl .idle-3DEnRT,
+.item-1GzJrl .dnd-1_xrcq,
+.item-1GzJrl .invisible-1kp8Z0 {
+    border:5px solid rgba(0,0,0,0.6) !important;
+}
 .alt-3btY0e .item-1GzJrl:nth-of-type(1){animation-delay: 0ms;}
 .alt-3btY0e .item-1GzJrl:first-of-type {padding-left: 0px !important;}
 .alt-3btY0e .item-1GzJrl:nth-of-type(3){animation-delay: 100ms;}
@@ -941,7 +950,6 @@ background:linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,rgba(0,0,0,
 .alt-3btY0e.menu-Sp6bN1:hover::before {pointer-events: initial;}
 body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ease;}
 .alt-3btY0e .separator-2zcjq8  {border-bottom: 0px;}
-@keyframes anim-status {from {transform: scale(0); opacity: 0 }}
 .alt-3btY0e.menu-Sp6bN1{
     border-radius: 0 !important;
     width: 240px !important;
@@ -1447,10 +1455,30 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 .ddrArrows-lSnH7P .arrow-2enltQ:after {
 	background: url('https://svgshare.com/i/9pa.svg') center/contain no-repeat !important;
 }
+/*8.u. Banner Notifs*/
+.noticeDanger-7u-yT9,
+.notice-2FJMB4,
+.DevilBro-notice {
+    position:absolute;
+    transition:250ms all linear;
+    width:300px;
+    top:10px;
+    border-radius:5px !important;
+    right:40%;
+    animation:pulse 1s infinite linear !important;
+}
+.noticeDanger-7u-yT9:hover,
+.notice-2FJMB4:hover,
+.DevilBro-notice:hover {
+    transform:scale(1.07);
+}
 /*============== END OF SECTION ============== */
 
 /*9. Calls*/
 /*9.a. General Voice Call Area*/
+.videoBackground-3AY_fu, .videoBackgroundTransition-3wpOSl {
+    background: rgba(0,0,0,0.6) !important;
+}
 .incomingCallInner-2VmFiR {
     background:var(--dark-color) !important;
 }
@@ -1572,9 +1600,16 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 .channels-Ie2l6A {box-shadow:inset -10px 0px 20px -10px rgba(0,0,0,0.5);}
 .content-yTz4x3 .flex-spacer {box-shadow:inset -10px 0px 20px -10px rgba(0,0,0,0.7);}
 .container-2Thooq {box-shadow: 0 -10px 10px -5px rgba(0,0,0,0.5);}
+/*============== END OF SECTION ============== */
 
-
-/* while in call background */
-.videoBackground-3AY_fu, .videoBackgroundTransition-3wpOSl {
-    background: rgba(0,0,0,0.6) !important;
+/*13. Animations*/
+@keyframes anim-status {from {transform: scale(0); opacity: 0;}}
+@keyframes fadetop {0% {opacity: 0;transform: translateY(-50%);}100% {opacity: 0.9; transform: none;}}
+@keyframes faderight {0% {opacity: 0;transform: translateX(50%);}100% {opacity: 0.9; transform: none;}}
+@keyframes fadebottom {0% {opacity: 0;transform: translateY(50%);}100% {opacity: 0.9; transform: none;}}
+@keyframes fadeleft {0% {opacity: 0;transform: translateX(-50%);}100% {opacity: 0.9; transform: none;}}
+@keyframes pulse {
+    0% { opacity: 0.5; }
+    50% { opacity: 1; }
+    100% { opacity: 0.5; }
 }
