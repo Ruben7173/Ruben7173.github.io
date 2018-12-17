@@ -22,6 +22,12 @@
     margin-top: 0px!important;
 }
 
+/* Fixes some issues with reposition */
+.theme-dark .container-3ayLPN {
+    position: relative;
+    right: 120px;
+}
+
 /* removes watermark */
 .wordmark-2iDDfm {
 	display:none;
