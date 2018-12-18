@@ -218,7 +218,7 @@ TABLE OF CONTENTS
     color:#fff !important;
 }
 .theme-dark #bd-settings-sidebar .ui-tab-bar-item {
-	border-radius:5px !important;
+	border-radius:4px !important;
 }
 .theme-dark .cardPrimary-1Hv-to {
     background: rgba(0,0,0,.6);
@@ -228,7 +228,7 @@ TABLE OF CONTENTS
 .ui-tab-bar-header {
 	border-bottom:2px solid var(--main-color);
 	color:var(--main-color) !important;
-	margin-bottom:3px !Important;
+	margin-bottom:4px !Important;
 	font-size:14px !important;
 	text-transform:none !important;
 }
@@ -607,13 +607,13 @@ background:linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,rgba(0,0,0,
 
 
 /*4.f. Selected and Hovered Content*/
-.da-selected a {background-color: rgba(0,0,0,0.7) !important; border-radius:3px !important;}
+.da-selected a {background-color: rgba(0,0,0,0.7) !important; border-radius:4px !important;}
 .da-channel:hover a {background-color: rgba(255,255,255,0.03);}
 /*============== END OF SECTION ============== */
 
 /*5. Channels List*/
 /*5.a. Selected and Hovered Content*/
-.channels-Ie2l6A .content-20Aix8 {border-radius:3px !important;}
+.channels-Ie2l6A .content-20Aix8 {border-radius:4px !important;}
 .channels-Ie2l6A .content-20Aix8:hover {background:rgba(0,0,0,0.4) !important;}
 .contentSelectedText-3wUhMi {background:rgba(0,0,0,0.8) !important;}
 .wrapper-2NJDcI {background:var(--dark-color);}
@@ -927,7 +927,7 @@ background:linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,rgba(0,0,0,
 
 /*7. Members List*/
 /*7.a. Selected and Hovered Content*/
-.theme-dark .member-3W1lQa:hover .content-OzHfo4 {background:rgba(255,255,255,0.01) !important; border-radius:3px !important;}
+.theme-dark .member-3W1lQa:hover .content-OzHfo4 {background:rgba(255,255,255,0.01) !important; border-radius:4px !important;}
 .theme-dark .member-3W1lQa.popout-open .content-OzHfo4 {background:rgba(255,255,255,0.07);}
 /*============== END OF SECTION ============== */
 
