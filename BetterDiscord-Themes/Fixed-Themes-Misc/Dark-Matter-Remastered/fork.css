@@ -982,16 +982,8 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
     background: transparent !important;
     animation: anim-status 400ms cubic-bezier(.4,0,0,1) backwards;
 }
-.alt-3btY0e.menu-Sp6bN1::before {
-    content: '';
-    display: block;
-    position: absolute;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    top: 0;
-    z-index: 1;
-    background-color:rgba(0,0,0,0.7);
+.alt-3btY0e.menu-Sp6bN1 {
+	box-shadow:inset 0px 0px 0px 1000px rgba(0,0,0,0.7);
 }
 .alt-3btY0e .item-1GzJrl:first-of-type {padding-left:0px !important; box-sizing: content-box !important;}
 .alt-3btY0e .item-1GzJrl .online-2S838R,.alt-3btY0e .item-1GzJrl .idle-3DEnRT,.alt-3btY0e .item-1GzJrl .dnd-1_xrcq,.alt-3btY0e .item-1GzJrl .invisible-1kp8Z0{
@@ -1560,16 +1552,8 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 
 /*11. Out-Of-App Areas*/
 /*11.a. Loading/Lost Connection Container*/
-.platform-win .container-16j22k::before {
-    content: '';
-    display: block;
-    position: absolute;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    top: 0;
-    z-index: -1;
-    background-color:rgba(0,0,0,0.8);
+.platform-win .container-16j22k {
+	box-shadow:inset 0px 0px 0px 10000px rgba(0,0,0,0.8);
 }
 .platform-win .container-16j22k {
   background-image:var(--background-image) !important;
@@ -1591,7 +1575,8 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 .wrapper-3Q5DdO {background:var(--background-image) !important;}
 .authBox-hW6HRx {background:rgba(0,0,0,0.8) !important;}
 .lookLink-9FtZy-.colorBrand-3pXr91 {color:var(--main-color) !important;}
-.rightSplit-2US0xy {background:rgba(0,0,0,0.5) !important;}
+.rightSplit-2US0xy {background:rgba(0,0,0,0.7) !important;}
+.leftSplit-1qOwnR .wrapper-6URcxg {right:0px !important;}
 
 /*11.c. Crash Screen*/
 .wrapper-1prNyd {background:rgba(0,0,0,0.8);}
