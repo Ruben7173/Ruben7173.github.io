@@ -374,7 +374,7 @@ TABLE OF CONTENTS
 .bda-slist .bda-footer a {color:var(--main-color) !important;}
 .theme-dark .bda-slist .bda-footer,
 .theme-dark .bda-slist .bda-header {border:none;}
-#bd-settingspane-container .ui-switch-item {
+.bda-slist .ui-switch-item {
     background:var(--dark-color);
     border:none;
 }
