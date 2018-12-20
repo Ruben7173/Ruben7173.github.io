@@ -539,7 +539,8 @@ span.bda-header-title {
 .theme-dark .popout-2sKjHu {background:rgba(0,0,0,0.6);}
 .popout-2xBvMR {
     background:var(--background-image);
-    background-position:right;
+    background-size:cover !important;
+    box-shadow: inset 0px 0px 0px 1000px rgba(0,0,0,0.8);
 }
 .theme-dark .applicationTile-1Goy1W {background:rgba(0,0,0,0.5);}
 .theme-dark .applicationTile-1Goy1W:hover {background:rgba(0,0,0,0.8);}
