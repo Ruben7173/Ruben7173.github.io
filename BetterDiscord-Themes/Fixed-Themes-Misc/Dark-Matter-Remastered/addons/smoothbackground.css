@@ -1,0 +1,16 @@
+/*Smooth Backgrounds*/
+/*By Tropical*/
+:root {
+  --smoothbg : rgba(0,0,0,0.65);
+}
+.guildsWrapper-5TJh6A,
+.activityFeed-28jde9,
+.channels-Ie2l6A,
+.content-yTz4x3,
+.members-1998pB,
+.container-2Thooq,
+.applicationStore-1pNvnv,
+.root-1BQpZw .scroller-2FKFPG {
+  background:var(--smoothbg) !important;
+  box-shadow:none !important;
+}
