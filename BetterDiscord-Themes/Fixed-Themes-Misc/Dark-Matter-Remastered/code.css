@@ -116,34 +116,7 @@ textarea {
 .activityFeed-28jde9 { background:rgba(0,0,0,0.8) !important }
 
 /* Store */
-.applicationStore-1pNvnv { background:rgba(0,0,0,0.8) !important }
-
 /*
- _              _ _   _           
-| |_ ___   ___ | | |_(_)_ __  ___ 
-| __/ _ \ / _ \| | __| | '_ \/ __|
-| || (_) | (_) | | |_| | |_) \__ \
- \__\___/ \___/|_|\__|_| .__/|___/
-					   |_|        
-*/
-
-.tooltip {
-	background: var(--accent-color);
-	color: #e0e0e0;
-}
-
-.tooltip.tooltip-right:after {
-	border-right-color:var(--accent-color);
-}
-
-.tooltip.tooltip-top:after {
-	border-top-color:var(--accent-color);
-}
-
-.tooltip.tooltip-bottom:after {
-	border-bottom-color:var(--accent-color);
-}
-
 /*
 								_ _     _                   _   _             
  ___  ___ _ ____   _____ _ __  | (_)___| |_   ___  ___  ___| |_(_) ___  _ __  
