@@ -121,6 +121,8 @@ TABLE OF CONTENTS
 	12.a. Main Box Shadow Areas
 
 13. Animations
+
+14. Compatibility With 3rd Party Themes
 */
 
 /*1. Guilds Area*/
@@ -1528,7 +1530,7 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 	margin-bottom:-50px !important;
 }
 .need-help-modal.form.deprecated .header:before {
-	content:'Dark Matter Remastered';
+	content:'Dark Matter v3.0.0';
 	font-size:30px;
 	font-weight:bold;
 	color:#fff;
@@ -1797,4 +1799,14 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
     0% { opacity: 0.5; }
     50% { opacity: 1; }
     100% { opacity: 0.5; }
+}
+
+/*14. Compatibility with 3rd Party Themes*/
+/*Ellexide Addons*/
+.theme-dark,
+.appMount-3VJmYg {
+    --primary-color: rgba(0,0,0,0.75);
+    --secondary-color: rgba(0,0,0,0.6);
+    --tertiary-color: rgba(0,0,0,0.4);
+    --quaternary-color: rgba(0,0,0,0.7);
 }
