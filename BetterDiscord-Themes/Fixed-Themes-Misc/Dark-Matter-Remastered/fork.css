@@ -1798,7 +1798,7 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 
 /*10.d. ServerFolders*/
 .guild-1EfMGQ.folder .badge-1GsMF2.folder.count {
-	background:var(--main-color);
+	background:var(--main-color) !important;
 }
 /*============== END OF SECTION ============== */
 
