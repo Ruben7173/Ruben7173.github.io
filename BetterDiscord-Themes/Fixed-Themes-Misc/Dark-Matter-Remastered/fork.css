@@ -50,6 +50,7 @@ TABLE OF CONTENTS
 	4.d. Library
 	4.e. Friends List
 	4.f. Selected and Hovered Content
+	4.g. AKA Sign
 
 5. Channels List
 	5.a. Selected and Hovered Content
@@ -77,6 +78,7 @@ TABLE OF CONTENTS
 	6.r. Reactions
 	6.s. Invites
 	6.t. Spoilers
+	6.u. Blocked Messages
 
 7. Members List
 	7.a. Selected and Hovered Content
@@ -103,6 +105,8 @@ TABLE OF CONTENTS
 	8.s. Custom Credits Modal
 	8.t. Keyboard Shortcuts Modal (And raging demon easter egg :3).
 	8.u. Banner Notifications
+	8.v. Profile Popouts
+	8.w. Changelog
 
 9. Calls
 	9.a. General Voice Call Area
@@ -111,6 +115,7 @@ TABLE OF CONTENTS
 	10.a. Plugin Repo & Theme Repo
 	10.b. BetterFormattingRedux
 	10.c. DateViewer
+	10.d. ServerFolders
 
 11. Out-Of-App Areas
 	11.a. Loading/Lost Connection Container
@@ -353,6 +358,13 @@ TABLE OF CONTENTS
 .theme-dark .paymentPane-3bwJ6A {
 	background:var(--dark-color) !important;
 }
+.codeRedemptionRedirect-1wVR4b {
+	background:var(--dark-color) !important;
+	border:none;
+}
+.expandedInfo-3kfShd {
+	background:rgba(0,0,0,0.25) !important;
+}
 
 /*3.h. Discord Nitro Tab*/
 .theme-dark .tier1Banner-1B_WXY {background:var(--dark-color) !important;}
@@ -366,10 +378,16 @@ TABLE OF CONTENTS
 .container-2Zlzt0 {
 	background:var(--dark-color) !important;
 }
+.option-1l2vXE {
+    background:rgba(0,0,0,0.25) !important;
+}
 
 /*3.i. Voice and Video Tab*/
 .notches-1sAcEM {
     display:none;
+}
+.container-3PXSwK {
+	border-radius:5px !important;
 }
 .progress-1IcQ3A {
     background:rgba(0,0,0,0.6) !important;
@@ -439,6 +457,9 @@ TABLE OF CONTENTS
 	height: 100%;
 	z-index: 1;
 	transition: background .15s ease-in-out,box-shadow .15s ease-in-out,border .15s ease-in-out;
+}
+.bda-slist li  {
+    background:var(--dark-color) !important;
 }
 .ui-switch-checkbox+.ui-switch {background: rgba(255,255,255,0.2) !important;}
 .ui-switch-checkbox:checked+.ui-switch {background: var(--main-color) !important;}
@@ -716,6 +737,12 @@ span.bda-header-title {
 .channel-2QD9_O a {
 	transition:50ms all linear !important;
 }
+
+/*4.g. AKA Signs*/
+.aka-1mqp34 {
+    background:var(--main-color);
+}
+
 /*============== END OF SECTION ============== */
 
 /*5. Channels List*/
@@ -1068,6 +1095,14 @@ span.bda-header-title {
     background:var(--main-color) !important;
     color:#fff !important;
 }
+
+/*6.u. Blocked Messages*/
+.messageGroupBlocked-3wrQQX,
+.messageGroupBlockedBtn-1PBBh-{
+	background-color:var(--dark-color) !important;
+	border:none !important;
+	color:var(--main-color) !important;
+}
 /*============== END OF SECTION ============== */
 
 /*7. Members List*/
@@ -1280,6 +1315,14 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
 	-webkit-mask-size: cover;
 	-webkit-mask: url('https://svgshare.com/i/9ww.svg') center/cover no-repeat !important;
 	background: #3ca374 !important;
+}
+.item-1GzJrl.leave-1DRJfn .icon-2doZ3q {
+  background-image: none !important;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: right;
+  -webkit-mask: url("https://discordapp.com/assets/00de6b3cbb5c4dbcec817c91262f5f5b.svg");
+  background-color: #f04747 !important;
+  color: #f04747 !important;
 }
 .regionSelect-3lf4eE button,
 .regionSelectInner-24f4Ce {
@@ -1661,6 +1704,11 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
     background-position:center !important;
 		box-shadow: inset 0 -90px 130px 10px var(--main-color) !important;
 }
+
+/*8.w. Changelog*/
+.container-2zArDx {
+	background-color:var(--dark-color) !important;
+}
 /*============== END OF SECTION ============== */
 
 /*9. Calls*/
@@ -1746,6 +1794,11 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 /*10.c. Date Viewer*/
 #dv-mount {
 	background:rgba(0,0,0,0.8);
+}
+
+/*10.d. ServerFolders*/
+.guild-1EfMGQ.folder .badge-1GsMF2.folder.count {
+	background:var(--main-color);
 }
 /*============== END OF SECTION ============== */
 
