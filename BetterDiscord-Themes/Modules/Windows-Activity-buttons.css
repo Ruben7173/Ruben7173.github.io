@@ -32,3 +32,18 @@
 .wordmark-2iDDfm {
 	display:none;
 }
+
+/* position of some stuff */
+.browseSearch-e9jF-f, .libraryFilter-31ZUa2 {
+	margin-right: 130px;
+}
+/* a small fix for channel info */
+.da-topic {
+	max-width: 80%!important;
+}
+
+/* fix search area */
+.search-l1Wz-Q {
+	position: relative;
+    right: 120px;
+}
