@@ -4,7 +4,7 @@
 }
 
 /* Adds transparency color to settings */
-.theme-dark .standardSidebarView-3F1I7i {
+.theme-dark .standardSidebarView-3F1I7i, .app .container-3gCOGc {
         background-color: hsla(43, 0%, 6%, 0.65);
 }
 /* Transparency of settings 100% */

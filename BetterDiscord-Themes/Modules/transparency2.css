@@ -22,7 +22,7 @@
 }
 
 /* chat and top area and other secondary pages */
-.app .activityFeed-28jde9, .app .gameLibrary-TTDw4Y, .app .applicationStore-1pNvnv, .theme-dark #friends, .app .contentRegion-3nDuYy, .app .noChannel-Z1DQK7, .app .container-3gCOGc {
+.app .activityFeed-28jde9, .app .gameLibrary-TTDw4Y, .app .applicationStore-1pNvnv, .theme-dark #friends, .app .contentRegion-3nDuYy, .app .noChannel-Z1DQK7, .app .container-3gCOGc, .app .root-1BQpZw {
 	background: transparent;
 	background-image: var(--transparency-3);
 }

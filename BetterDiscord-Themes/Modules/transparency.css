@@ -4,7 +4,7 @@
 }
 
 /* setting transparency */
-.container-2lgZY8, .app .guildsWrapper-5TJh6A, .channels-Ie2l6A, .container-PNkimc, .app .container-2Thooq, .app .chat-3bRxxu, .app .chat-3bRxxu form, .app .content-yTz4x3, .app .layer-3QrUeG, .app .layers-3iHuyZ, .app .title-3qD0b-, .app .headerBar-UHpsPw, .app .members-1998pB, .app .messagesWrapper-3lZDfY, .app #friends, .app .activityFeed-28jde9, .app .ui-standard-sidebar-view, .app .ui-standard-sidebar-view .content-region, .app .ui-standard-sidebar-view .sidebar-region, .app .noChannel-Z1DQK7, .app .gameLibrary-TTDw4Y, .app .applicationStore-1pNvnv, .app .container-3gCOGc {
+.container-2lgZY8, .app .guildsWrapper-5TJh6A, .channels-Ie2l6A, .container-PNkimc, .app .container-2Thooq, .app .chat-3bRxxu, .app .chat-3bRxxu form, .app .content-yTz4x3, .app .layer-3QrUeG, .app .layers-3iHuyZ, .app .title-3qD0b-, .app .headerBar-UHpsPw, .app .members-1998pB, .app .messagesWrapper-3lZDfY, .app #friends, .app .activityFeed-28jde9, .app .ui-standard-sidebar-view, .app .ui-standard-sidebar-view .content-region, .app .ui-standard-sidebar-view .sidebar-region, .app .noChannel-Z1DQK7, .app .gameLibrary-TTDw4Y, .app .applicationStore-1pNvnv, .app .container-3gCOGc, .app .root-1BQpZw {
 	background-color: var(--transparency-level);
 }
 .titleBar-AC4pGV {
