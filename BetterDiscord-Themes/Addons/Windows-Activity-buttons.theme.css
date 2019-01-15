@@ -1,7 +1,7 @@
 //META{"name":"Windows Activity buttons inside Discord addon","description":"Makes the buttons minimize, maximize and close inside discord window","author":"Ruben7173","version":"1.0"}*// {}
 
 /* changes position of top bar icons from right to left */
-.iconMargin-2YXk4F, .app .search .search-bar, .divider-2PMBlV, .theme-dark .searchPopout-1vUlP3 {
+.iconMargin-2YXk4F, .da-app .search .search-bar, .divider-2PMBlV, .theme-dark .searchPopout-1vUlP3 {
 	position: relative;
     right: 120px;
 }
@@ -40,5 +40,10 @@
 /* fix search area */
 .search-l1Wz-Q {
 	position: relative;
+    right: 120px;
+}
+.search-l1Wz-Q {
+    margin: 0 4px 0 8px;
+    position: relative;
     right: 120px;
 }
