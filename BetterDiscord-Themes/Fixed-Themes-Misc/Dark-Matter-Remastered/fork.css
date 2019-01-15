@@ -1863,3 +1863,10 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
     --tertiary-color: rgba(0,0,0,0.4);
     --quaternary-color: rgba(0,0,0,0.7);
 }
+
+
+
+/* fixes */
+.content-yTz4x3 .da-spacer {
+    background: rgba(0,0,0,0.8) !important;
+}
