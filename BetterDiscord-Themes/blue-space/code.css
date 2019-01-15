@@ -787,3 +787,11 @@ https://i.imgur.com/mZuRmBg.gifv
 .da-app .itemBackground-1jfD8p:before {
     background: radial-gradient(ellipse at top,rgba(54,57,63,0),#011313),linear-gradient(90deg,#011313 0,rgba(54,57,63,0) 40%,rgba(54,57,63,0) 60%,#011313),linear-gradient(0deg,#011313 0,rgba(54,57,63,0) 25%);
 }
+/* emoji search */
+.searchBar-2_Yu-C.searchBarLight-1NxoDG {
+    background: none;
+}
+.searchBar-2_Yu-C.searchBarLight-1NxoDG .searchBarInner-1_Tg2R {
+    background-color: rgb(9, 57, 47);
+    border: 1px solid #0e3d33;
+}
