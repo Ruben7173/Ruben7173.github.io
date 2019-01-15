@@ -25,12 +25,12 @@
     border: 2px solid #593695;
 }
 /* position of those statuses in whos online list */
-.status-2s6iDp, .avatar-small .status {
+.status-2s6iDp, .avatar-small .status, .channel-2QD9_O .status-1ibiUI {
     bottom: -19px;
     height: 28px;
     width: 28px;
     top: -3%;
-    left: -1px;
+    left: 0px;
     border-radius: 999px;
     z-index: 1;
 }
@@ -58,25 +58,21 @@
     height: 26px!important;
 }
 .spinner-2enMB9 {
-    transform: scale(1.5);
+    transform: scale(1.2);
     background: rgba(0, 0, 0, 0.3);
+    margin-left: 1px;
 }
 
 /* status fixing some stuff */
-.da-item .da-statusIconText .da-online, .da-titleText .da-online, .da-selector .da-content .da-wrapper .da-online {
+.da-item .da-statusIconText .da-online, .da-titleText .da-online, .da-selector .da-content .da-wrapper .da-online, .container-2Thooq .da-wrapper .da-online {
     background-color: #43b581;
 }
-.da-item .da-statusIconText .da-idle, .da-titleText .da-idle, .da-selector .da-content .da-wrapper .da-idle {
+.da-item .da-statusIconText .da-idle, .da-titleText .da-idle, .da-selector .da-content .da-wrapper .da-idle, .container-2Thooq .da-wrapper .da-idle {
     background-color: #faa61a;
 }
-.da-item .da-statusIconText .da-dnd, .da-titleText .da-dnd, .da-selector .da-content .da-wrapper .da-dnd {
+.da-item .da-statusIconText .da-dnd, .da-titleText .da-dnd, .da-selector .da-content .da-wrapper .da-dnd, .container-2Thooq .da-wrapper .da-dnd {
     background-color: #f04747;
 }
-.da-item .da-statusIconText .da-invisible, .da-titleText .da-offline, .da-selector .da-content .da-wrapper .da-offline {
+.da-item .da-statusIconText .da-invisible, .da-titleText .da-offline, .da-selector .da-content .da-wrapper .da-offline, .container-2Thooq .da-wrapper .da-offline {
     background-color: #2f3136;
-}
-
-/* extra fix */
-.wrapper-2F3Zv8 .status-oxiHuE {
-    left: -1px;
 }

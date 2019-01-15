@@ -107,7 +107,7 @@ textarea {
 .channels-Ie2l6A { background:rgba(0,0,0,0.7) !important }
 
 /* Chat area */
-.content-yTz4x3 .flex-spacer { background:rgba(0,0,0,0.8) }
+.content-yTz4x3 .flex-spacer, .content-yTz4x3 { background:rgba(0,0,0,0.8)!important; }
 
 /* User list area */
 .members-1998pB { background:rgba(0,0,0,0.9) !important }
