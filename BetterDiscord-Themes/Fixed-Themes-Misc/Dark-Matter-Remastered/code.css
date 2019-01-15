@@ -12,7 +12,7 @@
 */
 
 /* Main background and settings background */
-.app,
+.da-app,
 .callout-backdrop {
 	background: var(--background-image) !important;
 	background-size: cover !important;

@@ -1,5 +1,5 @@
 /* changes position of top bar icons from right to left */
-.iconMargin-2YXk4F, .app .search .search-bar, .divider-2PMBlV, .theme-dark .searchPopout-1vUlP3 {
+.iconMargin-2YXk4F, .da-app .search .search-bar, .divider-2PMBlV, .theme-dark .searchPopout-1vUlP3 {
 	position: relative;
     right: 120px;
 }

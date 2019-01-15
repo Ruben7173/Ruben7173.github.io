@@ -7,7 +7,7 @@
     background: rgba(0,0,0,0.7)!important;
 }
 /* Transparency Level at settings */
-.app .standardSidebarView-3F1I7i {
+.da-app .standardSidebarView-3F1I7i {
     background-color: rgba(0,0,0,0.3);
 }
 /*https://hdqwalls.com/download/4k-zero-two-darling-in-the-franxx-w4-1920x1080.jpg*/
@@ -1211,10 +1211,10 @@ css-editor #bd-customcss-attach-controls button {
     color: #01f716;
 }
 /* store stuff */
-.app .applicationStore-1pNvnv, .app .gameLibrary-TTDw4Y {
+.da-app .applicationStore-1pNvnv, .da-app .gameLibrary-TTDw4Y {
     background-color: rgba(0,0,0,0.0);
 }
-.app .headerBar-UHpsPw {
+.da-app .headerBar-UHpsPw {
     background:transparent;
 }
 .theme-dark .distributionApplicationsActions-3D2_kD, .theme-dark .premiumApplicationsHeader-Zmkm5e {
@@ -1236,6 +1236,6 @@ css-editor #bd-customcss-attach-controls button {
 .theme-dark .tileWrapper-2khh-w {
     background-color: rgba(17, 34, 51, 0.6);
 }
-.app .container-3gCOGc, .app .root-1BQpZw{
+.da-app .container-3gCOGc, .da-app .root-1BQpZw{
     background: transparent;
 }

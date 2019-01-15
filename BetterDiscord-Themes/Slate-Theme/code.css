@@ -10,7 +10,7 @@
 .theme-dark .standardSidebarView-3F1I7i {
     background-color: rgba(0,0,0,0.3);
 }
-.app .applicationStore-1pNvnv {
+.da-app .applicationStore-1pNvnv {
     background: #19191b;
 }
 /* Changes background color of whole discord main area which includes the windows bar */
@@ -121,7 +121,7 @@
 .side-8zPYf6 .item-PXvHYJ[style="color: rgb(114, 137, 218);"] {color:rgb(176, 178, 180)!important;}
 .theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected {background-color: #19191B!important;}
 .channel-2QD9_O.selected-1HYmZZ a {background-color: #19191B;}
-.channel-2QD9_O.selected-1HYmZZ a, .channel-2QD9_O:hover a, .app .option-96V44q.selected-rZcOL- {background-color: rgb(29, 29, 31) !important;}
+.channel-2QD9_O.selected-1HYmZZ a, .channel-2QD9_O:hover a, .da-app .option-96V44q.selected-rZcOL- {background-color: rgb(29, 29, 31) !important;}
 /* random buttons on settings */
 .bda-slist .bda-footer button {background: #36393f;}
 /* a box at settings test video */
@@ -310,17 +310,17 @@
 }
 .theme-dark .search-results-wrap .action-buttons .jump-button {background-color: #19191b;}
 /* store background removal */
-.app .applicationStore-1pNvnv {
+.da-app .applicationStore-1pNvnv {
     background:none;
 }
 /* Fixes for Settings */
-.app .sidebarRegion-VFTUkN {
+.da-app .sidebarRegion-VFTUkN {
     background: #131415;
 }
-.app .contentRegion-3nDuYy {
+.da-app .contentRegion-3nDuYy {
     background: #19191B;
 }
-.app .container-3ayLPN {
+.da-app .container-3ayLPN {
     background-color: #131415;
 }
 .theme-dark .option-96V44q:after {

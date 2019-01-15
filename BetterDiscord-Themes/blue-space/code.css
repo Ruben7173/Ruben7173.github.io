@@ -13,7 +13,7 @@
     margin-top: 0px;
 }
 /* border and text alignment on roles */
-.app .membersGroup-v9BXpm {
+.da-app .membersGroup-v9BXpm {
     color: hsl(175, 86%, 47%);
     border: 2px solid rgba(98, 214, 210, 0.4);
     border-radius: 5px;
@@ -123,11 +123,11 @@
 	background: url(https://i.imgur.com/mabl6hm.png) center/cover no-repeat;
 	color: transparent;
 }
-.app .guild-1EfMGQ .guildInner-3DSoA4[style*="border-radius: 25px; background-color: rgb(47, 49, 54);"] {
+.da-app .guild-1EfMGQ .guildInner-3DSoA4[style*="border-radius: 25px; background-color: rgb(47, 49, 54);"] {
     background: transparent;
 	background-color: transparent!important;
 }
-.app .guild-1EfMGQ .guildInner-3DSoA4[style*="border-radius: 15px; background-color: rgb(114, 137, 218);"] {
+.da-app .guild-1EfMGQ .guildInner-3DSoA4[style*="border-radius: 15px; background-color: rgb(114, 137, 218);"] {
     background: transparent;
 	background-color: transparent!important;
 }
@@ -411,7 +411,7 @@
 }
 
 /* settings buttons at the side selected and hover */
-.side-8zPYf6 .itemSelected-1qLhcL, .app #bd-settings-sidebar .ui-tab-bar-item.selected, .channel-2QD9_O.selected-1HYmZZ a {
+.side-8zPYf6 .itemSelected-1qLhcL, .da-app #bd-settings-sidebar .ui-tab-bar-item.selected, .channel-2QD9_O.selected-1HYmZZ a {
     background: -webkit-linear-gradient(left, rgba(98, 214, 210, 0.2) 0%,rgba(61, 255, 35, 0.2) 100%);
 	border: 1px solid rgba(98, 214, 210, 0.2);
 }
@@ -459,11 +459,11 @@
     color: #fff;
 }
 /* buttons to green */
-.lookFilled-1Gx00P.colorBrand-3pXr91, .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary, .lookFilled-1Gx00P.colorBrand-3pXr91, .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary, .theme-dark #friends .tab-bar .tab-bar-item.selected, .jumpButton-3DTcS_ .loading-2bJK5L, .theme-dark .jumpButton-3DTcS_, .app .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+.lookFilled-1Gx00P.colorBrand-3pXr91, .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary, .lookFilled-1Gx00P.colorBrand-3pXr91, .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary, .theme-dark #friends .tab-bar .tab-bar-item.selected, .jumpButton-3DTcS_ .loading-2bJK5L, .theme-dark .jumpButton-3DTcS_, .da-app .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
     background-color: rgba(61, 255, 35, 0.5);
     color: #fff;
 }
-.lookFilled-1Gx00P.colorBrand-3pXr91:hover, .theme-dark #friends .tab-bar .tab-bar-item:hover:not(.selected), .app .lookFilled-1Gx00P.hoverBrand-1_Fxlk.hasHover-3X1-zV:hover {
+.lookFilled-1Gx00P.colorBrand-3pXr91:hover, .theme-dark #friends .tab-bar .tab-bar-item:hover:not(.selected), .da-app .lookFilled-1Gx00P.hoverBrand-1_Fxlk.hasHover-3X1-zV:hover {
     background-color: rgba(61, 191, 43, 0.5);
 }
 /* border for authorized apps at settings */
@@ -607,11 +607,11 @@
     border-color: #064b3e;
 }
 /* markdown and blocked messages */
-.theme-dark .markup-2BOw-j pre, .app .messageGroupBlocked-3wrQQX, .app .messageGroupBlocked-3wrQQX.revealed-1_RKsf, .app .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh- {
+.theme-dark .markup-2BOw-j pre, .da-app .messageGroupBlocked-3wrQQX, .da-app .messageGroupBlocked-3wrQQX.revealed-1_RKsf, .da-app .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh- {
     background: rgba(0, 79, 46, 0.25);
     border-color: rgb(33, 99, 83);
 }
-.app .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-:hover {
+.da-app .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-:hover {
     background: #155047;
 }
 .theme-dark .markup-2BOw-j code, .theme-dark .markup-2BOw-j code.inline {
@@ -775,15 +775,15 @@ https://i.imgur.com/mZuRmBg.gifv
 .newsLink-38Naqi:hover {
     background-color: #011e21;
 }
-.app .header-1RC2Wb:hover {
+.da-app .header-1RC2Wb:hover {
     background-color: rgb(4, 34, 35);
 }
-.app .guild-1EfMGQ .guildInner-3DSoA4 {
+.da-app .guild-1EfMGQ .guildInner-3DSoA4 {
     background: #011e21;
 }
-.app .itemBackground-1jfD8p {
+.da-app .itemBackground-1jfD8p {
     background-color: #011e21;
 }
-.app .itemBackground-1jfD8p:before {
+.da-app .itemBackground-1jfD8p:before {
     background: radial-gradient(ellipse at top,rgba(54,57,63,0),#011313),linear-gradient(90deg,#011313 0,rgba(54,57,63,0) 40%,rgba(54,57,63,0) 60%,#011313),linear-gradient(0deg,#011313 0,rgba(54,57,63,0) 25%);
 }
