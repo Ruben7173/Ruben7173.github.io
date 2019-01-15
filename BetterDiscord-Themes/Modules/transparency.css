@@ -1,10 +1,9 @@
 /* background */
-.appMount-3VJmYg {
-	background: var(--background-image);
+.da-appMount {
+    background: var(--background-image);
 }
-
 /* setting transparency */
-.container-2lgZY8, .app .guildsWrapper-5TJh6A, .channels-Ie2l6A, .container-PNkimc, .app .container-2Thooq, .app .chat-3bRxxu, .app .chat-3bRxxu form, .app .content-yTz4x3, .app .layer-3QrUeG, .app .layers-3iHuyZ, .app .title-3qD0b-, .app .headerBar-UHpsPw, .app .members-1998pB, .app .messagesWrapper-3lZDfY, .app #friends, .app .activityFeed-28jde9, .app .ui-standard-sidebar-view, .app .ui-standard-sidebar-view .content-region, .app .ui-standard-sidebar-view .sidebar-region, .app .noChannel-Z1DQK7, .app .gameLibrary-TTDw4Y, .app .applicationStore-1pNvnv, .app .container-3gCOGc, .app .root-1BQpZw, .theme-dark .gameLibrary-TTDw4Y {
+.container-2lgZY8, .da-app .guildsWrapper-5TJh6A, .channels-Ie2l6A, .container-PNkimc, .da-app .container-2Thooq, .da-app .chat-3bRxxu, .da-app .chat-3bRxxu form, .da-app .content-yTz4x3, .da-app .layer-3QrUeG, .da-app .layers-3iHuyZ, .da-app .title-3qD0b-, .da-app .headerBar-UHpsPw, .da-app .members-1998pB, .da-app .messagesWrapper-3lZDfY, .da-app #friends, .da-app .activityFeed-28jde9, .da-app .ui-standard-sidebar-view, .da-app .ui-standard-sidebar-view .content-region, .da-app .ui-standard-sidebar-view .sidebar-region, .da-app .noChannel-Z1DQK7, .da-app .gameLibrary-TTDw4Y, .da-app .applicationStore-1pNvnv, .da-app .container-3gCOGc, .da-app .root-1BQpZw, .theme-dark .gameLibrary-TTDw4Y {
 	background-color: var(--transparency-level);
 }
 .titleBar-AC4pGV {
@@ -18,6 +17,6 @@
 }
 
 /* removing backgrounds */
-.app .chat-3bRxxu form, .app .container-2Thooq, .container-PNkimc, .app .title-3qD0b-, .app .headerBar-UHpsPw, .app .content-yTz4x3, .app .messagesWrapper-3lZDfY, .app .members-1998pB, .app .inner-zqa7da, .app .typing-2GQL18, .app .wrapper-29NfPK, .search-bar, .app .markup-2BOw-j pre, .app .hljs, .app .markup-2BOw-j code, .app .markup-2BOw-j code.inline, .app .contentRegion-3nDuYy, .app .sidebarRegion-VFTUkN {
+.da-app .chat-3bRxxu form, .da-app .container-2Thooq, .container-PNkimc, .da-app .title-3qD0b-, .da-app .headerBar-UHpsPw, .da-app .content-yTz4x3, .da-app .messagesWrapper-3lZDfY, .da-app .members-1998pB, .da-app .inner-zqa7da, .da-app .typing-2GQL18, .da-app .wrapper-29NfPK, .search-bar, .da-app .markup-2BOw-j pre, .da-app .hljs, .da-app .markup-2BOw-j code, .da-app .markup-2BOw-j code.inline, .da-app .contentRegion-3nDuYy, .da-app .sidebarRegion-VFTUkN {
 	background: none;
 }
