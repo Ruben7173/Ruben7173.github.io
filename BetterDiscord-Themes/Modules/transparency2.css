@@ -1,34 +1,34 @@
-/* transparency made to work with gradients */
+ /* transparency made to work with gradients */
 /* Background Image */
 .appMount-3VJmYg {
 	background: var(--background-image);
 }
 
 /* removing backgrounds */
-.container-2lgZY8, .channels-Ie2l6A, .app .layer-3QrUeG, .app .layers-3iHuyZ, .app .chat-3bRxxu, .app .channelTextArea-rNsIhG, .app .content-yTz4x3, .app .messagesWrapper-3lZDfY, .app .chat-3bRxxu form, .app .members-1998pB, .app .headerBar-UHpsPw, .app .standardSidebarView-3F1I7i, .app .typing-2GQL18 {
+.container-2lgZY8, .channels-Ie2l6A, .da-app .layer-3QrUeG, .da-app .layers-3iHuyZ, .da-app .chat-3bRxxu, .da-app .channelTextArea-rNsIhG, .da-app .content-yTz4x3, .da-app .messagesWrapper-3lZDfY, .da-app .chat-3bRxxu form, .da-app .members-1998pB, .da-app .headerBar-UHpsPw, .da-app .standardSidebarView-3F1I7i, .da-app .typing-2GQL18 {
 	background: transparent;
 }
 
 /* Guild and Top bar transparency */
-.app .guildsWrapper-5TJh6A {
+.da-app .guildsWrapper-5TJh6A {
 	background:transparent;
 	background-image: var(--transparency-1);
 }
 
 /* transparency for channels and members list and private channels and left side of settings*/
-.container-PNkimc, .privateChannels-1nO12o, .app .sidebarRegion-VFTUkN, .app .container-2Thooq {
+.container-PNkimc, .privateChannels-1nO12o, .da-app .sidebarRegion-VFTUkN, .da-app .container-2Thooq {
 	background: transparent;
 	background-image: var(--transparency-2);
 }
 
 /* chat and top area and other secondary pages */
-.app .activityFeed-28jde9, .app .gameLibrary-TTDw4Y, .app .applicationStore-1pNvnv, .theme-dark #friends, .app .contentRegion-3nDuYy, .app .noChannel-Z1DQK7, .app .container-3gCOGc {
+.da-app .activityFeed-28jde9, .da-app .gameLibrary-TTDw4Y, .da-app .applicationStore-1pNvnv, .da-app #friends, .da-app .contentRegion-3nDuYy, .app .noChannel-Z1DQK7, .app .container-3gCOGc {
 	background: transparent;
 	background-image: var(--transparency-3);
 }
 
 /* extra for transparency 3 special case */
-.themeDark-3Ap_7i, .app .chat-3bRxxu {
+.themeDark-3Ap_7i, .da-app .chat-3bRxxu {
 	background-color: transparent;
 	background-image: var(--transparency-3);
 }
