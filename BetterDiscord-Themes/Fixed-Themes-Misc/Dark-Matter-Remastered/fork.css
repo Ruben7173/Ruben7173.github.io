@@ -1867,8 +1867,8 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 
 
 /* fixes */
-.content-yTz4x3 .da-spacer, .theme-dark .container-3gCOGc {
-    background: rgba(0,0,0,0.8) !important;
+.content-yTz4x3 .da-spacer, .container-3gCOGc {
+    background: transparent !important;
 }
 .tabBar-1E2ExX .primary-3j8BhM {
     background-color: var(--main-color)!important;
