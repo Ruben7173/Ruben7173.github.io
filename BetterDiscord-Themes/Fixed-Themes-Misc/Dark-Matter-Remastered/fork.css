@@ -1872,3 +1872,6 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 .tabBar-1E2ExX .primary-3j8BhM {
     background-color: var(--main-color)!important;
 }
+.messagesPopout-24nkyi {
+	background-color: rgba(0, 0, 0, 0.9);
+}
