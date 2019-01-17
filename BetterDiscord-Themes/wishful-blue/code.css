@@ -341,7 +341,10 @@
 .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .sidebar-CFHs9e {padding: 20px 18px 20px 23px ;width: 210px }
 .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN {flex: 0}
 .standardSidebarView-3F1I7i .contentColumnDefault-1VQkGM {max-width: 90%;padding: 40px 30px 80px}
-
+/* discord nitro color font */
+.standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ[style*="color: rgb(114, 137, 218)"] {
+    color: #b9bbbe!important;
+}
 /* extra code */
 .ui-tab-bar {transition:0.2s;}
 
@@ -366,9 +369,6 @@
 .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ[style*="background-color: rgb(114, 137, 218);"] {
 	background-color: var(--accent-color)!important;
 	border: 2px solid var(--accent-color-border)!important;
-}
-.side-8zPYf6 .item-PXvHYJ {
-	color: #b9bbbe!important;
 }
 
 .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ[style*="background-color: rgba(114, 137, 218, 0.0980392);"] {

@@ -654,8 +654,7 @@ span.bda-header-title {
 .optionFocused-8MflSE {background:rgba(0,0,0,0.5);}
 .theme-dark .popout-2sKjHu {background:rgba(0,0,0,0.6);}
 .popout-2xBvMR {
-    background:var(--background-image);
-    background-size:cover !important;
+    background:var(--background-image) center/cover no-repeat!important;
     box-shadow: inset 0px 0px 0px 1000px rgba(0,0,0,0.8) !important;
 }
 .theme-dark .applicationTile-1Goy1W {background:rgba(0,0,0,0.5);}
