@@ -255,24 +255,23 @@ hr {
 .text5 {
 	color: #fff;
 	position: absolute;
-    margin-left: 580px;
-    top: 2309px;
+  margin-left: 580px;
+  top: 2309px;
 }
 
 /* box6 */
 .text6 {
   color: #fff;
   position: absolute;
-    margin-left: 580px;
-    top: 2865px;
+  margin-left: 580px;
+  top: 2865px;
 }
-
-/* box7 */
+/* box7 */ /* 554 + 544 etc etc */
 .text7 {
   color: #fff;
   position: absolute;
-    margin-left: 580px;
-    top: 5730px;
+  margin-left: 580px;
+  top: 3419px;
 }
 
 /* text position of donation*/
