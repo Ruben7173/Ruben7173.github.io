@@ -1,0 +1,663 @@
+/* markdown adding a background */
+.da-app .hljs, .da-app .markup-2BOw-j code, .da-app .markup-2BOw-j code.inline {
+	background-color: var(--color-main);
+}
+/* sending message area adding a background */
+.da-app .inner-zqa7da {
+	background-color: var(--color-main);
+}
+
+/* end */
+
+/* markdown adding border and border radius */
+.da-app .hljs, .da-app .markup-2BOw-j code {
+	border: 1px solid rgb(55, 92, 167);
+	border-radius: 5px;
+}
+
+/* sending message area adding a border */
+.da-app .inner-zqa7da {
+	border: 1px solid rgb(55, 92, 167);
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px #375ca7;
+}
+
+.contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM, .channel-2QD9_O.selected-1HYmZZ a {
+    background-color: var(--color-main);
+    border: 1px solid rgb(55, 92, 167);
+    border-bottom-color: #4a79d7;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-width: 2.5px;
+}
+.theme-dark .member-3W1lQa.popout-open .content-OzHfo4, .theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4 {
+    background-color: var(--color-main);
+    border: 1px solid rgb(55, 92, 167);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-width: 2.5px;
+    height: 40px;
+    width: 0px;
+}
+/* connected voice area */
+.container-1UB9sr {
+	background-color: var(--color-main);
+	border: 1px solid rgb(55, 92, 167);
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+/* search button at the top */
+.theme-dark .search .search-bar {
+    background-color: var(--color-main);
+    border: 1px solid rgb(55, 92, 167);
+}
+
+
+/* guild add button */
+.theme-dark .guildsAdd-21_IdK {
+    background: var(--color-main);
+    border-color: rgb(55, 92, 167);
+    color: rgb(55, 92, 167);
+}
+
+/* scroll bar */
+::-webkit-scrollbar-thumb {
+	all: unset!important;
+	background-color: rgba(8, 26, 62, 0.50)!important;
+	border: 1px solid rgb(55, 92, 167)!important;
+	border-radius: 5px!important;
+}
+
+::-webkit-scrollbar-track-piece {
+	all: unset!important;
+	background-color: transparent!important;
+}
+
+/* makes hover effect on some areas from default discord */
+.scrollerFade-1Ijw5y .scroller-2FKFPG:hover::-webkit-scrollbar-thumb, .scrollerFade-1Ijw5y .scroller-2FKFPG:hover::-webkit-scrollbar-track, .scrollerFade-1Ijw5y:hover::-webkit-scrollbar-thumb, .scrollerFade-1Ijw5y:hover::-webkit-scrollbar-track {
+    visibility: visible!important;
+}
+.scrollerFade-1Ijw5y .scroller-2FKFPG::-webkit-scrollbar-thumb, .scrollerFade-1Ijw5y .scroller-2FKFPG::-webkit-scrollbar-track {
+    visibility: hidden!important;
+}
+/* scroll bar removing background on emoji page */
+.scrollerThemed-2oenus.themeLight-1_DWyY.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-dark .scrollerThemed-2oenus.themeLight-1_DWyY.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-light .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+/* chat border and backgrounds many changes and positioning */
+.large-3ChYtB, .image-33JSyf {
+	right: 80px;
+}
+.theme-dark .timestampCozy-2hLAPV {
+	padding-left: 5px;
+}
+.theme-dark .headerCozyMeta-rdohGq {
+	position: relative;
+	right: 80px;
+}
+
+.theme-dark .headerCozyMeta-rdohGq::after {
+	content: '';
+    position: absolute;
+    left: -16px;
+    top: 7px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid rgba(55, 92, 167, 0.4);
+}
+
+.contentCozy-3XX413, .theme-dark .headerCozyMeta-rdohGq {
+    margin-left: 5px;
+}
+
+/* disabling divider */
+.theme-dark .dividerEnabled-2TTlcf {
+	border: none;
+}
+
+/* disabling margin between messages */
+.message-1PNnaP {
+    margin-bottom: 0em;
+}
+
+.messageCompact-kQa7ES, .messageCozy-2JPAPA {
+	background: rgba(8, 26, 62, 0.3);
+	border: 1px solid rgba(55, 92, 167, 0.4);
+	margin-right: 7px;
+	margin-left: 100px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 3px;
+}
+/* public button discord */
+#bd-pub-button, .theme-dark .guild-1EfMGQ .guildInner-3DSoA4 {
+	background-color: var(--color-main);
+}
+/* guild button */
+.theme-dark .guild-1EfMGQ .guildInner-3DSoA4[style*="background-color: rgb(47, 49, 54);"] {
+	background-color: var(--color-main)!important;
+	box-shadow: rgb(25, 45, 85) 0px 0px 20px;
+}
+
+/* invite group */
+.theme-dark .wrapper-35wsBm {
+    background: rgba(2, 22, 45, 0.8);
+    border-color: rgb(27, 52, 95);
+}
+
+
+/* embed urls */
+.theme-dark .embedInner-1-fpTo {
+    background-color: rgba(19, 82, 93, 0.3);
+    border-color: rgb(28, 101, 144);
+}
+.theme-dark .embedPill-1Zntps {
+    background-color: rgb(28, 101, 144);
+}
+
+/* emoji menu */
+
+.emojiPicker-3m1S-j, #bda-qem-twitch-container, #bda-qem-favourite-container {
+	background-color: rgba(2, 22, 45, 0.9);
+}
+/* sticky part of emoji area */
+.emojiPicker-3m1S-j .stickyHeader-1SS0JU {
+    background: rgb(9, 44, 83);
+    border: 1px solid #375ca7;
+    border-radius: 5px;
+}
+.diversitySelector-tmmMv0 .popout-2nUePc {
+    background: rgba(2, 22, 45, 0.9);
+    border: 1px solid #375ca7;
+}
+.search-bar.search-bar-light {
+    background-color: rgba(9, 44, 83, 0.9);
+    border: 1px solid #375ca7;
+}
+.search-bar.search-bar-light .search-bar-inner {
+    background-color: rgb(8, 34, 63);
+}
+#bda-qem button:hover {
+    background: rgb(5, 31, 63);
+}
+#bda-qem {
+	background-color: rgba(2, 22, 45, 0.9);
+}
+#bda-qem button {
+    border-left: 1px solid #375ca7;
+    border-top: 1px solid #375ca7;
+}
+#bda-qem-twitch-container, #bda-qem-favourite-container, .emoji-picker, .emojiPicker-3m1S-j {
+	 border: 1px solid #375ca7;
+}
+.emoji-picker, .emojiPicker-3m1S-j {
+	border-top: none;
+}
+#bda-qem button {
+    border-left: 1px solid #375ca7;
+    box-shadow: #375ca7 1px 0 0 0;
+}
+#bda-qem button.active {
+    background-color: #08294f;
+    color: #fff;
+}
+#bda-qem button {
+    color: #99aab5;
+    border-left: 1px solid #375ca7;
+}
+.emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {
+    background-color: #092c53;
+    border-color:; #375ca7;
+}
+
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.selected-39BZ4S {
+    border-bottom-color: #375ca7;
+}
+
+/* custom stuff for emoji page */
+.emojiPicker-3m1S-j .stickyHeader-1SS0JU {
+    top: 10px;
+}
+.emojiPicker-3m1S-j .category-2U57w6 {
+    position: relative;
+    top: -1px;
+    height: 29px;
+}
+
+.emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA {
+    position: relative;
+    top: 13px;
+}
+/* end of custom stuff for this area */
+
+/* divider in chat */
+.theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:after, .theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:before {
+    border-color: #375ca7;
+}
+.theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI {
+    color: rgb(55, 92, 167);
+}
+
+.theme-dark .hasMore-3e72_v button {
+    background: rgba(2, 22, 45, 0.9);
+    border: 1px solid #375ca7;
+}
+.hasMore-3e72_v button {
+    color: #375ca7;
+}
+
+
+/* cards */
+
+/* playing a game card */
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6, .theme-dark .body-3ND3kc {
+    background-color: rgba(2, 22, 45, 0.9);
+}
+.theme-dark .quickMessage-1yeL4E {
+    background-color: rgba(6, 31, 58, 0.9);
+    border-color: #375ca7;
+}
+.headerPlaying-j0WQBV, .da-topSectionPlaying {
+    background: rgba(49, 111, 145, 0.9);
+    border: 1px solid #0af;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+/* button for header playing on add friend */
+.lookInverted-2D7oAl.colorBrand-3pXr91, .lookFilled-1Gx00P.colorBrand-3pXr91 {
+    background-color: rgba(49, 110, 145, 0.9);
+    border: 1px solid rgba(52, 141, 190, 0.9);
+    color: #ffffff;
+}
+.lookInverted-2D7oAl.colorBrand-3pXr91:hover, .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
+    background-color: rgba(57, 128, 169, 0.9);
+}
+
+.userPopout-3XzG_A {
+    border: 1px solid #375ca7;
+}
+
+/* normal card */
+.theme-dark .da-headerNormal, .da-root .da-topSectionNormal {
+    background-color: rgba(0, 18, 39, 0.9);
+}
+
+
+/* spotify card */
+.da-headerSpotify, .da-topSectionSpotify {
+	background: rgba(32, 138, 69, 0.9);
+    border: 1px solid rgba(42, 255, 15, 0.9);
+}
+
+/* on call area */
+.video-1FfuMD {
+    background-color: rgba(2, 22, 45, 0.9);
+    border: 1px solid #375ca7;
+}
+.theme-dark .wrapper-29NfPK.minimum-2d6zH6 .actions-2vadYq .center-1Vp33r {
+    background-color: #08294d;
+    border-color: #375ca7;
+}
+
+/* fixing idle and other states *//*
+.idle-3DEnRT, .status-3fQvEa {
+	left: 0px;
+}*/
+
+/* unread messages */
+.wrapper-232cHJ {
+    background-color: #33579e;
+    box-shadow: 0px 0px 10px #33579e;
+}
+
+/* settings my account background */
+.theme-dark .da-cardPrimary, .theme-dark .da-cardPrimaryEditable {
+	background: rgba(8, 26, 62, 0.3);
+	border-color: rgba(55, 92, 167, 0.4);
+}
+
+/* settings button normal and hover of categories */
+.da-app .side-8zPYf6 .da-itemSelected, .theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected {
+    background-color: #08294f;
+   	border: 1px solid #375ca7;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+.da-app .side-8zPYf6 .da-itemDefault:hover, .da-app .da-wrapperHoveredText .da-content, .da-app .da-channel:hover a, .theme-dark #bd-settings-sidebar .ui-tab-bar-item:hover {
+	background-color: rgba(25, 65, 112, 0.63);
+   	border: 1px solid #375ca7;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+.theme-dark .member-3W1lQa:hover .content-OzHfo4 {
+	background-color: rgba(25, 65, 112, 0.63);
+   	border: 1px solid #375ca7;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	height: 40px;
+    width: 0px;
+}
+
+/* secondary buttons */
+.da-app .lookFilled-1Gx00P.colorBrand-3pXr91 {
+	background-color: #08294f;
+}
+
+.da-app .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
+    background-color: rgb(9, 48, 93);
+}
+
+/* profile focused button text border */
+.theme-dark .input-cIJ7To.focused-1mmYsC, .theme-dark .input-cIJ7To:focus {
+    border-color: rgba(55, 92, 167, 0.4);
+}
+
+/* profile area of settings question mark normal and hover */
+.da-app .da-questionMark {
+    background-color: #173c6c;
+}
+.da-app .da-questionMark:hover {
+    background-color: #205293;
+}
+
+/* button at profile settings green button normal and hover */
+.lookFilled-1Gx00P.colorGreen-29iAKY {
+    background-color: rgba(12, 121, 37, 0.7);
+    border: 1px solid #29a529;
+}
+.lookFilled-1Gx00P.colorGreen-29iAKY:hover {
+    background-color: rgba(16, 151, 47, 0.7);
+}
+
+/* red buttons */
+.lookOutlined-3sRXeN.colorRed-1TFJan {
+    background-color: rgba(240, 71, 71, 0.10);
+}
+.lookOutlined-3sRXeN.colorRed-1TFJan:hover {
+    background-color: rgba(240, 71, 71, 0.20);
+}
+
+/* settings profile picture area */
+.userSettingsAccount-2eMFVR .avatar-uploader-inner, .avatar-xxlarge {
+    border: 1px solid #375ca7;
+    border-radius: 50px;
+    border-bottom-left-radius: 1px;
+    box-shadow: 0px 0px 10px #375ca7;
+}
+.theme-dark .avatar-uploader-indicator {
+    background-color: rgb(28, 35, 41);
+}
+
+/* chat pfp area border and box shadows */
+.large-3ChYtB {
+    border: 1px solid #375ca7;
+    border-radius: 50px;
+    border-bottom-right-radius: 1px;
+    box-shadow: 0px 0px 5px #375ca7;
+}
+/* removing backgrounds */
+.da-header .da-searchBar {
+	background: transparent;
+}
+.da-header .da-searchBar .da-searchBarInner {
+	background-color: rgba(0,0,0,0.2);
+}
+
+/* toggle buttons and checker boxes */
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked, .themeDefault-24hCdX.valueChecked-m-4IJZ, .theme-dark .checked-3_4uQ9, .barFill-23-gu- {
+	background-color: rgba(33, 79, 133, 0.9)!important;
+}
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch, .da-switchEnabled, .theme-dark .bar-2Qqk5Z {
+	background: rgba(115, 115, 115, 0.3);
+}
+.theme-dark .checked-3_4uQ9 {
+	border-color: rgba(52, 110, 185, 0.9)!important;
+}
+.theme-dark .da-cardPrimaryEditable[style*="border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218);"] {
+	border-color: rgba(52, 110, 185, 0.9)!important;
+    background-color: rgba(30, 70, 120, 0.9)!important;
+}
+
+/* making text easier to read */
+.theme-dark .description-3_Ncsb, .theme-dark .labelDescriptor-1PqHgD {
+    color: #a8aaad;
+}
+
+.da-notDetected {
+	background-color: rgba(27, 59, 100, 0.9);
+}
+
+.theme-dark .da-card:before, .theme-dark .da-removeGame {
+	background-color: rgba(27, 59, 100, 0.9);
+	border: 1px solid rgba(29, 82, 162, 0.9);
+}
+
+/* settings, connections, - buttons */
+.theme-dark .da-accountBtnInner {
+	border-color: rgba(52, 110, 185, 0.9);
+    background-color: rgba(30, 70, 120, 0.9);
+}
+.theme-dark .da-accountBtnInner:hover {
+	background-color: rgba(42, 95, 161, 0.9);
+    border-color: rgba(72, 146, 243, 0.9);
+}
+/* same area but for games, such as lol, steam, twitch, etc... */
+.theme-dark .elevationLow-2lY09M[style="border-color: rgb(2, 31, 37); background-color: rgb(2, 31, 37);"] { 
+	border-color: rgba(2, 31, 37, .7)!important;
+	background-color: rgba(2, 31, 37, .7)!important;
+}
+.theme-dark .elevationLow-2lY09M[style="border-color: rgb(24, 35, 50); background-color: rgb(24, 35, 50);"]{
+	border-color: rgba(24, 35, 50, .7)!important;
+	background-color: rgba(24, 35, 50, .7)!important;
+}
+.theme-dark .elevationLow-2lY09M[style="border-color: rgb(29, 185, 84); background-color: rgb(29, 185, 84);"]{
+	border-color: rgba(29, 185, 84, .7)!important;
+	background-color: rgba(29, 185, 84, .7)!important;
+}
+
+/* mores settings stuff */
+.theme-dark .bda-slist li {
+    background: rgba(8, 26, 62, 0.3);
+    border-color: rgba(22, 68, 160, 0.3);
+}
+/* bd buttons */
+.bd-pfbtn, .bda-slist .bda-footer button, .da-Item, .tabBar-1E2ExX .primary-3j8BhM {
+    background: rgba(52, 110, 185, 0.9)!important;
+}
+.theme-dark .topPill-30KHOu .itemSelected-1qLhcL, .theme-dark .jumpButton-Ia2hRJ, .theme-dark .jumpButton-3DTcS_ {
+    background-color: rgba(36, 110, 206, 0.9);
+    color: #c6c6c6;
+}
+.bda-slist .bda-footer a, .anchor-3Z-8Bb, .content-8biNdB a {
+	color: rgba(52, 110, 185, 0.9);
+}
+
+/* random code, tired of organizing */
+.status-oxiHuE {
+	border-radius: 999px; 
+}
+
+.theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
+    background-color: rgba(0, 28, 61, 0.78);
+    border-color: rgba(0, 59, 128, 0.9);
+}
+.theme-dark .select-2TCrqx .Select-menu-outer {
+    background: rgba(0, 18, 39, 0.9);
+    border-color: rgba(0, 45, 98, 0.9);
+}
+.theme-dark .modal-3HD5ck {
+    background-color: rgba(2, 22, 45, 0.8);
+}
+.theme-dark .footer-2yfCgX {
+    background-color: rgba(3, 28, 57, 0.9);
+}
+.theme-dark .cardPrimaryOutline-29Ujqw {
+    background-color: rgba(0,0,0,0.4);
+}
+.theme-dark .modal-3HD5ck {
+    background-color: rgba(2, 22, 45, 0.8);
+    box-shadow: 0 0 0 1px rgba(6, 51, 104, 0.6), 0 2px 10px 0 rgba(0,0,0,.2);
+}
+.theme-dark .menu-Sp6bN1 {
+	background-color: rgba(2, 22, 45, 0.8);
+}
+.theme-dark .item-1GzJrl:hover {
+    background-color: rgba(2, 22, 45, 0.9);
+}
+.da-botTag, .wrapper-2NJDcI {
+    background-color: rgba(49, 110, 145, 0.9);
+    border: 1px solid rgba(52, 141, 190, 0.9);
+    color: #fff;
+}
+.wrapper-2NJDcI {
+	color: #e8d2d2;
+}
+
+
+.theme-dark.contextMenu-HLZMGh, .theme-dark .attachPopout-1n-ZKM {
+    background: rgba(2, 22, 45, 0.8);
+}
+.theme-dark .item-1Yvehc:hover, .theme-dark .attachPopoutRow-KrE-f6:hover {
+    background: rgba(3, 27, 56, 0.9);
+}
+.theme-dark .root-SR8cQa .note-QfFU8y textarea:focus, .theme-dark .note-3kmerW textarea:focus {
+    background-color: rgba(3, 27, 56, 0.9);
+}
+.uploadModal-2ifh8j {
+    background-color: rgba(0, 59, 128, 0.9);
+}
+.theme-brand .inner-zqa7da {
+    background-color: rgba(0,0,0,0.2);
+}
+.uploadModal-2ifh8j .footer-3mqk7D {
+ background-color: rgba(2, 42, 89, 0.9);
+}
+.uploadModal-2ifh8j .inner-3nWsbo {
+    border: 2px dashed rgba(52, 141, 190, 0.9);
+}
+.theme-dark .container-3ayLPN {
+    background-color: rgba(2, 22, 45, 0.8);
+    border: 1px solid rgba(8, 50, 99, 0.8);
+}
+.theme-dark .option-96V44q:after {
+	display:none;
+}
+.theme-dark .option-96V44q.selected-rZcOL-, .theme-dark .searchAnswer-3Dz2-q, .theme-dark .searchFilter-2ESiM3 {
+    background-color: rgba(5, 41, 84, 0.9);
+}
+
+
+.theme-dark .searchResultsWrap-2DKFzt {
+    background-color: rgba(2, 22, 45, 0.8);
+}
+.theme-dark .searchResult-3pzFAB .hit-NLlWXA {
+    background-color: rgba(5, 41, 84, 0.9);
+    box-shadow: 0 0 10px 6px rgba(5, 41, 84, 0.9);
+}
+.theme-dark .searchResult-3pzFAB:before, .searchResult-3pzFAB:before, .theme-dark .searchResult-3pzFAB:after {
+	background-image: linear-gradient(0deg,rgba(47,49,54,0),rgba(5, 41, 84, 0.9));
+}
+.theme-dark .searchResult-3pzFAB:after {
+	background-image: linear-gradient(0deg,rgba(5, 41, 84, 0.9),rgba(47,49,54,0));
+}
+.theme-dark .channelSeparator-1X1FuH .channelName-1QajIf {
+	background-color: rgba(5, 41, 84, 0.9);
+}
+.theme-dark .searchResult-3pzFAB .searchResultMessage-2VxO12.hit-NLlWXA {
+    border: 2px solid rgba(8, 72, 128, 0.6);
+}
+.theme-dark .searchHeader-1l-wpR, .theme-dark .channelSeparator-1X1FuH .channelName-1QajIf {
+    background-color: rgba(5, 41, 84, 0.9);
+}
+.theme-dark .searchResult-3pzFAB.expanded-v2Szsz .searchResultMessage-2VxO12.hit-NLlWXA {
+    background-color: rgba(5, 41, 84, 0.9);
+    border-bottom: 2px solid rgba(7, 61, 126, 0.9);
+    border-top: 2px solid rgba(7, 61, 126, 0.9);
+}
+.theme-dark .searchResult-3pzFAB.expanded-v2Szsz {
+    border: 2px solid rgba(9, 35, 66, 0.9);
+}
+.theme-dark .focused-2bY0OD {
+    background-color: rgba(5, 41, 84, 0.9);
+}
+.theme-dark .queryContainer-RKFJW- {
+    border-bottom-color: rgba(6, 61, 126, 0.9);
+}
+.theme-dark .keybindShortcut-1BD6Z1 span {
+    background-color: rgba(27, 78, 146, 0.9);
+    border: 1px solid #2d5387e6;
+    box-shadow: inset 0 -4px 0 rgba(14, 38, 70, 0.6);
+}
+.theme-dark .header-ykumBX {
+    background-color: rgba(5, 41, 84, 0.9);
+}
+.theme-dark .messagesPopoutWrap-1MQ1bW {
+    background-color: rgba(2, 22, 45, 0.8);
+    border: 1px solid rgba(7, 54, 108, 0.8);
+}
+.theme-dark .messageGroupWrapper-o-Zw7G {
+    background-color: rgba(5, 41, 84, 0.9);
+    border-color: rgba(9, 61, 122, 0.9);
+}
+.theme-dark .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug {
+	box-shadow: none;
+}
+.theme-dark .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug {
+	background: transparent;
+}
+.theme-dark .footer-1kmXd4 {
+    background-color: rgba(5, 41, 84, 0.4);
+}
+.theme-dark .connectedAccount-36nQx7, .theme-dark .userInfoSection-2acyCx+.userInfoSection-2acyCx {
+    border-color: rgba(11, 61, 121, 0.4);
+}
+.tabBarContainer-1s1u-z {
+    border-top: 1px solid rgba(11, 61, 121, 0.4);
+}
+.theme-dark .friendsTable-133bsv .friendsRow-2yicud:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.theme-dark .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9 {
+	background-color:  rgba(5, 41, 84, 0.9);
+}
+.theme-dark .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9:hover, .theme-dark .topPill-30KHOu .item-PXvHYJ:hover:not(.itemSelected-1qLhcL) {
+	background-color:  rgba(8, 60, 122, 0.9);
+}
+.theme-dark .applicationTile-1Goy1W, .theme-dark .popout-2xBvMR {
+    background-color: rgba(0, 18, 39, 0.9);
+}
+.theme-dark .applicationTile-1Goy1W:hover, .theme-dark .iconCircle-1dlYo0 {
+    background-color: rgba(5, 30, 60, 0.9);
+}
+.scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track {
+	display: none;
+}
+
+.theme-dark .itemBackground-2vEldQ:before {
+    background: radial-gradient(ellipse at top,rgba(54,57,63,-3),rgba(0, 18, 39, 0.9)),linear-gradient(90deg,rgba(0, 18, 39, 0.9) 0,rgba(54,57,63,0) 40%,rgba(54,57,63,0) 60%,rgba(0, 18, 39, 0.9)),linear-gradient(0deg,rgba(0, 18, 39, 0.9) 10%,rgba(54,57,63,0) 70%)!important;
+}
+.da-app .overlappingBorder-3aFng4 {
+    border-color: rgb(18, 84, 178);
+}
+.theme-dark .description-3rB3Rp {
+    background: linear-gradient(180deg,transparent,rgba(0, 18, 39, .75) 45%,rgba(0, 18, 39, 0.9))!important;
+}
+.theme-dark .searchBox-3Y2Vi7 {
+    background-color: rgba(4, 36, 72, 0.9);
+}
+.searchBar-2_Yu-C {
+    background-color: rgba(0,0,0,0);
+}
+.theme-dark .quickswitcher-3JagVE {
+    background-color: rgba(0, 18, 39, 0.9);
+}
+.theme-dark .input-2VB9rf {
+    background-color: rgba(5, 30, 60, 0.9);
+}
+.theme-dark .resultFocused-3aIoYe {
+    background-color: rgba(0, 0, 0, 0.2);
+}
