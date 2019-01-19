@@ -661,3 +661,50 @@
 .theme-dark .resultFocused-3aIoYe {
     background-color: rgba(0, 0, 0, 0.2);
 }
+.article-3kb3qm, .theme-dark .dockItem-2kQDqg:hover {
+    background-color: rgba(5, 41, 84, 0.9);
+}
+.carousel-2WxMes {
+    background-color: transparent;
+}
+.theme-dark .paginationItem-2lUq0s:after {
+    background: linear-gradient(270deg,transparent 0,rgba(5, 41, 84, 0.9));
+}
+.theme-dark .header-1RC2Wb {
+    background-color: rgba(5, 41, 84, 0.9);
+}
+.theme-dark .body-SKIE6r {
+    background-color: rgba(5, 41, 84, .3);
+}
+.theme-dark .card-7JP0BX {
+    background-color: rgba(9, 68, 138, 0.2);
+}
+.theme-dark .header-1RC2Wb:hover {
+    background-color: rgba(7, 50, 102, 0.9);
+}
+.da-activityName {
+    color: #fff;
+}
+
+.da-statusIconText .da-status {
+    right: 0px;
+}
+
+.headerButtonColor-G7_f-V, .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+    background: rgba(49, 110, 145, 0.9);
+    border: 1px solid rgba(35, 140, 200, 0.9);
+}
+.theme-dark .lookFilled-1Gx00P.hoverBrand-1_Fxlk.hasHover-3X1-zV:hover, .theme-light .lookFilled-1Gx00P.hoverBrand-1_Fxlk.hasHover-3X1-zV:hover {
+    background-color: rgba(57, 128, 169, 0.9);
+    border: 1px solid rgba(29, 135, 196, 0.9);
+}
+
+.newsLink-38Naqi:hover {
+    background-color: rgba(6, 48, 97, 0.9);
+}
+.newsLink-38Naqi {
+    background-color: rgba(5, 41, 84, 0.9);
+}
+.news-2GDtLJ {
+    background-color: rgba(5, 41, 84, 0.9);
+}

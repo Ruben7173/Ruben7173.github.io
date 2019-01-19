@@ -259,12 +259,20 @@ hr {
     top: 2309px;
 }
 
-/* box5 */
+/* box6 */
 .text6 {
   color: #fff;
   position: absolute;
     margin-left: 580px;
     top: 2865px;
+}
+
+/* box7 */
+.text7 {
+  color: #fff;
+  position: absolute;
+    margin-left: 580px;
+    top: 5730px;
 }
 
 /* text position of donation*/
