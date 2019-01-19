@@ -762,7 +762,7 @@ button.DialogButton:active, button.DialogButton:active:hover {
 .chatSubmitButton.disabled, .chatSubmitButton.EmbedButton, .chatSubmitButton.EmoticonPickerButton {
     background-color: #141414!important;
 }
-.VoiceToggle, .chatTextarea, button.DialogButton {
+.VoiceToggle, .chatTextarea {
     background: #141414!important;
 }
 .ChatMessageBlock.SingletonMsg .FriendChatTimeStamp {
@@ -1118,7 +1118,7 @@ background-color: #131313!important;}
     background: #1b1a1a!important;
 }
 /* fixes for selected areas on a few areas */
-.VoiceToggle, .chatTextarea, button.DialogButton {
+.VoiceToggle, .chatTextarea {
     background: #1A1A1A!important;
     border: 1px solid #0e0d0d!important;
 }
@@ -1129,4 +1129,7 @@ background-color: #131313!important;}
 /* chat remove gradient */
 .chatTab .chatTabHighlight {
 	background: transparent;
+}
+button.DialogButton {
+	background-color: #262626!important;
 }
