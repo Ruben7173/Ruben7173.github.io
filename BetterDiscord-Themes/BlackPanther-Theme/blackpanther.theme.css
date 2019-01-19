@@ -8,7 +8,7 @@
 :root {
 	/* background image URL */
 	--background-image: url('https://hdqwalls.com/wallpapers/black-panther-4k-movie-poster-vi.jpg') center/cover no-repeat;
-	/* default background image https://images4.alphacoders.com/325/32596.jpg */
+	/* default background image 'https://hdqwalls.com/wallpapers/black-panther-4k-movie-poster-vi.jpg */
 	/* Transparency */
     --transparency-level: rgba(0,0,0,0.20); 
 	/* transparency of top windows bar works different from the top one for some reason you have to try different values to match transparecy (aprox value is top value x 3 = result) */
