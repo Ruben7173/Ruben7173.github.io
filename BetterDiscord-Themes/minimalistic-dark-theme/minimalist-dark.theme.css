@@ -1,11 +1,20 @@
-//META{"name":"Minimalist Dark","description":"Stable Release","author":"Ruben7173","version":"1.0"}*//{}
+//META{"name":"Minimalist Dark","description":"Stable Release","author":"Ruben7173","version":"1.2"}*//{}
 
 @import url(https://rawgit.com/Ruben7173/Ruben7173.github.io/master/BetterDiscord-Themes/minimalistic-dark-theme/code.css);
+@import url(https://raw.githack.com/Ruben7173/Ruben7173.github.io/master/BetterDiscord-Themes/Modules/transparency.css);
 
-/* Background */ /* Default BG: https://i.imgur.com/hwseeIN.jpg */
-.theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ, .appMount-3VJmYg {
-    background:url('https://i.imgur.com/hwseeIN.jpg');  /* Change this URL to change the Wallpaper */
+:root {
+	/* background image URL */
+	--background-image: url('https://i.imgur.com/hwseeIN.jpg') center/cover no-repeat;
+	/* default background image https://i.imgur.com/hwseeIN.jp */
+	/* Transparency */
+    --transparency-level: rgba(0,0,0,0.10); 
+	/* transparency of top windows bar works different from the top one for some reason you have to try different values to match transparecy (aprox value is top value x 3 = result) */
+	--transparency-level-top: rgba(0,0,0,0.34);
+	/* ESC Button color at settings */
+	--ESC-Button-color: rgba(43, 99, 57, 0.9);
+	/* transparency of settings page */
+	--transparency-settings: rgba(0,0,0,0.2);
 }
 
-											/* Custom code below */
-/*** If for some reason the code doesn't work, add an !important because it might be overwritten by main code ***/
+/* any other code below */

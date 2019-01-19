@@ -1175,3 +1175,6 @@
 .da-app .applicationStore-1pNvnv {
     background:none;
 }
+.theme-dark .inner-zqa7da, .da-app .container-2Thooq {
+    background-color: hsla(0,5%,0%,.3)!important;
+}
