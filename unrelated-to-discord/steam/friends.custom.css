@@ -172,7 +172,7 @@ button.DialogButton.Primary:hover {
     background: rgb(81, 23, 189)!important;
 }
 button.DialogButton:hover {
-    background: #252424!important;
+    background: #3a3939!important;
 }
 
 /* boxes settings */
@@ -652,7 +652,7 @@ button.DialogButton.roleButton.owner:disabled {
 }
 /* few more boxes at settings */
 .FriendsSettingsNotificationRow, .FriendsSettingsFlashSection_ButtonRow, .FriendsSettingsVoiceTransmissionType_ButtonRow {
-    background: #141414!important;
+    background: #262626!important;
 }
 /* groups section */
 .chatRoomListContainer {
@@ -1128,8 +1128,11 @@ background-color: #131313!important;}
 }
 /* chat remove gradient */
 .chatTab .chatTabHighlight {
-	background: transparent;
+	background: transparent!important;
 }
 button.DialogButton {
-	background-color: #262626!important;
+	background-color: #343434!important;
+}
+.voiceMicTestContainer {
+    background-color: #262626!important;
 }
