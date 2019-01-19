@@ -1126,3 +1126,7 @@ background-color: #131313!important;}
 .DialogOnOffToggle_Option:hover:not(.Active) {
     background: #545353!important;
 }
+/* chat remove gradient */
+.chatTab .chatTabHighlight {
+	background: transparent;
+}
