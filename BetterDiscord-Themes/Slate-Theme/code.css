@@ -308,16 +308,12 @@
     background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(47,49,54,0)),to(#131415));
     background-image: linear-gradient(180deg,rgba(47,49,54,0),#131415);
 }
-.theme-dark .search-results-wrap .action-buttons .jump-button {background-color: #19191b;}
-/* store background removal */
-.da-app .applicationStore-1pNvnv {
-    background:none;
-}
+.theme-dark .search-results-wrap .action-buttons .jump-button, .theme-dark .container-3gCOGc {background-color: #19191b;}
 /* Fixes for Settings */
 .da-app .sidebarRegion-VFTUkN {
     background: #131415;
 }
-.da-app .contentRegion-3nDuYy {
+.da-app .contentRegion-3nDuYy, .theme-dark .gameLibrary-TTDw4Y, .theme-dark .root-1BQpZw {
     background: #19191B;
 }
 .da-app .container-3ayLPN {
@@ -337,5 +333,8 @@
 .userInfoViewing-16kqK3 .flexChild-faoVW3 > div:nth-child(2) .viewBody-2Qz-jg.selectable-x8iAUj:hover {
     filter: none;
     transition: 600ms cubic-bezier(.2, .11, 0, 1);
+}
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece {
+	display:none;
 }
 /**/
