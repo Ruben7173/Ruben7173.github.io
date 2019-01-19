@@ -1,45 +1,5 @@
-/**BACKGROUND**/
-.appMount-3VJmYg{background:url('https://images.alphacoders.com/898/898775.jpg') center/cover no-repeat}
-
-
-/* Transparency level */
-.theme-dark .layers-3iHuyZ {
-    background: rgba(0,0,0,0.7)!important;
-}
-/* Transparency Level at settings */
-.da-app .standardSidebarView-3F1I7i {
-    background-color: rgba(0,0,0,0.3);
-}
-/*https://hdqwalls.com/download/4k-zero-two-darling-in-the-franxx-w4-1920x1080.jpg*/
-/** remove grey backgrounds **/
-.theme-dark .friends-table, .theme-dark .theme-dark .messages-wrapper, .theme-dark .chat, .channels-Ie2l6A, .guilds-wrapper, .container-2lgZY8, .theme-dark .layer-3QrUeG, .theme-dark .typing-2GQL18,
-.theme-dark .members-1998pB, .theme-dark .chat>.content, .theme-dark .title-3qD0b-, .container-PNkimc, .channels-Ie2l6A, .theme-dark .chat form, .container-2Thooq, .theme-dark .headerBar-UHpsPw,
-.theme-dark .friends-table .theme-dark .messages .theme-dark .divider:before, .theme-dark .friends-table .theme-dark .messages .theme-dark .divider span, .theme-dark .messages-wrapper .theme-dark .messages .theme-dark .divider:before, .theme-dark .messages-wrapper .theme-dark .messages .theme-dark .divider span, .theme-dark #friends,
-.theme-dark .activityFeed-28jde9, .theme-dark .header-1RC2Wb, .theme-dark .ui-standard-sidebar-view, .theme-dark .noChannel-Z1DQK7, .theme-dark .sidebarRegion-VFTUkN, .theme-dark .contentRegion-3nDuYy
-{
-    background:rgba(0,0,0,0)!important;
-}
-
-#friends, .theme-dark .search-l1Wz-Q, .theme-dark .chat, .theme-dark .channels-Ie2l6A, .theme-dark .container-2Thooq {
-    background: rgba(0, 0, 0, 0.0)!important;
-}
-
-.typeWindows-1za-n7 {
-    background-color: rgba(0,0,0,0.8)!important;
-    height: 18px;
-    margin-top: 1px;
-}
-
-/**custom styling**/
-/*** without the gray backgrounds, some of the styling just doesn't work, replacing it with transparent blacks and or transparent versions of their original color makes much more sense ***/
-.contentSelectedText-3wUhMi,.private-channels .channel.selected a,.private-channels .channel:hover a,
-.contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO:active,.contentSelectedVoice-1WDIBM:active,
-.theme-dark .member-3W1lQa:hover .content-OzHfo4, .theme-dark .member-3W1lQa.popout-open .content-OzHfo4, .theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4,
-.theme-dark #friends .friends-table .friends-row:hover, .theme-dark .header-1RC2Wb, .theme-dark .body-SKIE6r, .theme-dark .emptyState-2-sT0o {
-    background:rgba(0,0,0,0.2)!important;
-}
-.theme-dark .message-group .comment .markup code.inline{
-    background:rgba(46,49,54,0.5)!important;
+.da-appMount {
+	background: var(--background-image);
 }
 
 /** scrollbar **/
@@ -79,45 +39,16 @@ img.emoji:not(.jumboable){height:32px !important;width:auto !important;}/**never
 }
 
 /* */
-
-.layers,
-.container-PNkimc,
-.container-2lgZY8,
-.theme-dark .layer-3QrUeG,
-.theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3, .theme-dark .messagesWrapper-3lZDfY, .theme-dark .guildsWrapper-5TJh6 {
-    background: rgba(0,0,0,0);
-}
-    .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3, .theme-dark .messagesWrapper-3lZDfY {
-    background: rgba(0,0,0,0.0);
-}
-.theme-dark .chat form {
-    background: transparent !important;
-}
-.links,
-.chat-3bRxxu,
-.typing-2GQL18,
-.content-yTz4x3,
-.guild-channels,
-.private-channels,
-.guild-header header,
-.dividerRed-MKoLlr span,
-.messagesWrapper-3lZDfY,
-#rtc-connection,
-#voice-connection {
-    background: transparent !important;
-}
-
-/* */
 .theme-dark .guildsWrapper-5TJh6A {
 	background-color: transparent
 }
 .theme-dark .attachment-33OFj0 { 
 background-color: rgba(47, 49, 54, 0.298039); 
 border-color: rgba(47, 49, 54, 0.6); 
-}
+}/*
 .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3, .theme-dark .messagesWrapper-3lZDfY { 
 background: rgba(0, 0, 0, 0.0); 
-}
+}*/
 .theme-dark .markup-2BOw-j code, .theme-dark .markup-2BOw-j code.inline { 
 background: rgb(47, 49, 54); 
 }
@@ -152,7 +83,6 @@ background: rgb(47, 49, 54);
     border-radius: 10px;
     border: 1px solid #fff;
     border-color: #123;
-    background: rgba(0, 0, 0,0.3) !important; 
 }
 
 /*Person Info Tabs*/
@@ -236,7 +166,6 @@ background: rgb(47, 49, 54);
 .theme-dark .container-2Thooq, .theme-dark .container-2lgZY8 {
 	Border-radius: 0px;
 	border: 0px solid;
-    background: rgba(0, 0, 0,0.3) !important;
 }
 
 /*For the arrow options at top left side of discord */
@@ -424,12 +353,12 @@ background: rgb(47, 49, 54);
 }
 
 /* Emoji page */
-.theme-dark .bda-dark .emoji-picker, .bda-dark .emojiPicker-3m1S-j {
+.theme-dark .emoji-picker, .emojiPicker-3m1S-j {
     background-color: rgba(0,0,0,0.4);
     border-radius: 15px !important;
     border-color: #123; !important;
 }
-.theme-dark .bda-dark .emoji-picker .category, .bda-dark .emojiPicker-3m1S-j .category-2U57w6 {
+.theme-dark .emoji-picker .category, .emojiPicker-3m1S-j .category-2U57w6 {
     background-color: rgba(0,0,0,0.0);
     border-radius: 0px !important;
     border-color: #123; !important;
@@ -441,7 +370,7 @@ background: rgb(47, 49, 54);
 .theme-dark .emojiPicker-3m1S-j .stickyHeader-1SS0JU {
     background: rgba(0,0,0,0.3)
 }
-.theme-dark .bda-dark .emoji-picker .header .search-bar, .bda-dark .emojiPicker-3m1S-j .header-1nkwgG .search-bar {
+.theme-dark .emoji-picker .header .search-bar, .emojiPicker-3m1S-j .header-1nkwgG .search-bar {
     background: rgba(0,0,0,0.0)
 }
 .theme-dark .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.selected-39BZ4S {
@@ -452,15 +381,34 @@ background: rgb(47, 49, 54);
     border: 1px solid transparent;
     border-radius: 3px!important;
 }
-.theme-dark .bda-dark .emoji-picker .search-bar input, .bda-dark .emojiPicker-3m1S-j .search-bar input {
+#bda-qem-favourite-container, #bda-qem-twitch-container {
+    background-color: rgba(0,0,0,0.4)!important;
+}
+.theme-dark  .emoji-picker .search-bar input,  .emojiPicker-3m1S-j .search-bar input {
     color: #FFF;
+}
+#bda-qem button.active {
+    color: #fff;
+}
+.theme-dark #bda-qem button {
+    color: #a9a9a9;
+}
+.theme-dark .accountBtnInner-sj5jLs:hover {
+    background-color: rgba(25, 51, 77, 0.5);
+    border-color: #123;
+}
+.theme-dark .tier1Banner-1B_WXY {
+    background-color: rgba(27, 58, 89, 0.5);
+}
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:active, .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover {
+    background-color: rgba(17, 59, 101, 0.5);
 }
 .theme-dark .search-bar-light .searchBarInner-1_Tg2R {
     border-radius: 3px !important;
     background: rgba(0,0,0,0.3);
     border-color: #123; !important;
 }
-.theme-dark .bda-dark .emoji-picker .scroller::-webkit-scrollbar, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track-piece, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track-piece {
+.theme-dark  .emoji-picker .scroller::-webkit-scrollbar,  .emoji-picker .scroller::-webkit-scrollbar-track,  .emoji-picker .scroller::-webkit-scrollbar-track-piece,  .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar,  .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track,  .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track-piece {
     background-color: rgba(0,0,0,0.0)!important;
     border-color: rgba(0,0,0,0.0) !important;
 }
@@ -1043,46 +991,46 @@ css-editor #bd-customcss-attach-controls button {
 }
 
 /* Emoji Area */
-.theme-dark .bda-dark #bda-qem button {
+.theme-dark  #bda-qem button {
     background: hsla(0,5%,0%,.5);
     border-left: 1px solid #242424;
     box-shadow: #123 1px 0 0 0;
 }
 
 /* Emoji buttons hover */
-.bda-dark #bda-qem button:hover {
+ #bda-qem button:hover {
     background-color: hsla(0,5%,0%,.3);
 }
 
 /* Emoji area background transparency */
-.bda-dark #bda-qem {
+ #bda-qem {
     border-bottom: 1px solid #123 !important;
     background: hsla(0,5%,0%,.3);
 }
 
 /* Emoji button selected */
-.bda-dark #bda-qem button.active {
+ #bda-qem button.active {
     background-color: hsla(0,5%,0%,.7);
 }
 
 /* Borders and etc of emoji buttons at top */
-.bda-dark #bda-qem button {
+ #bda-qem button {
     background: hsla(0,5%,0%,.3);
     border-left: 1px solid #123;
     box-shadow: #123 1px 0 0 0;
 }
 
 /* Transparency of emoji page menu twitch and etc */
-.bda-dark #bda-qem-favourite-container, .bda-dark #bda-qem-twitch-container {
+ #bda-qem-favourite-container,  #bda-qem-twitch-container {
     background-color: hsla(0,5%,0%,.1);
 }
 
 /* Scroller part of emoji area (favorite and twitch by order)*/
-.bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track-piece {
+ #bda-qem-favourite-container .scroller::-webkit-scrollbar,  #bda-qem-favourite-container .scroller::-webkit-scrollbar-track,  #bda-qem-favourite-container .scroller::-webkit-scrollbar-track-piece {
     background-color: hsla(0,5%,0%,.1) !important;
     border-color: #123 !important;
 }
-.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar, .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track, .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track-piece, .bda-dark #pubs-container .scroller::-webkit-scrollbar, .bda-dark #pubs-container .scroller::-webkit-scrollbar-track, .bda-dark #pubs-container .scroller::-webkit-scrollbar-track-piece {
+ #bda-qem-twitch-container .scroller::-webkit-scrollbar,  #bda-qem-twitch-container .scroller::-webkit-scrollbar-track,  #bda-qem-twitch-container .scroller::-webkit-scrollbar-track-piece,  #pubs-container .scroller::-webkit-scrollbar,  #pubs-container .scroller::-webkit-scrollbar-track,  #pubs-container .scroller::-webkit-scrollbar-track-piece {
     background-color: hsla(0,5%,0%,.1) !important;
     border-color: #123 !important;
 }
@@ -1238,4 +1186,11 @@ css-editor #bd-customcss-attach-controls button {
 }
 .da-app .container-3gCOGc, .da-app .root-1BQpZw{
     background: transparent;
+}
+
+.contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM, .theme-dark .member-3W1lQa.popout-open .content-OzHfo4, .theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4 {
+    background-color: rgba(17, 34, 51, 0.9);
+}
+.contentConnectedVoice-qL-YrL:active, .contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO:active, .contentSelectedVoice-1WDIBM:active, .theme-dark .member-3W1lQa:hover .content-OzHfo4 {
+    background-color: rgba(17, 34, 51, 0.6);
 }
