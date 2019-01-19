@@ -1,7 +1,18 @@
 //META{"name":"02 Theme by Ruben","description":"Darling In the Franxx theme","author":"Ruben7173","version":"3.0"}*//{}
 
-@import url(https://raw.githack.com/Ruben7173/Ruben7173.github.io/master/BetterDiscord-Themes/Darling-in-The-Franxx/code.css);
-
-/**BACKGROUND**/
-.da-appMount{background:url('https://images.alphacoders.com/898/898775.jpg') center/cover no-repeat}
-/* default wallpaper URL: https://images.alphacoders.com/898/898775.jpg */
+@import url(https://raw.githack.com/Ruben7173/Ruben7173.github.io/master/BetterDiscord-Themes/Modules/transparency2.css);
+@import url(https://rawgit.com/Ruben7173/Ruben7173.github.io/master/BetterDiscord-Themes/Darling-in-The-Franxx/code.css);
+:root {
+	/* background URL */ /* default url hhttps://images.alphacoders.com/898/898775.jpg */
+	--background-image: url(https://images.alphacoders.com/898/898775.jpg) center/cover no-repeat;
+	/* Guild and Top bar transparency */
+	--transparency-1: linear-gradient(to left, rgba(0,0,0,0.85), rgba(0,0,0,0.75));
+	/* transparency for channels and private channels */
+	--transparency-2: linear-gradient(to right, rgba(0,0,0,0.85), rgba(0,0,0,0.65));
+	/* chat and top area and other secondary pages */
+	--transparency-3: linear-gradient(to right, rgba(0,0,0,0.65), rgba(0,0,0,0.55));
+	/* member list */
+	--transparency-4: linear-gradient(to right, rgba(0,0,0,0.55), rgba(0,0,0,0.65));
+	/* transparecy with gradient of top bar */
+	--transparency-5: linear-gradient(to right, rgba(0,0,0,0.85), rgba(0,0,0,0.75),rgba(0,0,0,0.65), rgba(0,0,0,0.62), rgba(0,0,0,0.60),rgba(0,0,0,0.55), rgba(0,0,0,0.55));
+}
