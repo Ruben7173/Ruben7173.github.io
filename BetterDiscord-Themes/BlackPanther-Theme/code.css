@@ -708,3 +708,14 @@
 .news-2GDtLJ {
     background-color: rgba(5, 41, 84, 0.9);
 }
+.theme-dark .message-2qRu38 {
+    background-color: rgba(5, 41, 84, 0.9);
+    border: 1px solid rgba(9, 61, 122, 0.9);
+}
+.theme-dark .autocomplete-1vrmpx {
+    background-color: rgba(2, 22, 45, 0.8);
+    border: 1px solid rgba(8, 50, 99, 0.8);
+}
+.theme-dark .selectorSelected-1_M1WV {
+    background-color: rgba(5, 41, 84, 0.9);
+}
