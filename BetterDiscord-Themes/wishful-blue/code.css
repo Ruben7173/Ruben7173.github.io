@@ -375,3 +375,11 @@
 	background-color: var(--accent-color-hover)!important;
 	border: 2px solid var(--accent-color-hover)!important;
 }
+
+/* fix for emoji menu */
+.da-header .da-searchBar, .searchBar-2_Yu-C.searchBarLight-1NxoDG .searchBarInner-1_Tg2R {
+    background: none;
+}
+.searchBar-2_Yu-C .searchBarInner-1_Tg2R {
+    background: rgba(0,0,0,0.3)!important;
+}
