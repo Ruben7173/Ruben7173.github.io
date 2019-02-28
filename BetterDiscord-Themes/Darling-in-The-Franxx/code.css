@@ -421,7 +421,7 @@ background: rgb(47, 49, 54);
 }
 
 /* Discord nitro button at settings */
-.theme-dark .side-8zPYf6 .itemSelected-1qLhcL, .theme-dark .userSettingsAccount-2eMFVR .userInfoViewingButton-2-jbH9, .theme-dark .lookFilled-1Gx00P.colorBrand-3pXr91[style="color: rgb(255, 255, 255); background-color: rgb(114, 137, 218);"] {
+.theme-dark .side-8zPYf6 .itemSelected-1qLhcL, .theme-dark .userSettingsAccount-2eMFVR .userInfoViewingButton-2-jbH9, .theme-dark .lookFilled-1Gx00P.colorBrand-3pXr91[style="color: rgb(255, 255, 255); background-color: rgb(114, 137, 218);"], .theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected {
     background-color: rgba(12,25,38,.6)!important;
 }
 
@@ -1193,4 +1193,14 @@ css-editor #bd-customcss-attach-controls button {
 }
 .contentConnectedVoice-qL-YrL:active, .contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO:active, .contentSelectedVoice-1WDIBM:active, .theme-dark .member-3W1lQa:hover .content-OzHfo4 {
     background-color: rgba(17, 34, 51, 0.6);
+}
+
+.searchBar-2_Yu-C {
+	background: transparent!important;
+}
+.searchBar-2_Yu-C.searchBarLight-1NxoDG .searchBarInner-1_Tg2R {
+	background: transparent;
+}
+.searchBar-2_Yu-C .searchBarInner-1_Tg2R {
+    background: rgba(0,0,0,0.5)!important;
 }
