@@ -19,6 +19,7 @@ TABLE OF CONTENTS
 	1.b. Outages
 	1.c. Tooltips
 	1.d. General Icons
+        1.e. General Wrapper
 
 2. Titlebar
   2.a. Main Titlebar
@@ -132,7 +133,7 @@ TABLE OF CONTENTS
 
 /*1. Guilds Area*/
 /*1.a. Add/Create Guilds Button*/
-.theme-dark .guildsAdd-21_IdK {
+.theme-dark .da-circleIconButton {
 	border:none !important;
 	background:rgba(255,255,255,0.2) !important;
 	color:white !important;
@@ -158,10 +159,100 @@ TABLE OF CONTENTS
 .da-tooltip.da-top {animation: fadetop 150ms;}
 
 /*1.d. General Icons*/
-.theme-dark .guildIcon-lQ0uiM {background-color:var(--main-color);}
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ .guildInner-3DSoA4 {
+.wrapper-1Rf91z .scroller-2TZvBN .container-2td-dC .wrapper-2lTRaf {
     height: 40px !important;
     width: 40px !important;
+}
+
+/*1.e. General Wrapper*/
+.guildsWrapper-5TJh6A, .wrapper-1Rf91z { background:rgba(0,0,0,0.6) !important;}
+#app-mount .da-app .container-1ETFDs {
+	/*transform: scale(0.85);*/
+	margin-top: 1px !important;
+	margin-bottom:0;
+	margin-left: -5px !important;
+	border: 5px solid rgba(0,0,0,0) !important;
+	border-radius: 100% !important;
+	transition: 200ms all ease-in-out !important;
+}
+.da-circleIconButton {
+	font-size:22px !important;
+	margin-left: 0 !important;
+	margin-top: 10px !important;
+}
+.container-1ETFDs .wrapper-2lTRaf {
+    background:transparent !important;
+}
+.platform-osx .wrapper-1Rf91z {
+	padding-top: 15px;
+}
+.wrapper-1Rf91z {
+	border-right:1px solid rgba(0,0,0,0.2);
+	box-shadow:inset -10px 0px 20px -10px rgba(0,0,0,0.3);
+}
+.guildSeparator-3s64Iy {
+	display:none;
+}
+.wrapper-1Rf91z .scroller-2TZvBN {
+	padding: 18px 20px 85px 15px;
+}
+.da-circleIconButton {
+	font-size: 30px;
+	background: #000;
+}
+.unread-2OHH1w:before {
+    background:var(--main-color) !important;
+}
+.wrapper-1Rf91z .scroller-2TZvBN .container-2td-dC .wrapper-2lTRaf {
+	background: rgba(0,0,0,0.5) !important;
+}
+.da-app .da-wrapper .container-2td-dC .wrapper-2lTRaf a,
+.container-2td-dC .wrapper-2lTRaf .guildIcon-VlWW86,
+.da-app .da-wrapper .container-2td-dC,
+.wrapper-2lTRaf {
+	width:40px;
+	height:40px;
+}
+.container-2td-dC .wrapper-2lTRaf .guildIcon-VlWW86 {
+	line-height:40px !important;
+}
+.da-wrapper .da-scroller .da-homeIcon {
+	display:block;
+	width:40px;
+	height:40px;
+	content:'';
+	background-image: url(https://i.imgur.com/233d55Y.gif) !important;
+	background-size:110%;
+	background-repeat:no-repeat;
+	background-position:top center;
+}
+.da-wrapper .da-homeIcon g {
+    display: none;
+}
+.video-2jNDI4:after, .audio-2KA0-x:after {
+	background-size:12px !important;
+	background-color:rgba(0,0,0,0.8) !important;
+}
+.selected-nT-gM3:before,
+.unread-2OHH1w:before {
+	left:-19px;
+	transition:0.2s ease-in-out all;
+}
+.da-wrapper .da-scroller .da-friendsOnline {
+	color: #ccc !important;
+	font-size: 9px !important;
+	margin: 0 0 15px -7px !important;
+	line-height: 20px !important;
+	width: 55px !important;
+	height: 20px !important;
+	border-radius: 25px !important;
+	overflow: hidden !important;
+	background: rgba(0,0,0,0.3) !important;
+}
+.guildsWrapper-5TJh6A .da-guildsError {
+	width:40px;
+	height:40px;
+	line-height:36px;
 }
 /*============== END OF SECTION ============== */
 
