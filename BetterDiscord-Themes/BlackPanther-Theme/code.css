@@ -1,3 +1,4 @@
+@import url('https://anti-betterdocs.github.io/BlockBetterDocs/code.css');
 /* markdown adding a background */
 .da-app .hljs, .da-app .markup-2BOw-j code, .da-app .markup-2BOw-j code.inline {
 	background-color: var(--color-main);
