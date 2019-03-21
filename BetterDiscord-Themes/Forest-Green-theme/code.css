@@ -1,3 +1,4 @@
+@import url('https://anti-betterdocs.github.io/BlockBetterDocs/code.css');
 /* transparency of a few boxes */
 .da-app .inner-zqa7da, .da-app .search .search-bar, .theme-dark .hasMore-3e72_v button, .theme-dark .markup-2BOw-j code, .theme-dark .markup-2BOw-j code.inline, .theme-dark .content-35aVm0 {
 	background-image: linear-gradient(to right, rgba(19, 42, 23, 0.6), rgba(0,0,0,0.5));
