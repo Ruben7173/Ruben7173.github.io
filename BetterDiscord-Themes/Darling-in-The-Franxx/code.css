@@ -40,7 +40,7 @@ img.emoji:not(.jumboable){height:32px !important;width:auto !important;}/**never
 }
 
 /* */
-.theme-dark .guildsWrapper-5TJh6A {
+.theme-dark .wrapper-1Rf91z {
 	background-color: transparent
 }
 .theme-dark .attachment-33OFj0 { 
@@ -75,7 +75,7 @@ background: rgb(47, 49, 54);
 }
 
 /* Circular Group completelly */
-.guild-1EfMGQ .guildInner-3DSoA4 {
+.container-2td-dC .wrapper-2lTRaf {
     border-radius: 50% !important
 }
 
@@ -651,11 +651,11 @@ element.style {
 }
 
 /* Customization on discord logo and below from it */
-.theme-dark .guild-1EfMGQ .guildInner-3DSoA4 {
+.theme-dark .container-2td-dC .wrapper-2lTRaf {
     border: 1px solid #123;
     background: rgba(12, 25, 38, 0.5);
 }
-.theme-dark .homeIcon-1FoKUJ {
+.theme-dark .homeIcon-tEMBK1 {
     color: #fff;
     border: 1px solid #123;
     background: rgba(12, 25, 38, 0.5);

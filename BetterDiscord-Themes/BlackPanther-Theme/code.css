@@ -56,7 +56,7 @@
 
 
 /* guild add button */
-.theme-dark .guildsAdd-21_IdK {
+.theme-dark .plus-3UqSQu {
     background: var(--color-main);
     border-color: rgb(55, 92, 167);
     color: rgb(55, 92, 167);
@@ -134,11 +134,11 @@
 	border-radius: 3px;
 }
 /* public button discord */
-#bd-pub-button, .theme-dark .guild-1EfMGQ .guildInner-3DSoA4 {
+#bd-pub-button, .theme-dark .container-2td-dC .wrapper-2lTRaf {
 	background-color: var(--color-main);
 }
 /* guild button */
-.theme-dark .guild-1EfMGQ .guildInner-3DSoA4[style*="background-color: rgb(47, 49, 54);"] {
+.theme-dark .container-2td-dC .wrapper-2lTRaf[style*="background-color: rgb(47, 49, 54);"] {
 	background-color: var(--color-main)!important;
 	box-shadow: rgb(25, 45, 85) 0px 0px 20px;
 }

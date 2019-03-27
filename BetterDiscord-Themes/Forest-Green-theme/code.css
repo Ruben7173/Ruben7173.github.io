@@ -80,7 +80,7 @@
 }
 
 /*  */
-.theme-dark .guildsAdd-21_IdK {
+.theme-dark .plus-3UqSQu {
 	background-image: radial-gradient(rgba(0,0,0,0.0), rgba(19, 42, 23, 0.22), rgb(19, 42, 23))!important;
 	background-color: rgba(0,0,0,0.2)!important;
 	border-color: #514d2f;
@@ -459,11 +459,11 @@ input[type="text" i].input-cIJ7To::-webkit-input-placeholder {
 	box-shadow: none;
 }
 /* makes public button and discord icon green with !important */
-.da-app .guild-1EfMGQ .guildInner-3DSoA4, .da-app .guild-1EfMGQ .guildInner-3DSoA4[style*="background-color: rgb(47, 49, 54);"] {
+.da-app .container-2td-dC .wrapper-2lTRaf, .da-app .container-2td-dC .wrapper-2lTRaf[style*="background-color: rgb(47, 49, 54);"] {
     background: var(--background-discord-public-color)!important;
 }
 /* small color changes */
-.da-app .guild-1EfMGQ .guildInner-3DSoA4 a {
+.da-app .container-2td-dC .wrapper-2lTRaf a {
 	color: #fff!important;
 }
 .theme-dark .cardPrimaryEditable-3KtE4g[style*="border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218);"] {

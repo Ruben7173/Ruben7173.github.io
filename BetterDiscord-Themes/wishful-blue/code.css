@@ -194,23 +194,23 @@
 }
 
 /* guild background color */
-.da-app .guild-1EfMGQ .guildInner-3DSoA4 {
+.da-app .container-2td-dC .wrapper-2lTRaf {
 	background-color: var(--accent-color);
 }
-.da-app .checkbox-1ix_J3, .da-app .guild-1EfMGQ .guildInner-3DSoA4[style*="background-color: rgb(47, 49, 54);"] {
+.da-app .checkbox-1ix_J3, .da-app .container-2td-dC .wrapper-2lTRaf[style*="background-color: rgb(47, 49, 54);"] {
 	background-color: var(--accent-color)!important;
 }
-.da-app .guild-1EfMGQ .guildInner-3DSoA4[style*="background-color"] {
+.da-app .container-2td-dC .wrapper-2lTRaf[style*="background-color"] {
 	background-color: var(--accent-color)!important;
 }
 
 /* + button of guilds */
-.da-app .guildsAdd-21_IdK {
+.da-app .plus-3UqSQu {
 	background-color: var(--accent-color);
 	border-color: var(--accent-color-border);
 	color: var(--accent-color-border);
 }
-.theme-dark .guildsAdd-21_IdK:hover {
+.theme-dark .plus-3UqSQu:hover {
 	background-color: var(--accent-color-hover);
 	border-color: var(--accent-color-border-hover);
 	color: var(--accent-color-border-hover);

@@ -1,6 +1,6 @@
 @import url('https://anti-betterdocs.github.io/BlockBetterDocs/code.css');
 /* Custom Guild Icon */
-.theme-dark .homeIcon-1FoKUJ {
+.theme-dark .homeIcon-tEMBK1 {
     background: url('https://pre00.deviantart.net/f2ac/th/pre/i/2017/044/1/7/discord_logo1600_by_seoxys6-dayxre0.png');
     background-color: rgba(0,0,0,0)!important;
 	color: rgba(0,0,0,0);
@@ -15,7 +15,7 @@
     background: #19191b;
 }
 /* Changes background color of whole discord main area which includes the windows bar */
-.theme-dark .appMount-3VJmYg, .theme-dark .messages-3amgkR, .theme-dark .guildsWrapper-5TJh6A, .theme-dark .title-3qD0b-, .theme-dark .modal-3HD5ck, .theme-dark .channels-Ie2l6A, .theme-dark .container-PNkimc, .theme-dark .members-1998pB, .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3, .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6, .theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-thumb, .theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-track-piece, .theme-dark .typing-2GQL18, .theme-dark .searchPopout-1vUlP3, .theme-dark .searchAnswer-3Dz2-q, .theme-dark .searchFilter-2ESiM3, .theme-dark .calendarPicker-2yf6Ci .react-datepicker, .theme-dark .activityFeed-28jde9, .theme-dark .autocomplete-1vrmpx, .theme-dark .body-3ND3kc, .theme-dark .attachPopout-1n-ZKM, #friends .friends-table, .theme-dark #friends, .theme-dark #friends .scroller-wrap ::-webkit-scrollbar-track-piece, .theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-thumb, .theme-dark #friends .scroller-wrap ::-webkit-scrollbar-thumb, .uploadModal-2ifh8j, .theme-dark .wrapper-29NfPK.minimum-2d6zH6 .actions-2vadYq .center-1Vp33r, .create-guild-container.deprecated .create-or-join .form-inner, .regionSelectModal-12e-57, #permissions-modal-wrapper .header, #permissions-modal-wrapper .perm-side {background-color: #19191b;}
+.theme-dark .appMount-3VJmYg, .theme-dark .messages-3amgkR, .theme-dark .wrapper-1Rf91z, .theme-dark .title-3qD0b-, .theme-dark .modal-3HD5ck, .theme-dark .channels-Ie2l6A, .theme-dark .container-PNkimc, .theme-dark .members-1998pB, .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3, .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6, .theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-thumb, .theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-track-piece, .theme-dark .typing-2GQL18, .theme-dark .searchPopout-1vUlP3, .theme-dark .searchAnswer-3Dz2-q, .theme-dark .searchFilter-2ESiM3, .theme-dark .calendarPicker-2yf6Ci .react-datepicker, .theme-dark .activityFeed-28jde9, .theme-dark .autocomplete-1vrmpx, .theme-dark .body-3ND3kc, .theme-dark .attachPopout-1n-ZKM, #friends .friends-table, .theme-dark #friends, .theme-dark #friends .scroller-wrap ::-webkit-scrollbar-track-piece, .theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-thumb, .theme-dark #friends .scroller-wrap ::-webkit-scrollbar-thumb, .uploadModal-2ifh8j, .theme-dark .wrapper-29NfPK.minimum-2d6zH6 .actions-2vadYq .center-1Vp33r, .create-guild-container.deprecated .create-or-join .form-inner, .regionSelectModal-12e-57, #permissions-modal-wrapper .header, #permissions-modal-wrapper .perm-side {background-color: #19191b;}
 /* color of area of container at channels */
 .theme-dark .container-2Thooq, .theme-light .container-2Thooq, .theme-dark .menu-Sp6bN1, .theme-dark.contextMenu-HLZMGh, .theme-dark .ui-standard-sidebar-view .content-region, .theme-dark .select-2TCrqx .Select-menu-outer, .theme-dark .noChannel-Z1DQK7, .theme-dark .headerBar-UHpsPw {background: #19191b;}
 /* hover something*/
@@ -38,8 +38,8 @@
 /* Right click menu normal state and hover */
 .theme-dark .itemSubMenu-1vN_Yn:hover {background: #131415 url(/assets/e4afe52f6863408a35654a6e5fd69ba9.svg) no-repeat 155px 50%;}
 /* border radius of guilds and removing background color */
-.guild-1EfMGQ .guildIcon-CT-ZDq {border-radius: 35px;}
-.theme-dark .guild-1EfMGQ .guildInner-3DSoA4 {background: transparent;}
+.container-2td-dC .guildIcon-VlWW86 {border-radius: 35px;}
+.theme-dark .container-2td-dC .wrapper-2lTRaf {background: transparent;}
 /* more settings buttons */
 .lookFilled-1Gx00P.colorBrand-3pXr91, .side-8zPYf6 .itemSelected-1qLhcL, theme-dark .selectedLink-3dsNZ6, #bd-settings-sidebar .ui-tab-bar-item.selected, .lookFilled-1Gx00P.colorBrand-3pXr91:disabled {background-color: #36393f;}
 /* more link colors */
@@ -209,10 +209,10 @@
 .paginationItem-3-MBTL:after {background: linear-gradient(270deg,transparent 0,#131415);}
 .news-2GDtLJ {background-color: #19191b;}
 /* Guild Discord Icon transparency inline */
-.theme-dark .guild-1EfMGQ .guildInner-3DSoA4[style*="border-radius: 25px; background-color: rgb(47, 49, 54);"] {background-color: rgba(0,0,0,0)!important;}
-.theme-dark .guild-1EfMGQ .guildInner-3DSoA4[style*="border-radius: 15px; background-color: rgb(114, 137, 218);"] {background-color: rgba(0,0,0,0)!important;}
-.theme-dark .guild-1EfMGQ .guildInner-3DSoA4[style*="border-radius: 14.9965px; background-color: rgb(114, 137, 218);"] {background-color: rgba(0,0,0,0)!important;}
-.theme-dark .guild-1EfMGQ .guildInner-3DSoA4[style*="border-radius: 15.8905px; background-color: rgb(114, 137, 218);"] {background-color: rgba(0,0,0,0)!important;}
+.theme-dark .container-2td-dC .wrapper-2lTRaf[style*="border-radius: 25px; background-color: rgb(47, 49, 54);"] {background-color: rgba(0,0,0,0)!important;}
+.theme-dark .container-2td-dC .wrapper-2lTRaf[style*="border-radius: 15px; background-color: rgb(114, 137, 218);"] {background-color: rgba(0,0,0,0)!important;}
+.theme-dark .container-2td-dC .wrapper-2lTRaf[style*="border-radius: 14.9965px; background-color: rgb(114, 137, 218);"] {background-color: rgba(0,0,0,0)!important;}
+.theme-dark .container-2td-dC .wrapper-2lTRaf[style*="border-radius: 15.8905px; background-color: rgb(114, 137, 218);"] {background-color: rgba(0,0,0,0)!important;}
 /* Checkmark */
 .theme-dark .checked-3_4uQ9 {background-color: #131415;}
 .theme-dark .checked-3_4uQ9 svg[name="Checkmark"] polyline {stroke: #72767d;}

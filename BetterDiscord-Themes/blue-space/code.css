@@ -1,6 +1,6 @@
 @import url('https://anti-betterdocs.github.io/BlockBetterDocs/code.css');
 /* Discord Guild Icon */
-.theme-dark .homeIcon-1FoKUJ {
+.theme-dark .homeIcon-tEMBK1 {
 	background: var(--background-guild-icon-image);
 	color: transparent;
 }
@@ -120,15 +120,15 @@
 }
 
 /* Discord Guild Icon */
-.theme-dark .homeIcon-1FoKUJ {
+.theme-dark .homeIcon-tEMBK1 {
 	background: url(https://i.imgur.com/mabl6hm.png) center/cover no-repeat;
 	color: transparent;
 }
-.da-app .guild-1EfMGQ .guildInner-3DSoA4[style*="border-radius: 25px; background-color: rgb(47, 49, 54);"] {
+.da-app .container-2td-dC .wrapper-2lTRaf[style*="border-radius: 25px; background-color: rgb(47, 49, 54);"] {
     background: transparent;
 	background-color: transparent!important;
 }
-.da-app .guild-1EfMGQ .guildInner-3DSoA4[style*="border-radius: 15px; background-color: rgb(114, 137, 218);"] {
+.da-app .container-2td-dC .wrapper-2lTRaf[style*="border-radius: 15px; background-color: rgb(114, 137, 218);"] {
     background: transparent;
 	background-color: transparent!important;
 }
@@ -779,7 +779,7 @@ https://i.imgur.com/mZuRmBg.gifv
 .da-app .header-1RC2Wb:hover {
     background-color: rgb(4, 34, 35);
 }
-.da-app .guild-1EfMGQ .guildInner-3DSoA4 {
+.da-app .container-2td-dC .wrapper-2lTRaf {
     background: #011e21;
 }
 .da-app .itemBackground-1jfD8p {
