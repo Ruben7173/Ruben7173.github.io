@@ -397,7 +397,7 @@
     background: none;
 }
 .searchBar-2_Yu-C .searchBarInner-1_Tg2R {
-    background: rgba(0,0,0,0.3)!important;
+    background: transparent;
 }
 
 /* nitro area */
@@ -430,4 +430,15 @@
 }
 .theme-dark .tileMedia-1q3guD {
     background-color: var(--submenu-color);
+}
+.theme-dark .root-1bFE0x, .theme-dark .bodySection-jqkkIP, .theme-light .bodySection-jqkkIP, .theme-dark .content-35aVm0, .theme-dark .row-1bU71H {
+    background-color: var(--submenu-color);
+}
+.searchBar-2_Yu-C .searchBarInner-1_Tg2R {
+    background: var(--accent-color);
+	border: 2px solid;
+	border-color: var(--accent-color-border);
+}
+.searchBar-2_Yu-C {
+    background-color: transparent;
 }
