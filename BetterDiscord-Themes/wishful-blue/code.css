@@ -286,34 +286,43 @@
 .popoutLeft-30WmrD.noArrow-3BYQ0Z {
 	transition: all 0.1s ease-in;
 }
-/* store some backgrounds */
-.theme-dark .tileMedia-24cT6_ {
+
+/* activity some backgrounds */
+
+.article-3kb3qm {
     background-color: var(--submenu-color);
 }
-.theme-dark .mediaDescription-31GsyQ {
-    background: -webkit-gradient(linear,left top,left bottom,from(transparent),color-stop(45%,rgba(32,34,37,.75)),to var(--submenu-color));
+.theme-dark .paginationItem-2lUq0s:after {
+    background: linear-gradient(270deg,transparent 0,var(--submenu-color));
 }
-.theme-dark .mediaFade-4Pqtcc {
-	background: linear-gradient(180deg,transparent 10%,var(--submenu-color));
+.carousel-2WxMes {
+    background: transparent;
 }
-.theme-dark .itemBackground-1jfD8p {
+.theme-dark .header-1RC2Wb {
+    background: var(--submenu-color);
+}
+.theme-dark .body-SKIE6r {
+    background: var(--accent-color);
+}
+.theme-dark .card-7JP0BX {
+    background: transparent;
+}
+.theme-dark .header-1RC2Wb:hover {
+    background: rgba(11, 52, 68, 0.85);
+}
+.news-2GDtLJ {
     background-color: var(--submenu-color);
 }
-.theme-dark .itemBackground-1jfD8p:before {
-    background: radial-gradient(ellipse at top,rgba(54,57,63,0),var(--submenu-color)),linear-gradient(90deg,#36393f 0,rgba(54,57,63,0) 40%,rgba(54,57,63,0) 60%,#36393f),linear-gradient(0deg,#36393f 0,rgba(54,57,63,0) 25%);
-	border: 2px solid var(--accent-color-border);
+.news-2GDtLJ:hover {
+    background-color: rgba(11, 52, 68, 0.85);
 }
-/* mention color and hover */
-.da-app .wrapper-3WhCwL {
-    background-color: rgba(27, 158, 185, 0.3);
-    color: #00daff;
+.theme-dark .sectionLine-JjseS9 {
+    background-color: rgba(14, 134, 179, 0.85);
 }
-.da-app .wrapperHover-1GktnT:hover {
-    background-color: rgb(11, 157, 175);
-}
-.da-app .markup-2BOw-j a, .da-app .topic-2QX7LI a, .operations-36ENbA>a, .form-deprecated header, .form.deprecated header, .create-guild-container.deprecated .action.create .action-header,
- .lookLink-9FtZy-.colorBrand-3pXr91 {
-	color: #00daff;
+.headerButtonColor-G7_f-V {
+    background: var(--accent-color);
+	border: 2px solid;
+	border-color: var(--accent-color-border);
 }
 
 /* tooltip */
