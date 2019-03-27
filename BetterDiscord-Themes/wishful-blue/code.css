@@ -205,12 +205,12 @@
 }
 
 /* + button of guilds */
-.da-app .plus-3UqSQu {
+.theme-dark .circleIconButton-jET_ig {
 	background-color: var(--accent-color);
 	border-color: var(--accent-color-border);
 	color: var(--accent-color-border);
 }
-.theme-dark .plus-3UqSQu:hover {
+.theme-dark .circleIconButton-jET_ig:hover {
 	background-color: var(--accent-color-hover);
 	border-color: var(--accent-color-border-hover);
 	color: var(--accent-color-border-hover);

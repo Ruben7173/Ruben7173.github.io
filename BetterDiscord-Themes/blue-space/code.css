@@ -764,7 +764,7 @@ https://i.imgur.com/mZuRmBg.gifv
 .ui-standard-sidebar-view .sidebar-region { flex: 0;}
 .ui-standard-sidebar-view .content-column.default {max-width: 90%;padding: 40px 30px 80px;}
 /* theming store */
-.paginationItem-2lUq0s {
+.theme-dark .paginationItem-2lUq0s {
     background: #002725;
 }
 .paginationItem-2lUq0s:after {
@@ -795,4 +795,14 @@ https://i.imgur.com/mZuRmBg.gifv
 .searchBar-2_Yu-C.searchBarLight-1NxoDG .searchBarInner-1_Tg2R {
     background-color: rgb(9, 57, 47);
     border: 1px solid #0e3d33;
+}
+/* +/search button */ 
+.theme-dark .circleIconButton-jET_ig {
+    color: #42ab98;
+    background: -webkit-linear-gradient(left, rgba(98, 214, 210, 0.2) 0%,rgba(61, 255, 35, 0.2) 100%);
+    border-color: rgba(98, 214, 210, 0.2);
+}
+.theme-dark .button-2b6hmh:hover, .theme-light .button-2b6hmh:hover {
+    background-color: rgba(98, 214, 210, 0.2);
+    border: 1px solid rgba(98, 214, 210, 0.2);
 }
