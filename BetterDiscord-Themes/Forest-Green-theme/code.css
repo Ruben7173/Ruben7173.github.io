@@ -529,3 +529,15 @@ input[type="text" i].input-cIJ7To::-webkit-input-placeholder {
 .da-app .userInfoSection-2acyCx+.userInfoSection-2acyCx {
     border-color: #20561e;
 }
+
+.theme-dark .circleIconButton-jET_ig {
+    color: #12522c;
+    background-image: radial-gradient(rgba(0,0,0,0.0), rgba(19, 42, 23, 0.22), rgb(19, 42, 23))!important;
+    background-color: rgba(0,0,0,0.2)!important;
+    border-color: #514d2f;
+}
+.theme-dark .wrapper-2lTRaf[style*="background-color"] {
+    background-color: transparent!important;
+    border: 1px solid rgba(20, 95, 33, 0.22);
+    background: radial-gradient(rgba(0,0,0,0.0), rgba(19, 42, 23, 0.22), rgb(19, 42, 23))!important;
+}

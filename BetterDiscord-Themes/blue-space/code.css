@@ -806,3 +806,7 @@ https://i.imgur.com/mZuRmBg.gifv
     background-color: rgba(98, 214, 210, 0.2);
     border: 1px solid rgba(98, 214, 210, 0.2);
 }
+
+.theme-dark .wrapper-2lTRaf[style*="background-color"] {
+    background-color: transparent!important;
+}
