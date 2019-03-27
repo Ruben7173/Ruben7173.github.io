@@ -310,6 +310,9 @@
 .theme-dark .header-1RC2Wb:hover {
     background: rgba(11, 52, 68, 0.85);
 }
+.theme-dark .dockItem-2kQDqg:hover {
+    background: var(--submenu-color);
+}
 .news-2GDtLJ {
     background-color: var(--submenu-color);
 }
@@ -323,6 +326,9 @@
     background: var(--accent-color);
 	border: 2px solid;
 	border-color: var(--accent-color-border);
+}
+.scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track {
+    background-color: transparent;
 }
 
 /* tooltip */
@@ -392,4 +398,36 @@
 }
 .searchBar-2_Yu-C .searchBarInner-1_Tg2R {
     background: rgba(0,0,0,0.3)!important;
+}
+
+/* nitro area */
+.theme-dark .gradientOverlayLeft-3w159C {
+    background-image: linear-gradient(90deg,var(--submenu-color),rgba(54,57,63,0));
+}
+.theme-dark .gradientOverlayRight-3vMuS8 {
+	background-image: linear-gradient(90deg,rgba(54,57,63,0),var(--submenu-color));
+}
+.theme-dark .tile-QA_yMc {
+    background-color: var(--submenu-color);
+}
+.theme-dark .tile-QA_yMc:hover {
+    background-color: rgba(24, 86, 109, 0.85);
+}
+.theme-dark .overlappingBorder-3aFng4 {
+    border: 2px solid var(--accent-color-border);
+}
+
+.theme-dark .tileMedia-1q3guD:hover {
+    background: var(--submenu-color);
+}
+.theme-dark .genreTag-3QLRUJ {
+    background: var(--accent-color);
+	border: 2px solid;
+	border-color: var(--accent-color-border);
+}
+.theme-dark .scrollerButton-1Vm5_P {
+    background: var(--accent-color);
+}
+.theme-dark .tileMedia-1q3guD {
+    background-color: var(--submenu-color);
 }
