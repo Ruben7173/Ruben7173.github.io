@@ -1186,7 +1186,7 @@ css-editor #bd-customcss-attach-controls button {
     background-color: rgba(17, 34, 51, 0.6);
 }
 .da-app .container-3gCOGc, .da-app .root-1BQpZw{
-    background: transparent;
+    background: var(--transparency-3);
 }
 
 .contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM, .theme-dark .member-3W1lQa.popout-open .content-OzHfo4, .theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4 {
