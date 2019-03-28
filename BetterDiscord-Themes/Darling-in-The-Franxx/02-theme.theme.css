@@ -1,7 +1,7 @@
 //META{"name":"02 Theme by Ruben","description":"Darling In the Franxx theme","author":"Ruben7173","version":"3.0"}*//{}
 
 @import url(https://raw.githack.com/Ruben7173/Ruben7173.github.io/master/BetterDiscord-Themes/Modules/transparency2.css);
-@import url(https://rawgit.com/Ruben7173/Ruben7173.github.io/master/BetterDiscord-Themes/Darling-in-The-Franxx/code.css);
+@import url(https://rawcdn.githack.com/Ruben7173/Ruben7173.github.io/ef9fd666a9c25577a4e676731fec6ee2ddadc058/BetterDiscord-Themes/Darling-in-The-Franxx/code.css);
 :root {
 	/* background URL */ /* default url hhttps://images.alphacoders.com/898/898775.jpg */
 	--background-image: url(https://images.alphacoders.com/898/898775.jpg) center/cover no-repeat;
