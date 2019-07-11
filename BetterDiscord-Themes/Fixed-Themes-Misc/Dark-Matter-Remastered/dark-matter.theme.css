@@ -8,6 +8,7 @@
 
 :root {
 	--main-color: rgba(37,172,232,1);
+	--main-color-translucent: rgba(37,172,232,0.8);
 	--main-color-faded: rgba(37,172,232,0.2);
 	--accent-color: rgba(29,101,134,1);
 	--dark-color: #161921;
