@@ -24,8 +24,8 @@
     background-color: transparent;
     border: 2px solid #593695;
 }
-/* position of those statuses in whos online list */
-.status-2s6iDp, .avatar-small .status, .channel-2QD9_O .status-1ibiUI, .container-2Thooq .da-wrapper .da-status {
+/* position of those statuses in whos online list and account details */
+.avatarSmall-3ACRaI .status-3DaTVG, .status-2s6iDp, .avatar-small .status, .channel-2QD9_O .status-1ibiUI, .container-2Thooq .da-wrapper .da-status {
     bottom: -19px;
     height: 30px;
     width: 30px;
