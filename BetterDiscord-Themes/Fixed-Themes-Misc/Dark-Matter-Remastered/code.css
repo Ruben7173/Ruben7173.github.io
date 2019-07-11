@@ -36,22 +36,44 @@ textarea {
 }
 
 .scroller-wrap .scroller::-webkit-scrollbar-thumb,
+.scrollerWrap-2lJEkd .scrollbar-2rkZSL .thumb-2JwNFC,
 .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb {
 	border: 3px solid rgba(255,255,255,0) !important;
 	background-color: var(--accent-color) !important;
 }
 
 .scroller-wrap .scroller::-webkit-scrollbar-track-piece,
+.scrollerWrap-2lJEkd .scrollbar-2rkZSL .track-1JN30G,
 .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-track-piece {
 	border: 3px solid rgba(255,255,255,0) !important;
 	background-color: rgba(0,0,0,0.3) !important;
 }
 
+/* Scrollbars on Firefox cannot be modified, but there is an overlay we can change.
+   We can also use the original scrollbar for transparency effects on Firefox 64+. */
+.scroller-wrap .scroller,
+.scrollerWrap-2lJEkd .scroller-2FKFPG {
+	scrollbar-color: transparent transparent;
+}
+
+.scrollerWrap-2lJEkd .scrollbar-2rkZSL,
+.scrollerWrap-2lJEkd .scrollbar-2rkZSL .pad-29zQak {
+	width: 14px;
+	background-color: transparent !important;
+}
+
 /* The dark background for the channel list scrollbar looks ugly since it breaks the even line
    between channels and content. The scrollbar is visible enough without a background so we
    just remove it there. */
+.channels-Ie2l6A .scrollerWrap-2lJEkd .scrollbar-2rkZSL .track-1JN30G,
 .channels-Ie2l6A .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-track-piece {
     background: transparent !important;
+}
+.channels-Ie2l6A .scrollerWrap-2lJEkd .scroller-2FKFPG {
+    scrollbar-width: thin;
+}
+.channels-Ie2l6A .scrollerWrap-2lJEkd .scrollbar-2rkZSL {
+    width: 8px;
 }
 
 
@@ -734,6 +756,10 @@ textarea {
 .theme-dark .search-results-wrap .scroller-wrap .scroller::-webkit-scrollbar-thumb {
 	border:3px solid rgba(255,255,255,0) !important;
 	background-color:var(--accent-color) !important;
+}
+
+.theme-dark .search-results-wrap .scroller-wrap .scroller {
+	scrollbar-color: var(--accent-color) rgba(0,0,0,0.3);
 }
 
 .search-popout .date-picker {

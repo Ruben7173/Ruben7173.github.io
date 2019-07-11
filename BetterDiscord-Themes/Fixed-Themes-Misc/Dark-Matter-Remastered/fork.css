@@ -939,10 +939,14 @@ span.bda-header-title {
 	filter:invert(100);
 	opacity:0.7;
 }
+.emojiPicker-3m1S-j .scrollerWrap-2lJEkd .scrollbar-2rkZSL,
 .emojiPicker-3m1S-j .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar,
 #bda-qem-twitch-container .scroller-wrap .scroller::-webkit-scrollbar,
 #bda-qem-favourite-container .scroller-wrap .scroller::-webkit-scrollbar {
   display: none;
+}
+.emojiPicker-3m1S-j .scrollerWrap-2lJEkd .scroller-2FKFPG {
+	scrollbar-width: 0px;
 }
 .emojiPicker-3m1S-j .diversitySelector-tmmMv0 .popout-2nUePc {
 	border:none !important;
