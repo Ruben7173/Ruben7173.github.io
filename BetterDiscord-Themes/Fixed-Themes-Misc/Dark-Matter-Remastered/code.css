@@ -129,7 +129,11 @@ textarea {
 .channels-Ie2l6A { background:rgba(0,0,0,0.7) !important }
 
 /* Chat area */
-.content-yTz4x3 .flex-spacer, .content-yTz4x3 { background:rgba(0,0,0,0.8)!important; }
+.activityFeed-1C0EmJ,
+.friendsTable-133bsv,
+.content-yTz4x3 .flex-spacer, .content-yTz4x3 {
+	background:rgba(0,0,0,0.8)!important;
+}
 
 /* User list area */
 .members-1998pB { background:rgba(0,0,0,0.9) !important }
@@ -879,6 +883,7 @@ textarea {
 	border-bottom-color:var(--main-color);
 }
 
+.container-1r6BKw,
 .chat-3bRxxu .title-3qD0b- {
 	border-bottom: 1px solid rgba(0,0,0,0.3) !important;
 	background: rgba(0,0,0,0.95) !important;
@@ -1251,25 +1256,31 @@ textarea {
 	background: rgba(0,0,0,0.95) !important;
 }
 
+.friendsTable-133bsv,
 .friends-table {
 	background:rgba(0,0,0,0.85) !important;
 	margin-top:0 !important;
 }
 
+
 .friends-header,
+.friendsTable-133bsv .friendsTableHeader-32yE7d,
 .friends-table .friends-table-header {
 	border-bottom: 1px solid hsla(0,0%,100%,.1) !important;
 }
 
 .friends-header .tab-bar .tab-bar-separator,
+.friendsTable-133bsv .friendsTableHeader-32yE7d .friendsColumnSeparator-3MqtMA,
 .friends-table .friends-table-header .friends-column-separator {
 	background-color:hsla(0,0%,100%,.1) !important;
 }
 
+.friendsTable-133bsv .friendsTableBody-1ZhKif,
 .friends-table .friends-table-body {
 	padding-top:20px !important;
 }
 
+.friendsTable-133bsv .friendsRow-2yicud:hover,
 .friends-table .friends-row:hover {
 	background: rgba(0,0,0,0.7) !important;
 }
