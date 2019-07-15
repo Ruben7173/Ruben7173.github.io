@@ -810,3 +810,59 @@ https://i.imgur.com/mZuRmBg.gifv
 .theme-dark .wrapper-2lTRaf[style*="background-color"] {
     background-color: transparent!important;
 }
+
+/* fixing new stuff 15/07/2019*/
+.theme-dark .container-3baos1, .theme-light .container-3baos1 {
+    background-image: var(--transparency-2);
+    margin-bottom: 0px;
+}
+.theme-dark .container-1r6BKw {
+    background: transparent;
+}
+/* search button being fixed */
+.theme-dark .searchBar-3dMhjb, .darkTheme-3uETC4.container-2XeR5Z {
+    background: var(--accent-color);
+    border: 2px solid;
+    border-color: var(--accent-color-border);
+    padding-bottom: 25px;
+}
+
+.theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU {
+    background: var(--accent-color);
+    border: 2px solid;
+    border-color: var(--accent-color-border);
+}
+
+.da-numberBadge[style*="background"] {
+    background: var(--accent-color)!important;
+    border: 2px solid!important;
+    border-color: var(--accent-color-border)!important;
+}
+.da-app .da-wrapper:hover .content-3at_AU, .da-app .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover{
+    background: var(--accent-color-hover);
+    border: 2px solid;
+    border-color: var(--accent-color-border-hover);
+}
+.theme-dark .button-OhfaWu, .theme-light .button-OhfaWu {
+background: var(--accent-color);
+    border: 2px solid;
+    border-color: var(--accent-color-border);
+    padding: -5px;
+}
+
+/* fixing discord button */
+.theme-dark .button-OhfaWu, .theme-light .button-OhfaWu, .da-app .button-OhfaWu.selected-wSa2KV {
+    background: var(--accent-color);
+    border: 2px solid;
+    border-color: var(--accent-color-border);
+    border-radius: 35px;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    top: 3px;
+}
+.da-app .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
+    background: var(--accent-color);
+    border: 2px solid;
+    border-color: var(--accent-color-border);
+}
