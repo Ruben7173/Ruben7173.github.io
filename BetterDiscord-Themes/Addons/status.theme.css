@@ -1,4 +1,4 @@
-//META{"name":"border status","description":"Makes the status buttons a border around profile pictures","author":"Ruben7173","version":"2.0"}*// {}
+//META{"name":"border status","description":"Makes the status buttons a border around profile pictures","author":"Ruben7173","version":"2.1"}*// {}
 /* changes status from a circle to a border around pfp */
 /* online */
 .online-2S838R {
@@ -66,18 +66,22 @@
 }
 
 /* status fixing some stuff */
-.da-item .da-statusIconText .da-online, .da-titleText .da-online, .da-selector .da-content .da-wrapper .da-online, .da-friendsColumn .da-online {
+.da-item .da-statusIconText .da-online, .da-titleText .da-online, .da-selector .da-content .da-wrapper .da-online, .da-friendsColumn .da-online, .da-channels .da-container .da-avatarWrapper .da-small .da-online {
     background-color: #43b581;
     border: none;
+    z-index: 2;
 }
-.da-item .da-statusIconText .da-idle, .da-titleText .da-idle, .da-selector .da-content .da-wrapper .da-idle, .da-friendsColumn .da-idle {
+.da-item .da-statusIconText .da-idle, .da-titleText .da-idle, .da-selector .da-content .da-wrapper .da-idle, .da-friendsColumn .da-idle, .da-channels .da-container .da-avatarWrapper .da-small .da-idle {
     background-color: #faa61a;
     border: none;
+    z-index: 2;
 }
-.da-item .da-statusIconText .da-dnd, .da-titleText .da-dnd, .da-selector .da-content .da-wrapper .da-dnd, .da-friendsColumn .da-dnd {
+.da-item .da-statusIconText .da-dnd, .da-titleText .da-dnd, .da-selector .da-content .da-wrapper .da-dnd, .da-friendsColumn .da-dnd, .da-channels .da-container .da-avatarWrapper .da-small .da-dnd {
     background-color: #f04747;
     border: none;
+     z-index: 2;
 }
-.da-item .da-statusIconText .da-invisible, .da-titleText .da-offline, .da-selector .da-content .da-wrapper .da-offline, .da-friendsColumn .da-offline, .da-friendsColumn .da-unknown {
+.da-item .da-statusIconText .da-invisible, .da-titleText .da-offline, .da-selector .da-content .da-wrapper .da-offline, .da-friendsColumn .da-offline, .da-friendsColumn .da-unknown, .da-channels .da-container .da-avatarWrapper .da-small .da-unknown {
     background-color: #2f3136;
+     z-index: 2;
 }
