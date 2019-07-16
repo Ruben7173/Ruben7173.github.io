@@ -1136,3 +1136,22 @@ button.DialogButton {
 .voiceMicTestContainer {
     background-color: #262626!important;
 }
+
+.chatentry_chatSubmitButton_3VRfL.chatentry_disabled_2p2vW {
+    color: #898989!important;
+    cursor: default!important;
+    background-color: #1A1A1A!important;
+    border: 2px solid #151515!important;
+    border-bottom: 0px!important;
+    border-top: 0px!important;
+    border-right: 0px!important;
+}
+
+.chatentry_chatSubmitButton_3VRfL, .chatentry_chatSubmitButton_3VRfL.chatentry_EmoticonPickerButton_3fgX0, .chatentry_chatSubmitButton_3VRfL.chatentry_EmbedButton_1vvRh, .VoiceToggle, .chatTextarea {
+    background-color: #202020!important;
+}
+
+.chatentry_chatSubmitButton_3VRfL.chatentry_EmbedButton_1vvRh {
+    max-width: 30px!important;
+    max-height: 48px!important;
+}
