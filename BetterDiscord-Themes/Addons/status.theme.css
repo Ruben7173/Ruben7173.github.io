@@ -1,5 +1,77 @@
 //META{"name":"border status","description":"Makes the status buttons a border around profile pictures","author":"Ruben7173","version":"2.0"}*// {}
 /* changes status from a circle to a border around pfp */
+.mask-1l8v16 {
+    transform: scale(1.2);
+}
+/* hide unnecessary parts of the svgs */
+.mask-1l8v16 > rect:nth-child(2),
+.mask-1l8v16 > mask,
+.mask-1l8v16 > svg > rect {
+    display: none !important;
+}
+.mask-1l8v16, .mask-1l8v16 foreignObject {
+    mask: none !important;
+}
+/* 32px avatars */
+.avatarWrapper-2yR4wp img,
+.avatarWrapper-3B0ndJ img,
+.avatarSmall--gkJKA img,
+.avatar-28BJzY img {
+    border: 2px solid transparent;
+    border-radius: 32px;
+    width: 28px;
+    height: 28px;
+    background-color: transparent;
+}
+/* 40px avatars */
+.avatar-2tTaT6 img,
+.bannedUserAvatar-2xQUYe img,
+.avatar-_VZUJy img,
+.avatar-17mtNa img {
+    border: 2px solid transparent;
+    border-radius: 40px;
+    width: 36px;
+    height: 36px;
+    background-color: transparent;
+}
+/* 80px avatars */
+.avatarWrapper-3H_478 img,
+.avatar-3EQepX img {
+    border: 2px solid transparent;
+    border-radius: 80px;
+    width: 76px;
+    height: 76px;
+    background-color: transparent;
+}
+/* friends tab */
+.avatarSmall--gkJKA img {
+    transform: translateX(2px);
+}
+/* aria labels are more consistent than classes */
+[aria-label$=Online] img,
+[aria-label$="Online via mobile"] img {
+    border-color: #43b581!important;
+}
+[aria-label$=Idle] img {
+    border-color: #faa61a!important;
+}
+[aria-label$="Do Not Disturb"] img {
+    border-color: #f04747!important;
+}
+[aria-label$=Invisible] img,
+[aria-label$=Offline] img {
+    border-color: #2f3136!important;
+}
+/* typing */
+.cursorDefault-dsQJ1n {
+    transform: translate(-16px, -16px) scale(1.2, 1.2);
+}
+.dots-3Bkt3k {
+    background-color: #000000ff;
+    fill: black;
+}
+
+/* old profiles */
 /* online */
 .online-2S838R {
     border: 2px solid #43b581!important;
