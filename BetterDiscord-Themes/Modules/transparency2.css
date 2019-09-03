@@ -16,7 +16,7 @@
 }
 
 /* transparency for channels and members list and private channels and left side of settings*/
-.container-PNkimc, .privateChannels-1nO12o, .da-app .sidebarRegion-VFTUkN, .da-app .container-2Thooq {
+.container-PNkimc, .privateChannels-1nO12o, .da-app .sidebarRegion-VFTUkN, .da-app .container-3baos1 {
 	background: transparent;
 	background-image: var(--transparency-2);
 }
@@ -50,7 +50,7 @@
 	display:none;
 }
 /* removes a margin bottom */
-.container-2Thooq {
+.container-3baos1 {
 	margin-bottom: 0px;
 }
 .base-3dtUhz {
