@@ -20,3 +20,11 @@
 .da-app .chat-3bRxxu form, .da-app .container-2Thooq, .container-PNkimc, .da-app .title-3qD0b-, .da-app .headerBar-UHpsPw, .da-app .content-yTz4x3, .da-app .messagesWrapper-3lZDfY, .da-app .members-1998pB, .da-app .inner-zqa7da, .da-app .typing-2GQL18, .da-app .wrapper-29NfPK, .search-bar, .da-app .markup-2BOw-j pre, .da-app .hljs, .da-app .markup-2BOw-j code, .da-app .markup-2BOw-j code.inline, .da-app .contentRegion-3nDuYy, .da-app .sidebarRegion-VFTUkN {
 	background: none;
 }
+
+/* fixes */
+.theme-dark {
+    --background-primary: none;
+    --background-secondary: none;
+    --background-tertiary: none;
+    --background-accent: none;
+    --background-floating: none;
