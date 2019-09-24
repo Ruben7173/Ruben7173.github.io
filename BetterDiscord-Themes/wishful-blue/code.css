@@ -168,7 +168,7 @@
 	background-color: var(--submenu-color);
 }
 /* border of accent colors */
-.innerNoAutocomplete-1WpcVO, .search .search-bar, .theme-dark .auditLog-3jNbM6, .container-1UB9sr, .theme-dark .accountBtnInner-sj5jLs, .video-1FfuMD {
+.innerNoAutocomplete-1WpcVO, .search .search-bar, .theme-dark .auditLog-3jNbM6, .container-1giJp5, .theme-dark .accountBtnInner-sj5jLs, .video-1FfuMD {
 	border: 2px solid;
 	border-color: var(--accent-color-border);
 }
@@ -235,7 +235,7 @@
 .theme-dark .quickswitcher-3JagVE, .theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action, .da-app .autocomplete-1vrmpx,
  .theme-dark .attachPopout-1n-ZKM, .theme-dark .headerExpanded-CUEwZ5, .theme-dark .headerClickable-2IVFo9, .theme-dark .headerDefault-1wrJcN,
 .da-app .tileWrapper-2khh-w, .da-app .searchBox-3Y2Vi7, .need-help-modal.form.deprecated .header, .da-app .popout-2xBvMR, .da-app .tileWrapper-2khh-w:hover,
- .container-1UB9sr, .theme-dark .container-2x5lvQ section, .theme-dark .calendarPicker-2yf6Ci .react-datepicker,
+ .container-1giJp5, .theme-dark .container-2x5lvQ section, .theme-dark .calendarPicker-2yf6Ci .react-datepicker,
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker__header, .theme-dark .footer-2yfCgX, .theme-dark .accountBtnInner-sj5jLs, .emojiPicker-3m1S-j
 , #bda-qem button.active, #bda-qem button:hover, #bda-qem-twitch-container, #bda-qem-favourite-container,
 .theme-dark .select-2TCrqx .Select-menu-outer, .da-app .tier1Banner-1B_WXY, .video-1FfuMD, .uploadModal-2ifh8j .footer-3mqk7D, .uploadModal-2ifh8j,
