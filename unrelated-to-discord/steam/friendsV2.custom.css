@@ -266,8 +266,9 @@
     border-radius: 30px;
 }
 
-.quickAccessFriends .friend.friend.awayOrSnooze .avatarHolder .avatarStatus {
-    border: 2px dashed!important;
+
+.quickAccessFriends .friend.friend.online .avatarHolder .avatarStatus {
+    border: 2px solid!important;
     height: 50px;
     margin-bottom: -47px;
     top: -50px!important;
@@ -276,10 +277,12 @@
     z-index: -999!important;
     background-color: transparent;
     border-radius: 30px!important;
-    border-color: #33b300!important;
+    background-color: #6dcff62e!important;
+    background: transparent!important;
+    border-color: #6dcff6!important;
 }
 
-.quickAccessFriends .friend.friend.online .avatarHolder .avatarStatus {
+.quickAccessFriends .friend.friend.awayOrSnooze .avatarHolder .avatarStatus {
     border: 2px dashed!important;
     height: 50px;
     margin-bottom: -47px;
@@ -342,3 +345,42 @@ button.DialogButton:hover {
 .DialogCheckbox .SVGIcon_DialogCheck path {
     stroke: #ff9906;
 }
+
+/** Group BUTTON CSS **/
+/* changes color of background of groups button */
+.friendsListSectionTitle {
+    background-color: #202020!important;}
+    /* friends removing height */
+    .friendlistListContainer {min-height: 0px!important;}
+    /* remaking heights */
+    .chatRoomListContainer[style*="height: 150px; max-height: 222px; min-height: 0px;"] {height: 900px!important;max-height: 900px!important;}
+    .chatRoomListContainer[style*="height: 150px; max-height: 222px; min-height: 0px;"] {height: 900px; max-height: 900px; min-height: 900px;}
+    .chatRoomListContainer {z-index: 20;height: 900px!important;max-height: 900px!important;width: 100%!important;}
+    /* little arrow for groups making selectable area bigger */
+    .ToggleGroupChatList {display: inline-block!important;position: relative!important;z-index: 11!important;right: 3px;padding-right: 27em!important;margin-right: -27em!important;}
+    /* hidding little arrow */
+    .ToggleGroupChatList .SVGIcon_DoubleArrow polyline {visibility: hidden!important;}
+    /* makes groups be able to uncollapse to height 0 */
+    .chatRoomListContainer[style="height: 0px; max-height: 0px; min-height: 0px;"] {height: 0px!important;max-height: 0px!important;min-height: 0px!important;}
+    /* add hover effect when hovering group invites */
+    .clanInviteContainer:hover {background-color: #131313!important;}
+    .chatRoomListContainer {
+        background: #1A1A1A;
+    }
+    .ChatRoomListGroupItem:hover {
+        background: #1F1F1F;
+    }
+
+
+    .friend.quickAccessFriend .avatarHolder .avatarStatus {
+        display: block;
+        height: 54px;
+        margin-bottom: -47px;
+        position: relative;
+        top: -51px;
+        left: -3px;
+        width: 112%;
+        z-index: -999;
+        border: 0px solid;
+        border-radius: 30px;
+    }
