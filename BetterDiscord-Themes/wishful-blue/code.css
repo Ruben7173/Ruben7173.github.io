@@ -50,13 +50,13 @@
     color: #bec0c3;
 }
 /* accent color, buttons */
-.contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM, .channel-2QD9_O.selected-1HYmZZ a, .lookFilled-1Gx00P.colorBrand-3pXr91, .side-8zPYf6 .itemSelected-1qLhcL,
- .da-app #bd-settings-sidebar .ui-tab-bar-item.selected, .bd-pfbtn, .bda-slist .bda-footer button, .selected-mKYnfr.option-n0icdO, .wrapper-3jrx9n, .barFill-23-gu-, .da-app .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-,
+.side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM, .channel-2QD9_O.selected-1HYmZZ a, .lookFilled-1Gx00P.colorBrand-3pXr91, .side-8zPYf6 .itemSelected-1qLhcL,
+ .da-app #bd-settings-sidebar .ui-tab-bar-item.selected,#bd-pub-button, .bd-pfbtn, .bda-slist .bda-footer button, .selected-mKYnfr.option-n0icdO, .wrapper-3jrx9n, .barFill-23-gu-, .da-app .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-,
  .da-app .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-:hover, .da-app .member-3W1lQa.popout-open .content-OzHfo4, .da-app .member-3W1lQa.popout-open:hover .content-OzHfo4, .lookFilled-1Gx00P.colorBrand-3pXr91:disabled, .aka-1mqp34, .wrapper-232cHJ, .search-bar,
 .theme-dark .input-2VB9rf, .theme-dark .keybindShortcut-1BD6Z1 span, .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary, .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary .badge, .theme-dark #friends .tab-bar .tab-bar-item.selected,
 .da-app .defaultIndicator-2X8Auf, .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6, .botTagRegular-2HEhHi, .wrapper-2NJDcI, .theme-dark .footer-1FPmkC, .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary.selected,
  .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary.selected .badge, .da-app .tag-HanR-9, .da-app .tileWrapper-2khh-w, .theme-dark .libraryFilterInput-3JzqZD, .theme-dark .iconCircle-1dlYo0, .theme-dark .browseSearchInput-Jt8kg0,
-.theme-dark .container-2x5lvQ header, .theme-dark .message-2qRu38, .search-bar.search-bar-light, .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S,
+.theme-dark .container-2x5lvQ header, .theme-dark .message-2qRu38, .search-bar.search-bar-light,.modeSelected-1zApJ_ .content-3at_AU, .modeSelected-1zApJ_:hover .content-3at_AU, .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S,
 .theme-dark .wrapper-29NfPK.minimum-2d6zH6 .actions-2vadYq .center-1Vp33r, .uploadModal-2ifh8j .footer-3mqk7D .button-primary, .form-deprecated .btn-primary, .form.deprecated .btn-primary {
 	background: var(--accent-color);
 	border: 2px solid;
@@ -67,11 +67,11 @@
 	border: none;
 }
 /* accent color, hover buttons */
-.contentConnectedVoice-qL-YrL:active, .contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO:active, .contentSelectedVoice-1WDIBM:active,  .channel-2QD9_O:hover a, .da-app .side-8zPYf6 .itemDefault-3Jdr52:hover,
+.contentConnectedVoice-qL-YrL:active, .contentHoveredText-2D9B-x,.wrapper-1ucjTd:hover .content-3at_AU, .contentHoveredVoice-3p_NEO:active, .contentSelectedVoice-1WDIBM:active,  .channel-2QD9_O:hover a, .da-app .side-8zPYf6 .itemDefault-3Jdr52:hover,
  .lookFilled-1Gx00P.colorBrand-3pXr91:hover, .da-app #bd-settings-sidebar .ui-tab-bar-item:hover, .option-n0icdO, .da-app .member-3W1lQa:hover .content-OzHfo4, .theme-dark #friends .friends-table .friends-row:hover,
 .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary:hover:not(.selected), .da-app .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover, .form.deprecated .form-inner, .need-help-modal.form.deprecated .footer,
 .need-help-modal.form.deprecated .header input[type=text], .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover, .theme-dark #friends .tab-bar .tab-bar-item:hover:not(.selected),
-.create-guild-container.deprecated .action:hover.create .btn {
+.create-guild-container.deprecated .action:hover.create .btn, .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover, .topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover {
 	background: var(--accent-color-hover);
 	border: 2px solid;
 	border-color: var(--accent-color-border-hover);
@@ -96,8 +96,11 @@
     color: #d0d0d0;
 }
 /* status profiles */
-.theme-dark .headerNormal-T_seeN {
+.theme-dark .headerNormal-T_seeN, .theme-dark .bodyInner-245q0L, .theme-dark .wrapper-35wsBm {
 	background-color: var(--submenu-color);
+}
+.tabBarContainer-1s1u-z {
+	border-top: 1px solid hsla(0,0%,100%,.1)!important;
 }
 .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6, .theme-dark .changeDetails-bk98pu, .theme-dark .datePicker--XZbmJ .datePickerHint-3Q1Udw .hintValue-29ny8Z, .theme-dark .searchAnswer-3Dz2-q,
  .theme-dark .searchFilter-2ESiM3, .theme-dark .accountBtnInner-sj5jLs:hover, .emojiPicker-3m1S-j .stickyHeader-1SS0JU {
@@ -112,7 +115,7 @@
 	-webkit-box-shadow: none;
     border-color: var(--accent-color-border);
 }
-.theme-dark .quickMessage-1yeL4E {
+.theme-dark .quickMessage-1yeL4E, .theme-dark .wrapper-35wsBm {
 	border: 2px solid;
 	background-color: var(--submenu-color);
     border-color: var(--accent-color-border);
@@ -168,7 +171,7 @@
 	background-color: var(--submenu-color);
 }
 /* border of accent colors */
-.innerNoAutocomplete-1WpcVO, .search .search-bar, .theme-dark .auditLog-3jNbM6, .container-1UB9sr, .theme-dark .accountBtnInner-sj5jLs, .video-1FfuMD {
+.innerNoAutocomplete-1WpcVO, .search .search-bar, .theme-dark .auditLog-3jNbM6, .container-1UB9sr, .theme-dark .accountBtnInner-sj5jLs, .video-1FfuMD, .searchBar-3dMhjb {
 	border: 2px solid;
 	border-color: var(--accent-color-border);
 }
@@ -181,7 +184,7 @@
 	border: 1px solid;
 	border-color: var(--accent-color-border-hover);
 }
-.theme-dark .inner-zqa7da, .da-app .search .search-bar {
+.theme-dark .inner-zqa7da, .da-app .search .search-bar, .searchBar-3dMhjb {
 	background: rgba(54, 139, 165, 0.45);
 }
 /* removing a border */
@@ -194,13 +197,13 @@
 }
 
 /* guild background color */
-.da-app .container-2td-dC .wrapper-2lTRaf {
+.da-app .container-2td-dC .wrapper-2lTRaf, .childWrapper-anI2G9 {
 	background-color: var(--accent-color);
 }
-.da-app .checkbox-1ix_J3, .da-app .container-2td-dC .wrapper-2lTRaf[style*="background-color: rgb(47, 49, 54);"] {
+.da-app .checkbox-1ix_J3, .da-app .container-2td-dC .wrapper-2lTRaf[style*="background-color: rgb(47, 49, 54);"], .childWrapper-anI2G9[style*="background-color: rgb(47, 49, 54);"] {
 	background-color: var(--accent-color)!important;
 }
-.da-app .container-2td-dC .wrapper-2lTRaf[style*="background-color"] {
+.da-app .container-2td-dC .wrapper-2lTRaf[style*="background-color"], .childWrapper-anI2G9[style*="background-color"] {
 	background-color: var(--accent-color)!important;
 }
 
@@ -312,6 +315,12 @@
 }
 .theme-dark .dockItem-2kQDqg:hover {
     background: var(--submenu-color);
+}
+.channelNotice-1-XFjC.quickswitcher-35bYg4 {
+	background-color: var(--submenu-color);
+	border-color: var(--accent-color-border)!important;
+	border: 2px solid;
+	border-radius: 5px;
 }
 .news-2GDtLJ {
     background-color: var(--submenu-color);
