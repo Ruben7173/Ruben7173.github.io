@@ -384,3 +384,8 @@ button.DialogButton:hover {
         border: 0px solid;
         border-radius: 30px;
     }
+.currentUserAvatar {
+    border: 1px solid;
+    border-radius: 30px!important;
+    border-color: #424242;
+}
