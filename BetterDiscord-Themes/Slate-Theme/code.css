@@ -216,7 +216,7 @@
 /* Checkmark */
 .theme-dark .checked-3_4uQ9 {background-color: #131415;}
 .theme-dark .checked-3_4uQ9 svg[name="Checkmark"] polyline {stroke: #72767d;}
-.ui-standard-sidebar-view, .ui-standard-sidebar-view * [style=*"width: 24px; height: 24px; border-color: rgb(114, 137, 218);"] {border-color: #72767d!important;}
+.ui-standard-sidebar-view, .ui-standard-sidebar-view * [style*="width: 24px; height: 24px; border-color: rgb(114, 137, 218);"] {border-color: #72767d!important;}
 /* Loading more messages box */
 .theme-dark .hasMore-3e72_v button {
     background: #131415;

@@ -651,7 +651,7 @@
     border-radius: 15px;
 }
 .theme-dark .itemSubMenu-1vN_Yn:hover, .theme-dark .item-1Yvehc:hover {
-    background: hsla(0,5%,0%,.3); url(/assets/e4afe52f6863408a35654a6e5fd69ba9.svg) no-repeat 155px 50%;
+    background: hsla(0,5%,0%,.3) url(/assets/e4afe52f6863408a35654a6e5fd69ba9.svg) no-repeat 155px 50%;
 }
 
 /* Sent files background and border */
@@ -701,7 +701,7 @@
 }
 /* Same buttons but for spotify */
 .theme-dark .topSectionSpotify-1lI0-P {
-    background: hsla(141, 73%, 42%,.3);!important;
+    background: hsla(141, 73%, 42%,.3)!important;
 }
 /* Same buttons but for Games */
 .theme-dark .topSectionPlaying-1J5E4n {

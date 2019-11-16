@@ -357,12 +357,12 @@ background: rgb(47, 49, 54);
 .theme-dark .emoji-picker, .emojiPicker-3m1S-j {
     background-color: rgba(0,0,0,0.4);
     border-radius: 15px !important;
-    border-color: #123; !important;
+    border-color: #123 !important;
 }
 .theme-dark .emoji-picker .category, .emojiPicker-3m1S-j .category-2U57w6 {
     background-color: rgba(0,0,0,0.0);
     border-radius: 0px !important;
-    border-color: #123; !important;
+    border-color: #123 !important;
     border: 1px solid #123;
 }
 .theme-dark .emojiPicker-3m1S-j .category-2U57w6 {
@@ -378,7 +378,7 @@ background: rgb(47, 49, 54);
     border-bottom-color: #123;
 }
 .theme-dark .search-bar-light .searchBarInner-1_Tg2R {
-    background: rgba(0,0,0,0.1)
+    background: rgba(0,0,0,0.1);
     border: 1px solid transparent;
     border-radius: 3px!important;
 }
@@ -407,7 +407,7 @@ background: rgb(47, 49, 54);
 .theme-dark .search-bar-light .searchBarInner-1_Tg2R {
     border-radius: 3px !important;
     background: rgba(0,0,0,0.3);
-    border-color: #123; !important;
+    border-color: #123 !important;
 }
 .theme-dark  .emoji-picker .scroller::-webkit-scrollbar,  .emoji-picker .scroller::-webkit-scrollbar-track,  .emoji-picker .scroller::-webkit-scrollbar-track-piece,  .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar,  .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track,  .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track-piece {
     background-color: rgba(0,0,0,0.0)!important;
@@ -418,7 +418,7 @@ background: rgb(47, 49, 54);
 }
 
 .theme-dark .side-8zPYf6 .itemSelected-1qLhcL, .theme-dark .userSettingsAccount-2eMFVR .userInfoViewingButton-2-jbH9, .theme-dark .lookFilled-1Gx00P.colorBrand-3pXr91[style="color: rgb(255, 255, 255); background-color: rgb(114, 137, 218);"] {
-    background-color: rgb(12, 25, 38); !important
+    background-color: rgb(12, 25, 38) !important
 }
 
 /* Discord nitro button at settings */
