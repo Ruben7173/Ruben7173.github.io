@@ -863,3 +863,7 @@ background: var(--accent-color);
 .activity-2Gy-9S {
     color: #bbc7d6;
 }
+.theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected {
+    background: -webkit-linear-gradient(left, rgba(98, 214, 210, 0.2) 0%,rgba(61, 255, 35, 0.2) 100%);
+    border: 1px solid rgba(98, 214, 210, 0.2);
+}
