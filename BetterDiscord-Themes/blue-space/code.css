@@ -30,7 +30,7 @@
 }
 /* search bar on members at settings of servers */
 .theme-dark .searchBar-3dMhjb {
-    border: 1px solid rgba(98, 214, 210, 0.1);
+    border: 1px solid rgba(98, 214, 210, 0.4);
     background-color: rgba(0, 79, 46, 0.35);
 }
 /*friends list hover */
@@ -823,25 +823,13 @@ https://i.imgur.com/mZuRmBg.gifv
     background-image: var(--transparency-2);
     margin-bottom: 0px;
 }
-/* search button being fixed */
-.theme-dark .searchBar-3dMhjb, .darkTheme-3uETC4.container-2XeR5Z {
-    background: var(--accent-color);
-    border: 2px solid;
-    border-color: var(--accent-color-border);
-    padding-bottom: 25px;
-}
 
 .da-numberBadge[style*="background"] {
-    background: var(--accent-color)!important;
-    border: 2px solid!important;
-    border-color: var(--accent-color-border)!important;
+    background: -webkit-linear-gradient(left, rgba(98, 214, 210, 0.2) 0%,rgba(61, 255, 35, 0.2) 100%)!important;
+    border-color: red!important;
+    
 }
-.theme-dark .button-OhfaWu, .theme-light .button-OhfaWu {
-background: var(--accent-color);
-    border: 2px solid;
-    border-color: var(--accent-color-border);
-    padding: -5px;
-}
+
 
 /* fixing discord button */
 .theme-dark .button-OhfaWu, .theme-light .button-OhfaWu, .da-app .button-OhfaWu.selected-wSa2KV {
@@ -864,6 +852,3 @@ background: var(--accent-color);
     background: -webkit-linear-gradient(left, rgba(98, 214, 210, 0.2) 0%,rgba(61, 255, 35, 0.2) 100%);
     border: 1px solid rgba(98, 214, 210, 0.2);
 }
- .da-app .chat-3bRxxu {
-    background: transparent!important;
- }
