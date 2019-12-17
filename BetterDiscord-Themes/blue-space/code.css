@@ -415,6 +415,12 @@
     background: -webkit-linear-gradient(left, rgba(98, 214, 210, 0.2) 0%,rgba(61, 255, 35, 0.1) 100%);
 	border: 1px solid rgba(98, 214, 210, 0.1);
 }
+/* left selected  on chat area */
+.theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU {
+    background: -webkit-linear-gradient(left, rgba(98, 214, 210, 0.2) 0%,rgba(61, 255, 35, 0.2) 100%);
+    border: 1px solid rgba(98, 214, 210, 0.2);
+}
+
 /* my account box unopened */
 .theme-dark .cardPrimary-1Hv-to {
     background: rgba(0, 79, 46, 0.25);
