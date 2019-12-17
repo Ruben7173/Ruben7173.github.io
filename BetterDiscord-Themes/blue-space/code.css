@@ -126,6 +126,7 @@
 .theme-dark .homeIcon-tEMBK1 {
     background: url(https://i.imgur.com/mabl6hm.png) center/cover no-repeat;
     color: transparent;
+    transform: scale(1.5);
 }
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
     background-color: transparent;
