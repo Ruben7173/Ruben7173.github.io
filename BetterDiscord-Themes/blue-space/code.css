@@ -24,12 +24,12 @@
     height: 40px;
 }
 /* Chat box background color and border and find or start a conversation */
-.theme-dark .inner-zqa7da, .search-bar .search-bar-inner {
+.scrollableContainer-38zsVD{
     background-color: rgba(0, 79, 46, 0.25);
 	border: 2px solid rgba(98, 214, 210, 0.1);
 }
 /* search bar on members at settings of servers */
-.theme-dark .searchBar-1MOL6S {
+.theme-dark .searchBar-3dMhjb {
     border: 1px solid rgba(98, 214, 210, 0.1);
     background-color: rgba(0, 79, 46, 0.35);
 }
