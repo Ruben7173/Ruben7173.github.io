@@ -864,3 +864,6 @@ background: var(--accent-color);
     background: -webkit-linear-gradient(left, rgba(98, 214, 210, 0.2) 0%,rgba(61, 255, 35, 0.2) 100%);
     border: 1px solid rgba(98, 214, 210, 0.2);
 }
+ .da-app .chat-3bRxxu {
+    background: transparent!important;
+ }
