@@ -416,7 +416,7 @@
 	border: 1px solid rgba(98, 214, 210, 0.1);
 }
 /* left selected  on chat area */
-.theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU {
+.theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, .selected-aXhQR6 .layout-2DM8Md {
     background: -webkit-linear-gradient(left, rgba(98, 214, 210, 0.2) 0%,rgba(61, 255, 35, 0.2) 100%);
     border: 1px solid rgba(98, 214, 210, 0.2);
 }
@@ -872,4 +872,7 @@ background: var(--accent-color);
     background: var(--accent-color);
     border: 2px solid;
     border-color: var(--accent-color-border);
+}
+.search-2oPWTC .DraftEditor-root .public-DraftEditorPlaceholder-root, .icon-3cZ1F_ {
+    color: #b5b5b5;
 }
