@@ -4,7 +4,10 @@
     background: var(--background-guild-icon-image);
     color: transparent;
 }
-
+/* fixing transparent backgrounds */
+.da-app .content-yTz4x3, .da-app .title-3qD0b-, .sidebar-2K8pFh {
+    background: transparent;
+}
 /**/
 .container-1UB9sr {
     border: 1px solid #09352f;

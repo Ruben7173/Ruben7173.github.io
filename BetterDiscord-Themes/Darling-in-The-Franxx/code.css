@@ -1,8 +1,22 @@
 @import url('https://anti-betterdocs.github.io/BlockBetterDocs/code.css');
 .da-appMount {
-	background: var(--background-image);
+    background: var(--background-image);
 }
-
+/**/
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
+    background: rgba(12, 25, 38, 0.5)!important;
+    border: 1px solid!important;
+    border-color: rgb(26, 62, 99)!important;
+    border-radius: 999px!important;
+    transform: scale(0.9)!important;
+}
+.wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+    background: rgba(24, 48, 72, 0.5)!important;
+    border: 1px solid!important;
+    border-color: rgb(36, 82, 130)!important;
+    border-radius: 999px!important;
+    transform: scale(0.9)!important;
+}
 /** scrollbar **/
 .theme-dark .member-2FrNV0:hover .content-3JzEqq, .theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb {
     background-color:rgba(0,0,0,0.5);
@@ -38,10 +52,9 @@ img.emoji:not(.jumboable){height:32px !important;width:auto !important;}/**never
 .help-container {
     display: none;
 }
-
 /* */
 .theme-dark .wrapper-1Rf91z {
-	background-color: transparent
+    background-color: transparent
 }
 .theme-dark .attachment-33OFj0 { 
 background-color: rgba(47, 49, 54, 0.298039); 
@@ -56,7 +69,7 @@ background: rgb(47, 49, 54);
 
 /* Scroll Bar */
 .theme-dark ::-webkit-scrollbar, .chat-3bRxxu ::-webkit-scrollbar {
-	width: 10px !important
+    width: 10px !important
 }
 .theme-dark ::-webkit-scrollbar-track-piece, .chat-3bRxxu ::-webkit-scrollbar-track-piece, .channels-Ie2l6A ::-webkit-scrollbar-track, .chat-3bRxxu ::-webkit-scrollbar-track { 
     background: transparent !important; 
@@ -141,7 +154,7 @@ background: rgb(47, 49, 54);
     border-color: #123;
 }
 .theme-dark .hljs, .theme-dark .markup-2BOw-j code {
-	background:none;
+    background:none;
 }
 
 /*Customizing stuff around sent images*/
@@ -165,8 +178,8 @@ background: rgb(47, 49, 54);
 
 /*Simple Edit to remove border from main background*/
 .theme-dark .container-2Thooq, .theme-dark .container-2lgZY8 {
-	Border-radius: 0px;
-	border: 0px solid;
+    Border-radius: 0px;
+    border: 0px solid;
 }
 
 /*For the arrow options at top left side of discord */
@@ -199,15 +212,15 @@ background: rgb(47, 49, 54);
     border-color: #123;
 }
 .Select--single>.Select-control .Select-value, .Select-placeholder {
-	background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.3);
     border: 1px solid #fff;
     border-color: #123;
 }
 .Select .Select-menu {
-	background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.3);
 }
 .theme-dark .select-2TCrqx .Select-option.is-focused, .theme-dark .select-2TCrqx .Select-option:hover {
-	background: rgba(17, 34, 51, 0.37);
+    background: rgba(17, 34, 51, 0.37);
 }
 .wrapper-3jrx9n {
     -webkit-box-sizing: border-box;
@@ -317,10 +330,6 @@ background: rgb(47, 49, 54);
     color: #fff;
 }
 .theme-dark .membersGroup-v9BXpm {box-shadow: 0 4px 0 rgba(0,0,0,.3);}
-.theme-dark .titleBar-AC4pGV {
-    background: rgba(0, 0, 0, 0);
-    background-color: rgba(0, 0, 0, 0);
-}
 
 /* Very hard buttons */
 .theme-dark .cardPrimaryEditable-3KtE4g[style="border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218); padding: 10px;"] {background: rgba(17, 34, 51,0.8) !important}
@@ -655,11 +664,6 @@ element.style {
     border: 1px solid #123;
     background: rgba(12, 25, 38, 0.5);
 }
-.theme-dark .homeIcon-tEMBK1 {
-    color: #fff;
-    border: 1px solid #123;
-    background: rgba(12, 25, 38, 0.5);
-}
 
 /* Online Status modes */
 .theme-dark .item-1GzJrl:hover {
@@ -689,7 +693,7 @@ element.style {
 /* */
 .theme-dark .searchQuery-1B7rtx.selected-rZcOL- {
     background-color: rgba(0,0,0,0.6);
-	border: 1px solid #123;
+    border: 1px solid #123;
     border-radius: 5px;
 }
 .theme-dark .keybindShortcut-1BD6Z1 {
@@ -710,7 +714,7 @@ element.style {
 }
 .theme-dark .searchQuery-1B7rtx.selected-rZcOL- {
     background-color: rgba(0,0,0,0.3);
-	border: 1px solid #123;
+    border: 1px solid #123;
     border-radius: 5px;
 }
 .theme-dark .keybindShortcut-1BD6Z1 {
@@ -1144,7 +1148,7 @@ css-editor #bd-customcss-attach-controls button {
 }
 /* background at the big box on games tab */
 .article-3kb3qm, .news-2GDtLJ {
-	background-color: #123;
+    background-color: #123;
 }
 /* hover */
 .newsLink-38Naqi:hover {
@@ -1167,7 +1171,7 @@ css-editor #bd-customcss-attach-controls button {
     background:transparent;
 }
 .theme-dark .distributionApplicationsActions-3D2_kD, .theme-dark .premiumApplicationsHeader-Zmkm5e {
-	border-color: #123;
+    border-color: #123;
 }
 .theme-dark .itemBackground-1jfD8p:before {
     background: radial-gradient(ellipse at top,transparent,#123),linear-gradient(90deg,#123 0,transparent 40%,transparent 60%,#123),linear-gradient(0deg,#123 10%,transparent 70%);
@@ -1197,10 +1201,10 @@ css-editor #bd-customcss-attach-controls button {
 }
 
 .searchBar-2_Yu-C {
-	background: transparent!important;
+    background: transparent!important;
 }
 .searchBar-2_Yu-C.searchBarLight-1NxoDG .searchBarInner-1_Tg2R {
-	background: transparent;
+    background: transparent;
 }
 .searchBar-2_Yu-C .searchBarInner-1_Tg2R {
     background: rgba(0,0,0,0.5)!important;
