@@ -184,7 +184,11 @@
 	border: 1px solid;
 	border-color: var(--accent-color-border-hover);
 }
-.theme-dark .inner-zqa7da, .da-app .search .search-bar, .searchBar-3dMhjb {
+.da-app .search .search-bar, .searchBar-3dMhjb {
+	background: rgba(54, 139, 165, 0.45);
+}
+/* fix chat box */
+.scrollableContainer-38zsVD {
 	background: rgba(54, 139, 165, 0.45);
 }
 /* removing a border */
