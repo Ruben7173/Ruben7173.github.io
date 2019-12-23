@@ -412,7 +412,6 @@
 .searchBar-2_Yu-C .searchBarInner-1_Tg2R {
     background: transparent;
 }
-
 /* nitro area */
 .theme-dark .gradientOverlayLeft-3w159C {
     background-image: linear-gradient(90deg,var(--submenu-color),rgba(54,57,63,0));
@@ -454,4 +453,9 @@
 }
 .searchBar-2_Yu-C {
     background-color: transparent;
+}
+.scrollableContainer-2NUZem {
+	background: rgba(54, 139, 165, 0.45)!important;
+    border: 2px solid!important;
+    border-color: var(--accent-color-border)!important;
 }
