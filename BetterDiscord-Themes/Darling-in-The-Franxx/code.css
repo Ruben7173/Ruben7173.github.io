@@ -1209,3 +1209,14 @@ css-editor #bd-customcss-attach-controls button {
 .searchBar-2_Yu-C .searchBarInner-1_Tg2R {
     background: rgba(0,0,0,0.5)!important;
 }
+
+/* fixes */
+.typeWindows-1za-n7 {
+    background-image: var(--transparency-5)!important;
+}
+.theme-dark .bodyInner-245q0L, .theme-dark .footer-1fjuF6 {
+    background-color: transparent;
+}
+.modal-3c3bKg {
+    background-color: rgba(0,0,0,0.5);
+}
