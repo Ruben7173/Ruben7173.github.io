@@ -1,11 +1,11 @@
 /* transparency made to work with gradients */
 /* Background Image */
-.da-appMount {
+#app-mount {
 	background: var(--background-image);
 }
 
 /* removing backgrounds */
-.container-2lgZY8, .channels-Ie2l6A, .da-app .layer-3QrUeG, .da-app .layers-3iHuyZ, .da-app .chat-3bRxxu, .da-app .channelTextArea-rNsIhG, .da-app .content-yTz4x3, .da-app .messagesWrapper-3lZDfY, .da-app .chat-3bRxxu form, .da-app .members-1998pB, .da-app .headerBar-UHpsPw, .da-app .standardSidebarView-3F1I7i, .da-app .typing-2GQL18 {
+.container-2lgZY8, .channels-Ie2l6A, .app-1q1i1E .layer-3QrUeG, .app-1q1i1E .layers-3iHuyZ, .app-1q1i1E .chat-3bRxxu, .app-1q1i1E .channelTextArea-rNsIhG, .app-1q1i1E .content-yTz4x3, .app-1q1i1E .messagesWrapper-3lZDfY, .app-1q1i1E .chat-3bRxxu form, .app-1q1i1E .members-1998pB, .app-1q1i1E .headerBar-UHpsPw, .app-1q1i1E .standardSidebarView-3F1I7i, .app-1q1i1E .typing-2GQL18 {
 	background: transparent;
 }
 
@@ -16,7 +16,7 @@
 }
 
 /* transparency for channels and members list and private channels and left side of settings*/
-.container-PNkimc, .privateChannels-1nO12o, .da-app .sidebarRegion-VFTUkN, .da-app .container-3baos1 {
+.container-PNkimc, .privateChannels-1nO12o, .app-1q1i1E .sidebarRegion-VFTUkN, .app-1q1i1E .container-3baos1 {
 	background: transparent;
 	background-image: var(--transparency-2);
 }
@@ -24,7 +24,7 @@
 	background: var(--transparency-2);
 }
 /* chat and top area and other secondary pages */
-.da-app .activityFeed-28jde9, .activityFeed-1C0EmJ, .da-app .gameLibrary-TTDw4Y, .da-app .applicationStore-1pNvnv, .da-app #friends, .da-app .contentRegion-3nDuYy, .da-app .noChannel-Z1DQK7, .da-app .container-3gCOGc {
+.app-1q1i1E .activityFeed-28jde9, .activityFeed-1C0EmJ, .app-1q1i1E .gameLibrary-TTDw4Y, .app-1q1i1E .applicationStore-1pNvnv, .app-1q1i1E #friends, .app-1q1i1E .contentRegion-3nDuYy, .app-1q1i1E .noChannel-Z1DQK7, .app-1q1i1E .container-3gCOGc {
 	background: transparent;
 	background-image: var(--transparency-3);
 }
@@ -33,7 +33,7 @@
 	background-color: transparent;
 }
 /* extra for transparency 3 special case */
-.themeDark-3Ap_7i, .da-app .chat-3bRxxu {
+.themeDark-3Ap_7i, .app-1q1i1E .chat-3bRxxu {
 	background-color: transparent;
 	background-image: var(--transparency-3);
 }
