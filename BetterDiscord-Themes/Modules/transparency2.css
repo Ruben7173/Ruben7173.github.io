@@ -10,21 +10,18 @@
 }
 
 /* Guild and Top bar transparency */
-.theme-dark .wrapper-1Rf91z {
+.guilds-1SWlCJ {
 	background:transparent;
 	background-image: var(--transparency-1);
 }
 
 /* transparency for channels and members list and private channels and left side of settings*/
-.container-PNkimc, .privateChannels-1nO12o, .da-app .sidebarRegion-VFTUkN, .da-app .container-3baos1 {
+.container-3w7J-x, .privateChannels-1nO12o, .sidebarRegion-VFTUkN {
 	background: transparent;
 	background-image: var(--transparency-2);
 }
-.theme-dark .container-3baos1, .theme-light .container-3baos1 {
-	background: var(--transparency-2);
-}
 /* chat and top area and other secondary pages */
-.da-app .activityFeed-28jde9, .activityFeed-1C0EmJ, .da-app .gameLibrary-TTDw4Y, .da-app .applicationStore-1pNvnv, .da-app #friends, .da-app .contentRegion-3nDuYy, .da-app .noChannel-Z1DQK7, .da-app .container-3gCOGc {
+ .da-app #friends, .contentRegion-3nDuYy, .chat-3bRxxu, .theme-dark .container-1D34oG {
 	background: transparent;
 	background-image: var(--transparency-3);
 }
